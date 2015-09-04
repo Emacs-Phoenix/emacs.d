@@ -1,0 +1,4 @@
+
+
+
+(provide 'ehack-ggtags)

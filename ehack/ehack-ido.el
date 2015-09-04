@@ -66,4 +66,53 @@
 (require 'ido-at-point)
 (ido-at-point-mode)
 
+(require 'bookmark)
+  (setq enable-recursive-minibuffers t)
+  (define-key ido-file-dir-completion-map (kbd "M-B") 'ido-goto-bookmark)
+  (defun ido-goto-bookmark (bookmark)
+    (interactive
+     (list (bookmark-completing-read "Jump to bookmark"
+      				   bookmark-current-bookmark)))
+    (unless bookmark
+      (error "No bookmark specified"))
+    (let ((filename (bookmark-get-filename bookmark)))
+      (if (file-directory-p filename)
+  	(progn
+  	  (ido-set-current-directory filename)
+  	  (setq ido-text ""))
+        (progn
+  	(ido-set-current-directory (file-name-directory filename))))
+      (setq ido-exit        'refresh
+  	  ido-text-init   ido-text
+  	  ido-rotate-temp t)
+      (exit-minibuffer)))
+
+ (defun ido-bookmark-jump (bname)
+    "*Switch to bookmark interactively using `ido'."
+    (interactive (list (ido-completing-read "Bookmark: " (bookmark-all-names) nil t)))
+    (bookmark-jump bname))
+
+; sort ido filelist by mtime instead of alphabetically
+  (add-hook 'ido-make-file-list-hook 'ido-sort-mtime)
+  (add-hook 'ido-make-dir-list-hook 'ido-sort-mtime)
+  (defun ido-sort-mtime ()
+    (setq ido-temp-list
+          (sort ido-temp-list 
+                (lambda (a b)
+                  (time-less-p
+                   (sixth (file-attributes (concat ido-current-directory b)))
+                   (sixth (file-attributes (concat ido-current-directory a)))))))
+    (ido-to-end  ;; move . files to end (again)
+     (delq nil (mapcar
+                (lambda (x) (and (char-equal (string-to-char x) ?.) x))
+                ido-temp-list))))
+
+(setq ido-auto-merge-work-directories-length -1)
+;; disable auto searching for files unless called explicitly
+(setq ido-auto-merge-delay-time 99999)
+(define-key ido-file-dir-completion-map (kbd "C-c C-s") 
+  (lambda() 
+    (interactive)
+    (ido-initiate-auto-merge (current-buffer))))
+
 (provide 'ehack-ido)

@@ -1,6 +1,3 @@
-[submodule "site-lisp/js2-mode"]
-	path = site-lisp/js2-mode
-	url = git@github.com:mooz/js2-mode.git
 [submodule "site-lisp/flx"]
 	path = site-lisp/flx
 	url = git@github.com:lewang/flx.git
@@ -34,3 +31,87 @@
 [submodule "site-lisp/hippie"]
 	path = site-lisp/hippie
 	url = git@github.com:Emacs-Phoenix/hippie.git
+[submodule "site-lisp/eproject"]
+	path = site-lisp/eproject
+	url = git@github.com:jrockway/eproject.git
+[submodule "site-lisp/projectile"]
+	path = site-lisp/projectile
+	url = git@github.com:bbatsov/projectile.git
+[submodule "site-lisp/ggtags"]
+	path = site-lisp/ggtags
+	url = git@github.com:leoliu/ggtags.git
+[submodule "plugins/global-pygments-plugin"]
+	path = plugins/global-pygments-plugin
+	url = git@github.com:yoshizow/global-pygments-plugin.git
+[submodule "site-lisp/json-mode"]
+	path = site-lisp/json-mode
+	url = git@github.com:joshwnj/json-mode.git
+[submodule "site-lisp/company-mode"]
+	path = site-lisp/company-mode
+	url = git@github.com:company-mode/company-mode.git
+[submodule "site-lisp/js2-extra"]
+	path = site-lisp/js2-extra
+	url = git@github.com:Emacs-Phoenix/js2-extra.git
+[submodule "site-lisp/multiple-cursors.el"]
+	path = site-lisp/multiple-cursors.el
+	url = git@github.com:magnars/multiple-cursors.el.git
+[submodule "site-lisp/yasnippet"]
+	path = site-lisp/yasnippet
+	url = git@github.com:capitaomorte/yasnippet.git
+[submodule "site-lisp/flycheck"]
+	path = site-lisp/flycheck
+	url = git@github.com:flycheck/flycheck.git
+[submodule "site-lisp/js2-mode"]
+	path = site-lisp/js2-mode
+	url = git@github.com:Emacs-Phoenix/js2-mode.git
+[submodule "site-lisp/tern"]
+	path = site-lisp/tern
+	url = git@github.com:marijnh/tern.git
+[submodule "site-lisp/smartparens"]
+	path = site-lisp/smartparens
+	url = git@github.com:Fuco1/smartparens.git
+[submodule "site-lisp/company-tern"]
+	path = site-lisp/company-tern
+	url = git@github.com:proofit404/company-tern.git
+[submodule "site-lisp/company-web"]
+	path = site-lisp/company-web
+	url = git@github.com:osv/company-web.git
+[submodule "yasnippet-snippets"]
+	path = yasnippet-snippets
+	url = git@github.com:Emacs-Phoenix/yasnippet-snippets.git
+[submodule "site-lisp/auto-complete"]
+	path = site-lisp/auto-complete
+	url = git@github.com:auto-complete/auto-complete.git
+[submodule "site-lisp/popup-el"]
+	path = site-lisp/popup-el
+	url = git@github.com:auto-complete/popup-el.git
+[submodule "site-lisp/emacs-powerline"]
+	path = site-lisp/emacs-powerline
+	url = git@github.com:jonathanchu/emacs-powerline.git
+[submodule "site-lisp/rainbow-delimiters"]
+	path = site-lisp/rainbow-delimiters
+	url = git@github.com:Fanael/rainbow-delimiters.git
+[submodule "site-lisp/web-mode"]
+	path = site-lisp/web-mode
+	url = git@github.com:fxbois/web-mode.git
+[submodule "site-lisp/emmet-mode"]
+	path = site-lisp/emmet-mode
+	url = git@github.com:smihica/emmet-mode.git
+[submodule "plugins/Pymacs"]
+	path = plugins/Pymacs
+	url = git@github.com:pinard/Pymacs.git
+[submodule "site-lisp/imenu-anywhere"]
+	path = site-lisp/imenu-anywhere
+	url = git@github.com:vspinu/imenu-anywhere.git
+[submodule "site-lisp/ace-jump-mode"]
+	path = site-lisp/ace-jump-mode
+	url = git@github.com:winterTTr/ace-jump-mode.git
+[submodule "site-lisp/expand-region.el"]
+	path = site-lisp/expand-region.el
+	url = git@github.com:magnars/expand-region.el.git
+[submodule "site-lisp/perspective-el"]
+	path = site-lisp/perspective-el
+	url = git@github.com:nex3/perspective-el.git
+[submodule "site-lisp/paredit"]
+	path = site-lisp/paredit
+	url = git@github.com:emacsmirror/paredit.git

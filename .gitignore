@@ -2,6 +2,8 @@ auto-save-list
 ac-comphist.dat
 tags
 history
+auto-complete/*
+projectile-bookmarks.eld
 ido.last
 recentf
 backups
