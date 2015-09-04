@@ -1,18 +1,27 @@
-(if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
-(if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
-(if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
-
-;;去除初始化页面
-(setq inhibit-startup-message t)
-
 ;;记载各种文件夹
 (setq site-lisp-dir
       (expand-file-name "site-lisp" user-emacs-directory))
 
-;;主要是自己写的小组建
-(setq component-dir
-      (expand-file-name "component" user-emacs-directory))
+;;主要是自己写的小hack
+(setq ehack-dir 
+      (expand-file-name "ehack" user-emacs-directory))
 
 (setq setting-dir
       (expand-file-name "setting" user-emacs-directory))
+
+
+(add-to-list 'load-path site-lisp-dir)
+(add-to-list 'load-path ehack-dir) 
+(add-to-list 'load-path setting-dir)
+
+;; Add external projects to load path
+(dolist (project (directory-files site-lisp-dir t "\\w+"))
+  (when (file-directory-p project)
+    (add-to-list 'load-path project)))
+
+;; Are we on a mac?
+(setq is-mac (equal system-type 'darwin))
+
+(require 'appearance)
+(require 'component)
 

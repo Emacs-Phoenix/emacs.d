@@ -1,0 +1,36 @@
+[submodule "site-lisp/js2-mode"]
+	path = site-lisp/js2-mode
+	url = git@github.com:mooz/js2-mode.git
+[submodule "site-lisp/flx"]
+	path = site-lisp/flx
+	url = git@github.com:lewang/flx.git
+[submodule "site-lisp/ido-vertical-mode.el"]
+	path = site-lisp/ido-vertical-mode.el
+	url = git@github.com:creichert/ido-vertical-mode.el.git
+[submodule "site-lisp/f.el"]
+	path = site-lisp/f.el
+	url = git@github.com:rejeep/f.el.git
+[submodule "site-lisp/s.el"]
+	path = site-lisp/s.el
+	url = git@github.com:magnars/s.el.git
+[submodule "site-lisp/ido-ubiquitous"]
+	path = site-lisp/ido-ubiquitous
+	url = git@github.com:DarwinAwardWinner/ido-ubiquitous.git
+[submodule "site-lisp/smex"]
+	path = site-lisp/smex
+	url = git@github.com:nonsequitur/smex.git
+[submodule "site-lisp/js2-refactor.el"]
+	path = site-lisp/js2-refactor.el
+	url = git@github.com:magnars/js2-refactor.el.git
+[submodule "site-lisp/emacs-transparent"]
+	path = site-lisp/emacs-transparent
+	url = git@github.com:Emacs-Phoenix/emacs-transparent.git
+[submodule "site-lisp/dash.el"]
+	path = site-lisp/dash.el
+	url = git@github.com:magnars/dash.el.git
+[submodule "site-lisp/ido-at-point"]
+	path = site-lisp/ido-at-point
+	url = git@github.com:katspaugh/ido-at-point.git
+[submodule "site-lisp/hippie"]
+	path = site-lisp/hippie
+	url = git@github.com:Emacs-Phoenix/hippie.git
