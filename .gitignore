@@ -4,6 +4,7 @@ tags
 history
 auto-complete/*
 projectile-bookmarks.eld
+*.swp
 ido.last
 recentf
 backups
