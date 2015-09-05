@@ -2,9 +2,8 @@
 (setq site-lisp-dir
       (expand-file-name "site-lisp" user-emacs-directory))
 
-;;主要是自己写的小hack
-(setq ehack-dir 
-      (expand-file-name "ehack" user-emacs-directory))
+(setq setup-dir 
+      (expand-file-name "setup" user-emacs-directory))
 
 (setq setting-dir
       (expand-file-name "setting" user-emacs-directory))
@@ -14,7 +13,7 @@
 
 
 (add-to-list 'load-path site-lisp-dir)
-(add-to-list 'load-path ehack-dir) 
+(add-to-list 'load-path setup-dir) 
 (add-to-list 'load-path setting-dir)
 (add-to-list 'load-path lib-dir)
 
@@ -27,6 +26,6 @@
 (setq is-mac (equal system-type 'darwin))
 
 (require 'lib)
-(require 'appearance)
 (require 'component)
+
 

@@ -20,4 +20,4 @@
 
 (define-key persp-mode-map (kbd "C-x p -") 'custom-persp-last)
 
-(provide 'ehack-perspective)
+(provide 'setup-perspective)

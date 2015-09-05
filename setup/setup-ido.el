@@ -115,4 +115,4 @@
     (interactive)
     (ido-initiate-auto-merge (current-buffer))))
 
-(provide 'ehack-ido)
+(provide 'setup-ido)

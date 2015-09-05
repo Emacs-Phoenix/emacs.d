@@ -2,4 +2,4 @@
 (projectile-global-mode)
 
 
-(provide 'ehack-project)
+(provide 'setup-project)

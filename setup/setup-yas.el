@@ -3,4 +3,4 @@
 (setq yas-dir
       (expand-file-name "snippets" user-emacs-directory))
 
-(provide 'ehack-yas)
+(provide 'setup-yas)

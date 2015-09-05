@@ -36,4 +36,4 @@ up before you execute another command."
   (flycheck-clear-idle-change-timer)
   (flycheck-buffer-automatically 'idle-change))
 
-(provide 'ehack-flycheck)
+(provide 'setup-flycheck)

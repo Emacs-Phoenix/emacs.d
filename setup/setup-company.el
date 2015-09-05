@@ -21,4 +21,11 @@
 
 (setq company-minimum-prefix-length 1)
 
-(provide 'ehack-company)
+;;-----------python------------------------
+(defun my/python-mode-hook ()
+  (add-to-list 'company-backends 'company-jedi))
+
+(add-hook 'python-mode-hook 'my/python-mode-hook)
+;;------------------------------------------
+
+(provide 'setup-company)

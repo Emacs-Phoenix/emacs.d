@@ -115,3 +115,69 @@
 [submodule "site-lisp/paredit"]
 	path = site-lisp/paredit
 	url = git@github.com:emacsmirror/paredit.git
+[submodule "site-lisp/edit-sword"]
+	path = site-lisp/edit-sword
+	url = git@github.com:Emacs-Phoenix/edit-sword.git
+[submodule "site-lisp/shell-pop-el"]
+	path = site-lisp/shell-pop-el
+	url = git@github.com:kyagi/shell-pop-el.git
+[submodule "site-lisp/eye-care"]
+	path = site-lisp/eye-care
+	url = git@github.com:AbyChan/eye-care.git
+[submodule "site-lisp/eyebrowse"]
+	path = site-lisp/eyebrowse
+	url = git@github.com:wasamasa/eyebrowse.git
+[submodule "site-lisp/tabbar"]
+	path = site-lisp/tabbar
+	url = git@github.com:dholm/tabbar.git
+[submodule "site-lisp/zone-matrix"]
+	path = site-lisp/zone-matrix
+	url = git@github.com:Emacs-Phoenix/zone-matrix.git
+[submodule "site-lisp/sublimity"]
+	path = site-lisp/sublimity
+	url = git@github.com:zk-phi/sublimity.git
+[submodule "site-lisp/emacs-neotree"]
+	path = site-lisp/emacs-neotree
+	url = git@github.com:jaypei/emacs-neotree.git
+[submodule "site-lisp/ztree"]
+	path = site-lisp/ztree
+	url = git@github.com:fourier/ztree.git
+[submodule "site-lisp/emacs-async"]
+	path = site-lisp/emacs-async
+	url = git@github.com:jwiegley/emacs-async.git
+[submodule "site-lisp/helm"]
+	path = site-lisp/helm
+	url = git@github.com:emacs-helm/helm.git
+[submodule "site-lisp/nyan-mode"]
+	path = site-lisp/nyan-mode
+	url = git@github.com:TeMPOraL/nyan-mode.git
+[submodule "site-lisp/helm-swoop"]
+	path = site-lisp/helm-swoop
+	url = git@github.com:ShingoFukuyama/helm-swoop.git
+[submodule "site-lisp/aggressive-indent-mode"]
+	path = site-lisp/aggressive-indent-mode
+	url = git@github.com:Malabarba/aggressive-indent-mode.git
+[submodule "site-lisp/names"]
+	path = site-lisp/names
+	url = git@github.com:Malabarba/names.git
+[submodule "site-lisp/indent-guide"]
+	path = site-lisp/indent-guide
+	url = git@github.com:zk-phi/indent-guide.git
+[submodule "site-lisp/emacs-company-jedi"]
+	path = site-lisp/emacs-company-jedi
+	url = git@github.com:syohex/emacs-company-jedi.git
+[submodule "site-lisp/web-completion-data"]
+	path = site-lisp/web-completion-data
+	url = git@github.com:osv/web-completion-data.git
+[submodule "site-lisp/quick-buffer-switch"]
+	path = site-lisp/quick-buffer-switch
+	url = git@github.com:renard/quick-buffer-switch.git
+[submodule "site-lisp/smart-forward.el"]
+	path = site-lisp/smart-forward.el
+	url = git@github.com:magnars/smart-forward.el.git
+[submodule "site-lisp/magit"]
+	path = site-lisp/magit
+	url = git@github.com:magit/magit.git
+[submodule "site-lisp/browse-kill-ring"]
+	path = site-lisp/browse-kill-ring
+	url = git@github.com:T-J-Teru/browse-kill-ring.git

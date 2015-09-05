@@ -5,4 +5,4 @@
 (add-hook 'html-mode-hook  'emmet-mode)
 (add-hook 'web-mode-hook  'emmet-mode)
 
-(provide 'ehack-emmet)
+(provide 'setup-emmet)

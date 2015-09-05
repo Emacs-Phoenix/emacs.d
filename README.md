@@ -12,3 +12,20 @@ sudo make install
 web-beatutify
 jshint
 tern
+
+-helm
+cd helm
+make
+
+--ggtags
+
+# Either of these
+pip install rope
+pip install jedi
+# flake8 for code checks
+pip install flake8
+# importmagic for automatic imports
+pip install importmagic
+# and autopep8 for automatic PEP8 formatting
+pip install autopep8
+sudo pip install rope ropemacs
