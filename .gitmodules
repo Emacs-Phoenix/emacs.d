@@ -121,9 +121,6 @@
 [submodule "site-lisp/shell-pop-el"]
 	path = site-lisp/shell-pop-el
 	url = git@github.com:kyagi/shell-pop-el.git
-[submodule "site-lisp/eye-care"]
-	path = site-lisp/eye-care
-	url = git@github.com:AbyChan/eye-care.git
 [submodule "site-lisp/eyebrowse"]
 	path = site-lisp/eyebrowse
 	url = git@github.com:wasamasa/eyebrowse.git
@@ -181,3 +178,9 @@
 [submodule "site-lisp/browse-kill-ring"]
 	path = site-lisp/browse-kill-ring
 	url = git@github.com:T-J-Teru/browse-kill-ring.git
+[submodule "site-lisp/eye-care"]
+	path = site-lisp/eye-care
+	url = git@github.com:Emacs-Phoenix/eye-care.git
+[submodule "snippets"]
+	path = snippets
+	url = git@github.com:AndreaCrotti/yasnippet-snippets.git
