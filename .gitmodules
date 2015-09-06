@@ -184,3 +184,9 @@
 [submodule "snippets"]
 	path = snippets
 	url = git@github.com:AndreaCrotti/yasnippet-snippets.git
+[submodule "site-lisp/html-extra"]
+	path = site-lisp/html-extra
+	url = git@github.com:Emacs-Phoenix/html-extra.git
+[submodule "site-lisp/tagedit"]
+	path = site-lisp/tagedit
+	url = git@github.com:magnars/tagedit.git

@@ -16,13 +16,15 @@
 (setq ido-vertical-define-keys 'C-n-and-C-p-only)
 
 (setq ido-use-faces t)
-(set-face-attribute 'ido-vertical-first-match-face nil
-                                        :background "#e5b7c0")
-(set-face-attribute 'ido-vertical-only-match-face nil
-                                        :background "#e52b50"
-                                                            :foreground "white")
-(set-face-attribute 'ido-vertical-match-face nil
-                                        :foreground "#b00000")
+;; org-mode colors
+
+(setq org-todo-keyword-faces
+      '(
+        ("INPR" . (:foreground "yellow" :weight bold))
+        ("DONE" . (:foreground "green" :weight bold))
+        ("IMPEDED" . (:foreground "red" :weight bold))
+        ))
+
 (ido-vertical-mode 1)
 
 ;;ido-ubiquitous
@@ -31,7 +33,7 @@
 
 (require 'smex) ; Not needed if you use package.el
 (smex-initialize) ; Can be omitted. This might cause a (minimal) delay
-                  ; when Smex is auto-initialized on its first run.
+                                        ; when Smex is auto-initialized on its first run.
 ;;set smex keybinding
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)

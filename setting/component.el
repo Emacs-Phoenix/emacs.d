@@ -62,12 +62,16 @@
 (require 'quick-buffer-switch)
 (require 'smart-forward)
 (require 'browse-kill-ring)
+(require 'line-num)
+(require 'tagedit)
 
 (require 'setup-aggressive)
+
 ;;my site-lisp
 (require 'transparent)
 (require 'hippie)
 (require 'js2-extra)
+(require 'html-extra)
 (require 'edit-sword)
 
 (require 'trigger)
