@@ -190,3 +190,21 @@
 [submodule "site-lisp/tagedit"]
 	path = site-lisp/tagedit
 	url = git@github.com:magnars/tagedit.git
+[submodule "site-lisp/prodigy.el"]
+	path = site-lisp/prodigy.el
+	url = git@github.com:rejeep/prodigy.el.git
+[submodule "site-lisp/highlight-escape-sequences"]
+	path = site-lisp/highlight-escape-sequences
+	url = git@github.com:dgutov/highlight-escape-sequences.git
+[submodule "themes/emacs-color-theme-solarized"]
+	path = themes/emacs-color-theme-solarized
+	url = git@github.com:sellout/emacs-color-theme-solarized.git
+[submodule "themes/zenburn-emacs"]
+	path = themes/zenburn-emacs
+	url = git@github.com:bbatsov/zenburn-emacs.git
+[submodule "themes/monokai-emacs"]
+	path = themes/monokai-emacs
+	url = git@github.com:oneKelvinSmith/monokai-emacs.git
+[submodule "themes/aurora-theme"]
+	path = themes/aurora-theme
+	url = git@github.com:xzerocode/aurora-theme.git
