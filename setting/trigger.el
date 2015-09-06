@@ -13,6 +13,9 @@
 
 ;;rainbow cat
 ;;貌似不支持linux
-;;(eval (list (nyan-create)))  
+;;(eval (list (nyan-create)))
+;; Highlight escape sequences
+(hes-mode)
+(put 'font-lock-regexp-grouping-backslash 'face-alias 'font-lock-builtin-face)
 
 (provide 'trigger)

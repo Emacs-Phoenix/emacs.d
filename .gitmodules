@@ -208,3 +208,12 @@
 [submodule "themes/aurora-theme"]
 	path = themes/aurora-theme
 	url = git@github.com:xzerocode/aurora-theme.git
+[submodule "site-lisp/web-beautify"]
+	path = site-lisp/web-beautify
+	url = git@github.com:yasuyk/web-beautify.git
+[submodule "site-lisp/auto-indent-mode.el"]
+	path = site-lisp/auto-indent-mode.el
+	url = git@github.com:mlf176f2/auto-indent-mode.el.git
+[submodule "site-lisp/auto-highlight-symbol"]
+	path = site-lisp/auto-highlight-symbol
+	url = git@github.com:emacsmirror/auto-highlight-symbol.git

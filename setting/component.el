@@ -3,6 +3,7 @@
 (require 'mode-mapping)
 (require 'appearance)
 (require 'behavior)
+(require 'default)
 
 ;;ehack
 (require 'setup-ido)
@@ -20,7 +21,12 @@
 (require 'setup-hideshow)
 (require 'setup-perspective)
 (require 'setup-magit)
-(require 'setup-default)
+(require 'setup-web-beautify)
+(require 'setup-syntax-table)
+(require 'setup-recently)
+(require 'setup-indent-guide)
+(require 'setup-auto-indent)
+(require 'setup-highlight)
 (when is-mac (require 'setup-mac))
 
 ;;site-lisp
@@ -64,6 +70,8 @@
 (require 'browse-kill-ring)
 (require 'line-num)
 (require 'tagedit)
+(require 'prodigy)
+(require 'highlight-escape-sequences)
 
 (require 'setup-aggressive)
 

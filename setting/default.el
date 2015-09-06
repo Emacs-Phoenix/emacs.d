@@ -138,4 +138,12 @@
 
 (add-to-list 'find-file-not-found-functions 'my-create-non-existent-directory)
 
-(provide 'setup-default)
+;; Save point position between sessions
+(require 'saveplace)
+(setq-default save-place t)
+(setq save-place-file (expand-file-name ".places" user-emacs-directory))
+
+(eval-after-load "dash" '(dash-enable-font-lock))
+
+(provide 'default)
+

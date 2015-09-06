@@ -10,9 +10,14 @@
 (global-set-key (kbd "C-x C-y") 'browse-kill-ring)
 
 (global-unset-key (kbd "C-s"))
-(define-key global-map [(meta shift ?s)] 'isearch-forward)
+(define-key global-map [(meta shift ?s)] 'isearch-backward-use-region)
+(global-set-key (kbd "C-r") 'isearch-forward-use-region)
 (define-key global-map (kbd "C-s") 'ace-jump-mode)
 (define-key global-map (kbd "C-#") 'ace-jump-mode)
+
+;;string
+;; Toggle quotes
+(global-set-key (kbd "C-\"") 'toggle-quotes)
 
 (global-set-key (kbd "C-x r q") 'save-buffers-kill-terminal)
 (global-set-key (kbd "C-x C-c") 'delete-frame)
@@ -91,6 +96,8 @@
 (global-set-key (kbd "M-<down>") 'smart-down)
 (global-set-key (kbd "M-<left>") 'smart-backward)
 (global-set-key (kbd "M-<right>") 'smart-forward)
+
+(global-set-key (kbd "C-x C-r") 'rename-current-buffer-file)
 
 (global-set-key (kbd "C-x m") 'magit-status)
 (autoload 'magit-status "magit")

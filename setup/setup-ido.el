@@ -18,12 +18,14 @@
 (setq ido-use-faces t)
 ;; org-mode colors
 
-(setq org-todo-keyword-faces
-      '(
-        ("INPR" . (:foreground "yellow" :weight bold))
-        ("DONE" . (:foreground "green" :weight bold))
-        ("IMPEDED" . (:foreground "red" :weight bold))
-        ))
+;; (setq org-todo-keyword-faces
+;;       '(
+;;         ("INPR" . (:foreground "yellow" :weight bold))
+;;         ("DONE" . (:foreground "green" :weight bold))
+;;         ("IMPEDED" . (:foreground "red" :weight bold))
+;;         ))
+
+
 
 (ido-vertical-mode 1)
 

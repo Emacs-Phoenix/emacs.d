@@ -32,8 +32,17 @@
 (add-hook 'python-mode-hook 'my/python-mode-hook)
 ;;------------------------------------------
 
-
-;;-------------------------THEMES-------------------
-;;-----------------------------------------------
+(defun company-quick-help-show ()
+  (with-no-warnings
+    (pos-tip-show (company-fetch-metadata)
+                  nil ; standard color
+                  nil ; position, default is to start at point
+                  nil ; current window
+                  300 ; timeout in seconds
+                  80 ; max width
+                  nil ; calculate coordindates of frame
+                  (+ 200 ; dx offset
+                     (overlay-get company-pseudo-tooltip-overlay 'company-width))
+                  nil )))
 
 (provide 'setup-company)
