@@ -226,3 +226,6 @@
 [submodule "site-lisp/flycheck-pos-tip"]
 	path = site-lisp/flycheck-pos-tip
 	url = git@github.com:flycheck/flycheck-pos-tip.git
+[submodule "site-lisp/ack-el"]
+	path = site-lisp/ack-el
+	url = git@github.com:leoliu/ack-el.git

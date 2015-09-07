@@ -43,6 +43,7 @@
 (require 'web-mode)
 (require 'aggressive-indent)
 (require 'company-web-html)
+(require 'ack)
 (require 'quick-buffer-switch)
 (require 'smart-forward)
 (require 'browse-kill-ring)

@@ -50,7 +50,7 @@
       (blue-1 "#7DAF9C") (blue-2 "#6C99BB") (blue-3 "#5798AE")
       (blue-4 "#93C1BC") (blue-5 "#2F33AB")
       (purple-1 "#BB99BB") (purple-2 "#8856D2") (purple-3 "#BE73FD")
-      (green-1 "#144212") (green-2 "#8CFF8C"))
+      (green-1 "#144212") (green-2 "#8CFF8C") (green-3 "#8ED184"))
   (custom-theme-set-faces
    'birds-of-paradise-plus
 
@@ -79,7 +79,7 @@
    `(font-lock-warning-face ((t (:background ,red-1 :foreground "white"))))
 
    ;; UI related
-   `(link ((t (:foreground ,yellow-1))))
+   `(link ((t (:foreground ,white-1))))
    `(button ((t (:foreground ,yellow-1 :background ,blue-1 :weight bold :underline t))))
    `(mode-line ((t (:background ,green-2 :foreground ,white-1))))
    `(mode-line-inactive ((t (:background ,yellow-1 :foreground ,green-2))))
