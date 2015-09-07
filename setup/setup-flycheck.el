@@ -1,4 +1,5 @@
 (require 'flycheck)
+(require 'flycheck-pos-tip)
 
 (defun magnars/adjust-flycheck-automatic-syntax-eagerness ()
   "Adjust how often we check for errors based on if there are any.
@@ -35,5 +36,18 @@ threaded system and the forced deferred makes errors never show
 up before you execute another command."
   (flycheck-clear-idle-change-timer)
   (flycheck-buffer-automatically 'idle-change))
+
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
+(eval-after-load 'flycheck
+  '(custom-set-variables
+    '(flycheck-display-errors-function #'flycheck-pos-tip-error-messages)))
+
+
+(with-eval-after-load 'flycheck
+  (flycheck-add-mode 'html-tidy 'web-mode)
+  (flycheck-add-mode 'html-tidy 'html-mode)
+  (flycheck-add-mode 'css-csslint 'web-mode)
+  (flycheck-add-mode 'css-csslint 'css-mode))
 
 (provide 'setup-flycheck)

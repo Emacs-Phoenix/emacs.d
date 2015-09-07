@@ -10,6 +10,7 @@
 (global-set-key (kbd "C-x C-y") 'browse-kill-ring)
 
 (global-unset-key (kbd "C-s"))
+(global-unset-key (kbd "C-r"))
 (define-key global-map [(meta shift ?s)] 'isearch-backward-use-region)
 (global-set-key (kbd "C-r") 'isearch-forward-use-region)
 (define-key global-map (kbd "C-s") 'ace-jump-mode)
@@ -31,6 +32,8 @@
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+(global-set-key (kbd "C-S-<mouse-1>") 'mc/add-cursor-on-click)
+
 
 (global-unset-key (kbd "C-/"))
 (global-set-key (kbd "C-/") 'imenu-anywhere)
@@ -68,6 +71,8 @@
 
 (global-set-key (kbd "s-b") 'quick-switch-buffer)
 (global-set-key (kbd "C-x C-b") 'ibuffer)
+
+(global-set-key (kbd "s-b") 'quick-switch-buffer)
 
 ;; Revert without any fuss
 (global-set-key (kbd "M-<escape>") (λ (revert-buffer t t)))

@@ -36,19 +36,19 @@
   "Port of the brown-based warm light-on-dark theme by Joe Bergantine.")
 
 (let ((brown-1 "#452E2E") (brown-2 "#865C38") (brown-3 "#4B3330")
-                          (brown-4 "#523D2B") (brown-5 "#7D504A")
-                          (brown-6 "#392626") (brown-7 "#3E2929")
+      (brown-4 "#523D2B") (brown-5 "#7D504A")
+      (brown-6 "#392626") (brown-7 "#3E2929")
       (white-1 "#E6E1C4") (white-2 "#E6E1DC") (white-3 "#654D4D")
       (black-1 "#1F1611") (black-2 "#16120E") (black-3 "#000000")
       (gray-1 "#4e4e4e")
       (yellow-1 "#D9D762") (yellow-2 "#EFAC32") (yellow-3 "#EFCB43")
-                           (yellow-4 "#EFC232") (yellow-5 "#FFC05C")
+      (yellow-4 "#EFC232") (yellow-5 "#FFC05C")
       (orange-1 "#EF5D32") (orange-2 "#CC762E") (orange-3 "#C74725")
       (red-1 "#990000") (red-2 "#660000") (red-3 "#CC4232")
-                        (red-4 "#BE3250") (red-5 "#D23850")
-                        (red-6 "firebrick4") (red-7 "#FF7575")
+      (red-4 "#BE3250") (red-5 "#D23850")
+      (red-6 "firebrick4") (red-7 "#FF7575")
       (blue-1 "#7DAF9C") (blue-2 "#6C99BB") (blue-3 "#5798AE")
-                         (blue-4 "#93C1BC") (blue-5 "#2F33AB")
+      (blue-4 "#93C1BC") (blue-5 "#2F33AB")
       (purple-1 "#BB99BB") (purple-2 "#8856D2") (purple-3 "#BE73FD")
       (green-1 "#144212") (green-2 "#8CFF8C"))
   (custom-theme-set-faces
@@ -59,7 +59,7 @@
    `(cursor ((t (:foreground ,brown-2 :background ,white-1))))
    `(highlight ((t (:background ,black-1 :foreground ,white-1))))
    `(hl-line ((t (:background ,brown-7))))
-   `(region ((t (:background ,brown-4))))
+   `(region ((t (:background ,purple-1))))
    `(escape-glyph ((t (:foreground ,purple-3))))
    `(minibuffer-prompt ((t (:foreground ,blue-2)))) ;todo
 
@@ -81,13 +81,13 @@
    ;; UI related
    `(link ((t (:foreground ,yellow-1))))
    `(button ((t (:foreground ,yellow-1 :background ,blue-1 :weight bold :underline t))))
-   `(mode-line ((t (:background ,brown-2 :foreground ,white-1))))
-   `(mode-line-inactive ((t (:background ,gray-1 :foreground ,white-1))))
-   `(vertical-border ((t (:foreground ,brown-4))))
+   `(mode-line ((t (:background ,green-2 :foreground ,white-1))))
+   `(mode-line-inactive ((t (:background ,yellow-1 :foreground ,green-2))))
+   `(vertical-border ((t (:foreground ,white-1))))
    `(fringe ((t (:background ,brown-7 :foreground ,white-3))))
 
    ;; Linum
-   `(linum ((t (:background ,brown-1 :foreground ,white-3))))
+   `(linum ((t (:background ,brown-1 :foreground ,white-1))))
 
    ;; show-paren
    `(show-paren-match ((t (:background ,brown-5))))
@@ -131,7 +131,7 @@
    `(elscreen-tab-other-screen-face ((t (:background ,brown-3 :foreground ,white-1 :underline nil))))
 
    ;; column-marker-mode
-   `(column-marker-1 ((t (:background ,brown-4))))
+   `(column-marker-1 ((t (:background ,purple-2))))
 
    ;; Misc.
    `(gnus-group-news-1 ((t (:foreground ,yellow-1 :weight bold))))

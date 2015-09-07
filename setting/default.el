@@ -145,5 +145,17 @@
 
 (eval-after-load "dash" '(dash-enable-font-lock))
 
+;;save undo out of box
+(add-to-list 'desktop-locals-to-save 'buffer-undo-list)
+
+(setenv "PATH" (concat "/usr/local/bin:" (getenv "PATH")))
+(setq exec-path
+      '(
+        "/usr/local/bin"
+        "/usr/bin"
+        ))
+
+
+
 (provide 'default)
 
