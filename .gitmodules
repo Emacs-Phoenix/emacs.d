@@ -181,9 +181,6 @@
 [submodule "site-lisp/eye-care"]
 	path = site-lisp/eye-care
 	url = git@github.com:Emacs-Phoenix/eye-care.git
-[submodule "snippets"]
-	path = snippets
-	url = git@github.com:AndreaCrotti/yasnippet-snippets.git
 [submodule "site-lisp/html-extra"]
 	path = site-lisp/html-extra
 	url = git@github.com:Emacs-Phoenix/html-extra.git
