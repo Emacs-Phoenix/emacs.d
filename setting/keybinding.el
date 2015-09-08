@@ -1,5 +1,5 @@
-;; I don't need to kill emacs that easily
-;; the mnemonic is C-x REALLY QUIT
+;;Key binding
+
 (global-unset-key "\C-z")
 
 (require 'misc)
@@ -13,7 +13,7 @@
 (global-unset-key (kbd "C-r"))
 (define-key global-map [(meta shift ?s)] 'isearch-backward-use-region)
 (global-set-key (kbd "C-r") 'isearch-forward-use-region)
-(define-key global-map (kbd "C-s") 'ace-jump-mode)
+(define-key global-map (kbd "C-s") 'ace-jump-char-mode)
 (define-key global-map (kbd "C-#") 'ace-jump-mode)
 
 ;;string
@@ -65,7 +65,7 @@
 (global-set-key (kbd "M-z") 'zap-up-to-char)
 (global-set-key (kbd "s-z") (lambda (char) (interactive "cZap up to char backwards: ") (zap-up-to-char -1 char)))
 
-(global-set-key (kbd "C-x C-i") 'ido-imenu)
+(global-set-key (kbd "C-x C-i") 'idomenu)
 
 (global-set-key (kbd "C-x C-p") 'find-or-create-file-at-point)
 
@@ -112,6 +112,17 @@
 
 (global-set-key (kbd "C-s-y") 'yank-unindented)
 
+(global-set-key (kbd "C-w") 'kill-region-or-backward-word)
+(global-set-key (kbd "C-c C-w") 'kill-to-beginning-of-line)
 
+;; Use M-w for copy-line if no active region
+(global-set-key (kbd "M-w") 'save-region-or-current-line)
+
+(global-set-key (kbd "C-c z") 'goto-last-change)
+
+
+;;A regexp/replace command for Emacs with interactive visual feedback
+(define-key global-map (kbd "C-c r") 'vr/replace)
+(define-key global-map (kbd "C-c q") 'vr/query-replace)
 
 (provide 'keybinding)

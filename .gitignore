@@ -6,6 +6,7 @@ auto-complete/*
 projectile-bookmarks.eld
 *.swp
 ido.last
+eshell
 game
 recentf
 backups

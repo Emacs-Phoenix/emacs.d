@@ -126,6 +126,10 @@ Also affects 'linum-mode' background."
        (gray-d                   "#333333")
        (gray-l                   "#6b6b6b")
        ;; Adaptive colors
+       (terminal-orange          "#FF8C00")
+       (modeline-orange          "#994C0C")
+       (terminal-green-l         "#B3EE3A")
+       (region-green             "#15531D")
        (monokai-fg               "#F8F8F2")
        (monokai-bg               "#272822")
        (monokai-hl-line          "#3E3D31")
@@ -160,13 +164,13 @@ Also affects 'linum-mode' background."
        (s-mode-line-fg           (if monokai-high-contrast-mode-line
                                      monokai-bg monokai-fg))
        (s-mode-line-bg           (if monokai-high-contrast-mode-line
-                                     monokai-fg monokai-hl-line))
+                                     orange-l modeline-orange))
        (s-mode-line-buffer-id-fg (if monokai-high-contrast-mode-line
                                      'unspecified green))
        (s-mode-line-inactive-fg  (if monokai-high-contrast-mode-line
                                      monokai-fg monokai-comments))
        (s-mode-line-inactive-bg  (if monokai-high-contrast-mode-line
-                                     monokai-hl-line monokai-bg))
+                                     modeline-orange monokai-bg))
        (s-mode-line-inactive-bc  (if monokai-high-contrast-mode-line
                                      monokai-fg monokai-hl-line))
 
@@ -458,7 +462,7 @@ Also affects 'linum-mode' background."
                                     :foreground ,terminal-monokai-bg))))
 
    `(cua-rectangle
-    ((,class (:inherit region
+     ((,class (:inherit region
                         :background ,magenta
                         :foreground ,monokai-bg))
       (,terminal-class (:inherit region
@@ -769,7 +773,7 @@ Also affects 'linum-mode' background."
                                                          :style unspecified)))))
 
    `(region
-     ((,class (:background ,monokai-hl
+     ((,class (:background ,region-green
                            :inherit t))
       (,terminal-class (:background ,terminal-monokai-hl
                                     :inherit t))))

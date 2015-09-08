@@ -9,7 +9,7 @@
 (setq auto-revert-verbose nil)
 
 ;; Show keystrokes in progress
-(setq echo-keystrokes 0.1)
+(setq echo-keystrokes 0.01)
 
 ;; Move files to trash when deleting
 (setq delete-by-moving-to-trash t)

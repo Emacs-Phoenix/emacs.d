@@ -1,4 +1,4 @@
-;;setting
+;;(setq  )etting
 (require 'mode-mapping)
 (require 'appearance)
 (require 'behavior)
@@ -49,12 +49,19 @@
 (require 'line-num)
 (require 'tagedit)
 (require 'rainbow-mode)
-(require 'prodigy)
+;;(require 'prodigy)
 (require 'simplezen)
 (require 'restclient)
 (require 'dockerfile-mode)
 (require 'auto-highlight-symbol)
 (require 'highlight-escape-sequences)
+(require 'idomenu)
+(require 'markdown-mode+)
+(require 'symon)
+(require 'hungry-delete)
+(require 'visual-regexp)
+(require 'coffee-mode) 
+
 
 (require 'setup-aggressive)
 ;;setup
@@ -71,16 +78,19 @@
 (require 'setup-paredit)
 (require 'setup-shell)
 (require 'setup-hideshow)
-(require 'setup-perspective)
+;;(require 'setup-perspective) ;;没啥用
 (require 'setup-magit)
 (require 'setup-web-beautify)
 (require 'setup-syntax-table)
 (require 'setup-recently)
-(require 'setup-indent-guide)
+;;(require 'setup-indent-guide) ;;谁开谁傻逼，开了卡成狗
 (require 'setup-undo)
 ;;(require 'setup-auto-indent) ;;狗日的，打开这个在Mac下kill-ring有严重的问题！！！！！！！！！！！！排查死爹了！！！！！！！
 (require 'setup-highlight)
 (require 'setup-rainbow-mode)
+(require 'setup-jump)
+(require 'setup-guide-key)
+(require 'setup-python)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp
@@ -92,5 +102,7 @@
 
 (require 'trigger)
 (require 'keybinding)
+
+(require 'setup-mykeybinding)
 
 (provide 'component)

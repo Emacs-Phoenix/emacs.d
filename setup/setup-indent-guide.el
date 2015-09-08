@@ -2,6 +2,6 @@
 
 (indent-guide-global-mode)
 
-(setq indent-guide-recursive t)
+;;(setq indent-guide-recursive t)
 
 (provide 'setup-indent-guide)

@@ -3,7 +3,4 @@
 (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
 (setq scroll-step 6) ;; keyboard scroll one line at a time
 
-
-
-
 (provide 'behavior)

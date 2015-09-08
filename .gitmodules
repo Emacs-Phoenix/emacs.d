@@ -31,9 +31,6 @@
 [submodule "site-lisp/hippie"]
 	path = site-lisp/hippie
 	url = git@github.com:Emacs-Phoenix/hippie.git
-[submodule "site-lisp/eproject"]
-	path = site-lisp/eproject
-	url = git@github.com:jrockway/eproject.git
 [submodule "site-lisp/projectile"]
 	path = site-lisp/projectile
 	url = git@github.com:bbatsov/projectile.git
@@ -229,3 +226,60 @@
 [submodule "site-lisp/ack-el"]
 	path = site-lisp/ack-el
 	url = git@github.com:leoliu/ack-el.git
+[submodule "site-lisp/markdown-mode-plus"]
+	path = site-lisp/markdown-mode-plus
+	url = git@github.com:milkypostman/markdown-mode-plus.git
+[submodule "site-lisp/symon"]
+	path = site-lisp/symon
+	url = git@github.com:zk-phi/symon.git
+[submodule "site-lisp/hungry-delete.el"]
+	path = site-lisp/hungry-delete.el
+	url = git@github.com:soutaro/hungry-delete.el.git
+[submodule "site-lisp/guide-key"]
+	path = site-lisp/guide-key
+	url = git@github.com:kai2nenobu/guide-key.git
+[submodule "site-lisp/visual-regexp.el"]
+	path = site-lisp/visual-regexp.el
+	url = git@github.com:benma/visual-regexp.el.git
+[submodule "site-lisp/coffee-mode"]
+	path = site-lisp/coffee-mode
+	url = git@github.com:defunkt/coffee-mode.git
+[submodule "site-lisp/clojure-mode"]
+	path = site-lisp/clojure-mode
+	url = git@github.com:clojure-emacs/clojure-mode.git
+[submodule "site-lisp/cider"]
+	path = site-lisp/cider
+	url = git@github.com:clojure-emacs/cider.git
+[submodule "site-lisp/anaconda-mode"]
+	path = site-lisp/anaconda-mode
+	url = git@github.com:proofit404/anaconda-mode.git
+[submodule "site-lisp/elpy"]
+	path = site-lisp/elpy
+	url = git@github.com:jorgenschaefer/elpy.git
+[submodule "site-lisp/emacs-jedi"]
+	path = site-lisp/emacs-jedi
+	url = git@github.com:tkf/emacs-jedi.git
+[submodule "site-lisp/clj-refactor.el"]
+	path = site-lisp/clj-refactor.el
+	url = git@github.com:clojure-emacs/clj-refactor.el.git
+[submodule "popwin-el"]
+	path = popwin-el
+	url = git@github.com:m2ym/popwin-el.git
+[submodule "site-lisp/popwin-el"]
+	path = site-lisp/popwin-el
+	url = git@github.com:m2ym/popwin-el.git
+[submodule "site-lisp/pythonic"]
+	path = site-lisp/pythonic
+	url = git@github.com:proofit404/pythonic.git
+[submodule "site-lisp/pyenv"]
+	path = site-lisp/pyenv
+	url = git@github.com:yyuu/pyenv.git
+[submodule "site-lisp/pyenv.el"]
+	path = site-lisp/pyenv.el
+	url = git@github.com:cyberved/pyenv.el.git
+[submodule "site-lisp/pyvenv"]
+	path = site-lisp/pyvenv
+	url = git@github.com:jorgenschaefer/pyvenv.git
+[submodule "site-lisp/Highlight-Indentation-for-Emacs"]
+	path = site-lisp/Highlight-Indentation-for-Emacs
+	url = git@github.com:antonj/Highlight-Indentation-for-Emacs.git
