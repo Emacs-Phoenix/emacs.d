@@ -61,7 +61,7 @@
 (setq history-length 1000)
 
 ;; Undo/redo window configuration with C-c <left>/<right>
-(winner-mode 1)
+;;(winner-mode 1)
 
 ;; Never insert tabs
 (set-default 'indent-tabs-mode nil)

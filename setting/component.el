@@ -1,5 +1,4 @@
 ;;setting
-(require 'keybinding)
 (require 'mode-mapping)
 (require 'appearance)
 (require 'behavior)
@@ -54,13 +53,14 @@
 (require 'simplezen)
 (require 'restclient)
 (require 'dockerfile-mode)
+(require 'auto-highlight-symbol)
 (require 'highlight-escape-sequences)
 
 (require 'setup-aggressive)
 ;;setup
 (require 'setup-ido)
 (require 'setup-project)
-(require 'setup-ggtags)
+;;(require 'setup-ggtags)
 (require 'setup-company)
 (require 'setup-tern)
 (require 'setup-smartparens)
@@ -91,5 +91,6 @@
 (require 'edit-sword)
 
 (require 'trigger)
+(require 'keybinding)
 
 (provide 'component)

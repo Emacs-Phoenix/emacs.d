@@ -81,7 +81,7 @@
    ;; UI related
    `(link ((t (:foreground ,white-1))))
    `(button ((t (:foreground ,yellow-1 :background ,blue-1 :weight bold :underline t))))
-   `(mode-line ((t (:background ,green-2 :foreground ,white-1))))
+   `(mode-line ((t (:background ,green-1 :foreground ,white-1))))
    `(mode-line-inactive ((t (:background ,yellow-1 :foreground ,green-2))))
    `(vertical-border ((t (:foreground ,white-1))))
    `(fringe ((t (:background ,brown-7 :foreground ,white-3))))
