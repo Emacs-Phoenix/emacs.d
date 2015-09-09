@@ -1,6 +1,5 @@
 (defvar my-keys-minor-mode-map (make-keymap) "my-keys-minor-mode keymap.")
 
-(define-key my-keys-minor-mode-map (kbd "C-i") 'idomenu)
 (define-key my-keys-minor-mode-map (kbd "C-/") 'imenu-anywhere)
 (define-key my-keys-minor-mode-map (kbd "C-r") 'isearch-forward-use-region)
 (define-key my-keys-minor-mode-map (kbd "C-o") 'vi-open-line-below)

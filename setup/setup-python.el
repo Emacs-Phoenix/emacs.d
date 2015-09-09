@@ -4,6 +4,6 @@
 
 ;;(add-hook 'python-mode-hook 'anaconda-mode)
 
-;;(elpy-enable)
+(elpy-enable)
 
 (provide 'setup-python)
