@@ -2,6 +2,7 @@
 (setq guide-key/guide-key-sequence '("C-x r"
                                      "C-x 4"
                                      "C-c p"
+                                     "C-c C-r"
                                      "C-x C-m"))
 (guide-key-mode 1)  ; Enable guide-key-mode
 
