@@ -8,7 +8,7 @@
 ;;site-lisp
 (require 'indent-guide)
 (require 'js2-mode)
-(require 'ggtags)
+;;(require 'ggtags)
 (require 'flycheck)
 (require 'smartparens-config)
 (require 'powerline)
@@ -61,7 +61,7 @@
 (require 'hungry-delete)
 (require 'visual-regexp)
 (require 'coffee-mode) 
-
+(require 'pangu-spacing) ;;小伙子，在英文旁边加空格
 
 (require 'setup-aggressive)
 ;;setup
@@ -91,6 +91,8 @@
 (require 'setup-jump)
 (require 'setup-guide-key)
 (require 'setup-python)
+(require 'setup-term)
+(require 'setup-search)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp

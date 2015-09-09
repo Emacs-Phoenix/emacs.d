@@ -1,4 +1,4 @@
-(require 'anaconda-mode)
+;;(require 'anaconda-mode)
 (require 'elpy)
 (require 'pyenv)
 (add-hook 'python-mode-hook 'anaconda-mode)

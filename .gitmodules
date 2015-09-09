@@ -283,3 +283,27 @@
 [submodule "site-lisp/Highlight-Indentation-for-Emacs"]
 	path = site-lisp/Highlight-Indentation-for-Emacs
 	url = git@github.com:antonj/Highlight-Indentation-for-Emacs.git
+[submodule "site-lisp/pangu-spacing"]
+	path = site-lisp/pangu-spacing
+	url = git@github.com:coldnew/pangu-spacing.git
+[submodule "themes/ample-theme"]
+	path = themes/ample-theme
+	url = git@github.com:jordonbiondo/ample-theme.git
+[submodule "themes/moe-theme.el"]
+	path = themes/moe-theme.el
+	url = git@github.com:kuanyui/moe-theme.el.git
+[submodule "themes/cyberpunk-theme.el"]
+	path = themes/cyberpunk-theme.el
+	url = git@github.com:n3mo/cyberpunk-theme.el.git
+[submodule "themes/grandshell-theme"]
+	path = themes/grandshell-theme
+	url = git@github.com:steckerhalter/grandshell-theme.git
+[submodule "site-lisp/full-ack"]
+	path = site-lisp/full-ack
+	url = git@github.com:nschum/full-ack.git
+[submodule "site-lisp/ag.el"]
+	path = site-lisp/ag.el
+	url = git@github.com:Wilfred/ag.el.git
+[submodule "site-lisp/emacs-helm-ack"]
+	path = site-lisp/emacs-helm-ack
+	url = git@github.com:syohex/emacs-helm-ack.git

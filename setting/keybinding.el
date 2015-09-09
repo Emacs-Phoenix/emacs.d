@@ -12,6 +12,7 @@
 (global-unset-key (kbd "C-s"))
 (global-unset-key (kbd "C-r"))
 (define-key global-map [(meta shift ?s)] 'isearch-backward-use-region)
+(define-key global-map (kbd "C-r") 'isearch-forward-use-region)
 (global-set-key (kbd "C-r") 'isearch-forward-use-region)
 (define-key global-map (kbd "C-s") 'ace-jump-char-mode)
 (define-key global-map (kbd "C-#") 'ace-jump-mode)
@@ -23,7 +24,7 @@
 (global-set-key (kbd "C-x r q") 'save-buffers-kill-terminal)
 (global-set-key (kbd "C-x C-c") 'delete-frame)
 
-;; Completion that uses many different methods to find options.
+;;Completion that uses many different methods to find options.
 (global-set-key (kbd "C-.") 'hippie-expand-no-case-fold)
 (global-set-key (kbd "C-;") 'hippie-expand-lines)
 (global-set-key (kbd "C-,") 'completion-at-point)
@@ -124,5 +125,11 @@
 ;;A regexp/replace command for Emacs with interactive visual feedback
 (define-key global-map (kbd "C-c r") 'vr/replace)
 (define-key global-map (kbd "C-c q") 'vr/query-replace)
+
+(define-key global-map (kbd "C-M-q") 'indent-code-rigidly)
+(define-key global-map (kbd "C-M-i") 'indent-code-rigidly)
+
+(define-key global-map (kbd "C-o") 'vi-open-line-below)
+
 
 (provide 'keybinding)

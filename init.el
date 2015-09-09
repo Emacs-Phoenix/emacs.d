@@ -40,8 +40,3 @@
 (require 'edit-server)
 (edit-server-start)
 
-
-;; Run at full power please
-(put 'downcase-region 'disabled nil)
-(put 'upcase-region 'disabled nil)
-(put 'narrow-to-region 'disabled nil)

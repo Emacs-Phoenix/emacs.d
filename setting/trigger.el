@@ -1,8 +1,8 @@
 (eyebrowse-mode t)
 
 (sublimity-mode 1)
-(setq sublimity-scroll-weight 6
-      sublimity-scroll-drift-length 4)
+;;(setq sublimity-scroll-weight 6
+;;     sublimity-scroll-drift-length 4)
 
 
 (global-undo-tree-mode 1)
@@ -33,5 +33,7 @@
 
 ;;linum-mode
 ;;(global-linum-mode 1) ;;这他妈linum和sublime那个小窗不能共存
+
+
 
 (provide 'trigger)
