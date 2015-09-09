@@ -1,4 +1,3 @@
-(setq auto-indent-on-visit-file t)
 (require 'auto-indent-mode)
 (add-hook 'js2-mode-hook
           '(lambda ()
@@ -10,7 +9,6 @@
 
 
 (add-hook 'js2-mode-hook 'auto-indent-mode)
-
 
 
 (provide 'setup-auto-indent)

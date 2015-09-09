@@ -29,6 +29,7 @@
       (hickey-light-gray     "#666666")
       (hickey-lightest-gray  "#999999")
       (hickey-comment-slate  "#505C63")
+      (hickey-comment-green  "#75AC6D")
       (hickey-orange         "#F38630")
       (hickey-light-slate    "#465459")
       (hickey-dark-slate     "#161A1F")
@@ -36,6 +37,7 @@
       (hickey-strong-green   "#AEE239")
       (hickey-subtle-blue    "#A7DBD8")
       (hickey-dirty-white    "#F8F8F0")
+      (hickey-purple         "#BB99BB")
       (hickey-lighter-orange "#FD971F"))
 
   (custom-theme-set-faces
@@ -50,7 +52,7 @@
    `(mode-line ((t (:box nil :foreground ,hickey-background :background ,hickey-light-blue))))
    `(fringe ((t (:background ,hickey-background))))
    ;; Highlight region color
-   `(region ((t (:foreground ,hickey-light-slate :background ,hickey-dark-slate))))
+   `(region ((t (:foreground ,hickey-strong-green :background ,hickey-purple))))
    ;; Dir-ed search prompt
    `(minibuffer-prompt ((default (:foreground ,hickey-light-blue))))
 
@@ -60,7 +62,7 @@
    ;; Constants
    `(font-lock-constant-face ((t (:foreground ,hickey-strong-green))))
    ;; Comments
-   `(font-lock-comment-face ((t (:foreground ,hickey-comment-slate))))
+   `(font-lock-comment-face ((t (:foreground ,hickey-comment-green))))
    ;; Function names
    `(font-lock-function-name-face ((t (:foreground ,hickey-strong-green))))
    ;; Keywords

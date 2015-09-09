@@ -9,7 +9,7 @@
 (setq auto-revert-verbose nil)
 
 ;; Show keystrokes in progress
-(setq echo-keystrokes 0.1)
+(setq echo-keystrokes 0.01)
 
 ;; Move files to trash when deleting
 (setq delete-by-moving-to-trash t)
@@ -61,7 +61,7 @@
 (setq history-length 1000)
 
 ;; Undo/redo window configuration with C-c <left>/<right>
-(winner-mode 1)
+;;(winner-mode 1)
 
 ;; Never insert tabs
 (set-default 'indent-tabs-mode nil)
@@ -144,6 +144,18 @@
 (setq save-place-file (expand-file-name ".places" user-emacs-directory))
 
 (eval-after-load "dash" '(dash-enable-font-lock))
+
+;;save undo out of box
+(add-to-list 'desktop-locals-to-save 'buffer-undo-list)
+
+(setenv "PATH" (concat "/usr/local/bin:" (getenv "PATH")))
+(setq exec-path
+      '(
+        "/usr/local/bin"
+        "/usr/bin"
+        ))
+
+
 
 (provide 'default)
 

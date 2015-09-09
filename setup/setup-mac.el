@@ -93,6 +93,6 @@
   (interactive)
   (shell-command (concat "open " (buffer-file-name))))
 
-(global-set-key (kbd "C-c C-S-o") 'mac-open-current-file)
+(global-set-key (kbd "C-c C-s-o") 'mac-open-current-file)
 
 (provide 'setup-mac)

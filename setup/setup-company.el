@@ -19,19 +19,15 @@
 ;;    `(company-tooltip-common ((t (:inherit font-lock-constant-face))))))
 
 (setq company-minimum-prefix-length 1)
-(setq company-idle-delay 0.25)
 (setq company-auto-complete t)
 
 (add-hook 'after-init-hook 'global-company-mode)
-(define-key company-mode-map (kbd "C-n") 'company-select-next)
-(define-key company-mode-map (kbd "C-p") 'company-select-previous)
 ;;-----------python------------------------
 (defun my/python-mode-hook ()
   (add-to-list 'company-backends 'company-jedi))
 
 (add-hook 'python-mode-hook 'my/python-mode-hook)
 ;;------------------------------------------
-
 (defun company-quick-help-show ()
   (with-no-warnings
     (pos-tip-show (company-fetch-metadata)
