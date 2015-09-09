@@ -112,6 +112,7 @@
 (global-set-key (kbd "<C-s-up>") 'move-text-up)
 
 (global-set-key (kbd "C-s-y") 'yank-unindented)
+(global-set-key (kbd "C-x u") 'undo-tree)
 
 (global-set-key (kbd "C-w") 'kill-region-or-backward-word)
 (global-set-key (kbd "C-c C-w") 'kill-to-beginning-of-line)

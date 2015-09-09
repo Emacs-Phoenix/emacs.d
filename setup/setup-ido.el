@@ -72,7 +72,7 @@
 
 (require 'bookmark)
   (setq enable-recursive-minibuffers t)
-  (define-key ido-file-dir-completion-map (kbd "M-B") 'ido-goto-bookmark)
+  (define-key ido-file-dir-completion-map (kbd "M-s-b") 'ido-goto-bookmark)
   (defun ido-goto-bookmark (bookmark)
     (interactive
      (list (bookmark-completing-read "Jump to bookmark"

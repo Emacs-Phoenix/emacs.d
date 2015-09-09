@@ -307,3 +307,6 @@
 [submodule "site-lisp/emacs-helm-ack"]
 	path = site-lisp/emacs-helm-ack
 	url = git@github.com:syohex/emacs-helm-ack.git
+[submodule "site-lisp/gh.el"]
+	path = site-lisp/gh.el
+	url = git@github.com:sigma/gh.el.git
