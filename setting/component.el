@@ -60,7 +60,8 @@
 (require 'symon)
 (require 'hungry-delete)
 (require 'visual-regexp)
-(require 'coffee-mode) 
+(require 'coffee-mode)
+(require 'find-file-in-project)
 (require 'pangu-spacing) ;;小伙子，在英文旁边加空格
 
 (require 'setup-aggressive)

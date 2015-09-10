@@ -153,8 +153,11 @@
       '(
         "/usr/local/bin"
         "/usr/bin"
+        "/bin"
         ))
 
+(setenv "PATH" (concat (getenv "PATH") ":/bin"))
+(setq exec-path (append exec-path '("/bin")))
 
 
 (provide 'default)

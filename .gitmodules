@@ -310,3 +310,6 @@
 [submodule "site-lisp/gh.el"]
 	path = site-lisp/gh.el
 	url = git@github.com:sigma/gh.el.git
+[submodule "site-lisp/find-file-in-project"]
+	path = site-lisp/find-file-in-project
+	url = git@github.com:technomancy/find-file-in-project.git
