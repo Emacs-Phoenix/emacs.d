@@ -313,3 +313,6 @@
 [submodule "site-lisp/find-file-in-project"]
 	path = site-lisp/find-file-in-project
 	url = git@github.com:technomancy/find-file-in-project.git
+[submodule "flymake-csslint"]
+	path = flymake-csslint
+	url = git@github.com:arnested/flymake-csslint.git
