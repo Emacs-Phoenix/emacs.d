@@ -32,6 +32,7 @@
 (require 'neotree)
 (require 'ztree)
 (require 'undo-tree)
+(require 'redo+)
 (require 'helm)
 (require 'async)
 (require 'nyan-mode)

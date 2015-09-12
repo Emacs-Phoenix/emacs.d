@@ -1,0 +1,151 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sun Sep 13 00:59:08 2015
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22004 23004 238767 880000) (desktop . "206") "tyan@Ubuntu" nil nil ((((font-backend xft x) (font . "-unknown-Ubuntu Mono-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter . "Ubuntu Mono 13") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background . "grey75") (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha . 97) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#FFFFEF") (sticky) (environment) (eyebrowse-last-slot . 1) (eyebrowse-current-slot . 1) (eyebrowse-window-configs (1 (((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 76) (min-pixel-width . 90) (min-pixel-height-ignore . 57) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 19) (min-pixel-width-safe . 18)) leaf (pixel-width . 738) (pixel-height . 608) (total-width . 82) (total-height . 32) (normal-height . 1.0) (normal-width . 1.0) (buffer "*scratch*" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))) "")) (frameset--id . "80D5-A32D-9DEA-1353") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (height . 39) (width . 144) (left . 47) (top . 24)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 76) (min-pixel-width . 180) (min-pixel-height-ignore . 57) (min-pixel-width-ignore . 72) (min-pixel-height-safe . 19) (min-pixel-width-safe . 36)) hc (pixel-width . 1319) (pixel-height . 725) (total-width . 147) (total-height . 38) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 851) (pixel-height . 725) (total-width . 95) (total-height . 38) (normal-height . 1.0) (normal-width . 0.6463414634146342) (buffer "cli.py" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 9753) (start . 9043))) (leaf (last . t) (pixel-width . 468) (pixel-height . 725) (total-width . 52) (total-height . 38) (normal-height . 1.0) (normal-width . 0.35365853658536583) (buffer "controller.py" (selected) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 3236) (start . 2704)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("model" "display_error_message" "message_error" "display_results" "display_error_message" "message_error" "error" "print" "self.model.query" "(self.model.quer" "sea" "finder" "finde" "get_results" "finder" "get_results"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/home/tyan/GITHUB/searcher/searcher/controller.py" "/home/tyan/GITHUB/searcher/searcher/view.py" "/home/tyan/GITHUB/searcher/searcher/search.py" "/home/tyan/GITHUB/searcher/searcher/finder.py" "/home/tyan/GITHUB/searcher/searcher/__init__.py" "/home/tyan/GITHUB/searcher/searcher/search.py" "/home/tyan/GITHUB/searcher/searcher/controller.py" "/home/tyan/GITHUB/searcher/searcher/search.py" "/home/tyan/GITHUB/searcher/searcher/controller.py" "/home/tyan/GITHUB/searcher/searcher/model.py" "/home/tyan/GITHUB/searcher/searcher/controller.py" "/home/tyan/GITHUB/searcher/searcher/search.py" "/home/tyan/GITHUB/searcher/searcher/controller.py" "/home/tyan/GITHUB/searcher/searcher/model.py" "/home/tyan/GITHUB/percol/percol/__init__.py" "/home/tyan/GITHUB/percol/percol/model.py" "/home/tyan/GITHUB/percol/percol/__init__.py" "/home/tyan/GITHUB/percol/percol/cli.py" "/home/tyan/GITHUB/percol/percol/__init__.py" "/home/tyan/GITHUB/percol/percol/model.py" "/home/tyan/GITHUB/percol/percol/cli.py" "/home/tyan/GITHUB/percol/percol/model.py" "/home/tyan/GITHUB/percol/percol/cli.py" "/home/tyan/GITHUB/percol/percol/model.py" "/home/tyan/GITHUB/searcher/searcher/model.py" "/home/tyan/GITHUB/searcher/searcher/controller.py" "/home/tyan/GITHUB/searcher/searcher/finder.py" "/home/tyan/GITHUB/searcher/searcher/controller.py" "/home/tyan/GITHUB/searcher/searcher/model.py" "/home/tyan/.emacs.d/site-lisp/zone-matrix/zone-matrix.el" "/home/tyan/GITHUB/searcher/searcher/finder.py" "/home/tyan/GITHUB/searcher/searcher/search.py" "/home/tyan/GITHUB/percol/percol/model.py" "/home/tyan/GITHUB/percol/percol/__init__.py" "/home/tyan/GITHUB/searcher/searcher/__init__.py" "/home/tyan/GITHUB/searcher/searcher/finder.py" "/home/tyan/GITHUB/searcher/searcher/model.py" "/home/tyan/GITHUB/searcher/searcher/controller.py" "/home/tyan/GITHUB/the_silver_searcher/config.sub" "/home/tyan/.emacs.d/setting/behavior.el" "/home/tyan/.emacs.d/site-lisp/zone-matrix/zone-settings.el" "/home/tyan/GITHUB/searcher/searcher/model.py" "/home/tyan/GITHUB/searcher/searcher/controller.py" "/home/tyan/.emacs.d/setting/component.el" "/home/tyan/GITHUB/searcher/searcher/controller.py" "/home/tyan/GITHUB/percol/percol/finder.py" "/home/tyan/GITHUB/searcher/searcher/agfront.py" "/home/tyan/GITHUB/searcher/searcher/search.py" "/home/tyan/.emacs.d/site-lisp/zone-matrix/zone-matrix.el" "/home/tyan/.emacs.d/site-lisp/zone-matrix/zone-settings.el" "/home/tyan/.emacs.d/setting/default.el" "/home/tyan/.emacs.d/setting/behavior.el" "/home/tyan/.emacs.d/setting/trigger.el" "/home/tyan/GITHUB/percol/percol/cli.py" "/home/tyan/GITHUB/searcher/searcher/cli.py" "/home/tyan/GITHUB/searcher/searcher/controller.py" "/home/tyan/GITHUB/searcher/searcher/finder.py" "/home/tyan/GITHUB/searcher/searcher/model.py" "/home/tyan/GITHUB/percol/percol/__init__.py" "/home/tyan/GITHUB/searcher/searcher/command.py" "/home/tyan/GITHUB/percol/percol/cli.py" "/home/tyan/GITHUB/percol/percol/command.py" "/home/tyan/GITHUB/searcher/searcher/command.py" "/home/tyan/GITHUB/searcher/searcher/key.py" "/home/tyan/GITHUB/percol/percol/__init__.py" "/home/tyan/GITHUB/searcher/searcher/cli.py" "/home/tyan/GITHUB/percol/percol/cli.py" "/home/tyan/GITHUB/searcher/searcher/action.py" "/home/tyan/GITHUB/searcher/searcher/actions.py" "/home/tyan/GITHUB/percol/percol/__init__.py" "~/GITHUB/searcher/searcher/action.py" "/home/tyan/GITHUB/percol/percol/action.py" "/home/tyan/GITHUB/searcher/searcher/actions.py" "/home/tyan/GITHUB/percol/percol/actions.py" "/home/tyan/.emacs.d/setting/trigger.el" "/home/tyan/.emacs.d/setting/default.el" "/home/tyan/.emacs.d/setting/behavior.el" "/home/tyan/GITHUB/percol/percol/__init__.py" "/home/tyan/GITHUB/percol/percol/info.py" "/home/tyan/GITHUB/searcher/searcher/percol.py" "/home/tyan/GITHUB/searcher/.git/COMMIT_EDITMSG" "/home/tyan/GITHUB/searcher/searcher/view.py" "/home/tyan/GITHUB/searcher/searcher/key.py" "/home/tyan/GITHUB/percol/percol/key.py" "/home/tyan/.emacs.d/setup/setup-yas.el" "/home/tyan/GITHUB/searcher/searcher/percol.py" "/home/tyan/GITHUB/searcher/searcher/finder.py" "/home/tyan/GITHUB/percol/percol/__init__.py" "/home/tyan/GITHUB/percol/percol/cli.py" "/home/tyan/GITHUB/percol/percol/actions.py" "/home/tyan/.emacs.d/setup/setup-term.el" "/home/tyan/.emacs.d/setup/setup-tern.el" "/home/tyan/.emacs.d/setup/setup-python.el" "/home/tyan/GITHUB/searcher/searcher/markup.py" "/home/tyan/GITHUB/searcher/searcher/ansi.py" "/home/tyan/GITHUB/percol/percol/ansi.py" "/home/tyan/GITHUB/percol/percol/cli.py" "/home/tyan/.emacs.d/setup/setup-mykeybinding.el" "/home/tyan/.emacs.d/setup/setup-guide-key.el" "/home/tyan/GITHUB/searcher/searcher/cli.py" "/home/tyan/.emacs.d/setup/setup-guide-key.el" "/home/tyan/GITHUB/searcher/searcher/cli.py" "/home/tyan/.emacs.d/.git/COMMIT_EDITMSG" "/home/tyan/.emacs.d/setting/component.el" "/home/tyan/.emacs.d/setup/setup-highlight.el" "/home/tyan/.emacs.d/setup/setup-auto-indent.el" "/home/tyan/.emacs.d/setup/setup-indent-guide.el" "/home/tyan/.emacs.d/setup/setup-recently.el" "/home/tyan/.emacs.d/setup/setup-syntax-table.el" "/home/tyan/.emacs.d/setting/component.el" "/home/tyan/.emacs.d/custom.el" "/home/tyan/.emacs.d/site-lisp/company-mode/company.el" "/home/tyan/.emacs.d/setting/component.el" "/home/tyan/.emacs.d/setup/setup-company.el" "/home/tyan/.emacs.d/setup/setup-ido.el" "/home/tyan/.emacs.d/init.el" "/home/tyan/.emacs.d/setup/setup-ido.el" "/home/tyan/.emacs.d/ido.last" "/home/tyan/.emacs.d/setting/component.el" "/home/tyan/.emacs.d/setup/setup-default.el" "/home/tyan/.emacs.d/setting/trigger.el" "/home/tyan/.emacs.d/setting/component.el" "/home/tyan/.emacs.d/init.el" "~/.emacs.d/init.el" "~/.emacs.d/setting/behavior.el" "~/.emacs.d/setting/component.el" "~/.emacs.d/setup/setup-default.el" "~/.emacs.d/setting/keybinding.el" "~/.emacs.d/lib/defuns.el" "~/.emacs.d/lib/lib.el" "~/.emacs.d/.gitignore" "~/.emacs.d/custom.el" "~/.emacs.d/setup/setup-company.el" "~/.emacs.d/setup/setup-ido.el" "~/.emacs.d/ido.last" "~/.recentf" "~/.emacs.d/setting/appearance.el" "~/GITHUB/mok/package.json" "~/GITHUB/mok/bin/mok" "~/GITHUB/fis/fis.js"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/tyan/GITHUB/percol/percol/cli.py"
+  "cli.py"
+  'python-mode
+  '(global-auto-revert-mode subword-mode flycheck-mode smartparens-mode eyebrowse-mode company-mode hes-mode flx-ido-mode projectile-mode yas-minor-mode guide-key-mode elpy-mode eldoc-mode flymake-mode highlight-indentation-mode linum-mode my-keys-minor-mode)
+  9753
+  '(7955 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/tyan/GITHUB/searcher/searcher/view.py"
+  "view.py"
+  'python-mode
+  '(global-auto-revert-mode subword-mode flycheck-mode smartparens-mode eyebrowse-mode company-mode hes-mode flx-ido-mode projectile-mode yas-minor-mode guide-key-mode elpy-mode eldoc-mode flymake-mode highlight-indentation-mode linum-mode my-keys-minor-mode)
+  2782
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/tyan/GITHUB/searcher/searcher/controller.py"
+  "controller.py"
+  'python-mode
+  '(global-auto-revert-mode subword-mode flycheck-mode smartparens-mode eyebrowse-mode company-mode hes-mode flx-ido-mode projectile-mode yas-minor-mode guide-key-mode elpy-mode eldoc-mode flymake-mode highlight-indentation-mode linum-mode my-keys-minor-mode)
+  3236
+  '(2297 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/tyan/GITHUB/searcher/searcher/finder.py"
+  "finder.py"
+  'python-mode
+  '(global-auto-revert-mode subword-mode flycheck-mode smartparens-mode eyebrowse-mode company-mode hes-mode flx-ido-mode projectile-mode yas-minor-mode guide-key-mode elpy-mode eldoc-mode flymake-mode highlight-indentation-mode linum-mode my-keys-minor-mode)
+  5007
+  '(5237 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/tyan/GITHUB/searcher/searcher/search.py"
+  "search.py"
+  'python-mode
+  '(global-auto-revert-mode subword-mode flycheck-mode smartparens-mode eyebrowse-mode company-mode hes-mode flx-ido-mode projectile-mode yas-minor-mode guide-key-mode elpy-mode eldoc-mode flymake-mode highlight-indentation-mode linum-mode my-keys-minor-mode)
+  3380
+  '(3712 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/tyan/GITHUB/searcher/searcher/model.py"
+  "model.py"
+  'python-mode
+  '(global-auto-revert-mode subword-mode flycheck-mode smartparens-mode eyebrowse-mode company-mode hes-mode flx-ido-mode projectile-mode yas-minor-mode guide-key-mode elpy-mode eldoc-mode flymake-mode highlight-indentation-mode linum-mode my-keys-minor-mode)
+  1680
+  '(1680 t)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/tyan/GITHUB/searcher/searcher/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(global-auto-revert-mode subword-mode flycheck-mode smartparens-mode eyebrowse-mode company-mode hes-mode flx-ido-mode projectile-mode yas-minor-mode guide-key-mode elpy-mode eldoc-mode flymake-mode highlight-indentation-mode linum-mode my-keys-minor-mode)
+  327
+  '(328 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/tyan/GITHUB/percol/percol/view.py"
+  "view.py"
+  'python-mode
+  '(global-auto-revert-mode subword-mode flycheck-mode smartparens-mode eyebrowse-mode company-mode hes-mode flx-ido-mode projectile-mode yas-minor-mode guide-key-mode elpy-mode eldoc-mode flymake-mode highlight-indentation-mode linum-mode my-keys-minor-mode)
+  331
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/tyan/GITHUB/percol/percol/__init__.py"
+  "__init__.py"
+  'python-mode
+  '(global-auto-revert-mode subword-mode flycheck-mode smartparens-mode eyebrowse-mode company-mode hes-mode flx-ido-mode projectile-mode yas-minor-mode guide-key-mode elpy-mode eldoc-mode flymake-mode highlight-indentation-mode linum-mode my-keys-minor-mode)
+  7947
+  '(5211 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/tyan/GITHUB/percol/percol/model.py"
+  "model.py"
+  'python-mode
+  '(global-auto-revert-mode subword-mode flycheck-mode smartparens-mode eyebrowse-mode company-mode hes-mode flx-ido-mode projectile-mode yas-minor-mode guide-key-mode elpy-mode eldoc-mode flymake-mode highlight-indentation-mode linum-mode my-keys-minor-mode)
+  1182
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/tyan/.emacs.d/site-lisp/zone-matrix/zone-matrix.el"
+  "zone-matrix.el"
+  'emacs-lisp-mode
+  '(global-auto-revert-mode subword-mode flycheck-mode smartparens-mode eyebrowse-mode aggressive-indent-mode company-mode hes-mode flx-ido-mode projectile-mode yas-minor-mode paredit-mode guide-key-mode linum-mode my-keys-minor-mode hs-minor-mode)
+  16761
+  '(16761 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/tyan/GITHUB/the_silver_searcher/config.sub"
+  "config.sub"
+  'sh-mode
+  '(global-auto-revert-mode subword-mode flycheck-mode smartparens-mode eyebrowse-mode company-mode hes-mode flx-ido-mode projectile-mode yas-minor-mode guide-key-mode linum-mode my-keys-minor-mode)
+  5330
+  '(507 nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+

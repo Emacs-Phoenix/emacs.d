@@ -32,7 +32,7 @@
 (hungry-keyboard global-map)
 
 ;;linum-mode
-;;(global-linum-mode 1) ;;这他妈linum和sublime那个小窗不能共存
+(global-linum-mode 1) ;;这他妈linum和sublime那个小窗不能共存
 
 
 
