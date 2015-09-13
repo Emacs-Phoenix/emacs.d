@@ -27,7 +27,7 @@
 (require 'tabbar)
 (require 'sublimity)
 (require 'sublimity-scroll)
-;;(require 'sublimity-map)
+(require 'sublimity-map)
 (require 'sublimity-attractive)
 (require 'neotree)
 (require 'ztree)
@@ -57,6 +57,7 @@
 (require 'auto-highlight-symbol)
 (require 'highlight-escape-sequences)
 (require 'idomenu)
+(require 'company-jedi)
 (require 'markdown-mode+)
 (require 'symon)
 (require 'hungry-delete)
@@ -64,6 +65,8 @@
 (require 'coffee-mode)
 (require 'find-file-in-project)
 (require 'pangu-spacing) ;;小伙子，在英文旁边加空格
+(require 'desktop-recover)
+(require 'company-quickhelp)
 
 (require 'setup-aggressive)
 ;;setup
@@ -95,6 +98,7 @@
 (require 'setup-python)
 (require 'setup-term)
 (require 'setup-search)
+(require 'setup-desktop)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp

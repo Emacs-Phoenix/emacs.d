@@ -9,9 +9,5 @@
 (put 'upcase-region 'disabled nil)
 (put 'narrow-to-region 'disabled nil)
 
-(desktop-save-mode 1)
-
-(setq history-length 250)
-(add-to-list 'desktop-globals-to-save 'file-name-history)
 
 (provide 'behavior)

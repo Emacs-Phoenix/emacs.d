@@ -1,4 +1,7 @@
 auto-save-list
+emacs-desktop
+desktop-recover-tmp
+.emacs.desktop*
 game
 custom.el
 ac-comphist.dat
