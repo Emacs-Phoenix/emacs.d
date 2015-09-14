@@ -1,5 +1,5 @@
-# emacs.d
-You know!
+# Emacs-Phoenix
+![emacs](https://raw.githubusercontent.com/Emacs-Phoenix/emacs.d/master/icon/emacs.png)
 
 git clone --recursive git@github.com:Emacs-Phoenix/emacs.d.git .emacs.d
 
