@@ -328,3 +328,21 @@
 [submodule "site-lisp/company-quickhelp"]
 	path = site-lisp/company-quickhelp
 	url = git@github.com:expez/company-quickhelp.git
+[submodule "site-lisp/emacs-tss"]
+	path = site-lisp/emacs-tss
+	url = git@github.com:aki2o/emacs-tss.git
+[submodule "site-lisp/log4e"]
+	path = site-lisp/log4e
+	url = git@github.com:aki2o/log4e.git
+[submodule "site-lisp/yaxception"]
+	path = site-lisp/yaxception
+	url = git@github.com:aki2o/yaxception.git
+[submodule "site-lisp/typescript-tools"]
+	path = site-lisp/typescript-tools
+	url = git@github.com:clausreinke/typescript-tools.git
+[submodule "site-lisp/json-snatcher"]
+	path = site-lisp/json-snatcher
+	url = git@github.com:Sterlingg/json-snatcher.git
+[submodule "site-lisp/json-reformat"]
+	path = site-lisp/json-reformat
+	url = git@github.com:gongo/json-reformat.git

@@ -67,6 +67,8 @@
 (require 'pangu-spacing) ;;小伙子，在英文旁边加空格
 (require 'desktop-recover)
 (require 'company-quickhelp)
+(require 'typescript)
+(require 'tss)
 
 (require 'setup-aggressive)
 ;;setup
