@@ -23,7 +23,7 @@
 (require 'multi-term)
 (require 'eyebrowse)
 (require 'zone-matrix)
-(require 'zone-settings)
+;;(require 'zone-settings)
 (require 'tabbar)
 (require 'sublimity)
 (require 'sublimity-scroll)

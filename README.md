@@ -2,7 +2,7 @@
 ![emacs](https://raw.githubusercontent.com/Emacs-Phoenix/emacs.d/master/icon/emacs.png)
 
 ##setup
-######clone
+#####clone
 git clone --recursive git@github.com:Emacs-Phoenix/emacs.d.git .emacs.d
 
 #####plugin
@@ -10,7 +10,7 @@ git clone --recursive git@github.com:Emacs-Phoenix/emacs.d.git .emacs.d
 cd plugin/pymacs && make check && sudo make install
 
 #####npm 
-- npm install -g web-beatutify jshint tern
+- npm install -g js-beatutify jshint tern
 
 #####compile
 - cd site-lisp/helm && make
