@@ -346,3 +346,6 @@
 [submodule "site-lisp/json-reformat"]
 	path = site-lisp/json-reformat
 	url = git@github.com:gongo/json-reformat.git
+[submodule "site-lisp/yaml-mode"]
+	path = site-lisp/yaml-mode
+	url = git@github.com:yoshiki/yaml-mode.git
