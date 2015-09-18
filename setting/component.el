@@ -50,6 +50,7 @@
 (require 'line-num)
 (require 'tagedit)
 (require 'rainbow-mode)
+(require 'yaml-mode)
 ;;(require 'prodigy)
 (require 'simplezen)
 (require 'restclient)
