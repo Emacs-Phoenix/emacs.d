@@ -69,6 +69,7 @@
 (require 'company-quickhelp)
 (require 'typescript)
 (require 'tss)
+(require 'multiple-cursors)
 
 (require 'setup-aggressive)
 ;;setup
