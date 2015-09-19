@@ -73,6 +73,7 @@
 (require 'bm)
 (require 'vlf-setup)
 (require 'change-inner)
+(require 'multiple-cursors)
 
 (require 'setup-aggressive)
 ;;setup
