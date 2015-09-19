@@ -349,3 +349,12 @@
 [submodule "site-lisp/yaml-mode"]
 	path = site-lisp/yaml-mode
 	url = git@github.com:yoshiki/yaml-mode.git
+[submodule "site-lisp/bm"]
+	path = site-lisp/bm
+	url = git@github.com:joodland/bm.git
+[submodule "site-lisp/vlfi"]
+	path = site-lisp/vlfi
+	url = git@github.com:m00natic/vlfi.git
+[submodule "site-lisp/change-inner"]
+	path = site-lisp/change-inner
+	url = git@github.com:emacsmirror/change-inner.git

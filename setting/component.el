@@ -1,4 +1,3 @@
-;;(setq  )etting
 (require 'mode-mapping)
 (require 'appearance)
 (require 'behavior)
@@ -28,7 +27,7 @@
 (require 'sublimity)
 (require 'sublimity-scroll)
 (require 'sublimity-map)
-(require 'sublimity-attractive)
+;;(require 'sublimity-attractive)
 (require 'neotree)
 (require 'ztree)
 (require 'undo-tree)
@@ -70,6 +69,10 @@
 (require 'company-quickhelp)
 (require 'typescript)
 (require 'tss)
+(require 'setnu)
+(require 'bm)
+(require 'vlf-setup)
+(require 'change-inner)
 
 (require 'setup-aggressive)
 ;;setup
@@ -102,6 +105,7 @@
 (require 'setup-term)
 (require 'setup-search)
 (require 'setup-desktop)
+(require 'setup-file)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp

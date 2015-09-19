@@ -31,6 +31,7 @@
     ("M-N" . term-send-backward-kill-word)
     ("M-r" . term-send-reverse-search-history)
     ("M-," . term-send-input)
+    ("M-x" . smex)
     ("M-." . comint-dynamic-complete))
   "The key alist that will need to be bind.
 If you do not like default setup, modify it, with (KEY . COMMAND) format."
@@ -46,5 +47,8 @@ If you do not like default setup, modify it, with (KEY . COMMAND) format."
 (add-hook 'term-mode-hook
           (lambda ()
             (define-key term-raw-map (kbd "C-y") 'term-paste)))
+
+;;anble tab
+
 
 (provide 'setup-term)

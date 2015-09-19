@@ -64,4 +64,7 @@
 
 (add-hook 'auto-save-hook 'my-desktop-save)
 
+;;(plan)
+;;(add-hook 'desktop-after-read-hook 'plan)
+
 (provide 'setup-desktop)
