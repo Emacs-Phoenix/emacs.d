@@ -358,3 +358,6 @@
 [submodule "site-lisp/change-inner"]
 	path = site-lisp/change-inner
 	url = git@github.com:emacsmirror/change-inner.git
+[submodule "site-lisp/css-eldoc"]
+	path = site-lisp/css-eldoc
+	url = git@github.com:zenozeng/css-eldoc.git

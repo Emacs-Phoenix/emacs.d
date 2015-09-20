@@ -15,8 +15,8 @@
 (ido-vertical-mode 1)
 (setq ido-vertical-define-keys 'C-n-C-p-up-down-left-right)
 
-;;(setq ido-use-faces t)
-(setq ido-use-faces nil)
+(setq ido-use-faces t)
+;;(setq ido-use-faces nil)
 ;; (setq org-todo-keyword-faces
 ;;       '(
 ;;         ("INPR" . (:foreground "yellow" :weight bold))
