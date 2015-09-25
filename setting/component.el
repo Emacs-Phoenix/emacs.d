@@ -26,7 +26,7 @@
 (require 'tabbar)
 (require 'sublimity)
 (require 'sublimity-scroll)
-(require 'sublimity-map)
+;;(require 'sublimity-map)
 ;;(require 'sublimity-attractive)
 (require 'neotree)
 (require 'ztree)
@@ -76,8 +76,10 @@
 (require 'multiple-cursors)
 (require 'reveal-in-osx-finder)
 (require 'lacarte)
+(require 'ibuffer-vc)
+(require 'ibuffer-projectile)
 
-(require 'setup-aggressive)
+(require 'setup-aggressive) ;;进击的模式
 ;;setup
 (require 'setup-ido)
 (require 'setup-project)
@@ -109,6 +111,8 @@
 (require 'setup-search)
 (require 'setup-desktop)
 (require 'setup-file)
+(require 'setup-tabbar)
+(require 'setup-ibuffer)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp
