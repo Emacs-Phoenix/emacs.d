@@ -367,3 +367,6 @@
 [submodule "site-lisp/ibuffer-vc"]
 	path = site-lisp/ibuffer-vc
 	url = git@github.com:purcell/ibuffer-vc.git
+[submodule "site-lisp/less-css-mode"]
+	path = site-lisp/less-css-mode
+	url = git@github.com:purcell/less-css-mode.git

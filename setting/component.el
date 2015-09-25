@@ -20,9 +20,9 @@
 (require 'goto-last-change)
 (require 'shell-pop)
 (require 'multi-term)
-(require 'eyebrowse)
+(require 'eyebrowse) ;;小眼睛模式
 (require 'zone-matrix)
-;;(require 'zone-settings)
+;;(require 'zone-settings) ;;酷炫，但是很烧cpu
 (require 'tabbar)
 (require 'sublimity)
 (require 'sublimity-scroll)
@@ -78,6 +78,7 @@
 (require 'lacarte)
 (require 'ibuffer-vc)
 (require 'ibuffer-projectile)
+(require 'less-css-mode)
 
 (require 'setup-aggressive) ;;进击的模式
 ;;setup
