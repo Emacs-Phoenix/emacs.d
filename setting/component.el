@@ -66,14 +66,15 @@
 (require 'find-file-in-project)
 (require 'pangu-spacing) ;;小伙子，在英文旁边加空格
 (require 'desktop-recover)
-(require 'company-quickhelp)
-(require 'typescript)
-(require 'tss)
-(require 'setnu)
-(require 'bm)
-(require 'vlf-setup)
-(require 'change-inner)
-(require 'multiple-cursors)
+;; (require 'company-quickhelp)
+;; (require 'typescript)
+;; (require 'tss)
+;; (require 'setnu)
+;; (require 'bm)
+;; (require 'vlf-setup)
+;; (require 'change-inner)
+;; (require 'multiple-cursors)
+(require 'reveal-in-osx-finder)
 
 (require 'setup-aggressive)
 ;;setup
