@@ -8,13 +8,13 @@
   'interactive)
 
 
-;; (dolist (hook (list 'emacs-lisp-mode-hook
-;;                     'c++-mode-hook
-;;                     'js2-mode-hook
-;;                     'html-mode-hook
-;;                     'css-mode-hook
-;;                     'python-mode-hook))
-;;   (add-hook hook 'hideshowvis-enable))
+(dolist (hook (list 'emacs-lisp-mode-hook
+                    'c++-mode-hook
+                    'js2-mode-hook
+                    'html-mode-hook
+                    'css-mode-hook
+                    'python-mode-hook))
+  (add-hook hook 'hideshowvis-enable))
 
 (hideshowvis-symbols)
 

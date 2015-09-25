@@ -41,4 +41,16 @@
                      (overlay-get company-pseudo-tooltip-overlay 'company-width))
                   nil )))
 
+(define-key company-active-map (kbd "\C-n") 'company-select-next)
+(define-key company-active-map (kbd "\C-p") 'company-select-previous)
+(define-key company-active-map (kbd "\C-d") 'company-show-doc-buffer)
+(define-key company-active-map (kbd "<tab>") 'company-complete)
+
+(define-key company-active-map (kbd "<return>") nil)
+
+(with-eval-after-load 'company
+  (define-key company-active-map (kbd "<return>") nil)
+  (define-key company-active-map (kbd ".") nil)
+  (define-key company-active-map (kbd "RET") nil))
+
 (provide 'setup-company)
