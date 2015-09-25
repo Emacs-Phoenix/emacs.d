@@ -62,7 +62,8 @@
   (define-key ido-file-completion-map (kbd "C-c C-w") 'ido-copy-current-file-name)
 
   (define-key ido-file-dir-completion-map (kbd "C-w") 'ido-delete-backward-updir)
-  (define-key ido-file-dir-completion-map (kbd "C-c C-w") 'ido-copy-current-file-name))
+  (define-key ido-file-dir-completion-map (kbd "C-c C-w") 'ido-copy-current-file-name)
+  )
 
 (add-hook 'ido-setup-hook 'ehack-ido)
 

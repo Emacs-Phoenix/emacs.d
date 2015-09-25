@@ -61,7 +61,6 @@
       (desktop-save desktop-dirname)))
 
 
-
 (add-hook 'auto-save-hook 'my-desktop-save)
 
 ;;(plan)
