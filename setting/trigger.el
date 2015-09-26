@@ -56,4 +56,7 @@
 ;; (custom-set-variables
 ;;  '(vlf-application 'dont-ask))
 
+;;undolist
+(undohist-initialize)
+
 (provide 'trigger)

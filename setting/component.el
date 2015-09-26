@@ -69,7 +69,7 @@
 (require 'company-quickhelp)
 (require 'typescript)
 (require 'tss) 
-;;(require 'setnu)
+;;(require 'setnu) ;;buggly
 (require 'bm)
 (require 'vlf-setup)
 (require 'change-inner)
@@ -79,6 +79,8 @@
 (require 'ibuffer-vc)
 (require 'ibuffer-projectile)
 (require 'less-css-mode)
+(require 'helm-backup)
+(require 'undohist)
 
 (require 'setup-aggressive) ;;进击的模式
 ;;setup
@@ -114,6 +116,7 @@
 (require 'setup-file)
 (require 'setup-tabbar)
 (require 'setup-ibuffer)
+(require 'setup-backup)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp

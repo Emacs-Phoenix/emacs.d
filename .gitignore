@@ -5,12 +5,16 @@ desktop-recover-tmp
 .emacs.desktop*
 game
 custom.el
+undohist
+tramp-backups
 ac-comphist.dat
 tags
 history
 auto-complete/*
 projectile-bookmarks.eld
 *.swp
+.cache
+.undo
 ido.last
 eshell
 game
