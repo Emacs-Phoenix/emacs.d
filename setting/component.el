@@ -81,6 +81,9 @@
 (require 'less-css-mode)
 (require 'helm-backup)
 (require 'undohist)
+(require 'etxt)
+;;(require 'ed) ;;只使用高亮功能，不知道咋用
+(require 'ranger)
 
 (require 'setup-aggressive) ;;进击的模式
 ;;setup
@@ -117,6 +120,8 @@
 (require 'setup-tabbar)
 (require 'setup-ibuffer)
 (require 'setup-backup)
+(require 'setup-tool)
+(require 'setup-spell)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp

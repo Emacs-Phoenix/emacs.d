@@ -379,9 +379,9 @@
 [submodule "site-lisp/backups-mode"]
 	path = site-lisp/backups-mode
 	url = git@github.com:chadbraunduin/backups-mode.git
-[submodule "undohist-el"]
-	path = undohist-el
-	url = git@github.com:m2ym/undohist-el.git
 [submodule "site-lisp/undohist-el"]
 	path = site-lisp/undohist-el
 	url = git@github.com:m2ym/undohist-el.git
+[submodule "site-lisp/ranger.el"]
+	path = site-lisp/ranger.el
+	url = git@github.com:ralesi/ranger.el.git
