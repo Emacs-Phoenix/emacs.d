@@ -59,19 +59,19 @@
 (require 'idomenu)
 (require 'company-jedi)
 (require 'markdown-mode+)
-(require 'symon)
+(require 'symon)  ;;tiny graphical system monitor
 (require 'hungry-delete)
 (require 'visual-regexp)
 (require 'coffee-mode)
 (require 'find-file-in-project) 
 (require 'pangu-spacing) ;;小伙子，在英文旁边加空格
-(require 'desktop-recover)
+(require 'desktop-recover) 
 (require 'company-quickhelp)
-(require 'typescript)
-(require 'tss) 
+(require 'typescript) 
+(require 'tss) ;;line number
 ;;(require 'setnu) ;;buggly
-(require 'bm)
-(require 'vlf-setup)
+(require 'bm) ;;bookmark (conum mark)
+(require 'vlf-setup) ;;big file only read
 (require 'change-inner)
 (require 'multiple-cursors)
 (require 'reveal-in-osx-finder)
@@ -85,7 +85,10 @@
 ;;(require 'ed) ;;只使用高亮功能，不知道咋用
 (require 'ranger)
 
-(require 'setup-aggressive) ;;进击的模式
+(require 'setup-aggressive-indent) ;;进击的模式 auto indent
+
+
+
 ;;setup
 (require 'setup-ido)
 (require 'setup-project)

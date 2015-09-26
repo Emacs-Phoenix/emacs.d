@@ -9,9 +9,14 @@
                                 (insert-file-contents "~/.emacs.d/misc/doge.ascii")
                                 (buffer-string)))
 
+;;初始化透明度
 (set-frame-parameter (selected-frame) 'alpha '(85 85))
 
+;;操作不阻塞显示
+(setq redisplay-dont-pause t)
 
+
+;;高亮当前行
 (global-hl-line-mode 1)
 
 (setq custom-theme-directory (concat user-emacs-directory "themes"))
@@ -30,6 +35,8 @@
 
 (rename-modeline "js2-mode" js2-mode "JS2")
 (rename-modeline "clojure-mode" clojure-mode "Clj")
+;;????为毛remap到第一个
+;;(rename-modeline "Paredit" paredit-mode "( ˘ ³˘)❤")
 
 (provide 'appearance)
 

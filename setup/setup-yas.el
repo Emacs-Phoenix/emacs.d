@@ -90,8 +90,9 @@
       (yas-abort-snippet)
     (company-abort)))
 
-(global-set-key [tab] 'tab-indent-or-complete)
-(global-set-key (kbd "TAB") 'tab-indent-or-complete)
+;;绑定这个在term下tab键会失效，容我想想办法
+;;(global-set-key [tab] 'tab-indent-or-complete)
+;;(global-set-key (kbd "TAB") 'tab-indent-or-complete)
 (global-set-key [(control return)] 'company-complete-common)
 
 (define-key company-active-map [tab] 'expand-snippet-or-complete-selection)

@@ -48,7 +48,19 @@ If you do not like default setup, modify it, with (KEY . COMMAND) format."
           (lambda ()
             (define-key term-raw-map (kbd "C-y") 'term-paste)))
 
+
+;; (add-hook 'ansi-term-mode-hook
+;;           (lambda ()
+;;             (define-key term-raw-map (kbd "C-y") 'term-paste)
+;;             (define-key term-raw-map [tab] nil)
+;;             (define-key term-raw-map (kbd "TAB") nil)
+;;             ))
+
+
 ;;anble tab
+;;(define-key term-mode-map (read-kbd-macro open) (λ (js2r--self-insert-wrapping open close)))
+;;(define-key term-map (kbd "TAB") 'nil)
+
 
 
 (provide 'setup-term)
