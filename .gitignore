@@ -5,8 +5,9 @@ desktop-recover-tmp
 .emacs.desktop*
 game
 custom.el
-undohis
+undohist
 .mc-lists.el
+undohist
 tramp-backups
 ac-comphist.dat
 tags
