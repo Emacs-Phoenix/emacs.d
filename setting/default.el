@@ -162,6 +162,9 @@
 (setenv "PATH" (concat (getenv "PATH") ":/bin"))
 (setq exec-path (append exec-path '("/bin")))
 
+;;只运行一个frame
+(setq ns-pop-up-frames nil)
+
 
 (provide 'default)
 

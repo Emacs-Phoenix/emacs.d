@@ -133,6 +133,7 @@
 (require 'js2-extra)
 (require 'html-extra)
 (require 'edit-sword)
+(require 'emacs-uglify)
 
 (require 'trigger)
 (require 'keybinding)

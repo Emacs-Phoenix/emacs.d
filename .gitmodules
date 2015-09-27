@@ -370,9 +370,6 @@
 [submodule "site-lisp/less-css-mode"]
 	path = site-lisp/less-css-mode
 	url = git@github.com:purcell/less-css-mode.git
-[submodule "site-lisp/js-uglify"]
-	path = site-lisp/js-uglify
-	url = git@github.com:Emacs-Phoenix/js-uglify.git
 [submodule "site-lisp/helm-backup"]
 	path = site-lisp/helm-backup
 	url = git@github.com:antham/helm-backup.git
@@ -385,3 +382,6 @@
 [submodule "site-lisp/ranger.el"]
 	path = site-lisp/ranger.el
 	url = git@github.com:ralesi/ranger.el.git
+[submodule "site-lisp/emacs-uglify"]
+	path = site-lisp/emacs-uglify
+	url = git@github.com:Emacs-Phoenix/emacs-uglify.git
