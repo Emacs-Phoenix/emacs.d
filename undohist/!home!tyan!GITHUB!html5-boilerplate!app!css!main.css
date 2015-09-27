@@ -1,0 +1,282 @@
+
+((digest . "d0e15e51ae21d196a85ad89d9c5b57aa") (undo-list nil (404 . 473) ("html{color:#222;font-size:1em;line-height:1.4}
+" . 404) nil (404 . 451) ("
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+" . -404) ((marker) . -6) ((marker) . -7) ((marker* . 473) . 68) ((marker* . 473) . 61) ((marker* . 473) . 44) ((marker . 404) . -6) ((marker* . 473) . 44) ((marker . 404) . -6) ((marker* . 473) . 44) ((marker . 404) . -6) ((marker* . 473) . 44) ((marker . 404) . -6) ((marker) . -69) ((marker . 404) . -69) ((marker) . -69) nil ("       " . -3944) ((marker . 3944) . -7) ((marker . 3944) . -7) ("       " . -3916) ((marker . 3916) . -7) ((marker . 3916) . -7) 412 nil (1 . 5533) ("html{color:#222;font-size:1em;line-height:1.4}::selection{background:#b3d4fc;text-shadow:none}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}audio,canvas,iframe,img,svg,video{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.browserupgrade{margin:.2em 0;background:#ccc;color:#000;padding:.2em 0}.hidden{display:none !important}.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.invisible{visibility:hidden}.clearfix:before,.clearfix:after{content:\" \";display:table}.clearfix:after{clear:both}@media print{*,*:before,*:after{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a,a:visited{text-decoration:underline}a[href]:after{content:\" (\" attr(href) \")\"}abbr[title]:after{content:\" (\" attr(title) \")\"}a[href^=\"#\"]:after,a[href^=\"javascript:\"]:after{content:\"\"}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}
+" . 1) ((marker . 1) . -4) ((marker . 1) . -5) ((marker . 1) . -57) ((marker . 1) . -58) ((marker . 1) . -96) ((marker . 1) . -97) ((marker . 1) . -213) ((marker . 1) . -214) ((marker . 1) . -244) ((marker . 1) . -245) ((marker . 1) . -281) ((marker . 1) . -282) ((marker . 1) . -313) ((marker . 1) . -314) ((marker . 1) . -377) ((marker . 1) . -378) ((marker . 1) . -417) ((marker . 1) . -418) ((marker . 1) . -436) ((marker . 1) . -437) ((marker . 1) . -587) ((marker . 1) . -588) ((marker . 1) . -673) ((marker . 1) . -674) ((marker . 1) . -724) ((marker . 1) . -725) ((marker . 1) . -766) ((marker . 1) . -767) ((marker . 1) . -790) ((marker . 1) . -791) ((marker . 1) . -809) ((marker . 1) . -810) ((marker . 1) . -932) ((marker . 1) . -933) ((marker . 1) . -960) ((marker . 1) . -961) ((marker . 1) . -972) ((marker . 1) . -973) ((marker . 1) . -983) ((marker . 1) . -984) ((marker . 1) . -990) ((marker . 1) . -991) ((marker . 1) . -1005) ((marker . 1) . -1006) ((marker . 1) . -1018) ((marker . 1) . -1019) ((marker . 1) . -1029) ((marker . 1) . -1030) ((marker . 1) . -1036) ((marker . 1) . -1037) ((marker . 1) . -1049) ((marker . 1) . -1050) ((marker . 1) . -1068) ((marker . 1) . -1069) ((marker . 1) . -1095) ((marker . 1) . -1096) ((marker . 1) . -1121) ((marker . 1) . -1122) ((marker . 1) . -1173) ((marker . 1) . -1174) ((marker . 1) . -1207) ((marker . 1) . -1208) ((marker . 1) . -1235) ((marker . 1) . -1236) ((marker . 1) . -1269) ((marker . 1) . -1270) ((marker . 1) . -1294) ((marker . 1) . -1295) (t 22023 54355 427383 251000) nil (1 . 1321) ("/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: \" \"; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: \" (\" attr(href) \")\";
+    }
+
+    abbr[title]:after {
+        content: \" (\" attr(title) \")\";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^=\"#\"]:after,
+    a[href^=\"javascript:\"]:after {
+        content: \"\";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+" . 1) ((marker) . -409) ((marker) . -410) ((marker) . -700) ((marker) . -701) ((marker) . -808) ((marker) . -809) ((marker) . -1139) ((marker) . -1140) ((marker) . -1224) ((marker) . -1225) ((marker) . -1338) ((marker) . -1339) ((marker) . -1567) ((marker) . -1568) ((marker) . -2092) ((marker) . -2093) ((marker) . -2290) ((marker) . -2291) ((marker . 2322) . -2321) ((marker . 2323) . -2322) ((marker) . -2673) ((marker) . -2674) ((marker) . -2870) ((marker) . -2871) ((marker) . -3389) ((marker) . -3390) ((marker) . -3464) ((marker) . -3465) ((marker . 3652) . -3651) ((marker . 3653) . -3652) ((marker . 3813) . -3812) ((marker . 3814) . -3813) ((marker) . -3830) ((marker) . -3831) ((marker . 3916) . -3922) ((marker . 3917) . -3923) ((marker . 3944) . -3957) ((marker . 3945) . -3958) ((marker) . -3982) ((marker) . -3983) ((marker) . -4337) ((marker) . -4338) ((marker) . -4372) ((marker) . -4373) ((marker) . -4652) ((marker) . -4653) ((marker . 4689) . -4702) ((marker . 4690) . -4703) ((marker) . -4715) ((marker) . -4716) ((marker . 4723) . -4736) ((marker . 4724) . -4737) ((marker . 4730) . -4743) ((marker . 4731) . -4744) ((marker . 4757) . -4770) ((marker . 4758) . -4771) ((marker) . -4784) ((marker) . -4785) ((marker . 4792) . -4805) ((marker . 4793) . -4806) ((marker . 4799) . -4812) ((marker . 4800) . -4813) ((marker . 4943) . -4956) ((marker . 4944) . -4957) ((marker . 4967) . -4980) ((marker . 4968) . -4981) ((marker) . -5008) ((marker) . -5009) ((marker) . -5062) ((marker) . -5063) ((marker) . -5246) ((marker) . -5247) ((marker) . -5308) ((marker) . -5309) ((marker) . -5359) ((marker) . -5360) ((marker) . -5426) ((marker) . -5427) ((marker) . -5489) ((marker) . -5490) ((marker . 77) . -76) ((marker* . 77) . 5456) ((marker . 404) . -76) ((marker) . -76) (t 21935 45949 282667 312000)))

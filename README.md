@@ -9,6 +9,10 @@ git clone --recursive git@github.com:Emacs-Phoenix/emacs.d.git .emacs.d
 - pyemacs
 cd plugin/pymacs && make check && sudo make install
 
+- slime
+`cd lisp-site/slime`
+`make`
+
 #####npm 
 - npm install -g js-beatutify jshint tern
 

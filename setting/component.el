@@ -84,6 +84,11 @@
 (require 'etxt)
 ;;(require 'ed) ;;只使用高亮功能，不知道咋用
 (require 'ranger)
+(require 'helm-ag)
+(require 'helm-ack)
+(require 'popup-kill-ring)
+(require 'which-key)
+
 
 (require 'setup-aggressive-indent) ;;进击的模式 auto indent
 
@@ -134,10 +139,11 @@
 (require 'html-extra)
 (require 'edit-sword)
 (require 'emacs-uglify)
+;;(require 'emacs-boilerplate)
 
-(require 'trigger)
-(require 'keybinding)
+ (require 'trigger)
+ (require 'keybinding)
 
-(require 'setup-mykeybinding)
+ (require 'setup-mykeybinding)
 
-(provide 'component)
+ (provide 'component)
