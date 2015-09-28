@@ -33,6 +33,7 @@
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+(global-set-key (kbd "C-c C-.") 'mc/mark-all-like-this)
 (global-set-key (kbd "C-s-<mouse-1>") 'mc/add-cursor-on-click)
 
 
@@ -44,7 +45,7 @@
 (define-key key-translation-map [?\C-h] [?\C-?])
 (global-set-key (kbd "<f1>") 'help-command)
 
-(global-set-key (kbd "C-'") 'er/expand-region)
+(global-set-key (kbd "C-=") 'er/expand-region)
 
 (global-set-key (kbd "C-s-k") 'kill-and-retry-line)
 (global-set-key (kbd "C-w") 'kill-region-or-backward-word)
@@ -123,6 +124,7 @@
 (global-set-key (kbd "M-w") 'save-region-or-current-line)
 
 (global-set-key (kbd "C-c z") 'goto-last-change)
+(global-set-key (kbd "C-z") 'goto-last-change)
 
 
 ;;A regexp/replace command for Emacs with interactive visual feedback
@@ -133,6 +135,10 @@
 (define-key global-map (kbd "C-M-i") 'indent-code-rigidly)
 
 (define-key global-map (kbd "C-o") 'vi-open-line-below)
+(define-key global-map (kbd "C-O") 'vi-open-line-above)
+(define-key global-map (kbd "C-S-O") 'vi-open-line-above)
+(define-key global-map [(meta shift ?o)] 'vi-open-line-above)
 
+(global-set-key "\M-y" 'popup-kill-ring)
 
 (provide 'keybinding)

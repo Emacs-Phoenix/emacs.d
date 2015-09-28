@@ -7,7 +7,7 @@
 
 (global-undo-tree-mode 1)
 
-(global-highlight-changes-mode 1)
+;;(global-highlight-changes-mode 1)
 
 ;;(helm-mode 1)
 
@@ -55,5 +55,17 @@
 ;;View Large Files in Emacs
 ;; (custom-set-variables
 ;;  '(vlf-application 'dont-ask))
+
+;;undolist
+(undohist-initialize)
+
+;;which key
+;;Emacs package that displays available keybindings in popup
+;;https://github.com/justbur/emacs-which-key
+(which-key-mode)
+(which-key-setup-minibuffer)
+
+
+(setq popup-kill-ring-interactive-insert t)
 
 (provide 'trigger)

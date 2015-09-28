@@ -73,7 +73,10 @@
 (global-subword-mode 1)
 
 ;; Don't break lines for me, please
-(setq-default truncate-lines t)
+;;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+;; 是否断行显示(open it will break)
+;;(setq-default truncate-lines t)
 
 ;; Keep cursor away from edges when scrolling up/down
 ;;(require 'smooth-scrolling)
@@ -158,6 +161,9 @@
 
 (setenv "PATH" (concat (getenv "PATH") ":/bin"))
 (setq exec-path (append exec-path '("/bin")))
+
+;;只运行一个frame
+(setq ns-pop-up-frames nil)
 
 
 (provide 'default)

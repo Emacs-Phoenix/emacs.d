@@ -34,9 +34,6 @@
 [submodule "site-lisp/projectile"]
 	path = site-lisp/projectile
 	url = git@github.com:bbatsov/projectile.git
-[submodule "site-lisp/ggtags"]
-	path = site-lisp/ggtags
-	url = git@github.com:leoliu/ggtags.git
 [submodule "plugins/global-pygments-plugin"]
 	path = plugins/global-pygments-plugin
 	url = git@github.com:yoshizow/global-pygments-plugin.git
@@ -364,3 +361,45 @@
 [submodule "site-lisp/reveal-in-osx-finder"]
 	path = site-lisp/reveal-in-osx-finder
 	url = git@github.com:kaz-yos/reveal-in-osx-finder.git
+[submodule "site-lisp/ibuffer-projectile"]
+	path = site-lisp/ibuffer-projectile
+	url = git@github.com:purcell/ibuffer-projectile.git
+[submodule "site-lisp/ibuffer-vc"]
+	path = site-lisp/ibuffer-vc
+	url = git@github.com:purcell/ibuffer-vc.git
+[submodule "site-lisp/less-css-mode"]
+	path = site-lisp/less-css-mode
+	url = git@github.com:purcell/less-css-mode.git
+[submodule "site-lisp/helm-backup"]
+	path = site-lisp/helm-backup
+	url = git@github.com:antham/helm-backup.git
+[submodule "site-lisp/backups-mode"]
+	path = site-lisp/backups-mode
+	url = git@github.com:chadbraunduin/backups-mode.git
+[submodule "site-lisp/undohist-el"]
+	path = site-lisp/undohist-el
+	url = git@github.com:m2ym/undohist-el.git
+[submodule "site-lisp/ranger.el"]
+	path = site-lisp/ranger.el
+	url = git@github.com:ralesi/ranger.el.git
+[submodule "site-lisp/emacs-uglify"]
+	path = site-lisp/emacs-uglify
+	url = git@github.com:Emacs-Phoenix/emacs-uglify.git
+[submodule "site-lisp/emacs-boilerplate"]
+	path = site-lisp/emacs-boilerplate
+	url = git@github.com:Emacs-Phoenix/emacs-boilerplate.git
+[submodule "site-lisp/slime"]
+	path = site-lisp/slime
+	url = git@github.com:slime/slime.git
+[submodule "site-lisp/popup-kill-ring"]
+	path = site-lisp/popup-kill-ring
+	url = git@github.com:waymondo/popup-kill-ring.git
+[submodule "site-lisp/emacs-helm-ag"]
+	path = site-lisp/emacs-helm-ag
+	url = git@github.com:syohex/emacs-helm-ag.git
+[submodule "site-lisp/emacs-which-key"]
+	path = site-lisp/emacs-which-key
+	url = git@github.com:justbur/emacs-which-key.git
+[submodule "boilerplate"]
+	path = boilerplate
+	url = git@github.com:Emacs-Phoenix/boilerplate.git
