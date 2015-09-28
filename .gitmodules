@@ -361,3 +361,6 @@
 [submodule "site-lisp/css-eldoc"]
 	path = site-lisp/css-eldoc
 	url = git@github.com:zenozeng/css-eldoc.git
+[submodule "site-lisp/reveal-in-osx-finder"]
+	path = site-lisp/reveal-in-osx-finder
+	url = git@github.com:kaz-yos/reveal-in-osx-finder.git
