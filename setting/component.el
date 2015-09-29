@@ -20,7 +20,7 @@
 (require 'goto-last-change)
 (require 'shell-pop)
 (require 'multi-term)
-(require 'eyebrowse) ;;小眼睛模式
+;;(require 'eyebrowse) ;;小眼睛模式
 (require 'zone-matrix)
 ;;(require 'zone-settings) ;;酷炫，但是很烧cpu
 (require 'tabbar)
@@ -130,6 +130,7 @@
 (require 'setup-backup)
 (require 'setup-tool)
 (require 'setup-spell)
+(require 'setup-paredit)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp

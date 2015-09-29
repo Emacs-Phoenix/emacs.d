@@ -1,4 +1,4 @@
-(eyebrowse-mode t)
+;;(eyebrowse-mode t)
 
 (sublimity-mode 1)
 ;;(setq sublimity-scroll-weight 6

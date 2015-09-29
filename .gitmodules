@@ -400,3 +400,6 @@
 [submodule "boilerplate"]
 	path = boilerplate
 	url = git@github.com:Emacs-Phoenix/boilerplate.git
+[submodule "site-lisp/paredit-everywhere"]
+	path = site-lisp/paredit-everywhere
+	url = git@github.com:purcell/paredit-everywhere.git

@@ -28,9 +28,12 @@
 
 ;;========
 ;;mouse click
-(defun xah-ibuffer-keys ()
-  "Modify keymaps used by `ibuffer'."
-  (local-set-key (kbd "<down-mouse-1>") 'ibuffer-visit-buffer-other-window))
+;; (defun xah-ibuffer-keys ()
+;;   "Modify keymaps used by `ibuffer'."
+;;   (local-set-key (kbd "<down-mouse-1>") (lambda ()
+;;                                           (ibuffer-mode)
+;;                                           (ibuffer-visit-buffer))))
+
 
 ;;TODO: readme
 ;; ||||

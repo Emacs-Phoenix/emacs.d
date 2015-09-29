@@ -57,8 +57,8 @@
 (global-set-key (kbd "C-c C-<left>")  'windmove-left)
 (global-set-key (kbd "C-c <right>") 'windmove-right)
 (global-set-key (kbd "C-c C-<right>") 'windmove-right)
-(global-set-key (kbd "C-c <up>")    'windmove-up)
-(global-set-key (kbd "C-c <down>")  'windmove-down)
+(global-set-key (kbd "C-c C-<up>")    'windmove-up)
+(global-set-key (kbd "C-c C-<down>")  'windmove-down)
 
 (global-set-key (kbd "M-i") 'helm-swoop)
 (global-set-key (kbd "M-I") 'helm-swoop-back-to-last-point)
@@ -140,5 +140,6 @@
 (define-key global-map [(meta shift ?o)] 'vi-open-line-above)
 
 (global-set-key "\M-y" 'popup-kill-ring)
+
 
 (provide 'keybinding)
