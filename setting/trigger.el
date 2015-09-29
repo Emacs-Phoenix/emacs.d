@@ -68,4 +68,5 @@
 
 (setq popup-kill-ring-interactive-insert t)
 
+
 (provide 'trigger)
