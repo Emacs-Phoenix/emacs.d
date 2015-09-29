@@ -89,7 +89,6 @@
 (require 'popup-kill-ring)
 (require 'which-key)
 
-
 (require 'setup-aggressive-indent) ;;进击的模式 auto indent
 
 
@@ -130,6 +129,7 @@
 (require 'setup-backup)
 (require 'setup-tool)
 (require 'setup-spell)
+(require 'setup-emms)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp

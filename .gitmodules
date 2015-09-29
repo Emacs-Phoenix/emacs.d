@@ -403,3 +403,6 @@
 [submodule "boilerplate"]
 	path = boilerplate
 	url = git@github.com:Emacs-Phoenix/boilerplate.git
+[submodule "site-lisp/emms"]
+	path = site-lisp/emms
+	url = git://git.sv.gnu.org/emms.git

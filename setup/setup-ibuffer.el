@@ -30,7 +30,10 @@
 ;;mouse click
 (defun xah-ibuffer-keys ()
   "Modify keymaps used by `ibuffer'."
-  (local-set-key (kbd "<down-mouse-1>") 'ibuffer-visit-buffer-other-window))
+  (local-set-key (kbd "<down-mouse-1>") (lambda ()
+                                          (progn
+                                            (mouse-set-point)
+                                            (ibuffer-visit-buffer-other-winXdow)))))
 
 ;;TODO: readme
 ;; ||||
