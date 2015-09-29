@@ -1,6 +1,6 @@
 (require 'mode-mapping)
 (require 'appearance)
-(require 'behavior)
+
 (require 'default)
 
 
@@ -23,7 +23,7 @@
 ;;(require 'eyebrowse) ;;小眼睛模式
 (require 'zone-matrix)
 ;;(require 'zone-settings) ;;酷炫，但是很烧cpu
-(require 'tabbar)
+;;(require 'tabbar) ;;not necessary, ibuffer is enough
 (require 'sublimity)
 (require 'sublimity-scroll)
 ;;(require 'sublimity-map)
@@ -131,6 +131,8 @@
 (require 'setup-spell)
 (require 'setup-paredit)
 (require 'setup-emms)
+(require 'setup-misc)
+(require 'setup-erc)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp
@@ -142,9 +144,10 @@
 (require 'emacs-uglify)
 ;;(require 'emacs-boilerplate)
 
- (require 'trigger)
- (require 'keybinding)
+(require 'trigger)
+(require 'keybinding)
 
- (require 'setup-mykeybinding)
+(require 'setup-mykeybinding)
 
- (provide 'component)
+(require 'behavior)
+(provide 'component)

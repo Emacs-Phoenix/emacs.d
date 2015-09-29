@@ -1,0 +1,3 @@
+;;; .emms-cache -*- mode: emacs-lisp; coding: utf-8; -*-
+(puthash "/home/tyan/音乐/张心杰 & 陈乐基-光辉岁月(Live).mp3" '(*track* (type . file) (name . "/home/tyan/音乐/张心杰 & 陈乐基-光辉岁月(Live).mp3") (metadata) (info-mtime 21792 55751 917043 584000)) emms-cache-db)
+(puthash "/home/tyan/音乐/陈乐基月半小夜曲 (Live).mp3" '(*track* (type . file) (name . "/home/tyan/音乐/陈乐基月半小夜曲 (Live).mp3") (metadata) (info-mtime 21792 55750 869043 630000)) emms-cache-db)
