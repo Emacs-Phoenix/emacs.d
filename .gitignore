@@ -6,6 +6,8 @@ desktop-recover-tmp
 game
 custom.el
 undohist
+emms
+elfeed.org
 .mc-lists.el
 undohist
 tramp-backups

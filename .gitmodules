@@ -409,3 +409,12 @@
 [submodule "site-lisp/emms"]
 	path = site-lisp/emms
 	url = git://git.sv.gnu.org/emms.git
+[submodule "site-lisp/elfeed"]
+	path = site-lisp/elfeed
+	url = git@github.com:skeeto/elfeed.git
+[submodule "site-lisp/nginx-mode"]
+	path = site-lisp/nginx-mode
+	url = git@github.com:ajc/nginx-mode.git
+[submodule "site-lisp/elfeed-org"]
+	path = site-lisp/elfeed-org
+	url = git@github.com:remyhonig/elfeed-org.git

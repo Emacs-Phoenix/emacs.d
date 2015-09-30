@@ -141,5 +141,6 @@
 
 (global-set-key "\M-y" 'popup-kill-ring)
 
+(global-set-key (kbd "C-x w") 'elfeed)
 
 (provide 'keybinding)

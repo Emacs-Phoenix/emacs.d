@@ -44,9 +44,15 @@ If you do not like default setup, modify it, with (KEY . COMMAND) format."
             (add-to-list 'term-bind-key-alist '("M-[" . multi-term-prev))
             (add-to-list 'term-bind-key-alist '("M-]" . multi-term-next))))
 
+;;You may want to simply switch between character mode and line mode while using the terminal. C-x C-j will activate term-line-mode, which treats the terminal buffer more like a normal text-buffer in which you can move the cursor and yank text. You can switch back to character mode with C-c C-k.
+
 (add-hook 'term-mode-hook
           (lambda ()
             (define-key term-raw-map (kbd "C-y") 'term-paste)))
+
+(add-hook 'term-mode-hook
+          (lambda ()
+            (define-key term-raw-map (kbd "M-w") 'term-copy)))
 
 
 ;; (add-hook 'ansi-term-mode-hook

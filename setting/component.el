@@ -88,6 +88,7 @@
 (require 'helm-ack)
 (require 'popup-kill-ring)
 (require 'which-key)
+(require 'nginx-mode)
 
 (require 'setup-aggressive-indent) ;;进击的模式 auto indent
 
@@ -133,6 +134,7 @@
 (require 'setup-emms)
 (require 'setup-misc)
 (require 'setup-erc)
+(require 'setup-rss)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp
