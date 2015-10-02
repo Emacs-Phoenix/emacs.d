@@ -2,6 +2,15 @@
 ![emacs](https://raw.githubusercontent.com/Emacs-Phoenix/emacs.d/master/icon/emacs.png)
 
 ##setup
+
+#####build emacs (recommanded)
+- ubuntu
+`sudo aptitude install build-essential libxpm-dev libgif-dev libtiff-dev libjpeg-dev libgtk2.0-dev libdbus-1-dev texinfo`
+`./configure --with-x-toolkit --with-xft`
+`make bootstrap`
+or 'make all'
+
+
 #####clone
 git clone --recursive git@github.com:Emacs-Phoenix/emacs.d.git .emacs.d
 

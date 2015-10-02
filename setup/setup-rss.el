@@ -3,9 +3,13 @@
 
 (global-set-key (kbd "C-x w") 'elfeed)
 
+;; (setq elfeed-feeds
+;;       '("https://www.v2ex.com/feed/tab/tech.xml"
+;;         "http://www.terminally-incoherent.com/blog/feed/"))
+
 (setq elfeed-feeds
       '(("http://nullprogram.com/feed/" blog emacs)
-        "http://www.50ply.com/atom.xml"  ; no autotagging
+        ("https://www.raspberrypi.org/feed/" rpi)
         ("http://nedroid.com/feed/" webwomic)
         ("https://www.v2ex.com/feed/tab/tech.xml" v2ex)))
 

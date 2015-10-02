@@ -1,5 +1,4 @@
 (require 'tabbar)
-(tabbar-mode)
 
 ;; example tabbar coloring code...
 ;; (set-face-attribute
@@ -151,7 +150,7 @@ That is, a string used to represent it on the tab bar."
                        (length (tabbar-view
                                 (tabbar-current-tabset)))))))))
 
-;;(tabbar-mode 1)
+
 
 ;;======================================
 ;;======================================

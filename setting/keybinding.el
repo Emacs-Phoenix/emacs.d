@@ -139,7 +139,6 @@
 (define-key global-map (kbd "C-S-O") 'vi-open-line-above)
 (define-key global-map [(meta shift ?o)] 'vi-open-line-above)
 
-(global-set-key "\M-y" 'popup-kill-ring)
 
 (global-set-key (kbd "C-x w") 'elfeed)
 

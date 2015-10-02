@@ -418,3 +418,21 @@
 [submodule "site-lisp/elfeed-org"]
 	path = site-lisp/elfeed-org
 	url = git@github.com:remyhonig/elfeed-org.git
+[submodule "site-lisp/mview-image-and-emms-cover"]
+	path = site-lisp/mview-image-and-emms-cover
+	url = git@github.com:sabof/mview-image-and-emms-cover.git
+[submodule "site-lisp/emms-mobile-remote"]
+	path = site-lisp/emms-mobile-remote
+	url = git@github.com:sabof/emms-mobile-remote.git
+[submodule "site-lisp/emms-mode-line-cycle"]
+	path = site-lisp/emms-mode-line-cycle
+	url = git@github.com:momomo5717/emms-mode-line-cycle.git
+[submodule "site-lisp/emacs-web"]
+	path = site-lisp/emacs-web
+	url = git@github.com:nicferrier/emacs-web.git
+[submodule "site-lisp/DoubanMusic"]
+	path = site-lisp/DoubanMusic
+	url = git@github.com:Emacs-Phoenix/DoubanMusic.git
+[submodule "site-lisp/circe"]
+	path = site-lisp/circe
+	url = git@github.com:jorgenschaefer/circe.git

@@ -86,9 +86,10 @@
 (require 'ranger)
 (require 'helm-ag)
 (require 'helm-ack)
-(require 'popup-kill-ring)
+;;(require 'popup-kill-ring)难用 
 (require 'which-key)
 (require 'nginx-mode)
+(require 'circe)
 
 (require 'setup-aggressive-indent) ;;进击的模式 auto indent
 
@@ -97,7 +98,6 @@
 ;;setup
 (require 'setup-ido)
 (require 'setup-project)
-;;(require 'setup-ggtags)
 (require 'setup-company)
 (require 'setup-tern)
 (require 'setup-smartparens)
@@ -135,6 +135,7 @@
 (require 'setup-misc)
 (require 'setup-erc)
 (require 'setup-rss)
+(require 'setup-doubanfm)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp
