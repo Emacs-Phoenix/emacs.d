@@ -34,7 +34,7 @@ uses the TITLE SUBTITLE MESSAGE and CONTENTIMAGE."
     (emms-browser-get-track-field
      (emms-playlist-current-selected-track)
      'name))
-   "cover_small.jpg"))
+   "~/.emacs.d/images/nocover.gif"))
 
 
 (defun emms-notify-do ()

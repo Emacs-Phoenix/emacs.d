@@ -23,7 +23,6 @@
 ;;(defalias 'yes-or-no-p 'my-yes-or-mumble-p)
 
 
-
 (require 'diminish)
 
 (eval-after-load "smartparens"
@@ -68,8 +67,15 @@
 
 (diminish 'my-keys-minor-mode)
 (diminish 'which-key-mode)
+(diminish 'subword-mode)
+
 (eval-after-load 'awk-mode
   '(diminish 'awk-mode))
 
+
+;;disable tabbar-mode
+(tabbar-mode -1)
+
+(fixme-mode 1)
 
 (provide 'behavior)

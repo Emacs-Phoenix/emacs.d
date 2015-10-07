@@ -21,4 +21,17 @@
 
 (setf url-queue-timeout 10)
 
+(defun elfeed-search-format-date (date)
+  (format-time-string "%Y-%m-%d %H:%M" (seconds-to-time date)))
+
+(defun xcowsay (message)
+  (call-process "xcowsay" nil nil nil message))
+
+(defun elfeed-xcowsay ()
+  (interactive)
+  (let ((entry (elfeed-search-selected :single)))
+    (xcowsay (elfeed-entry-title entry))))
+
+(define-key elfeed-search-mode-map "x" #'elfeed-xcowsay)
+
 (provide 'setup-rss)

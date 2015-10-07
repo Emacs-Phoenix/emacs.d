@@ -1,5 +1,9 @@
+* DONE emacs-uglify <2015-09-30 三>
+* DONE emacs-boilerplate <2015-10-02 五>
 * TODO imenu-at-point
 * TODO number-windmove
 * TODO eye-care
-* TODO global-tabbar
 * TODO douban-fm
+* TODO copy current file name in ido file
+
+* CANCEL global-tabbar #not necessary <2015-10-01 四>

@@ -7,7 +7,8 @@
 ;;site-lisp
 (require 'indent-guide)
 (require 'js2-mode)
-;;(require 'ggtags)
+(require 'markdown-mode)
+;;(require 'ggtags) ;;already delete
 (require 'flycheck)
 (require 'smartparens-config)
 (require 'powerline)
@@ -68,8 +69,8 @@
 (require 'desktop-recover) 
 (require 'company-quickhelp)
 (require 'typescript) 
-(require 'tss) ;;line number
-;;(require 'setnu) ;;buggly
+(require 'tss) 
+;;(require 'setnu) ;;buggly ;;line number
 (require 'bm) ;;bookmark (conum mark)
 (require 'vlf-setup) ;;big file only read
 (require 'change-inner)
@@ -80,7 +81,7 @@
 (require 'ibuffer-projectile)
 (require 'less-css-mode)
 (require 'helm-backup)
-(require 'undohist)
+(require 'undohist) ;;记录session之外的undo
 (require 'etxt)
 ;;(require 'ed) ;;只使用高亮功能，不知道咋用
 (require 'ranger)
@@ -90,9 +91,9 @@
 (require 'which-key)
 (require 'nginx-mode)
 (require 'circe)
+(require 'fixme-mode)
 
 (require 'setup-aggressive-indent) ;;进击的模式 auto indent
-
 
 
 ;;setup
