@@ -448,3 +448,6 @@
 [submodule "site-lisp/chinese-pyim"]
 	path = site-lisp/chinese-pyim
 	url = git@github.com:tumashu/chinese-pyim.git
+[submodule "site-lisp/vimish-fold"]
+	path = site-lisp/vimish-fold
+	url = git@github.com:mrkkrp/vimish-fold.git

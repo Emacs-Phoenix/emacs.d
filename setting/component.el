@@ -96,6 +96,8 @@
 (require 'sos)
 (require 'window-numbering)
 (require 'chinese-fonts-setup)
+(require 'chinese-pyim)
+(require 'vimish-fold);;vim like fold code
 
 (require 'setup-aggressive-indent) ;;进击的模式 auto indent
 

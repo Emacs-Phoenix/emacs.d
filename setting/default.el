@@ -154,6 +154,7 @@
       '(
         "/usr/local/bin"
         "/usr/bin"
+        "/usr/games/"
         "/bin"
         ))
 
