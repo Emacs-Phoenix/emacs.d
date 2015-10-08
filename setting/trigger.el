@@ -68,5 +68,6 @@
 
 (setq popup-kill-ring-interactive-insert t)
 
+(window-numbering-mode 1)
 
 (provide 'trigger)

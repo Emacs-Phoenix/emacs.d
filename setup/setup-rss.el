@@ -1,5 +1,5 @@
 (require 'elfeed)
-(require 'elfeed-org)
+;;(require 'elfeed-org)
 
 (global-set-key (kbd "C-x w") 'elfeed)
 
@@ -11,13 +11,15 @@
       '(("http://nullprogram.com/feed/" blog emacs)
         ("https://www.raspberrypi.org/feed/" rpi)
         ("http://nedroid.com/feed/" webwomic)
+        ("http://emacs-china.org/rss.xml" emacs emacs-china)
+        ("http://stackoverflow.com/feeds/tag?tagnames=javascript&sort=newest" stackoverflow javascript)
         ("https://www.v2ex.com/feed/tab/tech.xml" v2ex)))
 
 (global-set-key (kbd "C-x w") 'elfeed)
 
-(elfeed-org)
+;;(elfeed-org)
 
-(setq rmh-elfeed-org-files (list "~/.emacs.d/elfeed.org"))
+;;(setq rmh-elfeed-org-files (list "~/.emacs.d/elfeed.org"))
 
 (setf url-queue-timeout 10)
 

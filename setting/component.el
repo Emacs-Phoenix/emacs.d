@@ -92,6 +92,10 @@
 (require 'nginx-mode)
 (require 'circe)
 (require 'fixme-mode)
+(require 'jsx-mode)
+(require 'sos)
+(require 'window-numbering)
+(require 'chinese-fonts-setup)
 
 (require 'setup-aggressive-indent) ;;进击的模式 auto indent
 

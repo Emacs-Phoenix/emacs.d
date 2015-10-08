@@ -415,9 +415,6 @@
 [submodule "site-lisp/nginx-mode"]
 	path = site-lisp/nginx-mode
 	url = git@github.com:ajc/nginx-mode.git
-[submodule "site-lisp/elfeed-org"]
-	path = site-lisp/elfeed-org
-	url = git@github.com:remyhonig/elfeed-org.git
 [submodule "site-lisp/mview-image-and-emms-cover"]
 	path = site-lisp/mview-image-and-emms-cover
 	url = git@github.com:sabof/mview-image-and-emms-cover.git
@@ -436,3 +433,18 @@
 [submodule "site-lisp/circe"]
 	path = site-lisp/circe
 	url = git@github.com:jorgenschaefer/circe.git
+[submodule "site-lisp/react-snippets.el"]
+	path = site-lisp/react-snippets.el
+	url = git@github.com:johnmastro/react-snippets.el.git
+[submodule "site-lisp/emacs-sos"]
+	path = site-lisp/emacs-sos
+	url = git@github.com:omouse/emacs-sos.git
+[submodule "site-lisp/window-numbering.el"]
+	path = site-lisp/window-numbering.el
+	url = git@github.com:nschum/window-numbering.el.git
+[submodule "site-lisp/chinese-fonts-setup"]
+	path = site-lisp/chinese-fonts-setup
+	url = git@github.com:tumashu/chinese-fonts-setup.git
+[submodule "site-lisp/chinese-pyim"]
+	path = site-lisp/chinese-pyim
+	url = git@github.com:tumashu/chinese-pyim.git

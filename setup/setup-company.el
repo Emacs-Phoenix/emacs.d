@@ -18,7 +18,7 @@
 ;;    `(company-tooltip-selection ((t (:inherit font-lock-function-name-face))))
 ;;    `(company-tooltip-common ((t (:inherit font-lock-constant-face))))))
 
-(setq company-minimum-prefix-length 1)
+(setq company-minimum-prefix-length 2)
 (setq company-auto-complete t)
 
 (add-hook 'after-init-hook 'global-company-mode)
