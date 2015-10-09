@@ -1,9 +1,11 @@
 * DONE emacs-uglify <2015-09-30 三>
 * DONE emacs-boilerplate <2015-10-02 五>
 * TODO imenu-at-point
-* TODO number-windmove
+* CANCELED number-windmove <2015-10-09 五> # because window-numbering work well
 * TODO eye-care
 * TODO douban-fm
 * TODO copy current file name in ido file
 
-* CANCEL global-tabbar #not necessary <2015-10-01 四>
+* TODO todolist
+* TODO emacs note
+* CANCELED global-tabbar #not necessary <2015-10-01 四>

@@ -98,6 +98,7 @@
 (require 'chinese-fonts-setup)
 (require 'chinese-pyim)
 (require 'vimish-fold);;vim like fold code
+;;(require 'evernote-mode) ;;
 
 (require 'setup-aggressive-indent) ;;进击的模式 auto indent
 
@@ -143,6 +144,8 @@
 (require 'setup-erc)
 (require 'setup-rss)
 (require 'setup-doubanfm)
+(require 'setup-org)
+(require 'setup-evernote)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp

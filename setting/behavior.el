@@ -76,6 +76,7 @@
 ;;disable tabbar-mode
 (tabbar-mode -1)
 
+;;hightlist TODO FIXME keyword
 (fixme-mode 1)
 
 (provide 'behavior)

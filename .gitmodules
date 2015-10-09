@@ -451,3 +451,12 @@
 [submodule "site-lisp/vimish-fold"]
 	path = site-lisp/vimish-fold
 	url = git@github.com:mrkkrp/vimish-fold.git
+[submodule "emacs-org"]
+	path = emacs-org
+	url = git@git.coding.net:abychan/emacs-org.git
+[submodule "site-lisp/evernote-mode"]
+	path = site-lisp/evernote-mode
+	url = git@github.com:pymander/evernote-mode.git
+[submodule "site-lisp/emacs-geeknote"]
+	path = site-lisp/emacs-geeknote
+	url = git@github.com:avendael/emacs-geeknote.git

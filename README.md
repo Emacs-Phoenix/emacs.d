@@ -37,3 +37,8 @@ cd plugin/pymacs && make check && sudo make install
 - pip install importmagic
 - pip install autopep8
 - pip install rope ropemacs
+
+#####evernote
+gem install evernote_oauth
+cd evernote-mode/ruby
+ruby setup.rb
