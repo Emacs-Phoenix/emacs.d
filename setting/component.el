@@ -5,7 +5,7 @@
 
 
 ;;site-lisp
-(require 'indent-guide)
+;;(require 'indent-guide)
 (require 'js2-mode)
 (require 'markdown-mode)
 ;;(require 'ggtags) ;;already delete
@@ -19,10 +19,10 @@
 (require 's)
 (require 'dash)
 (require 'goto-last-change)
-(require 'shell-pop)
-(require 'multi-term)
+;;(require 'shell-pop)
+;;(require 'multi-term)
 ;;(require 'eyebrowse) ;;小眼睛模式
-(require 'zone-matrix)
+;;(require 'zone-matrix)
 ;;(require 'zone-settings) ;;酷炫，但是很烧cpu
 ;;(require 'tabbar) ;;not necessary, ibuffer is enough
 (require 'sublimity)
@@ -35,7 +35,6 @@
 (require 'redo+)
 (require 'helm)
 (require 'async)
-(require 'nyan-mode)
 (require 'dired-async)
 (require 'helm-config)
 (require 'helm-swoop)
@@ -51,7 +50,6 @@
 (require 'tagedit)
 (require 'rainbow-mode)
 (require 'yaml-mode)
-;;(require 'prodigy)
 (require 'simplezen)
 (require 'restclient)
 (require 'dockerfile-mode)
@@ -69,8 +67,7 @@
 (require 'desktop-recover) 
 (require 'company-quickhelp)
 (require 'typescript) 
-(require 'tss) 
-;;(require 'setnu) ;;buggly ;;line number
+(require 'tss) ;;Provide a interface for auto-complete.el/flymake.el on typescript-mode.
 (require 'bm) ;;bookmark (conum mark)
 (require 'vlf-setup) ;;big file only read
 (require 'change-inner)
@@ -83,11 +80,9 @@
 (require 'helm-backup)
 (require 'undohist) ;;记录session之外的undo
 (require 'etxt)
-;;(require 'ed) ;;只使用高亮功能，不知道咋用
 (require 'ranger)
 (require 'helm-ag)
 (require 'helm-ack)
-;;(require 'popup-kill-ring)难用 
 (require 'which-key)
 (require 'nginx-mode)
 (require 'circe)
@@ -98,7 +93,7 @@
 (require 'chinese-fonts-setup)
 (require 'chinese-pyim)
 (require 'vimish-fold);;vim like fold code
-;;(require 'evernote-mode) ;;
+(require 'windresize)
 
 (require 'setup-aggressive-indent) ;;进击的模式 auto indent
 
@@ -116,7 +111,6 @@
 (require 'setup-paredit)
 (require 'setup-shell)
 (require 'setup-hideshow)
-;;(require 'setup-perspective) ;;没啥用
 (require 'setup-magit)
 (require 'setup-web-beautify)
 (require 'setup-syntax-table)
@@ -133,7 +127,7 @@
 (require 'setup-search)
 (require 'setup-desktop)
 (require 'setup-file)
-(require 'setup-tabbar)
+;;(require 'setup-tabbar)
 (require 'setup-ibuffer)
 (require 'setup-backup)
 (require 'setup-tool)
@@ -145,7 +139,7 @@
 (require 'setup-rss)
 (require 'setup-doubanfm)
 (require 'setup-org)
-(require 'setup-evernote)
+;;(require 'setup-evernote)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp

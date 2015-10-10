@@ -55,17 +55,6 @@ If you do not like default setup, modify it, with (KEY . COMMAND) format."
             (define-key term-raw-map (kbd "M-w") 'term-copy)))
 
 
-;; (add-hook 'ansi-term-mode-hook
-;;           (lambda ()
-;;             (define-key term-raw-map (kbd "C-y") 'term-paste)
-;;             (define-key term-raw-map [tab] nil)
-;;             (define-key term-raw-map (kbd "TAB") nil)
-;;             ))
-
-
-;;anble tab
-;;(define-key term-mode-map (read-kbd-macro open) (λ (js2r--self-insert-wrapping open close)))
-;;(define-key term-map (kbd "TAB") 'nil)
 
 
 ;;;=================================================
@@ -142,5 +131,20 @@ If you do not like default setup, modify it, with (KEY . COMMAND) format."
   (switch-to-buffer term-ansi-buffer-name))
 
 (global-set-key "\C-cd" 'term/shell)
+
+(require 'shell-pop)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ ;;'(shell-pop-default-directory "/Users/kyagi/git")
+ '(shell-pop-shell-type (quote ("ansi-term" "*ansi-term*" (lambda nil (ansi-term shell-pop-term-shell)))))
+ '(shell-pop-term-shell "/bin/zsh")
+ '(shell-pop-universal-key "C-t")
+ '(shell-pop-window-size 30)
+ '(shell-pop-full-span t)
+ '(shell-pop-window-position "bottom"))
+
 
 (provide 'setup-term)

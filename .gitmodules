@@ -118,9 +118,6 @@
 [submodule "site-lisp/eyebrowse"]
 	path = site-lisp/eyebrowse
 	url = git@github.com:wasamasa/eyebrowse.git
-[submodule "site-lisp/tabbar"]
-	path = site-lisp/tabbar
-	url = git@github.com:dholm/tabbar.git
 [submodule "site-lisp/zone-matrix"]
 	path = site-lisp/zone-matrix
 	url = git@github.com:Emacs-Phoenix/zone-matrix.git
@@ -139,9 +136,6 @@
 [submodule "site-lisp/helm"]
 	path = site-lisp/helm
 	url = git@github.com:emacs-helm/helm.git
-[submodule "site-lisp/nyan-mode"]
-	path = site-lisp/nyan-mode
-	url = git@github.com:TeMPOraL/nyan-mode.git
 [submodule "site-lisp/helm-swoop"]
 	path = site-lisp/helm-swoop
 	url = git@github.com:ShingoFukuyama/helm-swoop.git
@@ -181,9 +175,6 @@
 [submodule "site-lisp/tagedit"]
 	path = site-lisp/tagedit
 	url = git@github.com:magnars/tagedit.git
-[submodule "site-lisp/prodigy.el"]
-	path = site-lisp/prodigy.el
-	url = git@github.com:rejeep/prodigy.el.git
 [submodule "site-lisp/highlight-escape-sequences"]
 	path = site-lisp/highlight-escape-sequences
 	url = git@github.com:dgutov/highlight-escape-sequences.git
@@ -391,9 +382,6 @@
 [submodule "site-lisp/slime"]
 	path = site-lisp/slime
 	url = git@github.com:slime/slime.git
-[submodule "site-lisp/popup-kill-ring"]
-	path = site-lisp/popup-kill-ring
-	url = git@github.com:waymondo/popup-kill-ring.git
 [submodule "site-lisp/emacs-helm-ag"]
 	path = site-lisp/emacs-helm-ag
 	url = git@github.com:syohex/emacs-helm-ag.git
@@ -418,9 +406,6 @@
 [submodule "site-lisp/mview-image-and-emms-cover"]
 	path = site-lisp/mview-image-and-emms-cover
 	url = git@github.com:sabof/mview-image-and-emms-cover.git
-[submodule "site-lisp/emms-mobile-remote"]
-	path = site-lisp/emms-mobile-remote
-	url = git@github.com:sabof/emms-mobile-remote.git
 [submodule "site-lisp/emms-mode-line-cycle"]
 	path = site-lisp/emms-mode-line-cycle
 	url = git@github.com:momomo5717/emms-mode-line-cycle.git
@@ -454,9 +439,12 @@
 [submodule "emacs-org"]
 	path = emacs-org
 	url = git@git.coding.net:abychan/emacs-org.git
-[submodule "site-lisp/evernote-mode"]
-	path = site-lisp/evernote-mode
-	url = git@github.com:pymander/evernote-mode.git
 [submodule "site-lisp/emacs-geeknote"]
 	path = site-lisp/emacs-geeknote
 	url = git@github.com:avendael/emacs-geeknote.git
+[submodule "summarize"]
+	path = summarize
+	url = git@git.coding.net:abychan/summarize.git
+[submodule "site-lisp/emacs-livedown"]
+	path = site-lisp/emacs-livedown
+	url = git@github.com:shime/emacs-livedown.git

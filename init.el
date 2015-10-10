@@ -36,7 +36,4 @@
 (unless (server-running-p)
   (server-start))
 
-;;chrome edit server
-(require 'edit-server)
-(edit-server-start)
 

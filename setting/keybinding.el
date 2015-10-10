@@ -53,12 +53,13 @@
 (global-set-key [f8] 'neotree-toggle)
 (global-set-key [f7] 'tabbar-mode)
 
-(global-set-key (kbd "C-c <left>")  'windmove-left)
+
 (global-set-key (kbd "C-c C-<left>")  'windmove-left)
-(global-set-key (kbd "C-c <right>") 'windmove-right)
 (global-set-key (kbd "C-c C-<right>") 'windmove-right)
 (global-set-key (kbd "C-c C-<up>")    'windmove-up)
 (global-set-key (kbd "C-c C-<down>")  'windmove-down)
+
+
 
 (global-set-key (kbd "M-i") 'helm-swoop)
 (global-set-key (kbd "M-I") 'helm-swoop-back-to-last-point)
