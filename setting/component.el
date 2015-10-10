@@ -19,18 +19,11 @@
 (require 's)
 (require 'dash)
 (require 'goto-last-change)
-;;(require 'shell-pop)
-;;(require 'multi-term)
-;;(require 'eyebrowse) ;;小眼睛模式
-;;(require 'zone-matrix)
-;;(require 'zone-settings) ;;酷炫，但是很烧cpu
-;;(require 'tabbar) ;;not necessary, ibuffer is enough
 (require 'sublimity)
 (require 'sublimity-scroll)
 ;;(require 'sublimity-map)
 ;;(require 'sublimity-attractive)
 (require 'neotree)
-(require 'ztree)
 (require 'undo-tree)
 (require 'redo+)
 (require 'helm)
@@ -43,7 +36,6 @@
 (require 'aggressive-indent)
 (require 'company-web-html)
 (require 'ack)
-(require 'quick-buffer-switch)
 (require 'smart-forward)
 (require 'browse-kill-ring)
 (require 'line-num)
@@ -66,8 +58,8 @@
 (require 'pangu-spacing) ;;小伙子，在英文旁边加空格
 (require 'desktop-recover) 
 (require 'company-quickhelp)
-(require 'typescript) 
-(require 'tss) ;;Provide a interface for auto-complete.el/flymake.el on typescript-mode.
+;;(require 'typescript) 
+;;(require 'tss) ;;Provide a interface for auto-complete.el/flymake.el on typescript-mode.
 (require 'bm) ;;bookmark (conum mark)
 (require 'vlf-setup) ;;big file only read
 (require 'change-inner)
@@ -77,7 +69,7 @@
 (require 'ibuffer-vc)
 (require 'ibuffer-projectile)
 (require 'less-css-mode)
-(require 'helm-backup)
+;;(require 'helm-backup)
 (require 'undohist) ;;记录session之外的undo
 (require 'etxt)
 (require 'ranger)
@@ -129,7 +121,7 @@
 (require 'setup-file)
 ;;(require 'setup-tabbar)
 (require 'setup-ibuffer)
-(require 'setup-backup)
+;;(require 'setup-backup)
 (require 'setup-tool)
 (require 'setup-spell)
 (require 'setup-paredit)
@@ -149,6 +141,7 @@
 (require 'html-extra)
 (require 'edit-sword)
 (require 'emacs-uglify)
+(require 'reveal-dir)
 ;;(require 'emacs-boilerplate)
 
 (require 'trigger)

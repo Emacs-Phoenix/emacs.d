@@ -73,9 +73,6 @@
 [submodule "yasnippet-snippets"]
 	path = yasnippet-snippets
 	url = git@github.com:Emacs-Phoenix/yasnippet-snippets.git
-[submodule "site-lisp/auto-complete"]
-	path = site-lisp/auto-complete
-	url = git@github.com:auto-complete/auto-complete.git
 [submodule "site-lisp/popup-el"]
 	path = site-lisp/popup-el
 	url = git@github.com:auto-complete/popup-el.git
@@ -127,9 +124,6 @@
 [submodule "site-lisp/emacs-neotree"]
 	path = site-lisp/emacs-neotree
 	url = git@github.com:jaypei/emacs-neotree.git
-[submodule "site-lisp/ztree"]
-	path = site-lisp/ztree
-	url = git@github.com:fourier/ztree.git
 [submodule "site-lisp/emacs-async"]
 	path = site-lisp/emacs-async
 	url = git@github.com:jwiegley/emacs-async.git
@@ -154,9 +148,6 @@
 [submodule "site-lisp/web-completion-data"]
 	path = site-lisp/web-completion-data
 	url = git@github.com:osv/web-completion-data.git
-[submodule "site-lisp/quick-buffer-switch"]
-	path = site-lisp/quick-buffer-switch
-	url = git@github.com:renard/quick-buffer-switch.git
 [submodule "site-lisp/smart-forward.el"]
 	path = site-lisp/smart-forward.el
 	url = git@github.com:magnars/smart-forward.el.git
@@ -190,9 +181,6 @@
 [submodule "site-lisp/web-beautify"]
 	path = site-lisp/web-beautify
 	url = git@github.com:yasuyk/web-beautify.git
-[submodule "site-lisp/auto-indent-mode.el"]
-	path = site-lisp/auto-indent-mode.el
-	url = git@github.com:mlf176f2/auto-indent-mode.el.git
 [submodule "site-lisp/auto-highlight-symbol"]
 	path = site-lisp/auto-highlight-symbol
 	url = git@github.com:emacsmirror/auto-highlight-symbol.git
@@ -316,9 +304,6 @@
 [submodule "site-lisp/company-quickhelp"]
 	path = site-lisp/company-quickhelp
 	url = git@github.com:expez/company-quickhelp.git
-[submodule "site-lisp/emacs-tss"]
-	path = site-lisp/emacs-tss
-	url = git@github.com:aki2o/emacs-tss.git
 [submodule "site-lisp/log4e"]
 	path = site-lisp/log4e
 	url = git@github.com:aki2o/log4e.git
@@ -361,12 +346,6 @@
 [submodule "site-lisp/less-css-mode"]
 	path = site-lisp/less-css-mode
 	url = git@github.com:purcell/less-css-mode.git
-[submodule "site-lisp/helm-backup"]
-	path = site-lisp/helm-backup
-	url = git@github.com:antham/helm-backup.git
-[submodule "site-lisp/backups-mode"]
-	path = site-lisp/backups-mode
-	url = git@github.com:chadbraunduin/backups-mode.git
 [submodule "site-lisp/undohist-el"]
 	path = site-lisp/undohist-el
 	url = git@github.com:m2ym/undohist-el.git
@@ -448,3 +427,6 @@
 [submodule "site-lisp/emacs-livedown"]
 	path = site-lisp/emacs-livedown
 	url = git@github.com:shime/emacs-livedown.git
+[submodule "site-lisp/reveal-dir"]
+	path = site-lisp/reveal-dir
+	url = git@github.com:Emacs-Phoenix/reveal-dir.git

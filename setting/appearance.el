@@ -38,5 +38,7 @@
 ;;????为毛remap到第一个
 ;;(rename-modeline "Paredit" paredit-mode "( ˘ ³˘)❤")
 
+(setq powerline-arrow-shape 'curve)
+
 (provide 'appearance)
 

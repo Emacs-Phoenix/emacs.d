@@ -50,11 +50,6 @@ If you do not like default setup, modify it, with (KEY . COMMAND) format."
           (lambda ()
             (define-key term-raw-map (kbd "C-y") 'term-paste)))
 
-(add-hook 'term-mode-hook
-          (lambda ()
-            (define-key term-raw-map (kbd "M-w") 'term-copy)))
-
-
 
 
 ;;;=================================================

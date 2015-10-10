@@ -2,6 +2,7 @@ auto-save-list
 emacs-desktop
 .python-environments
 desktop-recover-tmp
+pyim
 .emacs.desktop*
 game
 custom.el
