@@ -137,12 +137,12 @@
 
 (define-key global-map (kbd "C-o") 'vi-open-line-below)
 (define-key global-map (kbd "C-O") 'vi-open-line-above)
-(define-key global-map (kbd "C-S-O") 'vi-open-line-above)
 (define-key global-map [(meta shift ?o)] 'vi-open-line-above)
 
 
 (global-set-key (kbd "C-x w") 'elfeed)
 
+(global-set-key (kbd "C-x <up>") 'winner-undo)
+(global-set-key (kbd "C-x <down>") 'winner-redo)
+
 (provide 'keybinding)
-
-

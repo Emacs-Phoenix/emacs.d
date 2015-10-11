@@ -86,7 +86,7 @@
 (require 'chinese-pyim)
 (require 'vimish-fold);;vim like fold code
 (require 'windresize)
-
+(require 'uimage) ;;显示图片
 (require 'setup-aggressive-indent) ;;进击的模式 auto indent
 
 

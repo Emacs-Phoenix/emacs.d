@@ -2,10 +2,17 @@
 * DONE emacs-boilerplate <2015-10-02 五>
 * TODO imenu-at-point
 * CANCELED number-windmove <2015-10-09 五> # because window-numbering work well
-* TODO eye-care
+* DONE eye-care <2015-10-11 日>
 * TODO douban-fm
 * TODO copy current file name in ido file
 
 * TODO todolist
 * TODO emacs note
 * CANCELED global-tabbar #not necessary <2015-10-01 四>
+* TODO region isearch <2015-10-11 日>
+* TODO baidu 翻译 <2015-10-11 日>
+* TODO copy-from-above-command more smart <2015-10-11 日>
+* TODO rename file more smart <2015-10-12 一>
+* TODO isearch copy
+* TODO minibuffer copy
+* TODO center image

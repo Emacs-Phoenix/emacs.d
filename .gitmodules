@@ -430,3 +430,6 @@
 [submodule "site-lisp/reveal-dir"]
 	path = site-lisp/reveal-dir
 	url = git@github.com:Emacs-Phoenix/reveal-dir.git
+[submodule "site-lisp/uimage"]
+	path = site-lisp/uimage
+	url = git@github.com:lujun9972/uimage.git

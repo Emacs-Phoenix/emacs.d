@@ -70,4 +70,9 @@
 
 (window-numbering-mode 1)
 
+(winner-mode t)
+
+(iimage-mode t)
+(add-hook 'fundamental-mode 'uimage-mode)
+
 (provide 'trigger)

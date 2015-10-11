@@ -1,0 +1,6 @@
+* term
+You may want to simply switch between character mode and line mode while using the terminal. C-x C-j will activate term-line-mode, which treats the terminal buffer more like a normal text-buffer in which you can move the cursor and yank text. You can switch back to character mode with C-c C-k.
+
+* ido
+You can use C-j, which is bound to (ido-select-text) and selects the buffer currently named by the prompt, which might be a directory as well.
+
