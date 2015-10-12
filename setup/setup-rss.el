@@ -8,8 +8,9 @@
         ("https://www.raspberrypi.org/feed/" raspberry-pi)
         ("http://nedroid.com/feed/" webwomic)
         ("http://emacs-china.org/rss.xml" emacs emacs-china)
-        ("http://planet.emacsen.org/atom.xml" emacs planet-emacs)
-        ("http://stackoverflow.com/feeds/tag?tagnames=javascript&sort=newest" stackoverflow javascript)
+        ("http://emacs-china.org/rss.xml" emacs emacs-china)
+        ("http://www.infoq.com/cn/feed" infoq)
+        ;;("http://stackoverflow.com/feeds/tag?tagnames=javascript&sort=newest" stackoverflow javascript)
         ("http://stackoverflow.com/feeds/tag?tagnames=emacs&sort=newest" stackoverflow emacs)
         ("https://www.v2ex.com/feed/tab/tech.xml" v2ex)))
 

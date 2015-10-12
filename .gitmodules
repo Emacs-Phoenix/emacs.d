@@ -433,3 +433,6 @@
 [submodule "site-lisp/uimage"]
 	path = site-lisp/uimage
 	url = git@github.com:lujun9972/uimage.git
+[submodule "site-lisp/project-management"]
+	path = site-lisp/project-management
+	url = git@github.com:Emacs-Phoenix/project-management.git
