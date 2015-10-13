@@ -436,3 +436,6 @@
 [submodule "site-lisp/project-management"]
 	path = site-lisp/project-management
 	url = git@github.com:Emacs-Phoenix/project-management.git
+[submodule "site-lisp/nodejs-repl.el"]
+	path = site-lisp/nodejs-repl.el
+	url = git@github.com:abicky/nodejs-repl.el.git

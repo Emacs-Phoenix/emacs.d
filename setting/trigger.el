@@ -29,7 +29,7 @@
 
 
 ;;tiny graphical system monitor
-(symon-mode)
+;;(symon-mode);;影响minibuffer显示
 
 (hungry-keyboard global-map)
 
