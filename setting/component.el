@@ -89,7 +89,7 @@
 (require 'uimage) ;;显示图片
 (require 'nodejs-repl)
 (require 'setup-aggressive-indent) ;;进击的模式 auto indent
-
+(require 'esup) ;;Emacs Start Up Profiler
 
 ;;setup
 (require 'setup-ido)

@@ -439,3 +439,27 @@
 [submodule "site-lisp/nodejs-repl.el"]
 	path = site-lisp/nodejs-repl.el
 	url = git@github.com:abicky/nodejs-repl.el.git
+[submodule "site-lisp/todolist"]
+	path = site-lisp/todolist
+	url = git@github.com:Emacs-Phoenix/todolist.git
+[submodule "site-lisp/esup"]
+	path = site-lisp/esup
+	url = git@github.com:jschaf/esup.git
+[submodule "site-lisp/spinner.el"]
+	path = site-lisp/spinner.el
+	url = git@github.com:Malabarba/spinner.el.git
+[submodule "site-lisp/inf-clojure"]
+	path = site-lisp/inf-clojure
+	url = git@github.com:clojure-emacs/inf-clojure.git
+[submodule "site-lisp/cider-nrepl"]
+	path = site-lisp/cider-nrepl
+	url = git@github.com:clojure-emacs/cider-nrepl.git
+[submodule "site-lisp/squiggly-clojure"]
+	path = site-lisp/squiggly-clojure
+	url = git@github.com:clojure-emacs/squiggly-clojure.git
+[submodule "site-lisp/edn.el"]
+	path = site-lisp/edn.el
+	url = git@github.com:expez/edn.el.git
+[submodule "site-lisp/hydra"]
+	path = site-lisp/hydra
+	url = git@github.com:abo-abo/hydra.git

@@ -4,3 +4,6 @@ You may want to simply switch between character mode and line mode while using t
 * ido
 You can use C-j, which is bound to (ido-select-text) and selects the buffer currently named by the prompt, which might be a directory as well.
 
+
+* profile
+Command: profiler-start  profiler-report
