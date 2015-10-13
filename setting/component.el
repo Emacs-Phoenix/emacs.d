@@ -50,7 +50,7 @@
 (require 'idomenu)
 (require 'company-jedi)
 (require 'markdown-mode+)
-(require 'symon)  ;;tiny graphical system monitor
+;;(require 'symon)  ;;tiny graphical system monitor
 (require 'hungry-delete)
 (require 'visual-regexp)
 (require 'coffee-mode)
@@ -87,6 +87,7 @@
 (require 'vimish-fold);;vim like fold code
 (require 'windresize)
 (require 'uimage) ;;显示图片
+(require 'nodejs-repl)
 (require 'setup-aggressive-indent) ;;进击的模式 auto indent
 
 
@@ -131,6 +132,7 @@
 (require 'setup-rss)
 (require 'setup-doubanfm)
 (require 'setup-org)
+(require 'setup-js2)
 ;;(require 'setup-evernote)
 (when is-mac (require 'setup-mac))
 
@@ -142,7 +144,8 @@
 (require 'edit-sword)
 (require 'emacs-uglify)
 (require 'reveal-dir)
-;;(require 'emacs-boilerplate)
+(require 'emacs-boilerplate)
+(require 'eye-care)
 
 (require 'trigger)
 (require 'keybinding)
@@ -151,3 +154,4 @@
 
 (require 'behavior)
 (provide 'component)
+
