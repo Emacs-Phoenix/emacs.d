@@ -133,7 +133,7 @@
 (require 'setup-doubanfm)
 (require 'setup-org)
 (require 'setup-js2)
-;;(require 'setup-evernote)
+(require 'setup-clj)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp
