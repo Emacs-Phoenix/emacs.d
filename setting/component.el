@@ -79,7 +79,6 @@
 (require 'nginx-mode)
 (require 'circe)
 (require 'fixme-mode)
-(require 'jsx-mode)
 (require 'sos)
 (require 'window-numbering)
 (require 'chinese-fonts-setup)
@@ -136,6 +135,7 @@
 (require 'setup-org)
 (require 'setup-js2)
 (require 'setup-clj)
+(require 'setup-jsx)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp

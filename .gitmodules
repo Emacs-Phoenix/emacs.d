@@ -466,3 +466,6 @@
 [submodule "site-lisp/avy"]
 	path = site-lisp/avy
 	url = git@github.com:abo-abo/avy.git
+[submodule "site-lisp/jsx-mode.el"]
+	path = site-lisp/jsx-mode.el
+	url = git@github.com:Emacs-Phoenix/jsx-mode.el.git
