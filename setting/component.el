@@ -133,6 +133,7 @@
 (require 'setup-doubanfm)
 (require 'setup-org)
 (require 'setup-js2)
+(require 'setup-clj)
 ;;(require 'setup-evernote)
 (when is-mac (require 'setup-mac))
 
