@@ -75,4 +75,6 @@
 (iimage-mode t)
 (add-hook 'fundamental-mode 'uimage-mode)
 
+(eye-care-start)
+
 (provide 'trigger)

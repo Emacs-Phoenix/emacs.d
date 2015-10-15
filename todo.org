@@ -19,4 +19,4 @@
 * TODO js2-refactor reduce var <2015-10-13 Tue>
 * TODO yas load after
 * TODO english word learn [clojure]
-* TODO acejump in a buffer
+* DONE acejump in a buffer <2015-10-15 Thu>

@@ -11,11 +11,12 @@
 
 (global-unset-key (kbd "C-s"))
 (global-unset-key (kbd "C-r"))
-(define-key global-map [(meta shift ?s)] 'isearch-backward-use-region)
 (define-key global-map (kbd "C-r") 'isearch-forward-use-region)
 (global-set-key (kbd "C-r") 'isearch-forward-use-region)
 (define-key global-map (kbd "C-s") 'ace-jump-char-mode)
 (define-key global-map (kbd "C-#") 'ace-jump-mode)
+
+(global-set-key (kbd "C-c <SPC>") 'avy-goto-line)
 
 ;;string
 ;; Toggle quotes
@@ -74,10 +75,9 @@
 
 (global-set-key (kbd "C-x C-p") 'find-or-create-file-at-point)
 
-(global-set-key (kbd "s-b") 'quick-switch-buffer)
+
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
-(global-set-key (kbd "s-b") 'quick-switch-buffer)
 
 ;; Revert without any fuss
 (global-set-key (kbd "M-<escape>") (λ (revert-buffer t t)))
@@ -145,5 +145,10 @@
 
 (global-set-key (kbd "C-x <up>") 'winner-undo)
 (global-set-key (kbd "C-x <down>") 'winner-redo)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;  For ErgoDox
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (provide 'keybinding)

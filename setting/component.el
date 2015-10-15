@@ -88,6 +88,8 @@
 (require 'windresize)
 (require 'uimage) ;;显示图片
 (require 'nodejs-repl)
+;;(require 'ace-jump-buffer)
+(require 'avy)
 (require 'setup-aggressive-indent) ;;进击的模式 auto indent
 (require 'esup) ;;Emacs Start Up Profiler
 
@@ -134,7 +136,6 @@
 (require 'setup-org)
 (require 'setup-js2)
 (require 'setup-clj)
-;;(require 'setup-evernote)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp
