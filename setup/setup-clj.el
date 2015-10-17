@@ -69,14 +69,16 @@
 ;;;;;;;;;;;;;;;;;;;;
 (require 'cider)
 
+(setq nrepl-log-messages nil)
+
+
 (define-key cider-repl-mode-map (kbd "<home>") nil)
-(define-key cider-repl-mode-map (kbd "C-,") 'complete-symbol)
-(define-key cider-mode-map (kbd "C-,") 'complete-symbol)
+(define-key cider-repl-mode-map (kbd "C-.") 'complete-symbol)
+(define-key cider-mode-map (kbd "C-.") 'complete-symbol)
 (define-key cider-mode-map (kbd "C-c C-q") 'nrepl-close)
 (define-key cider-mode-map (kbd "C-c C-Q") 'cider-quit)
 
 
-(setq nrepl-log-messages nil)
 ;; Indent and highlight more commands
 (put-clojure-indent 'match 'defun)
 
@@ -138,14 +140,16 @@
 
 ;;;flycheck
 
-(load (expand-file-name "site-lisp/squiggly-clojure/elisp/flycheck-clojure/flycheck-clojure.el" user-emacs-directory))
+;; (load (expand-file-name "site-lisp/squiggly-clojure/elisp/flycheck-clojure/flycheck-clojure.el" user-emacs-directory))
 
-(load (expand-file-name "site-lisp/squiggly-clojure/elisp/typed-clojure/clojure-typed-doc.el" user-emacs-directory))
+;; (load (expand-file-name "site-lisp/squiggly-clojure/elisp/typed-clojure/clojure-typed-doc.el" user-emacs-directory))
 
-(eval-after-load 'flycheck '(flycheck-clojure-setup))
-(add-hook 'after-init-hook #'global-flycheck-mode)
-(eval-after-load 'flycheck
-  '(setq flycheck-display-errors-function #'flycheck-pos-tip-error-messages))
+;; (eval-after-load 'flycheck '(flycheck-clojure-setup))
+
+;; ;;(add-hook 'after-init-hook #'global-flycheck-mode)
+
+;; (eval-after-load 'flycheck
+;;   '(setq flycheck-display-errors-function #'flycheck-pos-tip-error-messages))
 
 ;;This package provides basic interaction with a Clojure subprocess (REPL).
 (add-hook 'clojure-mode-hook #'inf-clojure-minor-mode)

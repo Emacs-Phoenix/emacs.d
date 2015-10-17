@@ -11,6 +11,7 @@
         ("http://emacsist.com/rss" emacs)
         ("http://segmentfault.com/feeds" segmentfault)
         ("http://www.infoq.com/cn/feed" infoq)
+        ("http://blog.zhaojie.me/rss" blog)
         ("https://github.com/AbyChan.private.atom?token=AGowAFs_OGXG7dKf8q7hqH__kLXXUkkvks60Kz-LwA==" github)
         ;;("http://stackoverflow.com/feeds/tag?tagnames=javascript&sort=newest" stackoverflow javascript)
         ("http://stackoverflow.com/feeds/tag?tagnames=emacs&sort=newest" stackoverflow emacs)
