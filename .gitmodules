@@ -475,3 +475,6 @@
 [submodule "site-lisp/emacs-learn-word"]
 	path = site-lisp/emacs-learn-word
 	url = git@github.com:Emacs-Phoenix/emacs-learn-word.git
+[submodule "site-lisp/epl"]
+	path = site-lisp/epl
+	url = git@github.com:cask/epl.git

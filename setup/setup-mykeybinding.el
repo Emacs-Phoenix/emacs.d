@@ -5,6 +5,10 @@
 (define-key my-keys-minor-mode-map (kbd "C-o") 'vi-open-line-below)
 (define-key my-keys-minor-mode-map (kbd "C-M-q") 'indent-code-rigidly)
 (define-key my-keys-minor-mode-map (kbd "C-M-i") 'indent-code-rigidly)
+(define-key my-keys-minor-mode-map (kbd "<prior>") 'previous-buffer)
+(define-key my-keys-minor-mode-map (kbd "<home>") 'beginning-of-buffer)
+(define-key my-keys-minor-mode-map (kbd "<next>") 'next-buffer)
+(define-key my-keys-minor-mode-map (kbd "<end>") 'end-of-buffer)
 
 (define-minor-mode my-keys-minor-mode
   "A minor mode so that my key settings override annoying major modes."

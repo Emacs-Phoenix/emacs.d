@@ -32,7 +32,9 @@
     ("M-r" . term-send-reverse-search-history)
     ("M-," . term-send-input)
     ("M-x" . smex)
-    ("M-." . comint-dynamic-complete))
+    ("M-." . comint-dynamic-complete)
+    ("<next>" . next-buffer)
+    ("<prior>" . previous-buffer))
   "The key alist that will need to be bind.
 If you do not like default setup, modify it, with (KEY . COMMAND) format."
   :type 'alist
@@ -42,7 +44,9 @@ If you do not like default setup, modify it, with (KEY . COMMAND) format."
 (add-hook 'term-mode-hook
           (lambda ()
             (add-to-list 'term-bind-key-alist '("M-[" . multi-term-prev))
-            (add-to-list 'term-bind-key-alist '("M-]" . multi-term-next))))
+            (add-to-list 'term-bind-key-alist '("M-]" . multi-term-next))
+            (add-to-list 'term-bind-key-alist '("<next>" . next-buffer))
+            (add-to-list 'term-bind-key-alist '("<prior>" . previous-buffer))))
 
 ;;You may want to simply switch between character mode and line mode while using the terminal. C-x C-j will activate term-line-mode, which treats the terminal buffer more like a normal text-buffer in which you can move the cursor and yank text. You can switch back to character mode with C-c C-k.
 
@@ -141,5 +145,10 @@ If you do not like default setup, modify it, with (KEY . COMMAND) format."
  '(shell-pop-full-span t)
  '(shell-pop-window-position "bottom"))
 
+
+(define-key term-mode-map (kbd "<prior>") 'previous-buffer)
+(define-key term-mode-map (kbd "<home>") 'beginning-of-buffer)
+(define-key term-mode-map (kbd "<next>") 'next-buffer)
+(define-key term-mode-map (kbd "<end>") 'end-of-buffer)
 
 (provide 'setup-term)
