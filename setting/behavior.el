@@ -1,5 +1,6 @@
 (setq mouse-wheel-scroll-amount '(6 ((shift) . 6))) ;; one line at a time
-(setq mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling
+;;还是打开滚动加速吧
+(setq mouse-wheel-progressive-speed t) ;; don't accelerate scrolling
 (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
 (setq scroll-step 6) ;; keyboard scroll one line at a time
 

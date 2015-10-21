@@ -34,7 +34,7 @@
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
-(global-set-key (kbd "C-c C-.") 'mc/mark-all-like-this)
+;;(global-set-key (kbd "C-c C-.") 'mc/mark-all-like-this)
 (global-set-key (kbd "C-s-<mouse-1>") 'mc/add-cursor-on-click)
 
 
@@ -95,9 +95,9 @@
 ;; Should be able to eval-and-replace anywhere.
 (global-set-key (kbd "C-c C-e") 'eval-and-replace)
 
-(global-set-key (kbd "<prior>") 'beginning-of-buffer)
+(global-set-key (kbd "<prior>") 'previous-buffer)
 (global-set-key (kbd "<home>") 'beginning-of-buffer)
-(global-set-key (kbd "<next>") 'end-of-buffer)
+(global-set-key (kbd "<next>") 'next-buffer)
 (global-set-key (kbd "<end>") 'end-of-buffer)
 (global-set-key (kbd "M-p") 'backward-paragraph)
 (global-set-key (kbd "M-n") 'forward-paragraph)
@@ -136,7 +136,7 @@
 (define-key global-map (kbd "C-M-i") 'indent-code-rigidly)
 
 (define-key global-map (kbd "C-o") 'vi-open-line-below)
-(define-key global-map (kbd "C-O") 'vi-open-line-above)
+;;(define-key global-map (kbd "C-O") 'vi-open-line-above)
 (define-key global-map (kbd "C-S-O") 'vi-open-line-above)
 (define-key global-map [(meta shift ?o)] 'vi-open-line-above)
 
