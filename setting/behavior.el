@@ -77,4 +77,9 @@
 ;;hightlist TODO FIXME keyword
 (fixme-mode 1)
 
+;;解决有时候鼠标选不中的问题，来自李杀的教导
+(transient-mark-mode 1)
+(delete-selection-mode 1)
+
 (provide 'behavior)
+
