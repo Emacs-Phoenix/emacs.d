@@ -484,3 +484,6 @@
 [submodule "site-lisp/scss-mode"]
 	path = site-lisp/scss-mode
 	url = git@github.com:Emacs-Phoenix/scss-mode.git
+[submodule "site-lisp/emacs-anzu"]
+	path = site-lisp/emacs-anzu
+	url = git@github.com:syohex/emacs-anzu.git
