@@ -36,8 +36,8 @@
 (rename-modeline "js2-mode" js2-mode "JS2")
 (rename-modeline "clojure-mode" clojure-mode "CLJ")
 (rename-modeline "cider-mode" cider-mode "CLJ")
-(rename-modeline "paredit-mode" paredit-mode "P")
-(rename-modeline "Fixme" fixme-mode "F")
+;;(rename-modeline "Projectile" projectile-mode "ⓟ")
+(rename-modeline "Emacs-Lisp" emacs-lisp-mode "ⓔ")
 ;;????为毛remap到第一个
 ;;(rename-modeline "Paredit" paredit-mode "( ˘ ³˘)❤")
 

@@ -82,6 +82,8 @@
 (diminish 'emmet-mode)
 (diminish 'anzu-mode)
 (diminish 'tagedit-mode)
+(diminish 'aggressive-indent-mode)
+(diminish 'auto-highlight-symbol-mode)
 
 ;;解决有时候鼠标选不中的问题，来自李杀的教导
 (transient-mark-mode 1)
