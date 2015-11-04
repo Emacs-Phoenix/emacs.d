@@ -478,3 +478,6 @@
 [submodule "site-lisp/epl"]
 	path = site-lisp/epl
 	url = git@github.com:cask/epl.git
+[submodule "site-lisp/go-mode.el"]
+	path = site-lisp/go-mode.el
+	url = git@github.com:dominikh/go-mode.el.git
