@@ -74,7 +74,20 @@
   '(diminish 'awk-mode))
 
 
+
 ;;hightlist TODO FIXME keyword
 (fixme-mode 1)
+(diminish 'fixme-mode)
+(diminish 'paredit-mode)
+(diminish 'emmet-mode)
+(diminish 'anzu-mode)
+(diminish 'tagedit-mode)
+(diminish 'aggressive-indent-mode)
+(diminish 'auto-highlight-symbol-mode)
+
+;;解决有时候鼠标选不中的问题，来自李杀的教导
+(transient-mark-mode 1)
+(delete-selection-mode 1)
 
 (provide 'behavior)
+

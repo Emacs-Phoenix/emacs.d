@@ -77,4 +77,8 @@
 
 (eye-care-start)
 
+(global-anzu-mode +1)
+
+(which-function-mode 1)
+
 (provide 'trigger)

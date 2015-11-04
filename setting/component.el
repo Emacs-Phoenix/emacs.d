@@ -137,6 +137,8 @@
 (require 'setup-clj)
 (require 'setup-jsx)
 (require 'setup-go)
+(require 'setup-scss)
+(require 'anzu)
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp
