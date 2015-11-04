@@ -418,9 +418,6 @@
 [submodule "emacs-org"]
 	path = emacs-org
 	url = git@git.coding.net:abychan/emacs-org.git
-[submodule "site-lisp/emacs-geeknote"]
-	path = site-lisp/emacs-geeknote
-	url = git@github.com:avendael/emacs-geeknote.git
 [submodule "summarize"]
 	path = summarize
 	url = git@git.coding.net:abychan/summarize.git
