@@ -91,6 +91,7 @@
 (require 'avy)
 (require 'setup-aggressive-indent) ;;进击的模式 auto indent
 (require 'esup) ;;Emacs Start Up Profiler
+(require 'yaml-mode)
 
 ;;setup
 (require 'setup-ido)
