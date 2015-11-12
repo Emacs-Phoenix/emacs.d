@@ -484,3 +484,6 @@
 [submodule "site-lisp/emacs-anzu"]
 	path = site-lisp/emacs-anzu
 	url = git@github.com:syohex/emacs-anzu.git
+[submodule "site-lisp/xah-css-mode"]
+	path = site-lisp/xah-css-mode
+	url = git@github.com:xahlee/xah-css-mode.git

@@ -1,6 +1,7 @@
 ;;(eyebrowse-mode t)
 
-(sublimity-mode 1)
+;;(sublimity-mode 1)
+(smooth-scroll-mode t)
 ;;(setq sublimity-scroll-weight 6
 ;;     sublimity-scroll-drift-length 4)
 
@@ -80,5 +81,7 @@
 (global-anzu-mode +1)
 
 (which-function-mode 1)
+
+(smooth-scroll-mode t)
 
 (provide 'trigger)

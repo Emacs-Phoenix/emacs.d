@@ -125,7 +125,7 @@
   "Scroll window smoothly."
   :group 'editing)
 
-(defcustom smooth-scroll/vscroll-step-size 2
+(defcustom smooth-scroll/vscroll-step-size 4
   "Amount of lines, which determines quality of smooth vertical scrolling.
 The small number makes it better, the large number makes it rough.
 
