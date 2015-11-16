@@ -11,3 +11,7 @@ You can use C-j, which is bound to (ido-select-text) and selects the buffer curr
 
 * profile
 Command: profiler-start  profiler-report
+
+* 值得一提的是我找到这个问题的方法。一开始我发现 emacs 每天总是会卡住 3，4 回，出现的频率很低，很难通过依次禁止 .emacs 中的内容来排查，于是我就到 emacs 的官方邮件列表上去提问，有人告诉了我一个好方法：
+M-x toggle-debug-on-quit
+这样，每当卡住的时候按 C-g，emacs 就会打开一个 buffer，显示当前正运行的是哪个函数，以及整个函数调用的栈，看看栈底就知道到底是那个函数引起了卡住。
