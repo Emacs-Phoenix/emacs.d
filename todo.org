@@ -20,3 +20,5 @@
 * TODO yas load after
 * TODO english word learn [clojure]
 * DONE acejump in a buffer <2015-10-15 Thu>
+* emacs webkit
+* emacs code brower
