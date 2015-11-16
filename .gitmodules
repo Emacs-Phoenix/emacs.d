@@ -487,3 +487,6 @@
 [submodule "site-lisp/xah-css-mode"]
 	path = site-lisp/xah-css-mode
 	url = git@github.com:xahlee/xah-css-mode.git
+[submodule "site-lisp/xah-replace-pairs"]
+	path = site-lisp/xah-replace-pairs
+	url = git@github.com:xahlee/xah-replace-pairs.git
