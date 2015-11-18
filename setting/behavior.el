@@ -90,5 +90,8 @@
 (transient-mark-mode 1)
 (delete-selection-mode 1)
 
+;;尼玛，索性不要鼠标滚动算了
+(mouse-wheel-mode -1)
+
 (provide 'behavior)
 
