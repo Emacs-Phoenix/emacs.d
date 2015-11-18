@@ -125,7 +125,7 @@
   "Scroll window smoothly."
   :group 'editing)
 
-(defcustom smooth-scroll/vscroll-step-size 4
+(defcustom smooth-scroll/vscroll-step-size 8
   "Amount of lines, which determines quality of smooth vertical scrolling.
 The small number makes it better, the large number makes it rough.
 
@@ -134,8 +134,9 @@ This value must be a positive number, otherwise `1' will be used.
 Default value is `2'."
   :type 'integer
   :group 'smooth-scroll)
+(defvar smooth-scroll/vscroll-step-size 16)
 
-(defcustom smooth-scroll/hscroll-step-size 2
+(defcustom smooth-scroll/hscroll-step-size 8
   "Amount of columns, which determines quality of smooth horizontal scrolling.
 The small number makes it better, the large number makes it rough.
 
@@ -144,6 +145,8 @@ This value must be a positive number, otherwise `1' will be used.
 Default value is `2'."
   :type 'integer
   :group 'smooth-scroll)
+
+(defvar  smooth-scroll/vscroll-step-size 16)
 
  
 ;;;============================================================================

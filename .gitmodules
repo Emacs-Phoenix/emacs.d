@@ -490,3 +490,6 @@
 [submodule "site-lisp/xah-replace-pairs"]
 	path = site-lisp/xah-replace-pairs
 	url = git@github.com:xahlee/xah-replace-pairs.git
+[submodule "site-lisp/emacs-translate"]
+	path = site-lisp/emacs-translate
+	url = git@github.com:Emacs-Phoenix/emacs-translate.git
