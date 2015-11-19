@@ -1,7 +1,7 @@
 ;;(eyebrowse-mode t)
 
-;;(sublimity-mode 1)
-(smooth-scroll-mode t)
+(sublimity-mode 1)
+;;(smooth-scroll-mode t)
 ;;(setq sublimity-scroll-weight 6
 ;;     sublimity-scroll-drift-length 4)
 

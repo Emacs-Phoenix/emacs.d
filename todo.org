@@ -22,3 +22,4 @@
 * DONE acejump in a buffer <2015-10-15 Thu>
 * emacs webkit
 * emacs code brower
+* TODO  backspace region
