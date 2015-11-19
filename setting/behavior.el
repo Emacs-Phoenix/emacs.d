@@ -90,5 +90,19 @@
 (transient-mark-mode 1)
 (delete-selection-mode 1)
 
+;;碰顶的响声
+(setq ring-bell-function #'ignore)
+
+(setq redisplay-dont-pause t)
+
+(setq redisplay-dont-pause t
+      scroll-margin 1
+      scroll-step 1
+      scroll-conservatively 10000
+      scroll-preserve-screen-position 1)
+
+(setq scroll-conservatively 10)
+(setq scroll-margin 7)
+
 (provide 'behavior)
 
