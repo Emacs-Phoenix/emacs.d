@@ -103,6 +103,8 @@
 
 (setq scroll-conservatively 10)
 (setq scroll-margin 7)
+;;尼玛，索性不要鼠标滚动算了
+(mouse-wheel-mode -1)
 
 (provide 'behavior)
 
