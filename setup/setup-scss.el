@@ -9,4 +9,6 @@
   (rainbow-mode t))
 (add-hook 'scss-mode-hook 'aj-scss-mode-hook)
 
+(add-hook 'scss-mode-hook 'flycheck-mode)
+
 (provide 'setup-scss)

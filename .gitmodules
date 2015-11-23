@@ -493,3 +493,6 @@
 [submodule "site-lisp/emacs-translate"]
 	path = site-lisp/emacs-translate
 	url = git@github.com:Emacs-Phoenix/emacs-translate.git
+[submodule "site-lisp/clojure-cheatsheet"]
+	path = site-lisp/clojure-cheatsheet
+	url = git@github.com:clojure-emacs/clojure-cheatsheet.git

@@ -2,6 +2,7 @@
                   [lein-environ "1.0.0"]
                   [lein-kibit "0.0.8"]
                   [lein-marginalia "0.7.1"]
+                  [refactor-nrepl "1.1.0"]
                   [lein-pprint "1.1.1"]
                   [lein-try "0.4.1"]
                   [jonase/eastwood "0.2.1"]

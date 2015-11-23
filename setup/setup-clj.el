@@ -15,6 +15,18 @@
 
 (require 'clj-refactor)
 
+
+(autoload 'cider-macroexpand-1 "cider-macroexpansion" "\
+Invoke 'macroexpand-1' on the expression at point.
+If invoked with a PREFIX argument, use 'macroexpand' instead of
+'macroexpand-1'.
+\(fn &optional PREFIX)" t nil)
+
+(autoload 'cider-macroexpand-all "cider-macroexpansion" "\
+Invoke 'clojure.walk/macroexpand-all' on the expression at point.
+\(fn)" t nil)
+
+(require 'inf-clojure)
 (defun my-clojure-mode-hook ()
   (clj-refactor-mode 1)
   (yas-minor-mode 1) ; for adding require/use/import
@@ -158,5 +170,10 @@
 (add-hook 'clojure-mode-hook #'smartparens-strict-mode)
 
 (add-hook 'clojure-mode-hook #'rainbow-delimiters-mode)
+
+(require 'clojure-cheatsheet)
+(eval-after-load 'clojure-mode
+  '(progn
+     (define-key clojure-mode-map (kbd "C-c C-h") #'clojure-cheatsheet)))
 
 (provide 'setup-clj)

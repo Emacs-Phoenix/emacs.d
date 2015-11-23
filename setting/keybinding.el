@@ -127,7 +127,7 @@
 
 (global-set-key (kbd "C-c z") 'goto-last-change)
 (global-set-key (kbd "C-z") 'goto-last-change)
-
+;;; 
 
 ;;A regexp/replace command for Emacs with interactive visual feedback
 (define-key global-map (kbd "C-c r") 'vr/replace)
