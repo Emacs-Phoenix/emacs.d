@@ -23,3 +23,6 @@
 * emacs webkit
 * emacs code brower
 * TODO  backspace region
+* hover-click
+* raise-window
+* 自动跳到参数括号

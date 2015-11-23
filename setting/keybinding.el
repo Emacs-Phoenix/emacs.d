@@ -32,6 +32,7 @@
 
 (global-set-key (kbd "C-s-c C-s-c") 'mc/edit-lines)
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-c C->") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 ;;(global-set-key (kbd "C-c C-.") 'mc/mark-all-like-this)
@@ -158,7 +159,7 @@
      (scroll-up-line)))
 
 (define-key global-map (kbd "C-S-p")
-  (λ (scroll-down-line)
+  (λ (scroll-down-line)'
      (scroll-down-line)))
 
 (define-key global-map (kbd "C-S-<up>")
@@ -173,6 +174,18 @@
 (define-key global-map (kbd "C-S-b")
   (λ (scroll-right 2)))
 
+;;vim like move
+(define-key global-map (kbd "C-S-h")
+  'left-char)
+
+(define-key global-map (kbd "C-S-k")
+  'previous-line)
+
+(define-key global-map (kbd "C-S-j")
+  'next-line)
+
+(define-key global-map (kbd "C-S-l")
+  'right-char)
 
 
 
