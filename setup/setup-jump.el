@@ -2,4 +2,8 @@
 
 (setq ace-jump-mode-scope 'window)
 
+(setq ace-jump-mode-case-fold nil)
+
+
+
 (provide 'setup-jump)

@@ -15,6 +15,7 @@
 (global-set-key (kbd "C-r") 'isearch-forward-use-region)
 (define-key global-map (kbd "C-s") 'ace-jump-char-mode)
 (define-key global-map (kbd "C-#") 'ace-jump-mode)
+(define-key global-map (kbd "C-c s") 'avy-goto-char)
 
 (global-set-key (kbd "C-c <SPC>") 'avy-goto-line)
 
