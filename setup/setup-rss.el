@@ -15,7 +15,8 @@
         ;;("https://github.com/AbyChan.private.atom?token=AGowAFs_OGXG7dKf8q7hqH__kLXXUkkvks60Kz-LwA==" github)
         ;;("http://stackoverflow.com/feeds/tag?tagnames=javascript&sort=newest" stackoverflow javascript)
         ("http://stackoverflow.com/feeds/tag?tagnames=emacs&sort=newest" stackoverflow emacs)
-        ("https://www.v2ex.com/feed/tab/tech.xml" v2ex)))
+        ("https://www.v2ex.com/feed/tab/tech.xml" v2ex)
+        ("https://linuxtoy.org/feeds/all.atom.xml" linux)))
 
 (global-set-key (kbd "C-x w") 'elfeed)
 

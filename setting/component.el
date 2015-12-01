@@ -81,7 +81,7 @@
 (require 'fixme-mode)
 (require 'sos)
 (require 'window-numbering)
-(require 'chinese-fonts-setup)
+;;(require 'chinese-fonts-setup)
 (require 'chinese-pyim)
 (require 'vimish-fold);;vim like fold code
 (require 'windresize)

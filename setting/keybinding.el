@@ -188,6 +188,9 @@
   'right-char)
 
 
+(global-set-key (kbd "M-s s") 'ag)
+
+(global-set-key (kbd "M-;") 'comment-line-or-comment-block)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;  For ErgoDox

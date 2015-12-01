@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : ready
+# --
+document.addEventListener("DOMContentLoaded", function(event) {
+
+});

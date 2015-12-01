@@ -5,5 +5,6 @@
 (require 'window)
 (require 'buffer)
 (require 'defuns)
+(require 'operation)
 
 (provide 'lib)

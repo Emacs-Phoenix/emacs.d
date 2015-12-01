@@ -1,0 +1,170 @@
+;; Object templates/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "templates/"
+  :tables
+  (list
+    (semanticdb-table "storenav.html"
+      :major-mode 'html-mode
+      :tags nil
+      :file "storenav.html"
+      :pointmax 379
+      :fsize 408
+      :lastmodtime '(22104 6242 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "service-support.html"
+      :major-mode 'html-mode
+      :tags nil
+      :file "service-support.html"
+      :pointmax 971
+      :fsize 1048
+      :lastmodtime '(22104 6147 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "repur_list.html"
+      :major-mode 'html-mode
+      :tags nil
+      :file "repur_list.html"
+      :pointmax 249
+      :fsize 266
+      :lastmodtime '(22104 4504 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "index.html"
+      :major-mode 'html-mode
+      :tags 
+        '( ("" section (:members 
+              ( ("" anchor nil nil [217 220]))              ) nil [157 442]))          
+      :file "index.html"
+      :pointmax 442
+      :fsize 449
+      :lastmodtime '(22104 2879 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "repur.html"
+      :major-mode 'html-mode
+      :tags nil
+      :file "repur.html"
+      :pointmax 2787
+      :fsize 3160
+      :lastmodtime '(22103 64964 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "repur_license.html"
+      :major-mode 'html-mode
+      :tags nil
+      :file "repur_license.html"
+      :pointmax 1027
+      :fsize 2272
+      :lastmodtime '(22103 64283 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "service-sendfix-step1.html"
+      :major-mode 'html-mode
+      :tags 
+        '( ("next" anchor nil nil [2663 2666])
+            ("如何查看手机SN/IMEI号？<br>
+              进入<span class=\"blue-text\">设置－关于手机" section nil nil [3886 4290]))          
+      :file "service-sendfix-step1.html"
+      :pointmax 4290
+      :fsize 4509
+      :lastmodtime '(22101 10699 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "service-sendfix-step3.html"
+      :major-mode 'html-mode
+      :tags 
+        '( ("查询保修历史" anchor nil nil [722 725])
+            ("返回首页" anchor nil nil [811 814]))          
+      :file "service-sendfix-step3.html"
+      :pointmax 933
+      :fsize 1032
+      :lastmodtime '(22101 11656 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "assessmentPhone.html"
+      :major-mode 'html-mode
+      :tags nil
+      :file "assessmentPhone.html"
+      :pointmax 120
+      :fsize 127
+      :lastmodtime '(22102 46264 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "pcenter.html"
+      :major-mode 'html-mode
+      :tags nil
+      :file "pcenter.html"
+      :pointmax 368
+      :fsize 399
+      :lastmodtime '(22103 52513 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "assessmentPhone_result.html"
+      :major-mode 'html-mode
+      :tags nil
+      :file "assessmentPhone_result.html"
+      :pointmax 2185
+      :fsize 2759
+      :lastmodtime '(22103 51970 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "assessmentPhone_step3.html"
+      :major-mode 'html-mode
+      :tags nil
+      :file "assessmentPhone_step3.html"
+      :pointmax 2324
+      :fsize 2591
+      :lastmodtime '(22102 52952 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "assessmentPhone_step2.html"
+      :major-mode 'html-mode
+      :tags nil
+      :file "assessmentPhone_step2.html"
+      :pointmax 1784
+      :fsize 2083
+      :lastmodtime '(22103 51607 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "assessmentPhone_step1.html"
+      :major-mode 'html-mode
+      :tags nil
+      :file "assessmentPhone_step1.html"
+      :pointmax 1185
+      :fsize 1310
+      :lastmodtime '(22102 51767 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "service-sendfix-step2.html"
+      :major-mode 'html-mode
+      :tags nil
+      :file "service-sendfix-step2.html"
+      :pointmax 7615
+      :fsize 8306
+      :lastmodtime '(22107 60517 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "sendfix-tab.html"
+      :major-mode 'html-mode
+      :tags nil
+      :file "sendfix-tab.html"
+      :pointmax 272
+      :fsize 271
+      :lastmodtime '(22090 49641 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "old2new.html"
+      :major-mode 'html-mode
+      :tags 
+        '( ("魅族 MX3" section nil nil [591 709])
+            ("魅族 MX3" section nil nil [709 827])
+            ("魅族 MX3" section nil nil [827 916]))          
+      :file "old2new.html"
+      :pointmax 916
+      :fsize 951
+      :lastmodtime '(22102 43896 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "checkauth.html"
+      :major-mode 'html-mode
+      :tags nil
+      :file "checkauth.html"
+      :pointmax 470
+      :fsize 495
+      :lastmodtime '(22101 28479 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "fixprogress.html"
+      :major-mode 'html-mode
+      :tags nil
+      :file "fixprogress.html"
+      :pointmax 746
+      :fsize 801
+      :lastmodtime '(22101 28066 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!tyan!PROJECT!msupport!www!templates!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
