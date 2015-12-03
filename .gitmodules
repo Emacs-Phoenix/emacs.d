@@ -496,3 +496,6 @@
 [submodule "site-lisp/clojure-cheatsheet"]
 	path = site-lisp/clojure-cheatsheet
 	url = git@github.com:clojure-emacs/clojure-cheatsheet.git
+[submodule "site-lisp/NodeAtom.el"]
+	path = site-lisp/NodeAtom.el
+	url = git@github.com:Emacs-Phoenix/NodeAtom.el.git
