@@ -154,6 +154,7 @@
 (require 'reveal-dir)
 (require 'emacs-boilerplate)
 (require 'eye-care)
+(require 'emacs-translate)
 
 (require 'trigger)
 (require 'keybinding)
