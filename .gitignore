@@ -1,6 +1,7 @@
 auto-save-list
 semanticdb/
 .\#~
+.#~
 emacs-desktop
 .python-environments
 desktop-recover-tmp
