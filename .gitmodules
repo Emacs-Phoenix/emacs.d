@@ -391,9 +391,6 @@
 [submodule "site-lisp/emacs-web"]
 	path = site-lisp/emacs-web
 	url = git@github.com:nicferrier/emacs-web.git
-[submodule "site-lisp/DoubanMusic"]
-	path = site-lisp/DoubanMusic
-	url = git@github.com:Emacs-Phoenix/DoubanMusic.git
 [submodule "site-lisp/circe"]
 	path = site-lisp/circe
 	url = git@github.com:jorgenschaefer/circe.git
@@ -499,3 +496,6 @@
 [submodule "site-lisp/NodeAtom.el"]
 	path = site-lisp/NodeAtom.el
 	url = git@github.com:Emacs-Phoenix/NodeAtom.el.git
+[submodule "site-lisp/unicode-convert"]
+	path = site-lisp/unicode-convert
+	url = git@github.com:Emacs-Phoenix/unicode-convert.git
