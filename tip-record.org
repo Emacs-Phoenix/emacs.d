@@ -17,3 +17,4 @@ M-x toggle-debug-on-quit
 这样，每当卡住的时候按 C-g，emacs 就会打开一个 buffer，显示当前正运行的是哪个函数，以及整个函数调用的栈，看看栈底就知道到底是那个函数引起了卡住。
 
 * keyboard-translate 按键转换
+* M-x ielm elisp shell
