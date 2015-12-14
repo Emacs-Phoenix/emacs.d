@@ -141,7 +141,9 @@
 (require 'setup-jsx)
 (require 'setup-go)
 (require 'setup-scss)
+(require 'setup-tramp)
 (require 'anzu)
+
 (when is-mac (require 'setup-mac))
 
 ;;my site-lisp
