@@ -165,6 +165,7 @@
 ;;只运行一个frame
 (setq ns-pop-up-frames nil)
 
+(auto-save-mode -1)
 
 (provide 'default)
 
