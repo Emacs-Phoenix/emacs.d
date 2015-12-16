@@ -197,4 +197,14 @@
 ;;  For ErgoDox
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;  For Mac keyboard
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(global-set-key (kbd "H-'") 'previous-buffer)
+(global-set-key (kbd "H-;") 'beginning-of-buffer)
+(global-set-key (kbd "H-/") 'next-buffer)
+(global-set-key (kbd "H-.") 'end-of-buffer)
+
+
+
 (provide 'keybinding)
