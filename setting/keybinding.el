@@ -153,6 +153,8 @@
   (λ (scroll-up-line)
      (scroll-up-line)
      (scroll-up-line)
+     (scroll-up-line)
+     (scroll-up-line)
      (scroll-up-line)))
 
 (define-key global-map (kbd "C-S-<down>")
@@ -163,6 +165,8 @@
 
 (define-key global-map (kbd "C-S-p")
   (λ (scroll-down-line)
+     (scroll-down-line)
+     (scroll-down-line)
      (scroll-down-line)
      (scroll-down-line)
      (scroll-down-line)))
