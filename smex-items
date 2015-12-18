@@ -1,16 +1,26 @@
 
 ;; ----- smex-history -----
 (
- cd
- 5x5
- ack
- arp
- dbx
- dig
- erc
+ revert-buffer
+ aggressive-indent-global-mode
+ aggressive-indent-mode
+ eval-buffer
+ jedi:install-server
+ tramp-cleanup-all-connections
+ nodejs-repl
 )
 
 ;; ----- smex-data -----
 (
- 
+ (tramp-version . 1)
+ (eye-care-stop . 1)
+ (tramp-cleanup-all-connections . 2)
+ (eval-buffer . 4)
+ (aggressive-indent-mode . 3)
+ (jedi:install-server . 2)
+ (nodejs-repl . 1)
+ (boilerplate . 1)
+ (aggressive-indent-global-mode . 2)
+ (reveal-dir . 1)
+ (revert-buffer . 1)
 )

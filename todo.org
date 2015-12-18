@@ -23,10 +23,7 @@
 * emacs webkit
 * emacs code brower
 * TODO  backspace region
-<<<<<<< HEAD
 * hover-click
 * raise-window
 * 自动跳到参数括号
-=======
 * TODO  ace jump in around line
->>>>>>> a54afefcfb43e9b2c16768ea6b64e04cbc244a45
