@@ -1,26 +1,23 @@
 
 ;; ----- smex-history -----
 (
- revert-buffer
- aggressive-indent-global-mode
- aggressive-indent-mode
  eval-buffer
- jedi:install-server
- tramp-cleanup-all-connections
- nodejs-repl
+ reveal-in-osx-finder
+ transparency
+ create-scratch-buffer
+ scroll-up-1
+ scroll-up-command
+ highlight-symbol-at-point
 )
 
 ;; ----- smex-data -----
 (
- (tramp-version . 1)
- (eye-care-stop . 1)
- (tramp-cleanup-all-connections . 2)
+ (transparency . 15)
  (eval-buffer . 4)
- (aggressive-indent-mode . 3)
- (jedi:install-server . 2)
- (nodejs-repl . 1)
- (boilerplate . 1)
- (aggressive-indent-global-mode . 2)
- (reveal-dir . 1)
- (revert-buffer . 1)
+ (eye-care-stop . 1)
+ (highlight-symbol-at-point . 1)
+ (scroll-up-command . 4)
+ (scroll-up-1 . 1)
+ (create-scratch-buffer . 1)
+ (reveal-in-osx-finder . 1)
 )
