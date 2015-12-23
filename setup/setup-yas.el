@@ -85,6 +85,10 @@
           (company-abort))
       (company-complete-selection)))
 
+(defun complete-selection ()
+  (interactive)
+  (company-complete-selection))
+
 (defun abort-company-or-yas ()
   (interactive)
   (if (null company-candidates)
@@ -95,14 +99,19 @@
 ;;(global-set-key [tab] 'tab-indent-or-complete)
 ;;(global-set-key (kbd "TAB") 'tab-indent-or-complete)
 
-;;(define-key js2-mode-map (kbd "TAB") 'tab-indent-or-complete)
-;;(define-key html-mode-map (kbd "TAB") 'tab-indent-or-complete)
-;;(define-key emacs-lisp-mode-map (kbd "TAB") 'tab-indent-or-complete)
+(define-key js2-mode-map (kbd "TAB") 'tab-indent-or-complete)
+(define-key html-mode-map (kbd "TAB") 'tab-indent-or-complete)
+(define-key emacs-lisp-mode-map (kbd "TAB") 'tab-indent-or-complete)
+(define-key emacs-lisp-mode-map ["tab"] 'tab-indent-or-complete)
 
 (global-set-key [(control return)] 'company-complete-common)
 
-(define-key company-active-map [tab] 'expand-snippet-or-complete-selection)
-(define-key company-active-map (kbd "TAB") 'expand-snippet-or-complete-selection)
+;; (define-key company-active-map [tab] 'expand-snippet-or-complete-selection)
+;; (define-key company-active-map (kbd "TAB") 'expand-snippet-or-complete-selection)
+(define-key company-active-map [tab] 'complete-selection)
+(define-key company-active-map (kbd "TAB") 'complete-selection)
+
+
 
 (define-key yas-minor-mode-map [tab] nil)
 (define-key yas-minor-mode-map (kbd "TAB") nil)

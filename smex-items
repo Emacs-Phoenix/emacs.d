@@ -1,21 +1,21 @@
 
 ;; ----- smex-history -----
 (
- revert-buffer
- aggressive-indent-global-mode
- aggressive-indent-mode
  eval-buffer
- jedi:install-server
- tramp-cleanup-all-connections
- nodejs-repl
+ eye-care-stop
+ fetch-feed-by-process
+ transparency
+ mwheel-scroll
+ sublimity-mode
+ smooth-scroll-mode
 )
 
 ;; ----- smex-data -----
 (
  (tramp-version . 1)
- (eye-care-stop . 1)
+ (eye-care-stop . 3)
  (tramp-cleanup-all-connections . 2)
- (eval-buffer . 4)
+ (eval-buffer . 9)
  (aggressive-indent-mode . 3)
  (jedi:install-server . 2)
  (nodejs-repl . 1)
@@ -23,4 +23,9 @@
  (aggressive-indent-global-mode . 2)
  (reveal-dir . 1)
  (revert-buffer . 1)
+ (transparency . 3)
+ (smooth-scroll-mode . 1)
+ (sublimity-mode . 2)
+ (mwheel-scroll . 1)
+ (fetch-feed-by-process . 14)
 )
