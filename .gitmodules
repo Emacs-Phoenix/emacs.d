@@ -508,3 +508,6 @@
 [submodule "site-lisp/pair-jump"]
 	path = site-lisp/pair-jump
 	url = git@github.com:Emacs-Phoenix/pair-jump.git
+[submodule "site-lisp/haskell-mode"]
+	path = site-lisp/haskell-mode
+	url = git@github.com:haskell/haskell-mode.git
