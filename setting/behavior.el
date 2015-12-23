@@ -105,7 +105,7 @@
 (setq scroll-margin 7)
 
 ;;尼玛，索性不要鼠标滚动算了
-;;(mouse-wheel-mode -1)
+(mouse-wheel-mode -1)
 
 ;;尼玛，全面禁止鼠标操作 2015-11-19
                                         ; (dolist (k '([mouse-1] [down-mouse-1] [drag-mouse-1] [double-mouse-1] [triple-mouse-1]  
