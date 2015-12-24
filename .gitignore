@@ -3,6 +3,7 @@ semanticdb/
 .\#~
 .#~
 smex-items
+smex-items/
 emacs-desktop
 .python-environments
 desktop-recover-tmp

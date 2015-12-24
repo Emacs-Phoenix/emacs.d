@@ -93,7 +93,7 @@
 (require 'esup) ;;Emacs Start Up Profiler
 (require 'yaml-mode)
 (require 'smooth-scroll)
-(require 'xah-css-mode)
+;;(require 'xah-css-mode)
 
 ;;setup
 (require 'setup-ido)
@@ -143,6 +143,7 @@
 (require 'setup-scss)
 (require 'setup-tramp)
 (require 'anzu)
+(require 'setup-haskell)
 
 (when is-mac (require 'setup-mac))
 
@@ -157,6 +158,7 @@
 (require 'emacs-boilerplate)
 (require 'eye-care)
 (require 'emacs-translate)
+(require 'pair-jump)
 
 (require 'trigger)
 (require 'keybinding)

@@ -42,6 +42,7 @@
 
 (global-unset-key (kbd "C-/"))
 (global-set-key (kbd "C-/") 'imenu-anywhere)
+(global-set-key (kbd "C-?") 'helm-imenu)
 
 (global-set-key (kbd "C-<f10>") 'menu-bar-mode)
 
