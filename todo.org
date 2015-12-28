@@ -27,3 +27,5 @@
 * raise-window
 * 自动跳到参数括号
 * TODO  ace jump in around line
+* TODO region M-c copy M-v paste
+* 吃菜游戏
