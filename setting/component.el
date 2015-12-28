@@ -94,6 +94,8 @@
 (require 'yaml-mode)
 (require 'smooth-scroll)
 ;;(require 'xah-css-mode)
+;;(require 'showkey) ;; 显示 keystorke
+
 
 ;;setup
 (require 'setup-ido)
