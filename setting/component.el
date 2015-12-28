@@ -144,6 +144,7 @@
 (require 'setup-tramp)
 (require 'anzu)
 (require 'setup-haskell)
+(require 'setup-tags)
 
 (when is-mac (require 'setup-mac))
 
