@@ -93,6 +93,7 @@
 (require 'esup) ;;Emacs Start Up Profiler
 (require 'yaml-mode)
 (require 'smooth-scroll)
+(require 'showkey)
 ;;(require 'xah-css-mode)
 
 ;;setup
