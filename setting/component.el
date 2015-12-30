@@ -95,6 +95,8 @@
 (require 'smooth-scroll)
 (require 'showkey)
 ;;(require 'xah-css-mode)
+;;(require 'showkey) ;; 显示 keystorke
+
 
 ;;setup
 (require 'setup-ido)
