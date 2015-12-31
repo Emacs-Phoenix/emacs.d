@@ -26,6 +26,7 @@
   (when (file-directory-p path)
     (add-to-list 'custom-theme-load-path path)))
 
+
 (show-paren-mode 1)
 
 (defmacro rename-modeline (package-name mode new-name)
