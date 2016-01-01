@@ -514,3 +514,9 @@
 [submodule "site-lisp/structured-haskell-mode"]
 	path = site-lisp/structured-haskell-mode
 	url = git@github.com:chrisdone/structured-haskell-mode.git
+[submodule "site-lisp/osx-tools"]
+	path = site-lisp/osx-tools
+	url = git@github.com:Emacs-Phoenix/osx-tools.git
+[submodule "site-lisp/eproject"]
+	path = site-lisp/eproject
+	url = git@github.com:jrockway/eproject.git

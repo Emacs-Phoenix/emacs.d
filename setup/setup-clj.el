@@ -1,5 +1,6 @@
 
 (require 'clojure-mode)
+(require 'icomplete)
 (add-hook 'clojure-mode-hook #'subword-mode)
 
 
@@ -115,6 +116,9 @@ Invoke 'clojure.walk/macroexpand-all' on the expression at point.
 ;; Don't prompt for symbols
 (setq cider-prompt-for-symbol nil)
 
+
+(setq cider-request-dispatch 'static)
+
 ;; Enable eldoc in Clojure buffers
 (add-hook 'cider-mode-hook #'eldoc-mode)
 
@@ -150,7 +154,7 @@ Invoke 'clojure.walk/macroexpand-all' on the expression at point.
 
 (define-key clojure-mode-map (kbd "C-`") 'live-cycle-clj-coll)
 
-(define-key clojure-mode-map (kbd "c-c C-e") 'cider-eval-last-sexp)
+(define-key clojure-mode-map (kbd "C-c C-e") 'cider-eval-last-sexp)
 (define-key clojure-mode-map "\C-x\C-e" #'cider-eval-last-sexp)
 (define-key inf-clojure-mode-map (kbd "C-c C-e") 'cider-eval-last-sexp)
 (define-key inf-clojure-mode-map "\C-x\C-e" #'cider-eval-last-sexp)
@@ -180,13 +184,15 @@ Invoke 'clojure.walk/macroexpand-all' on the expression at point.
 (require 'clojure-cheatsheet)
 (eval-after-load 'clojure-mode
   '(progn
-     (define-key inf-clojure-mode-map "\C-x\C-e" #'cider-eval-last-sexp)
      (define-key clojure-mode-map (kbd "C-c C-h") #'clojure-cheatsheet)))
 
 (eval-after-load 'inf-clojure-mode-map
   '(progn
      (define-key inf-clojure-mode-map "\C-x\C-e" #'cider-eval-last-sexp)
      (define-key inf-clojure-mode-map (kbd "C-c C-e") 'cider-eval-last-sexp)))
+
+(add-hook 'cider-repl-mode-hook #'company-mode)
+(add-hook 'cider-mode-hook #'company-mode)
 
 
 (provide 'setup-clj)
