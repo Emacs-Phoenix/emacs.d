@@ -184,7 +184,7 @@ Invoke 'clojure.walk/macroexpand-all' on the expression at point.
 (require 'clojure-cheatsheet)
 (eval-after-load 'clojure-mode
   '(progn
-     (define-key clojure-mode-map (kbd "C-c C-h") #'clojure-cheatsheet)))
+     (define-key clojure-mode-map (kbd "C-c h") #'clojure-cheatsheet)))
 
 (eval-after-load 'inf-clojure-mode-map
   '(progn

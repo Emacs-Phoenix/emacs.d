@@ -69,10 +69,12 @@
         (before-char (string (char-before))))
     (cond ((or (equal after-char "(")
                (equal after-char "{")
+               (equal after-char "\"")
                (equal after-char "["))
            (forward-sexp))
           ((or (equal before-char ")")
                (equal before-char "}")
+               (equal before-char "\"")
                (equal before-char "]"))
            (backward-sexp))
           (t
