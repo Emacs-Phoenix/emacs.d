@@ -1,5 +1,6 @@
 
 (require 'clojure-mode)
+(require 'icomplete)
 (add-hook 'clojure-mode-hook #'subword-mode)
 
 
@@ -27,6 +28,7 @@ Invoke 'clojure.walk/macroexpand-all' on the expression at point.
 \(fn)" t nil)
 
 (require 'inf-clojure)
+(require 'inf-lisp)
 (defun my-clojure-mode-hook ()
   (clj-refactor-mode 1)
   (yas-minor-mode 1) ; for adding require/use/import
@@ -114,6 +116,9 @@ Invoke 'clojure.walk/macroexpand-all' on the expression at point.
 ;; Don't prompt for symbols
 (setq cider-prompt-for-symbol nil)
 
+
+(setq cider-request-dispatch 'static)
+
 ;; Enable eldoc in Clojure buffers
 (add-hook 'cider-mode-hook #'eldoc-mode)
 
@@ -149,18 +154,23 @@ Invoke 'clojure.walk/macroexpand-all' on the expression at point.
 
 (define-key clojure-mode-map (kbd "C-`") 'live-cycle-clj-coll)
 
+(define-key clojure-mode-map (kbd "C-c C-e") 'cider-eval-last-sexp)
+(define-key clojure-mode-map "\C-x\C-e" #'cider-eval-last-sexp)
+(define-key inf-clojure-mode-map (kbd "C-c C-e") 'cider-eval-last-sexp)
+(define-key inf-clojure-mode-map "\C-x\C-e" #'cider-eval-last-sexp)
+
 ;;;flycheck
 
-;; (load (expand-file-name "site-lisp/squiggly-clojure/elisp/flycheck-clojure/flycheck-clojure.el" user-emacs-directory))
+(load (expand-file-name "site-lisp/squiggly-clojure/elisp/flycheck-clojure/flycheck-clojure.el" user-emacs-directory))
 
-;; (load (expand-file-name "site-lisp/squiggly-clojure/elisp/typed-clojure/clojure-typed-doc.el" user-emacs-directory))
+(load (expand-file-name "site-lisp/squiggly-clojure/elisp/typed-clojure/clojure-typed-doc.el" user-emacs-directory))
 
-;; (eval-after-load 'flycheck '(flycheck-clojure-setup))
+(eval-after-load 'flycheck '(flycheck-clojure-setup))
 
-;; ;;(add-hook 'after-init-hook #'global-flycheck-mode)
+;;(add-hook 'after-init-hook #'global-flycheck-mode)
 
-;; (eval-after-load 'flycheck
-;;   '(setq flycheck-display-errors-function #'flycheck-pos-tip-error-messages))
+(eval-after-load 'flycheck
+  '(setq flycheck-display-errors-function #'flycheck-pos-tip-error-messages))
 
 ;;This package provides basic interaction with a Clojure subprocess (REPL).
 (add-hook 'clojure-mode-hook #'inf-clojure-minor-mode)
@@ -174,6 +184,15 @@ Invoke 'clojure.walk/macroexpand-all' on the expression at point.
 (require 'clojure-cheatsheet)
 (eval-after-load 'clojure-mode
   '(progn
-     (define-key clojure-mode-map (kbd "C-c C-h") #'clojure-cheatsheet)))
+     (define-key clojure-mode-map (kbd "C-c h") #'clojure-cheatsheet)))
+
+(eval-after-load 'inf-clojure-mode-map
+  '(progn
+     (define-key inf-clojure-mode-map "\C-x\C-e" #'cider-eval-last-sexp)
+     (define-key inf-clojure-mode-map (kbd "C-c C-e") 'cider-eval-last-sexp)))
+
+(add-hook 'cider-repl-mode-hook #'company-mode)
+(add-hook 'cider-mode-hook #'company-mode)
+
 
 (provide 'setup-clj)

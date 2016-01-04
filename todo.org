@@ -9,19 +9,19 @@
 * TODO todolist
 * TODO emacs note
 * CANCELED global-tabbar #not necessary <2015-10-01 四>
-* TODO region isearch <2015-10-11 日>
-* TODO baidu 翻译 <2015-10-11 日>
+* DONE region isearch <2015-10-11 日>
+* DONE baidu 翻译 <2015-10-11 日>
 * TODO copy-from-above-command more smart <2015-10-11 日>
 * TODO rename file more smart <2015-10-12 一>
-* TODO isearch copy
+* CANCELED isearch copy
 * TODO minibuffer copy
-* TODO center image
+* CANCELED center image
 * TODO js2-refactor reduce var <2015-10-13 Tue>
 * TODO yas load after
 * TODO english word learn [clojure]
 * DONE acejump in a buffer <2015-10-15 Thu>
-* emacs webkit
-* emacs code brower
+* CANCELED emacs webkit
+* CANCELED emacs code brower
 * TODO  backspace region
 * hover-click
 * raise-window
@@ -31,4 +31,4 @@
 * 吃菜游戏
 * TODO 情报网
 * 图片收集 u盘 资源！
-* ido dir 靠前
+* CANCELED ido dir 靠前 use(/)

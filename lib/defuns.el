@@ -37,4 +37,15 @@
     (error (message "Invalid expression")
            (insert (current-kill 0)))))
 
+
+;; (defun comment-region-or-to-end ()
+;;   "comment-region-or-to-end"
+;;   (interactive)
+;;   (when (region-active-p)
+;;     (paredit-comment-dwim))
+;;   (progn
+;;     (set-mark-command)
+;;     (move-end-of-line)
+;;     (paredit-comment-dwim)))
+
 (provide 'defuns)

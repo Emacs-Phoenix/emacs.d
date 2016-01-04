@@ -94,6 +94,7 @@
 (require 'yaml-mode)
 (require 'smooth-scroll)
 (require 'showkey)
+(require 'ansi-color)
 ;;(require 'xah-css-mode)
 ;;(require 'showkey) ;; 显示 keystorke
 
@@ -163,6 +164,7 @@
 (require 'eye-care)
 (require 'emacs-translate)
 ; (require 'pair-jump)
+(require 'osx-tools)
 
 (require 'trigger)
 (require 'keybinding)
