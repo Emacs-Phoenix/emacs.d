@@ -162,7 +162,7 @@
 (require 'emacs-boilerplate)
 (require 'eye-care)
 (require 'emacs-translate)
-(require 'pair-jump)
+; (require 'pair-jump)
 
 (require 'trigger)
 (require 'keybinding)
