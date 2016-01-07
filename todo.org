@@ -32,3 +32,4 @@
 * TODO 情报网
 * 图片收集 u盘 资源！
 * CANCELED ido dir 靠前 use(/)
+* ssh manager
