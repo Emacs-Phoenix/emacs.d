@@ -33,3 +33,5 @@
 * 图片收集 u盘 资源！
 * CANCELED ido dir 靠前 use(/)
 * ssh manager
+* TODO emacs 进程管理 <2016-01-10 Sun>
+* TODO choose emacs <2016-01-10 Sun>
