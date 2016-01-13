@@ -5,7 +5,6 @@
 * DONE eye-care <2015-10-11 日>
 * TODO douban-fm
 * TODO copy current file name in ido file
-
 * TODO todolist
 * TODO emacs note
 * CANCELED global-tabbar #not necessary <2015-10-01 四>
