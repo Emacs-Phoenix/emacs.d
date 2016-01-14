@@ -35,3 +35,5 @@
 * ssh manager
 * TODO emacs 进程管理 <2016-01-10 Sun>
 * TODO choose emacs <2016-01-10 Sun>
+* TODO 育儿宝贝
+* TODO 代码片段网
