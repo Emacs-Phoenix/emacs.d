@@ -1,3 +1,4 @@
-(load "/Users/soul/.emacs.d/phoenix-init.el")
+(load "~/.emacs.d/phoenix-init.el")
 
-;; (load "/Users/soul/.spacemacs.d/init.el")
+; (setq user-emacs-directory "~/.spacemacs.d/")
+; (load "~/.spacemacs.d/init.el")

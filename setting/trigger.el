@@ -1,7 +1,8 @@
 ;;(eyebrowse-mode t)
 
 ;;(sublimity-mode 1)
-(smooth-scroll-mode t)
+;; mac 下关掉 scroll 会更好
+;;(smooth-scroll-mode t)
 
 
 ;;(setq sublimity-scroll-weight 6
@@ -84,6 +85,5 @@
 
 (which-function-mode 1)
 
-(smooth-scroll-mode t)
 
 (provide 'trigger)

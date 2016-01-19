@@ -5,7 +5,6 @@
 * DONE eye-care <2015-10-11 日>
 * TODO douban-fm
 * TODO copy current file name in ido file
-
 * TODO todolist
 * TODO emacs note
 * CANCELED global-tabbar #not necessary <2015-10-01 四>
@@ -32,6 +31,7 @@
 * TODO 情报网
 * 图片收集 u盘 资源！
 * CANCELED ido dir 靠前 use(/)
+* powerline kill and C-0 buffer
 * ssh manager
 * TODO emacs 进程管理 <2016-01-10 Sun>
 * TODO choose emacs <2016-01-10 Sun>
