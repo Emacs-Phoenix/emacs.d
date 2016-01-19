@@ -520,3 +520,15 @@
 [submodule "site-lisp/eproject"]
 	path = site-lisp/eproject
 	url = git@github.com:jrockway/eproject.git
+[submodule "site-lisp/emacs-helm-gtags"]
+	path = site-lisp/emacs-helm-gtags
+	url = git@github.com:syohex/emacs-helm-gtags.git
+[submodule "site-lisp/ggtags"]
+	path = site-lisp/ggtags
+	url = git@github.com:leoliu/ggtags.git
+[submodule "site-lisp/wakatime-mode"]
+	path = site-lisp/wakatime-mode
+	url = git@github.com:wakatime/wakatime-mode.git
+[submodule "site-lisp/osx-location"]
+	path = site-lisp/osx-location
+	url = git@github.com:purcell/osx-location.git
