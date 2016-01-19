@@ -149,6 +149,8 @@
 (require 'anzu)
 (require 'setup-haskell)
 (require 'setup-tags)
+(require 'setup-wakatime)
+(require 'setup-geolocation)
 
 (when is-mac (require 'setup-mac))
 
