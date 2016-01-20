@@ -8,7 +8,7 @@
 ;;(require 'indent-guide)
 (require 'js2-mode)
 (require 'markdown-mode)
-;;(require 'ggtags) ;;already delete
+(require 'ggtags) ;;already delete
 (require 'flycheck)
 (require 'smartparens-config)
 (require 'powerline)
@@ -95,6 +95,8 @@
 (require 'smooth-scroll)
 (require 'showkey)
 (require 'ansi-color)
+(require 'typo)
+(require 'eproject)
 ;;(require 'xah-css-mode)
 ;;(require 'showkey) ;; 显示 keystorke
 
@@ -120,7 +122,7 @@
 (require 'setup-undo)
 ;;(require 'setup-auto-indent) ;;狗日的，打开这个在Mac下kill-ring有严重的问题！！！！！！！！！！！！排查死爹了！！！！！！！
 (require 'setup-highlight)
-(require 'setup-rainbow-mode)
+(require 'setup-color)
 (require 'setup-jump)
 (require 'setup-guide-key)
 (require 'setup-python)
