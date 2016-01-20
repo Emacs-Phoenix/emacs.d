@@ -85,5 +85,7 @@
 
 (which-function-mode 1)
 
+;;(typo-global-mode 1)
+
 
 (provide 'trigger)

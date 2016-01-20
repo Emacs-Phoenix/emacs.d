@@ -532,3 +532,9 @@
 [submodule "site-lisp/osx-location"]
 	path = site-lisp/osx-location
 	url = git@github.com:purcell/osx-location.git
+[submodule "site-lisp/sunshine.el"]
+	path = site-lisp/sunshine.el
+	url = git@github.com:aaronbieber/sunshine.el.git
+[submodule "site-lisp/typoel"]
+	path = site-lisp/typoel
+	url = git@github.com:jorgenschaefer/typoel.git
