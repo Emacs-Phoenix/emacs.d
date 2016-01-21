@@ -3,6 +3,7 @@ semanticdb/
 .\#~
 .\#*
 .#~
+*\.\#*
 smex-items
 smex-items/
 help/

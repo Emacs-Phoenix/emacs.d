@@ -198,6 +198,11 @@
   'right-char)
 
 
+(define-key global-map (kbd "backspace")
+  (λ (if (region-active-p)
+         (delete-region)
+       (delete-backward-char))))
+
 (global-set-key (kbd "M-s s") 'ag)
 
 (global-set-key (kbd "M-;") 'comment-line-or-comment-block)

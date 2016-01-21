@@ -1,5 +1,10 @@
 (require 'company)
 (require 'company-yasnippet)
+(require 'company-capf)
+(require 'company-keywords)
+(require 'company-abbrev)
+
+
 
 
 (add-hook 'after-init-hook 'global-company-mode)
