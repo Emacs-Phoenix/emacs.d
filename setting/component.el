@@ -154,6 +154,7 @@
 (require 'setup-wakatime)
 (require 'setup-geolocation)
 (require 'setup-perspective)
+(require 'setup-pretty)
 
 (when is-mac (require 'setup-mac))
 
