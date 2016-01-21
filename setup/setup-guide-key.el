@@ -5,6 +5,10 @@
                                      "C-c p"
                                      "C-c C-r"
                                      "C-x C-m"))
+
+(setq guide-key/idle-delay 0.01)
+
+
 (guide-key-mode 1)  ; Enable guide-key-mode
 
 

@@ -153,6 +153,7 @@
 (require 'setup-tags)
 (require 'setup-wakatime)
 (require 'setup-geolocation)
+(require 'setup-perspective)
 
 (when is-mac (require 'setup-mac))
 
