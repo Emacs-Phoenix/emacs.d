@@ -1,6 +1,7 @@
 auto-save-list
 semanticdb/
 .\#~
+.\#*
 .#~
 smex-items
 smex-items/
