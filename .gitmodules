@@ -208,9 +208,6 @@
 [submodule "site-lisp/symon"]
 	path = site-lisp/symon
 	url = git@github.com:zk-phi/symon.git
-[submodule "site-lisp/hungry-delete.el"]
-	path = site-lisp/hungry-delete.el
-	url = git@github.com:soutaro/hungry-delete.el.git
 [submodule "site-lisp/guide-key"]
 	path = site-lisp/guide-key
 	url = git@github.com:kai2nenobu/guide-key.git
@@ -538,3 +535,6 @@
 [submodule "site-lisp/typoel"]
 	path = site-lisp/typoel
 	url = git@github.com:jorgenschaefer/typoel.git
+[submodule "site-lisp/hungry-delete.el"]
+	path = site-lisp/hungry-delete.el
+	url = git@github.com:Emacs-Phoenix/hungry-delete.el.git
