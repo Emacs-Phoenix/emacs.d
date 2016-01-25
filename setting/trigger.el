@@ -64,14 +64,7 @@
 (undohist-initialize)
 
 ;;which key
-;;Emacs package that displays available keybindings in popup
-;;https://github.com/justbur/emacs-which-key
-(which-key-mode)
-(which-key-setup-minibuffer)
-
-
-(setq popup-kill-ring-interactive-insert t)
-
+;;Emacs package that displays available keybindings in popups
 (window-numbering-mode 1)
 
 (winner-mode t)

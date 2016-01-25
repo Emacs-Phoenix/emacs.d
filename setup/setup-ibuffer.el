@@ -45,7 +45,7 @@
 ;;                    ibuffer-visit-buffer)))
 
 
-(add-hook 'ibuffer-hook 'xah-ibuffer-keys)
+; (add-hook 'ibuffer-hook 'xah-ibuffer-keys)
 
 
 ;;Running the command ibuffer-auto-mode in an Ibuffer buffer makes it refresh the display after each interactive command.
