@@ -151,7 +151,7 @@
 (require 'anzu)
 (require 'setup-haskell)
 (require 'setup-tags)
-(require 'setup-wakatime)
+; (require 'setup-wakatime)
 (require 'setup-geolocation)
 (require 'setup-perspective)
 (require 'setup-pretty)
