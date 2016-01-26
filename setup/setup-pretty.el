@@ -1,4 +1,4 @@
-(global-prettify-symbols-mode 1)
+;;(global-prettify-symbols-mode 1)
 
 (defun js-pretty-lambda ()
   "make some word or string show as pretty Unicode symbols"
