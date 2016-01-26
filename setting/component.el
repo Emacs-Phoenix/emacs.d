@@ -109,7 +109,7 @@
 (require 'setup-smartparens)
 (require 'setup-flycheck)
 (require 'setup-yas)
-(require 'setup-emmet)
+;;(require 'setup-emmet)
 (require 'setup-imenu)
 (require 'setup-paredit)
 (require 'setup-shell)
@@ -155,6 +155,7 @@
 (require 'setup-geolocation)
 (require 'setup-perspective)
 (require 'setup-pretty)
+(require 'setup-elisp)
 
 (when is-mac (require 'setup-mac))
 

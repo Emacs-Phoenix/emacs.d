@@ -5,11 +5,22 @@
 (require 'company-abbrev)
 
 
+;; html 与 emment 严重冲突
+;;(add-hook 'after-init-hook 'global-company-mode)
+
+(add-hook 'python-mode-hook 'company-mode)
+(add-hook 'js2-mode-hook 'company-mode)
+(add-hook 'js3-mode-hook 'company-mode)
+(add-hook 'go-mode-hook 'company-mode)
+(add-hook 'haskell-mode-hook 'company-mode)
+(add-hook 'emacs-lisp-mode-hook 'company-mode)
+(add-hook 'css-mode-hook 'company-mode)
+(add-hook 'scss-mode-hook 'company-mode)
+(add-hook 'javascript-mode-hook 'company-mode)
 
 
-(add-hook 'after-init-hook 'global-company-mode)
 
-(add-to-list 'company-backends 'company-web-html)
+;;(add-to-list 'company-backends 'company-web-html)
 
 (add-to-list 'company-backends 'company-tern)  
 ;;(global-set-key "C-." 'company-complete-common)
@@ -29,6 +40,7 @@
 (setq company-auto-complete t)
 
 (add-hook 'after-init-hook 'global-company-mode)
+
 ;;-----------python------------------------
 (defun my/python-mode-hook ()
   (add-to-list 'company-backends 'company-jedi))

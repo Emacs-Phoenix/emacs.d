@@ -68,7 +68,9 @@
   (let ((after-char (string (char-after)))
         (before-char (string (char-before))))
     (if (region-active-p)
-        (indent-region)
+        (let ((start (region-beginning))
+              (end (region-end)))
+          (indent-region start end))      
       (cond ((or (equal after-char "(")
                  (equal after-char "{")
                  (equal after-char "\"")
@@ -88,8 +90,9 @@
               (equal before-char "\"")
               (equal before-char "]"))
              (backward-sexp))
-            (t
-             (indent-for-tab-command))))
+            ;; (t
+            ;;  (indent-for-tab-command))
+            ))
     ))
 
 (advice-add 'tab-indent-or-complete :before #'pair-jump-or-tab)

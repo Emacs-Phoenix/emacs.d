@@ -3,7 +3,6 @@
 (define-key my-keys-minor-mode-map (kbd "C-/") 'imenu-anywhere)
 (define-key my-keys-minor-mode-map (kbd "C-r") 'isearch-forward-use-region)
 (define-key my-keys-minor-mode-map (kbd "C-o") 'vi-open-line-below)
-(define-key my-keys-minor-mode-map (kbd "C-M-q") 'indent-code-rigidly)
 (define-key my-keys-minor-mode-map (kbd "C-M-i") 'indent-code-rigidly)
 (define-key my-keys-minor-mode-map (kbd "<prior>") 'previous-buffer)
 (define-key my-keys-minor-mode-map (kbd "<home>") 'beginning-of-buffer)
