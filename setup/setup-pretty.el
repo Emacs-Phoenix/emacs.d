@@ -1,15 +1,15 @@
-;;(global-prettify-symbols-mode 1)
+(global-prettify-symbols-mode 1)
 
 (defun js-pretty-lambda ()
   "make some word or string show as pretty Unicode symbols"
   (setq prettify-symbols-alist
         '(
-          ("function" . 10770)             ; ⨍
+          ;; ("function" . 10770)             ; ⨍
           ("return" . 10145)    ; ➡
-          ("+" . 8853)
-          ("-" . 8854)
-          ("*" . 8855)
-          ("/" . 8856)
+          ;; ("+" . 8853)
+          ;; ("-" . 8854)
+          ;; ("*" . 8855)
+          ;; ("/" . 8856)
           )))
 
 (add-hook 'js2-mode-hook 'js-pretty-lambda)

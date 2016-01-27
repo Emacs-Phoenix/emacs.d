@@ -2,7 +2,7 @@
 (require 'perspective)
 
 ;; Enable perspective mode
-(persp-mode t)
+;(persp-mode t)
 
 ;; TODO: implement persp-last as before-advice on persp-switch (?)
 
