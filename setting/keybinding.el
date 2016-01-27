@@ -9,15 +9,13 @@
 
 (global-set-key (kbd "C-x C-y") 'browse-kill-ring)
 
-(global-unset-key (kbd "C-s"))
-(global-unset-key (kbd "C-r"))
-(define-key global-map (kbd "C-r") 'isearch-forward-use-region)
-(global-set-key (kbd "C-r") 'isearch-forward-use-region)
-(define-key global-map (kbd "C-s") 'ace-jump-char-mode)
-(define-key global-map (kbd "C-#") 'ace-jump-mode)
-(define-key global-map (kbd "C-c s") 'avy-goto-char)
+(global-set-key (kbd "C-r") 'isearch-backward-use-region)
+(global-set-key (kbd "C-s") 'isearch-forward-use-region)
+
 
 (global-set-key (kbd "C-c <SPC>") 'avy-goto-line)
+(global-set-key (kbd "C-:") 'ace-jump-char-mode)
+(global-set-key (kbd "C-c C-:") 'ace-jump-mode)
 
 ;;string
 ;; Toggle quotes
@@ -185,25 +183,30 @@
   (λ (scroll-right 2)))
 
 ;;vim like move
-(define-key global-map (kbd "C-S-h")
-  'left-char)
+;; (define-key global-map (kbd "C-S-h")
+;;   'left-char)
 
-(define-key global-map (kbd "C-S-k")
-  'previous-line)
+;; (define-key global-map (kbd "C-S-k")
+;;   'previous-line)
 
-(define-key global-map (kbd "C-S-j")
-  'next-line)
+;; (define-key global-map (kbd "C-S-j")
+;;   'next-line)
 
-(define-key global-map (kbd "C-S-l")
-  'right-char)
+;; (define-key global-map (kbd "C-S-l")
+;;   'right-char)
 
 
-; (define-key global-map (kbd "backspace")
-;   (λ (if (region-active-p)
-;          (delete-region)
-;        (delete-backward-char))))
+;; (define-key global-map (kbd "backspace")
+;;   (λ (if (region-active-p)
+;;          (delete-region)
+;;        (delete-backward-char))))
 
 (global-set-key (kbd "M-s s") 'ag)
+
+
+(define-key global-map (kbd "C-S-h")
+  'sp-splice-sexp)
+
 
 (global-set-key (kbd "M-;") 'comment-line-or-comment-block)
 
@@ -218,6 +221,7 @@
 (global-set-key (kbd "H-;") 'beginning-of-buffer)
 (global-set-key (kbd "H-/") 'next-buffer)
 (global-set-key (kbd "H-.") 'end-of-buffer)
+
 
 
 

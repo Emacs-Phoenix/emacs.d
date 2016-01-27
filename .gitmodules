@@ -538,3 +538,6 @@
 [submodule "site-lisp/hungry-delete.el"]
 	path = site-lisp/hungry-delete.el
 	url = git@github.com:Emacs-Phoenix/hungry-delete.el.git
+[submodule "snippets"]
+	path = snippets
+	url = git@github.com:Emacs-Phoenix/snippets.git

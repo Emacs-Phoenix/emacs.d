@@ -39,7 +39,7 @@
 (setq company-minimum-prefix-length 2)
 (setq company-auto-complete t)
 
-(add-hook 'after-init-hook 'global-company-mode)
+;;(add-hook 'after-init-hook 'global-company-mode)
 
 ;;-----------python------------------------
 (defun my/python-mode-hook ()

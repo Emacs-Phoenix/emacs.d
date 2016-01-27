@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: af;
-# key: af;
-# --
-($1) => {
-     $0
-};
