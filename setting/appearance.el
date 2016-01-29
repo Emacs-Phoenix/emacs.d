@@ -21,7 +21,6 @@
 
 (setq custom-theme-directory (concat user-emacs-directory "themes"))
 
-(require 'color-theme)
 
 (dolist
     (path (directory-files custom-theme-directory t "\\w+"))

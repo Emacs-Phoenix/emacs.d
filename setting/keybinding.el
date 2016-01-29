@@ -207,7 +207,9 @@
 (define-key global-map (kbd "C-S-h")
   'sp-splice-sexp)
 
-(global-set-key (kbd "M-t") 'emacs-translate)
+(global-set-key (kbd "M-t t") 'baidu-translate)
+(global-set-key (kbd "M-t c") 'baidu-translate-command)
+(global-set-key (kbd "M-t y") 'yank-translate-result)
 
 (global-set-key (kbd "M-;") 'comment-line-or-comment-block)
 
