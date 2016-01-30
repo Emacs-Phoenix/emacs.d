@@ -138,9 +138,9 @@
 (define-key emacs-lisp-mode-map ["tab"] 'tab-indent-or-complete)
 ; (define-key inferior-python-mode-map ["tab"] 'tab-indent-or-complete)
 ; (define-key python-mode-map ["tab"] 'tab-indent-or-complete)
-(define-key html-mode-map ["tab"] 'tab-indent-or-complete)
 (define-key html-mode-map (kbd "TAB") 'tab-indent-or-complete)
 ;; (define-key python-mode-map (kbd "TAB") 'tab-indent-or-complete)
+; (define-key python-mode-map (kbd "TAB") 'tab-indent-or-complete)
 ;; (define-key python-mode-map ["tab"] 'tab-indent-or-complete)
 
 

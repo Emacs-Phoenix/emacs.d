@@ -207,6 +207,11 @@
 (define-key global-map (kbd "C-S-h")
   'sp-splice-sexp)
 
+(define-prefix-command 'translate-map)
+(global-set-key (kbd "M-t") 'translate-map)
+(define-key translate-map (kbd "t") 'baidu-translate)
+(define-key translate-map (kbd "c") 'baidu-translate-command)
+(define-key translate-map (kbd "y") 'yank-translate-result)
 
 (global-set-key (kbd "M-;") 'comment-line-or-comment-block)
 

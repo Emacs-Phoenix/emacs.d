@@ -21,6 +21,7 @@
 
 (setq custom-theme-directory (concat user-emacs-directory "themes"))
 
+
 (dolist
     (path (directory-files custom-theme-directory t "\\w+"))
   (when (file-directory-p path)
@@ -37,7 +38,7 @@
 (rename-modeline "js2-mode" js2-mode "JS2")
 (rename-modeline "clojure-mode" clojure-mode "CLJ")
 (rename-modeline "cider-mode" cider-mode "CLJ")
-;;(rename-modeline "Projectile" projectile-mode "ⓟ")
+
 (rename-modeline "Emacs-Lisp" emacs-lisp-mode "ⓔ")
 ;;????为毛remap到第一个
 ;;(rename-modeline "Paredit" paredit-mode "( ˘ ³˘)❤")
