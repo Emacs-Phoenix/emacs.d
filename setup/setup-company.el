@@ -3,7 +3,7 @@
 (require 'company-capf)
 (require 'company-keywords)
 (require 'company-abbrev)
-
+(require 'company-etags)
 
 ;; html 与 emment 严重冲突
 ;;(add-hook 'after-init-hook 'global-company-mode)

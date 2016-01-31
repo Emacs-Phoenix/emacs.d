@@ -541,3 +541,6 @@
 [submodule "snippets"]
 	path = snippets
 	url = git@github.com:Emacs-Phoenix/snippets.git
+[submodule "site-lisp/learn-word.el"]
+	path = site-lisp/learn-word.el
+	url = git@github.com:Emacs-Phoenix/learn-word.el.git

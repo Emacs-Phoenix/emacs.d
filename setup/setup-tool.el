@@ -6,4 +6,8 @@
         "Run the Emacs calculator." t)
       (global-set-key (kbd "C-x <C-return>") 'calculator)))
 
+(defun emacs-shell ()
+  (interactive)
+  (ielm))
+
 (provide 'setup-tool)

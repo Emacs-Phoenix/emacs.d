@@ -73,6 +73,7 @@
 (global-set-key (kbd "s-z") (lambda (char) (interactive "cZap up to char backwards: ") (zap-up-to-char -1 char)))
 
 (global-set-key (kbd "C-x C-i") 'idomenu)
+(global-set-key (kbd "C-/") 'idomenu)
 
 (global-set-key (kbd "C-x C-p") 'find-or-create-file-at-point)
 
