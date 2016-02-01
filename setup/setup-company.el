@@ -5,6 +5,11 @@
 (require 'company-abbrev)
 (require 'company-etags)
 
+(require 'company-quickhelp)
+
+(company-quickhelp-mode 1)
+
+
 ;; html 与 emment 严重冲突
 ;;(add-hook 'after-init-hook 'global-company-mode)
 
