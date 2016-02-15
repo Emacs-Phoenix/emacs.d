@@ -22,6 +22,7 @@
 (add-hook 'css-mode-hook 'company-mode)
 (add-hook 'scss-mode-hook 'company-mode)
 (add-hook 'javascript-mode-hook 'company-mode)
+(add-hook 'web-mode-hook 'company-mode)
 
 
 
