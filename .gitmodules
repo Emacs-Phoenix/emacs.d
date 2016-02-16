@@ -550,3 +550,15 @@
 [submodule "site-lisp/spaceline"]
 	path = site-lisp/spaceline
 	url = git@github.com:TheBB/spaceline.git
+[submodule "site-lisp/tide"]
+	path = site-lisp/tide
+	url = git@github.com:ananthakumaran/tide.git
+[submodule "site-lisp/emacs-tss"]
+	path = site-lisp/emacs-tss
+	url = git@github.com:aki2o/emacs-tss.git
+[submodule "site-lisp/auto-complete"]
+	path = site-lisp/auto-complete
+	url = git@github.com:auto-complete/auto-complete.git
+[submodule "site-lisp/fuzzy-el"]
+	path = site-lisp/fuzzy-el
+	url = git@github.com:auto-complete/fuzzy-el.git
