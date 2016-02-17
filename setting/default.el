@@ -73,7 +73,7 @@
 ;; Don't break lines for me, please
 ;;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-;; 是否断行显示(open it will break)
+;; 是否断行显示
 (setq-default truncate-lines t)
 
 ;; Keep cursor away from edges when scrolling up/down
