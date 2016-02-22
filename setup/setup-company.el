@@ -7,12 +7,18 @@
 
 (require 'company-quickhelp)
 
-(company-quickhelp-mode 1)
+(setq company-require-match nil)
+(setq company-backends '(company-elisp company-nxml company-css
+                                       company-semantic company-clang company-eclim
+                                       company-xcode company-ropemacs
+                                       (company-gtags company-etags company-keywords)
+                                       company-oddmuse company-files)
+      )
 
+(company-quickhelp-mode 1)
 
 ;; html 与 emment 严重冲突
 ;;(add-hook 'after-init-hook 'global-company-mode)
-
 (add-hook 'python-mode-hook 'company-mode)
 (add-hook 'js2-mode-hook 'company-mode)
 (add-hook 'js3-mode-hook 'company-mode)
@@ -24,7 +30,6 @@
 (add-hook 'javascript-mode-hook 'company-mode)
 (add-hook 'web-mode-hook 'company-mode)
 (add-hook 'typescript-mode-hook 'company-mode)
-
 
 
 ;;(add-to-list 'company-backends 'company-web-html)

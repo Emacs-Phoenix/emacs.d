@@ -1,3 +1,5 @@
+(require 'tide)
+
 (add-hook 'typescript-mode-hook
           (lambda ()
             (tide-setup)
@@ -38,6 +40,7 @@
 
 ;; Do setting recommemded configuration
 (tss-config-default)
+
 
 
 (provide 'setup-tss)
