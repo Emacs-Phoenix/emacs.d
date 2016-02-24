@@ -105,7 +105,7 @@
 (require 'setup-project)
 (require 'setup-company)
 (require 'setup-tern)
-(require 'setup-smartparens)
+;;(require 'setup-smartparens)
 (require 'setup-flycheck)
 (require 'setup-yas)
 (require 'setup-emmet)
