@@ -1,5 +1,5 @@
 (require 'tide)
-
+(require 'typescript)
 (add-hook 'typescript-mode-hook
           (lambda ()
             (tide-setup)

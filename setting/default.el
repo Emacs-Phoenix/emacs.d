@@ -176,5 +176,8 @@
 (setq auto-save-list-file-prefix
       emacs-tmp-dir)
 
+
+(electric-pair-mode 1)
+
 (provide 'default)
 
