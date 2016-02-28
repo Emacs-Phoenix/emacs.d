@@ -149,14 +149,14 @@
 (require 'setup-tramp)
 (require 'anzu)
 (require 'setup-haskell)
-(require 'setup-tags)
+;; (require 'setup-tags)
 ;; (require 'setup-wakatime)
 ;; (require 'setup-geolocation)
 (require 'setup-perspective)
 (require 'setup-pretty)
 (require 'setup-elisp)
 (require 'setup-powerline)
-(require 'setup-tss)
+;;(require 'setup-tss)
 
 (when is-mac (require 'setup-mac))
 

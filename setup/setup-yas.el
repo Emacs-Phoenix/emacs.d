@@ -1,8 +1,9 @@
 (require 'yasnippet)
-(yas-global-mode 1)
+
+
 (setq yas-dir
       (expand-file-name "snippets" user-emacs-directory))
-
+(yas-global-mode 1)
 
 ;;; use popup menu for yas-choose-value
 (require 'popup)
