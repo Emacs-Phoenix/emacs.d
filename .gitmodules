@@ -565,3 +565,6 @@
 [submodule "esup"]
 	path = esup
 	url = git@github.com:jschaf/esup.git
+[submodule "site-lisp/autopair"]
+	path = site-lisp/autopair
+	url = git@github.com:capitaomorte/autopair.git

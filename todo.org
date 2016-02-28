@@ -37,3 +37,5 @@
 * TODO choose emacs <2016-01-10 Sun>
 * TODO 育儿宝贝
 * TODO 代码片段网
+* 优化M－p M－n
+* 跳到parent 前

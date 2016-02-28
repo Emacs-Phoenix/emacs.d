@@ -3,8 +3,7 @@
 (require 'company-capf)
 (require 'company-keywords)
 (require 'company-abbrev)
-(require 'company-etags)
-
+;;(require 'company-etags)
 (require 'company-quickhelp)
 
 (setq company-require-match nil)
@@ -21,6 +20,7 @@
 ;;(add-hook 'after-init-hook 'global-company-mode)
 (add-hook 'python-mode-hook 'company-mode)
 (add-hook 'js2-mode-hook 'company-mode)
+(add-hook 'javascript-mode-hook 'company-mode)
 (add-hook 'js3-mode-hook 'company-mode)
 (add-hook 'go-mode-hook 'company-mode)
 (add-hook 'haskell-mode-hook 'company-mode)
