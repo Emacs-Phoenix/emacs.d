@@ -156,6 +156,7 @@
 (require 'setup-pretty)
 (require 'setup-elisp)
 (require 'setup-powerline)
+(require 'setup-backup)
 ;;(require 'setup-tss)
 
 (when is-mac (require 'setup-mac))

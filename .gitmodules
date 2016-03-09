@@ -571,3 +571,9 @@
 [submodule "site-lisp/ropemacs"]
 	path = site-lisp/ropemacs
 	url = git@github.com:python-rope/ropemacs.git
+[submodule "site-lisp/nyan-mode"]
+	path = site-lisp/nyan-mode
+	url = git@github.com:TeMPOraL/nyan-mode.git
+[submodule "site-lisp/backups-mode"]
+	path = site-lisp/backups-mode
+	url = git@github.com:chadbraunduin/backups-mode.git
