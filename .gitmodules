@@ -76,9 +76,6 @@
 [submodule "site-lisp/popup-el"]
 	path = site-lisp/popup-el
 	url = git@github.com:auto-complete/popup-el.git
-[submodule "site-lisp/emacs-powerline"]
-	path = site-lisp/emacs-powerline
-	url = git@github.com:jonathanchu/emacs-powerline.git
 [submodule "site-lisp/rainbow-delimiters"]
 	path = site-lisp/rainbow-delimiters
 	url = git@github.com:Fanael/rainbow-delimiters.git
@@ -583,3 +580,9 @@
 [submodule "site-lisp/chinese-word-at-point.el"]
 	path = site-lisp/chinese-word-at-point.el
 	url = git@github.com:xuchunyang/chinese-word-at-point.el.git
+[submodule "site-lisp/powerline"]
+	path = site-lisp/powerline
+	url = git@github.com:milkypostman/powerline.git
+[submodule "site-lisp/auto-compile"]
+	path = site-lisp/auto-compile
+	url = git@github.com:tarsius/auto-compile.git

@@ -61,21 +61,12 @@
 ;; (custom-set-variables
 ;;  '(vlf-application 'dont-ask))
 
-;;undolist
-(undohist-initialize)
 
-;;which key
-;;Emacs package that displays available keybindings in popups
-(window-numbering-mode 1)
 
-(winner-mode t)
 
-(iimage-mode t)
-(add-hook 'fundamental-mode 'uimage-mode)
 
-(eye-care-start)
 
-(global-anzu-mode +1)
+
 
 (which-function-mode 1)
 

@@ -13,6 +13,7 @@
 (require 'ido-vertical-mode)
 (ido-mode 1)
 (ido-vertical-mode 1)
+(setq ido-use-faces nil)
 (setq ido-vertical-define-keys 'C-n-C-p-up-down-left-right)
 (setq ido-vertical-show-count t)
 (ido-vertical-mode 1)
@@ -144,6 +145,8 @@
                     (string= (car imenu--rescan-item) name))
           (add-to-list 'symbol-names name)
           (add-to-list 'name-and-pos (cons name position))))))))
+
+
 
 (provide 'setup-ido)
 

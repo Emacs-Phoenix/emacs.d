@@ -13,9 +13,7 @@
 (global-set-key (kbd "C-s") 'isearch-forward-use-region)
 
 
-(global-set-key (kbd "C-c <SPC>") 'avy-goto-line)
-(global-set-key (kbd "C-:") 'ace-jump-char-mode)
-(global-set-key (kbd "C-c C-:") 'ace-jump-mode)
+
 
 ;;string
 ;; Toggle quotes
@@ -27,7 +25,6 @@
 ;;Completion that uses many different methods to find options.
 (global-set-key (kbd "C-.") 'hippie-expand-no-case-fold)
 (global-set-key (kbd "C-;") 'hippie-expand-lines)
-(global-set-key (kbd "C-,") 'completion-at-point)
 
 (global-set-key (kbd "C-s-c C-s-c") 'mc/edit-lines)
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)
@@ -62,7 +59,6 @@
 (global-set-key (kbd "C-c C-<down>")  'windmove-down)
 
 
-
 (global-set-key (kbd "M-i") 'helm-swoop)
 (global-set-key (kbd "M-I") 'helm-swoop-back-to-last-point)
 (global-set-key (kbd "C-c M-i") 'helm-multi-swoop)
@@ -87,7 +83,7 @@
 ;; Edit file with sudo
 (global-set-key (kbd "M-s e") 'sudo-edit)
 
-(global-set-key (kbd "C-x C--") 'rotate-windows)
+(global-set-key (kbd "C-x C-\\") 'rotate-windows)
 
 (global-set-key (kbd "M-j") (λ (join-line -1)))
 
@@ -101,8 +97,6 @@
 (global-set-key (kbd "<home>") 'beginning-of-buffer)
 (global-set-key (kbd "<next>") 'next-buffer)
 (global-set-key (kbd "<end>") 'end-of-buffer)
-(global-set-key (kbd "M-p") 'backward-paragraph)
-(global-set-key (kbd "M-n") 'forward-paragraph)
 
 (global-set-key (kbd "M-<up>") 'smart-up)
 (global-set-key (kbd "M-<down>") 'smart-down)
@@ -149,39 +143,6 @@
 (global-set-key (kbd "C-x <down>") 'winner-redo)
 
 
-(define-key global-map (kbd "C-S-n")
-  (λ (scroll-up-line)
-     (scroll-up-line)
-     (scroll-up-line)
-     (scroll-up-line)
-     (scroll-up-line)
-     (scroll-up-line)))
-
-(define-key global-map (kbd "C-S-<down>")
-  (λ (scroll-up-line)
-     (scroll-up-line)
-     (scroll-up-line)
-     (scroll-up-line)))
-
-(define-key global-map (kbd "C-S-p")
-  (λ (scroll-down-line)
-     (scroll-down-line)
-     (scroll-down-line)
-     (scroll-down-line)
-     (scroll-down-line)
-     (scroll-down-line)))
-
-(define-key global-map (kbd "C-S-<up>")
-  (λ (scroll-down-line)
-     (scroll-down-line)
-     (scroll-down-line)
-     (scroll-down-line)))
-
-(define-key global-map (kbd "C-S-f")
-  (λ (scroll-left 2)))
-
-(define-key global-map (kbd "C-S-b")
-  (λ (scroll-right 2)))
 
 ;;vim like move
 ;; (define-key global-map (kbd "C-S-h")
@@ -208,25 +169,8 @@
 (define-key global-map (kbd "C-S-h")
   'sp-splice-sexp)
 
-(define-prefix-command 'translate-map)
-(global-set-key (kbd "M-t") 'translate-map)
-(define-key translate-map (kbd "t") 'baidu-translate)
-(define-key translate-map (kbd "c") 'baidu-translate-command)
-(define-key translate-map (kbd "y") 'yank-translate-result)
 
 (global-set-key (kbd "M-;") 'comment-line-or-comment-block)
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;  For ErgoDox
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;  For Mac keyboard
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-(global-set-key (kbd "H-'") 'previous-buffer)
-(global-set-key (kbd "H-;") 'beginning-of-buffer)
-(global-set-key (kbd "H-/") 'next-buffer)
-(global-set-key (kbd "H-.") 'end-of-buffer)
 
 
 

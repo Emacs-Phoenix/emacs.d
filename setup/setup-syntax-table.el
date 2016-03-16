@@ -1,7 +1,7 @@
-;;(modify-syntax-entry ?- "-")
 
 
-(modify-syntax-entry ?- "\$")
+(add-hook 'js2-mode-hook (λ (modify-syntax-entry ?$ "w")))
+
 
 
 

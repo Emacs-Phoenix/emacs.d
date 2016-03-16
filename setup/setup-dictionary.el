@@ -6,4 +6,11 @@
 (require 'emacs-translate)
 (global-set-key (kbd "C-c d") 'osx-dictionary-search-pointer)
 
+(define-prefix-command 'translate-map)
+(global-set-key (kbd "M-t") 'translate-map)
+(define-key translate-map (kbd "t") 'baidu-translate)
+(define-key translate-map (kbd "c") 'baidu-translate-command)
+(define-key translate-map (kbd "y") 'yank-translate-result)
+
+
 (provide 'setup-dictionary)

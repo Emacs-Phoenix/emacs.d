@@ -50,16 +50,11 @@
 ;; Lines should be 80 characters wide, not 72
 (setq fill-column 80)
 
-;; Save a list of recent files visited. (open recent file with C-x f)
-(recentf-mode 1)
-(setq recentf-max-saved-items 100) ;; just 20 is too recent
 
 ;; Save minibuffer history
 (savehist-mode 1)
 (setq history-length 1000)
 
-;; Undo/redo window configuration with C-c <left>/<right>
-;;(winner-mode 1)
 
 ;; Never insert tabs
 (set-default 'indent-tabs-mode nil)
@@ -156,8 +151,7 @@
         "/usr/bin"
         "/usr/games/"
         "/bin"
-        "~/bin"
-        ))
+        "~/bin"))
 
 (setenv "PATH" (concat (getenv "PATH") ":/bin"))
 (setq exec-path (append exec-path '("/bin")))
@@ -167,16 +161,8 @@
 
 (auto-save-mode -1)
 
-;; Save all tempfiles in $TMPDIR/emacs$UID/                                                        
-(defconst emacs-tmp-dir (format "%s/%s%s/" temporary-file-directory "emacs" (user-uid)))
-(setq backup-directory-alist
-      `((".*" . ,emacs-tmp-dir)))
-(setq auto-save-file-name-transforms
-      `((".*" ,emacs-tmp-dir t)))
-(setq auto-save-list-file-prefix
-      emacs-tmp-dir)
 
-
+;; {} 中回车自动缩进
 (electric-pair-mode 1)
 
 (provide 'default)

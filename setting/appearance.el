@@ -28,22 +28,22 @@
     (add-to-list 'custom-theme-load-path path)))
 
 
-(show-paren-mode 1)
+(show-paren-mode 1) ;; 高亮 pairs
 
 (defmacro rename-modeline (package-name mode new-name)
   `(eval-after-load ,package-name
      '(defadvice ,mode (after rename-modeline activate)
         (setq mode-name ,new-name))))
 
-(rename-modeline "js2-mode" js2-mode "JS2")
-(rename-modeline "clojure-mode" clojure-mode "CLJ")
-(rename-modeline "cider-mode" cider-mode "CLJ")
+;; (rename-modeline "js2-mode" js2-mode "JS2")
+;; (rename-modeline "clojure-mode" clojure-mode "CLJ")
+;; (rename-modeline "cider-mode" cider-mode "CLJ")
 
-(rename-modeline "Emacs-Lisp" emacs-lisp-mode "ⓔ")
+;; (rename-modeline "Emacs-Lisp" emacs-lisp-mode "ⓔ")
 ;;????为毛remap到第一个
 ;;(rename-modeline "Paredit" paredit-mode "( ˘ ³˘)❤")
 
-(setq powerline-arrow-shape 'curve)
+;;(setq powerline-arrow-shape 'curve)
 
 (provide 'appearance)
 

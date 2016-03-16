@@ -28,12 +28,13 @@
 (require 'helm)
 (require 'async)
 (require 'dired-async)
+(require 'dired+)
 (require 'helm-config)
 (require 'helm-swoop)
 (require 'names)
 (require 'web-mode)
-(require 'aggressive-indent)
-(require 'company-web-html)
+;; (require 'aggressive-indent)
+
 (require 'ack)
 (require 'smart-forward)
 ;;(require 'browse-kill-ring)
@@ -45,9 +46,9 @@
 (require 'restclient)
 (require 'dockerfile-mode)
 (require 'auto-highlight-symbol)
-;;(require 'highlight-escape-sequences)
-(require 'idomenu)
-(require 'company-jedi)
+;; (require 'highlight-escape-sequences)
+;; (require 'idomenu)
+
 (require 'markdown-mode+)
 ;;(require 'symon)  ;;tiny graphical system monitor
 (require 'hungry-delete)
@@ -61,18 +62,23 @@
 ;;(require 'tss) ;;Provide a interface for auto-complete.el/flymake.el on typescript-mode.
 (require 'bm) ;;bookmark (conum mark)
 ;;(require 'vlf-setup) ;;big file only read
-;;TODO
+
 (require 'change-inner)
+(global-set-key (kbd "C-c i") 'change-inner)
+(global-set-key (kbd "C-c o") 'change-outer)
+
 (require 'multiple-cursors)
 (require 'reveal-in-osx-finder)
 (require 'lacarte)
-(require 'ibuffer-vc)
+(require 'ibuffer-vc) ;;ibuffer 分组
 (require 'ibuffer-projectile)
-(require 'less-css-mode)
+;; (require 'less-css-mode)
 ;;(require 'helm-backup)
 (require 'undohist) ;;记录session之外的undo
 (require 'etxt)
+
 (require 'ranger)
+
 (require 'helm-ag)
 (require 'helm-ack)
 (require 'which-key)
@@ -132,8 +138,7 @@
 (require 'setup-file)
 ;;(require 'setup-tabbar)
 (require 'setup-ibuffer)
-;;TODO
-;;(require 'setup-backup)
+(require 'setup-backup)
 (require 'setup-tool)
 (require 'setup-spell)
 (require 'setup-paredit)
@@ -154,12 +159,14 @@
 ;; (require 'setup-tags)
 ;; (require 'setup-wakatime)
 ;; (require 'setup-geolocation)
-(require 'setup-perspective)
-(require 'setup-pretty)
+;; (require 'setup-perspective) ;; emacs buffer 分区
+;; (require 'setup-pretty)
 (require 'setup-elisp)
 (require 'setup-dictionary)
-;; (require 'setup-powerline)
+(require 'setup-move)
+(require 'setup-powerline)
 
+;; (require 'setup-eye)
 ;; (require 'setup-backup) ;; 好卡
 ;;(require 'setup-tss)
 

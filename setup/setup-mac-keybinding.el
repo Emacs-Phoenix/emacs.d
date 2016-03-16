@@ -2,7 +2,14 @@
 
 (define-key mac-keybinding-minor-mode-map (kbd "M-v") 'yank)
 (define-key mac-keybinding-minor-mode-map (kbd "M-c") 'save-region-or-current-line)
-(define-key mac-keybinding-minor-mode-map (kbd "M-x") 'paredit-kill-region-or-backward-word)
+(define-key mac-keybinding-minor-mode-map (kbd "M-x")
+  (λ (if (region-active-p)
+         (paredit-kill-region-or-backward-word))))
+(define-key mac-keybinding-minor-mode-map (kbd "s-x") 'smex)
+(define-key mac-keybinding-minor-mode-map (kbd "s-X") 'smex-major-mode-commands)
+(global-set-key (kbd "s-x") 'smex)
+(global-set-key (kbd "s-X") 'smex-major-mode-commands)
+
 
 
 (define-minor-mode mac-keybinding-minor-mode
