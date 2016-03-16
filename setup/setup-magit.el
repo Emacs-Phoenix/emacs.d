@@ -21,7 +21,6 @@
 (set-default 'magit-revert-buffers 'silent)
 
 ;; full screen vc-annotate
-
 (defun vc-annotate-quit ()
   "Restores the previous window configuration and kills the vc-annotate buffer"
   (interactive)

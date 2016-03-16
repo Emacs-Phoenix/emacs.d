@@ -27,13 +27,13 @@
 (require 'redo+)
 (require 'helm)
 (require 'async)
-(require 'dired-async)
+;; (require 'dired-async) 
 (require 'dired+)
 (require 'helm-config)
 (require 'helm-swoop)
-(require 'names)
+(require 'names) 
 (require 'web-mode)
-;; (require 'aggressive-indent)
+(require 'aggressive-indent)
 
 (require 'ack)
 (require 'smart-forward)
@@ -60,7 +60,15 @@
 ;; (require 'company-quickhelp)
 ;;(require 'typescript) 
 ;;(require 'tss) ;;Provide a interface for auto-complete.el/flymake.el on typescript-mode.
+
 (require 'bm) ;;bookmark (conum mark)
+(global-set-key (kbd "<C-f2>") 'bm-toggle)
+(global-set-key (kbd "<f2>")   'bm-next)
+(global-set-key (kbd "<S-f2>") 'bm-previous)
+(global-set-key (kbd "<left-fringe> <mouse-5>") 'bm-next-mouse)
+(global-set-key (kbd "<left-fringe> <mouse-4>") 'bm-previous-mouse)
+(global-set-key (kbd "<left-fringe> <mouse-1>") 'bm-toggle-mouse)
+
 ;;(require 'vlf-setup) ;;big file only read
 
 (require 'change-inner)
@@ -71,22 +79,20 @@
 (require 'reveal-in-osx-finder)
 (require 'lacarte)
 (require 'ibuffer-vc) ;;ibuffer 分组
-(require 'ibuffer-projectile)
+;; (require 'ibuffer-projectile)
 ;; (require 'less-css-mode)
-;;(require 'helm-backup)
+;; (require 'helm-backup)
 (require 'undohist) ;;记录session之外的undo
-(require 'etxt)
-
+(require 'etxt) ;; read ebook
 (require 'ranger)
-
 (require 'helm-ag)
 (require 'helm-ack)
-(require 'which-key)
+
 (require 'nginx-mode)
 ;; (require 'circe)
 (require 'fixme-mode)
 ;;(require 'sos)
-(require 'window-numbering)
+
 ;;(require 'chinese-fonts-setup)
 ;;(require 'chinese-pyim)
 ;;(require 'vimish-fold);;vim like fold code
@@ -95,16 +101,16 @@
 ;;(require 'nodejs-repl)
 ;;(require 'ace-jump-buffer)
 (require 'avy)
-(require 'setup-aggressive-indent) ;;进击的模式 auto indent
-(require 'esup) ;;Emacs Start Up Profiler
+;; (require 'setup-aggressive-indent) ;;进击的模式 auto indent
+;; (require 'esup) ;;Emacs Start Up Profiler
 (require 'yaml-mode)
 ;;(require 'smooth-scroll)
-(require 'showkey)
+;;(require 'showkey) ;;Display what keys are being typed in emacs in real-time.
 (require 'ansi-color)
 ;;(require 'typo)
 (require 'eproject)
 ;;(require 'xah-css-mode)
-;;(require 'showkey) ;; 显示 keystorke
+
 
 
 ;;setup
@@ -116,7 +122,7 @@
 (require 'setup-flycheck)
 (require 'setup-yas)
 (require 'setup-emmet)
-(require 'setup-imenu)
+;; (require 'setup-imenu)
 (require 'setup-paredit)
 (require 'setup-shell)
 (require 'setup-hideshow)
@@ -131,6 +137,7 @@
 (require 'setup-color)
 (require 'setup-jump)
 ;;(require 'setup-guide-key)
+(require 'setup-which-key)
 (require 'setup-python)
 (require 'setup-term)
 (require 'setup-search)
@@ -165,7 +172,8 @@
 (require 'setup-dictionary)
 (require 'setup-move)
 (require 'setup-powerline)
-
+(require 'setup-window)
+(require 'setup-html)
 ;; (require 'setup-eye)
 ;; (require 'setup-backup) ;; 好卡
 ;;(require 'setup-tss)
@@ -176,8 +184,8 @@
 ;;my site-lisp
 (require 'transparent)
 (require 'hippie)
-(require 'js2-extra)
-(require 'html-extra)
+;;(require 'js2-extra)
+;;(require 'html-extra)
 (require 'edit-sword)
 
 (require 'emacs-uglify)

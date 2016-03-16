@@ -5,7 +5,6 @@
                                      "C-c p"
                                      "C-c C-r"
                                      "C-x C-m"))
-
 (setq guide-key/idle-delay 0.01)
 
 

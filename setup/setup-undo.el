@@ -1,5 +1,7 @@
 (global-undo-tree-mode 1)
 
+
+
 (with-eval-after-load 'undo-tree
   (setq undo-tree-auto-save-history t))
 
@@ -15,5 +17,9 @@
 
 ;;undolist
 (undohist-initialize)
+
+;;save undo out of box
+(add-to-list 'desktop-locals-to-save 'buffer-undo-list)
+
 
 (provide 'setup-undo)

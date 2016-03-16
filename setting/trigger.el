@@ -9,13 +9,13 @@
 ;;     sublimity-scroll-drift-length 4)
 
 
-(global-undo-tree-mode 1)
+
 
 ;;(global-highlight-changes-mode 1)
 
 ;;(helm-mode 1)
 
-(dired-async-mode 1)
+
 
 ;;操
 ;;(indent-guide-global-mode)
@@ -29,8 +29,6 @@
 ;; (hes-mode)
 ;; (put 'font-lock-regexp-grouping-backslash 'face-alias 'font-lock-builtin-face)
 
-;;save undo out of box
-(add-to-list 'desktop-locals-to-save 'buffer-undo-list)
 
 
 ;;tiny graphical system monitor
@@ -49,13 +47,6 @@
 ;; (add-hook 'python-mode-hook 'turn-on-setnu-mode)
 ;; (add-hook 'css-mode-hook 'turn-on-setnu-mode)
 
-;;Visual Bookmarks
-(global-set-key (kbd "<C-f2>") 'bm-toggle)
-(global-set-key (kbd "<f2>")   'bm-next)
-(global-set-key (kbd "<S-f2>") 'bm-previous)
-(global-set-key (kbd "<left-fringe> <mouse-5>") 'bm-next-mouse)
-(global-set-key (kbd "<left-fringe> <mouse-4>") 'bm-previous-mouse)
-(global-set-key (kbd "<left-fringe> <mouse-1>") 'bm-toggle-mouse)
 
 ;;View Large Files in Emacs
 ;; (custom-set-variables
@@ -70,7 +61,7 @@
 
 (which-function-mode 1)
 
-;;(typo-global-mode 1)
+
 
 
 (provide 'trigger)

@@ -5,6 +5,7 @@
 (require 'company-abbrev)
 ;;(require 'company-etags) ;; TODO 启动卡
 (require 'company-jedi)
+(require 'company-web-html)
 (require 'company-quickhelp)
 
 (setq company-idle-delay 0)
