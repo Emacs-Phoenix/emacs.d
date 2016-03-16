@@ -9,7 +9,7 @@
 
 (defvar backup-directory "~/.emacs-backups/backups/")
 (defvar tramp-backup-directory "~/.emacs-backups/tramp-backups/")
-(backups-mode-start)
+
 ;; keep all versions forever
 (setq delete-old-versions 1)
 

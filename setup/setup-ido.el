@@ -14,18 +14,7 @@
 (ido-mode 1)
 (ido-vertical-mode 1)
 (setq ido-vertical-define-keys 'C-n-C-p-up-down-left-right)
-
-(setq ido-use-faces t)
-;;(setq ido-use-faces nil)
-;; (setq org-todo-keyword-faces
-;;       '(
-;;         ("INPR" . (:foreground "yellow" :weight bold))
-;;         ("DONE" . (:foreground "green" :weight bold))
-;;         ("IMPEDED" . (:foreground "red" :weight bold))
-;;         ))
-;; Always rescan buffer for imenu
-(set-default 'imenu-auto-rescan t)
-
+(setq ido-vertical-show-count t)
 (ido-vertical-mode 1)
 
 ;;ido-ubiquitous
@@ -38,11 +27,8 @@
 ;;set smex keybinding
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
-;; This is your old M-x.
-(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
 
 (require 'dash)
-;;回家
 (defun ehack/ido-go-straight-home ()
   (interactive)
   (cond
@@ -62,63 +48,54 @@
   (define-key ido-file-completion-map (kbd "C-c C-w") 'ido-copy-current-file-name)
 
   (define-key ido-file-dir-completion-map (kbd "C-w") 'ido-delete-backward-updir)
-  (define-key ido-file-dir-completion-map (kbd "C-c C-w") 'ido-copy-current-file-name)
-  )
+  (define-key ido-file-dir-completion-map (kbd "C-c C-w") 'ido-copy-current-file-name))
 
 (add-hook 'ido-setup-hook 'ehack-ido)
 
-(require 'ido-at-point)
-(ido-at-point-mode)
-(ido-at-point-mode 1)
-
 (require 'bookmark)
-  (setq enable-recursive-minibuffers t)
-  (define-key ido-file-dir-completion-map (kbd "C-c C-b") 'ido-goto-bookmark)
-  (defun ido-goto-bookmark (bookmark)
-    (interactive
-     (list (bookmark-completing-read "Jump to bookmark"
+(setq enable-recursive-minibuffers t)
+(global-set-key (kbd "C-c C-b") 'ido-goto-bookmark)
+(defun ido-goto-bookmark (bookmark)
+  (interactive
+   (list (bookmark-completing-read "Jump to bookmark"
       				   bookmark-current-bookmark)))
-    (unless bookmark
-      (error "No bookmark specified"))
-    (let ((filename (bookmark-get-filename bookmark)))
-      (if (file-directory-p filename)
+  (unless bookmark
+    (error "No bookmark specified"))
+  (let ((filename (bookmark-get-filename bookmark)))
+    (if (file-directory-p filename)
   	(progn
   	  (ido-set-current-directory filename)
   	  (setq ido-text ""))
-        (progn
+      (progn
   	(ido-set-current-directory (file-name-directory filename))))
-      (setq ido-exit        'refresh
+    (setq ido-exit        'refresh
   	  ido-text-init   ido-text
   	  ido-rotate-temp t)
-      (exit-minibuffer)))
+    (exit-minibuffer)))
 
- (defun ido-bookmark-jump (bname)
-    "*Switch to bookmark interactively using `ido'."
-    (interactive (list (ido-completing-read "Bookmark: " (bookmark-all-names) nil t)))
-    (bookmark-jump bname))
+(defun ido-bookmark-jump (bname)
+  "*Switch to bookmark interactively using `ido'."
+  (interactive (list (ido-completing-read "Bookmark: " (bookmark-all-names) nil t)))
+  (bookmark-jump bname))
 
-; sort ido filelist by mtime instead of alphabetically
-  (add-hook 'ido-make-file-list-hook 'ido-sort-mtime)
-  (add-hook 'ido-make-dir-list-hook 'ido-sort-mtime)
-  (defun ido-sort-mtime ()
-    (setq ido-temp-list
-          (sort ido-temp-list 
-                (lambda (a b)
-                  (time-less-p
-                   (sixth (file-attributes (concat ido-current-directory b)))
-                   (sixth (file-attributes (concat ido-current-directory a)))))))
-    (ido-to-end  ;; move . files to end (again)
-     (delq nil (mapcar
-                (lambda (x) (and (char-equal (string-to-char x) ?.) x))
-                ido-temp-list))))
+                                        ; sort ido filelist by mtime instead of alphabetically
+(add-hook 'ido-make-file-list-hook 'ido-sort-mtime)
+(add-hook 'ido-make-dir-list-hook 'ido-sort-mtime)
+
+(defun ido-sort-mtime ()
+  (setq ido-temp-list
+        (sort ido-temp-list 
+              (lambda (a b)
+                (time-less-p
+                 (sixth (file-attributes (concat ido-current-directory b)))
+                 (sixth (file-attributes (concat ido-current-directory a)))))))
+  (ido-to-end  ;; move . files to end (again)
+   (delq nil (mapcar
+              (lambda (x) (and (char-equal (string-to-char x) ?.) x))
+              ido-temp-list))))
 
 (setq ido-auto-merge-work-directories-length -1)
-;; disable auto searching for files unless called explicitly
-(setq ido-auto-merge-delay-time 99999)
-(define-key ido-file-dir-completion-map (kbd "C-c C-s") 
-  (lambda() 
-    (interactive)
-    (ido-initiate-auto-merge (current-buffer))))
+
 
 (defun ido-goto-symbol (&optional symbol-list)
   "Refresh imenu and jump to a place in the buffer using Ido."

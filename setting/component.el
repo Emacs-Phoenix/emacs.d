@@ -8,7 +8,7 @@
 ;;(require 'indent-guide)
 (require 'js2-mode)
 (require 'markdown-mode)
-(require 'ggtags) ;;already delete
+;;(require 'ggtags) ;;already delete
 (require 'flycheck)
 (require 'smartparens-config)
 (require 'rainbow-delimiters)
@@ -18,11 +18,11 @@
 (require 's)
 (require 'dash)
 (require 'goto-last-change)
-(require 'sublimity)
-(require 'sublimity-scroll)
+;;(require 'sublimity)
+;;(require 'sublimity-scroll)
 ;;(require 'sublimity-map)
 ;;(require 'sublimity-attractive)
-(require 'neotree)
+;;(require 'neotree)
 (require 'undo-tree)
 (require 'redo+)
 (require 'helm)
@@ -36,8 +36,8 @@
 (require 'company-web-html)
 (require 'ack)
 (require 'smart-forward)
-(require 'browse-kill-ring)
-(require 'line-num)
+;;(require 'browse-kill-ring)
+;;(require 'line-num)
 (require 'tagedit)
 (require 'rainbow-mode)
 (require 'yaml-mode)
@@ -45,22 +45,23 @@
 (require 'restclient)
 (require 'dockerfile-mode)
 (require 'auto-highlight-symbol)
-(require 'highlight-escape-sequences)
+;;(require 'highlight-escape-sequences)
 (require 'idomenu)
 (require 'company-jedi)
 (require 'markdown-mode+)
 ;;(require 'symon)  ;;tiny graphical system monitor
 (require 'hungry-delete)
 (require 'visual-regexp)
-(require 'coffee-mode)
-(require 'find-file-in-project)
+;;(require 'coffee-mode)
+;;(require 'find-file-in-project)
 ;; (require 'pangu-spacing) ;;小伙子，在英文旁边加空格
-(require 'desktop-recover) 
-(require 'company-quickhelp)
+;;(require 'desktop-recover) 
+;; (require 'company-quickhelp)
 ;;(require 'typescript) 
 ;;(require 'tss) ;;Provide a interface for auto-complete.el/flymake.el on typescript-mode.
 (require 'bm) ;;bookmark (conum mark)
-(require 'vlf-setup) ;;big file only read
+;;(require 'vlf-setup) ;;big file only read
+;;TODO
 (require 'change-inner)
 (require 'multiple-cursors)
 (require 'reveal-in-osx-finder)
@@ -78,23 +79,23 @@
 (require 'nginx-mode)
 ;; (require 'circe)
 (require 'fixme-mode)
-(require 'sos)
+;;(require 'sos)
 (require 'window-numbering)
-(require 'chinese-fonts-setup)
-(require 'chinese-pyim)
-(require 'vimish-fold);;vim like fold code
-(require 'windresize)
-(require 'uimage) ;;显示图片
-(require 'nodejs-repl)
+;;(require 'chinese-fonts-setup)
+;;(require 'chinese-pyim)
+;;(require 'vimish-fold);;vim like fold code
+;;(require 'windresize)
+;;(require 'uimage) ;;显示图片
+;;(require 'nodejs-repl)
 ;;(require 'ace-jump-buffer)
 (require 'avy)
 (require 'setup-aggressive-indent) ;;进击的模式 auto indent
 (require 'esup) ;;Emacs Start Up Profiler
 (require 'yaml-mode)
-(require 'smooth-scroll)
+;;(require 'smooth-scroll)
 (require 'showkey)
 (require 'ansi-color)
-(require 'typo)
+;;(require 'typo)
 (require 'eproject)
 ;;(require 'xah-css-mode)
 ;;(require 'showkey) ;; 显示 keystorke
@@ -127,18 +128,19 @@
 (require 'setup-python)
 (require 'setup-term)
 (require 'setup-search)
-(require 'setup-desktop)
+;;(require 'setup-desktop)
 (require 'setup-file)
 ;;(require 'setup-tabbar)
 (require 'setup-ibuffer)
+;;TODO
 ;;(require 'setup-backup)
 (require 'setup-tool)
 (require 'setup-spell)
 (require 'setup-paredit)
 ;; (require 'setup-emms)
 (require 'setup-misc)
-(require 'setup-erc)
-(require 'setup-rss)
+;;(require 'setup-erc)
+;;(require 'setup-rss)
 ;;(require 'setup-doubanfm)
 (require 'setup-org)
 (require 'setup-js2)
@@ -146,7 +148,7 @@
 (require 'setup-jsx)
 (require 'setup-go)
 (require 'setup-scss)
-(require 'setup-tramp)
+;;(require 'setup-tramp)
 (require 'anzu)
 (require 'setup-haskell)
 ;; (require 'setup-tags)
@@ -155,11 +157,14 @@
 (require 'setup-perspective)
 (require 'setup-pretty)
 (require 'setup-elisp)
-(require 'setup-powerline)
-(require 'setup-backup)
+(require 'setup-dictionary)
+;; (require 'setup-powerline)
+
+;; (require 'setup-backup) ;; 好卡
 ;;(require 'setup-tss)
 
 (when is-mac (require 'setup-mac))
+
 
 ;;my site-lisp
 (require 'transparent)
@@ -167,11 +172,12 @@
 (require 'js2-extra)
 (require 'html-extra)
 (require 'edit-sword)
+
 (require 'emacs-uglify)
 (require 'reveal-dir)
 (require 'emacs-boilerplate)
 (require 'eye-care)
-(require 'emacs-translate)
+
 ; (require 'pair-jump)
 (require 'osx-tools)
 

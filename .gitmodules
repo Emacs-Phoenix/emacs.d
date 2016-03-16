@@ -577,3 +577,9 @@
 [submodule "site-lisp/backups-mode"]
 	path = site-lisp/backups-mode
 	url = git@github.com:chadbraunduin/backups-mode.git
+[submodule "site-lisp/osx-dictionary.el"]
+	path = site-lisp/osx-dictionary.el
+	url = git@github.com:xuchunyang/osx-dictionary.el.git
+[submodule "site-lisp/chinese-word-at-point.el"]
+	path = site-lisp/chinese-word-at-point.el
+	url = git@github.com:xuchunyang/chinese-word-at-point.el.git

@@ -1,6 +1,6 @@
 (require 'recentf)
 (setq recentf-max-saved-items 200
-      recentf-max-menu-items 15)
+      recentf-max-menu-items 30)
 (recentf-mode +1)
 
 (defun recentf-ido-find-file ()

@@ -27,6 +27,4 @@
         (add-to-list 'minor-mode-map-alist mykeys))))
 (ad-activate 'loadkey)
 
-
-
 (provide 'setup-mykeybinding)

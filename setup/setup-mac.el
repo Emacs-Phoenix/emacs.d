@@ -95,4 +95,10 @@
 
 (global-set-key (kbd "C-c C-s-o") 'mac-open-current-file)
 
+
+(require 'nyan-mode)
+(nyan-mode)
+
+(require 'setup-mac-keybinding)
+
 (provide 'setup-mac)

@@ -1,8 +1,5 @@
+(setq yas-dir (expand-file-name "snippets" user-emacs-directory))
 (require 'yasnippet)
-
-
-(setq yas-dir
-      (expand-file-name "snippets" user-emacs-directory))
 (yas-global-mode 1)
 
 ;;; use popup menu for yas-choose-value
@@ -15,32 +12,32 @@
 (define-key popup-menu-keymap (kbd "<backtab>") 'popup-previous)
 (define-key popup-menu-keymap (kbd "M-p") 'popup-previous)
 
-(defun yas-popup-isearch-prompt (prompt choices &optional display-fn)
-  (when (featurep 'popup)
-    (popup-menu*
-     (mapcar
-      (lambda (choice)
-        (popup-make-item
-         (or (and display-fn (funcall display-fn choice))
-             choice)
-         :value choice))
-      choices)
-     :prompt prompt
-     ;; start isearch mode immediately
-     :isearch t
-     )))
+;; (defun yas-popup-isearch-prompt (prompt choices &optional display-fn)
+;;   (when (featurep 'popup)
+;;     (popup-menu*
+;;      (mapcar
+;;       (lambda (choice)
+;;         (popup-make-item
+;;          (or (and display-fn (funcall display-fn choice))
+;;              choice)
+;;          :value choice))
+;;       choices)
+;;      :prompt prompt
+;;      ;; start isearch mode immediately
+;;      :isearch t
+;;      )))
 
-(setq yas-prompt-functions '(yas-popup-isearch-prompt yas-ido-prompt yas-no-prompt))
+;; (setq yas-prompt-functions '(yas-popup-isearch-prompt yas-ido-prompt yas-no-prompt))
 
 
 ;;http://emacs.stackexchange.com/questions/7908/how-to-make-yasnippet-and-company-work-nicer
-(defun check-expansion ()
-  (save-excursion
-    (if (looking-at "\\_>") t
-      (backward-char 1)
-      (if (looking-at "\\.") t
-        (backward-char 1)
-        (if (looking-at "->") t nil)))))
+;; (defun check-expansion ()
+;;   (save-excursion
+;;     (if (looking-at "\\_>") t
+;;       (backward-char 1)
+;;       (if (looking-at "\\.") t
+;;         (backward-char 1)
+;;         (if (looking-at "->") t nil)))))
 
 (defun do-yas-expand ()
   (let ((yas/fallback-behavior 'return-nil))
@@ -75,28 +72,17 @@
                  (equal after-char "{")
                  (equal after-char "\"")
                  (equal after-char "[")
-                 (equal after-char "'")
-                 ;; (equal before-char "(")
-                 ;; (equal before-char "{")
-                 ;; (equal before-char "\"")
-                 ;; (equal before-char "[")
-                 )
+                 (equal after-char "'"))
              (forward-sexp))
-            ((or;; (equal after-char ")")
-              ;; (equal after-char "}")
-              ;; (equal after-char "\"")
-              ;; (equal after-char "]")
+            ((or
               (equal after-char "'")
               (equal before-char ")")
               (equal before-char "}")
               (equal before-char "\"")
               (equal before-char "]"))
-             (backward-sexp))
-            ;; (t
-            ;;  (indent-for-tab-command))
-            ))))
+             (backward-sexp))))))
 
-(advice-add 'tab-indent-or-complete :before #'pair-jump-or-tab)
+;;(advice-add 'tab-indent-or-complete :before #'pair-jump-or-tab)
 
 (defun tab-complete-or-next-field ()
   (interactive)

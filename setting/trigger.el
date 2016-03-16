@@ -25,8 +25,9 @@
 ;;(eval (list (nyan-create)))
 
 ;; Highlight escape sequences
-(hes-mode)
-(put 'font-lock-regexp-grouping-backslash 'face-alias 'font-lock-builtin-face)
+;; 高亮转义嘛
+;; (hes-mode)
+;; (put 'font-lock-regexp-grouping-backslash 'face-alias 'font-lock-builtin-face)
 
 ;;save undo out of box
 (add-to-list 'desktop-locals-to-save 'buffer-undo-list)
