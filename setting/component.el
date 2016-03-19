@@ -18,6 +18,7 @@
 (require 's)
 (require 'dash)
 (require 'goto-last-change)
+(require 'speed-type)
 ;;(require 'sublimity)
 ;;(require 'sublimity-scroll)
 ;;(require 'sublimity-map)

@@ -586,3 +586,6 @@
 [submodule "site-lisp/auto-compile"]
 	path = site-lisp/auto-compile
 	url = git@github.com:tarsius/auto-compile.git
+[submodule "site-lisp/speed-type"]
+	path = site-lisp/speed-type
+	url = https://github.com/hagleitn/speed-type

@@ -27,7 +27,7 @@
      :isearch t
      )))
 
-;; (setq yas-prompt-functions '(yas-popup-isearch-prompt yas-ido-prompt yas-no-prompt))
+(setq yas-prompt-functions '(yas-popup-isearch-prompt yas-ido-prompt yas-no-prompt))
 
 
 ;;http://emacs.stackexchange.com/questions/7908/how-to-make-yasnippet-and-company-work-nicer
@@ -116,17 +116,17 @@
     (company-abort)))
 
 ;;绑定这个在term下tab键会失效，容我想想办法
-;;(global-set-key [tab] 'tab-indent-or-complete)
-;;(global-set-key (kbd "TAB") 'tab-indent-or-complete)
+(global-set-key [tab] 'tab-indent-or-complete)
+(global-set-key (kbd "TAB") 'tab-indent-or-complete)
 
-(define-key js2-mode-map (kbd "TAB") 'tab-indent-or-complete)
+;; (define-key js2-mode-map (kbd "TAB") 'tab-indent-or-complete)
 ;; html mode 不需要
 ;;(define-key html-mode-map (kbd "TAB") 'tab-indent-or-complete)
-(define-key emacs-lisp-mode-map (kbd "TAB") 'tab-indent-or-complete)
-(define-key emacs-lisp-mode-map ["tab"] 'tab-indent-or-complete)
+;; (define-key emacs-lisp-mode-map (kbd "TAB") 'tab-indent-or-complete)
+;; (define-key emacs-lisp-mode-map ["tab"] 'tab-indent-or-complete)
 ; (define-key inferior-python-mode-map ["tab"] 'tab-indent-or-complete)
 ; (define-key python-mode-map ["tab"] 'tab-indent-or-complete)
-(define-key html-mode-map (kbd "TAB") 'tab-indent-or-complete)
+;; (define-key html-mode-map (kbd "TAB") 'tab-indent-or-complete)
 ;; (define-key python-mode-map (kbd "TAB") 'tab-indent-or-complete)
 ; (define-key python-mode-map (kbd "TAB") 'tab-indent-or-complete)
 ;; (define-key python-mode-map ["tab"] 'tab-indent-or-complete)
