@@ -287,7 +287,8 @@
 (require 'js2-refactor)
 (add-hook 'js2-mode-hook #'js2-refactor-mode)
 
-
+(require 'jquery-doc)
+(add-hook 'js2-mode-hook 'jquery-doc-setup)
 
 
 (provide 'setup-js2)

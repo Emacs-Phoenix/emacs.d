@@ -175,6 +175,7 @@
 (require 'setup-powerline)
 (require 'setup-window)
 (require 'setup-html)
+(require 'setup-markdown)
 ;; (require 'setup-eye)
 ;; (require 'setup-backup) ;; 好卡
 ;;(require 'setup-tss)

@@ -6,13 +6,13 @@
 (setq ns-function-modifier 'hyper)
 
 ;; Norwegian mac-keyboard alt-keys)
-(define-key key-translation-map (kbd "s-8") (kbd "["))
-(define-key key-translation-map (kbd "s-(") (kbd "{"))
-(define-key key-translation-map (kbd "s-9") (kbd "]"))
-(define-key key-translation-map (kbd "s-)") (kbd "}"))
-(define-key key-translation-map (kbd "s-7") (kbd "|"))
-(define-key key-translation-map (kbd "s-/") (kbd "\\"))
-(define-key key-translation-map (kbd "M-s-7") (kbd "M-|"))
+;; (define-key key-translation-map (kbd "s-8") (kbd "["))
+;; (define-key key-translation-map (kbd "s-(") (kbd "{"))
+;; (define-key key-translation-map (kbd "s-9") (kbd "]"))
+;; (define-key key-translation-map (kbd "s-)") (kbd "}"))
+;; (define-key key-translation-map (kbd "s-7") (kbd "|"))
+;; (define-key key-translation-map (kbd "s-/") (kbd "\\"))
+;; (define-key key-translation-map (kbd "M-s-7") (kbd "M-|"))
 
 (global-set-key (kbd "s-u") 'universal-argument)
 (global-set-key (kbd "s--") 'negative-argument)
@@ -68,12 +68,12 @@
 
 ;; mac friendly font
 (when window-system
-  (setq magnars/default-font "-apple-Monaco-medium-normal-normal-*-16-*-*-*-m-0-iso10646-1")
+  (setq magnars/default-font "-apple-Monaco-medium-normal-normal-*-12-*-*-*-m-0-iso10646-1")
   (setq magnars/presentation-font "-apple-Monaco-medium-normal-normal-*-21-*-*-*-m-0-iso10646-1")
   (set-face-attribute 'default nil :font magnars/default-font))
 
 ;; keybinding to toggle full screen mode
-(global-set-key (quote [M-f10]) (quote ns-toggle-fullscreen))
+;;(global-set-key (quote [M-f10]) (quote ns-toggle-fullscreen))
 
 ;; Move to trash when deleting stuff
 (setq delete-by-moving-to-trash t

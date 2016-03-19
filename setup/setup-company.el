@@ -13,19 +13,37 @@
 (setq company-auto-complete t)
 (setq company-require-match nil)
 
-(setq company-backends '(company-elisp
-                         company-nxml
-                         company-css
-                         company-semantic
-                         company-clang
-                         company-eclim
-                         company-xcode
-                         company-ropemacs
-                         (company-gtags company-etags company-keywords)
-                         company-oddmuse
-                         company-files
-                         company-tern
-                         company-web-html))
+(add-hook 'css-mode-hook
+          (lambda ()
+            (set (make-local-variable 'company-backends) '(company-css))))
+
+
+
+(add-to-list 'company-backends 'company-tern)
+(setq company-tern-property-marker "")
+
+;; (setq company-backends '(company-elisp
+;;                          company-nxml
+;;                          company-css
+;;                          company-semantic
+;;                          company-clang
+;;                          company-eclim
+;;                          company-xcode
+;;                          company-ropemacs
+;;                          (company-gtags company-etags company-keywords)
+;;                          company-oddmuse
+;;                          company-files
+;;                          company-tern
+;;                          company-web-html))
+
+(defun company-predictive (command &optional arg &rest ignored)
+  (case command
+    (prefix (let* ((text (downcase (word-at-point))))
+              (set-text-properties 0 (length text) nil text)
+              text))
+    (candidates (predictive-complete arg))))
+
+;;(set (make-local-variable 'company-backends) '(company-predictive))
 
 
 (define-key company-active-map (kbd "\C-n") 'company-select-next)

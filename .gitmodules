@@ -589,3 +589,6 @@
 [submodule "site-lisp/speed-type"]
 	path = site-lisp/speed-type
 	url = https://github.com/hagleitn/speed-type
+[submodule "site-lisp/jquery-doc.el"]
+	path = site-lisp/jquery-doc.el
+	url = git@github.com:ananthakumaran/jquery-doc.el.git

@@ -9,6 +9,8 @@
 (define-key mac-keybinding-minor-mode-map (kbd "s-X") 'smex-major-mode-commands)
 (global-set-key (kbd "s-x") 'smex)
 (global-set-key (kbd "s-X") 'smex-major-mode-commands)
+(global-set-key (kbd "M-w") 'kill-this-buffer)
+
 
 
 

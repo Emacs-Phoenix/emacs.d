@@ -163,6 +163,11 @@
 
 
 ;; {} 中回车自动缩进
+(setq electric-pair-pairs '(
+                            (?\{ . ?\})
+                            (?\( . ?\))
+                            (?\[ . ?\])
+                            ) )
 (electric-pair-mode 1)
 
 (provide 'default)
