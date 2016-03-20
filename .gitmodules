@@ -592,3 +592,9 @@
 [submodule "site-lisp/jquery-doc.el"]
 	path = site-lisp/jquery-doc.el
 	url = git@github.com:ananthakumaran/jquery-doc.el.git
+[submodule "site-lisp/company-restclient"]
+	path = site-lisp/company-restclient
+	url = git@github.com:iquiw/company-restclient.git
+[submodule "site-lisp/know-your-http-well"]
+	path = site-lisp/know-your-http-well
+	url = git@github.com:for-GET/know-your-http-well.git

@@ -36,8 +36,8 @@
 
 
 (global-unset-key (kbd "C-/"))
-(global-set-key (kbd "C-/") 'imenu-anywhere)
-(global-set-key (kbd "C-?") 'helm-imenu)
+(global-set-key (kbd "C-?") 'imenu-anywhere)
+(global-set-key (kbd "C-/") 'imenu)
 
 (global-set-key (kbd "C-<f10>") 'menu-bar-mode)
 
@@ -122,7 +122,7 @@
 (global-set-key (kbd "C-c C-w") 'kill-to-beginning-of-line)
 
 ;; Use M-w for copy-line if no active region
-(global-set-key (kbd "M-w") 'save-region-or-current-line)
+;; (global-set-key (kbd "M-w") 'save-region-or-current-line)
 
 (global-set-key (kbd "C-c z") 'goto-last-change)
 (global-set-key (kbd "C-z") 'goto-last-change)

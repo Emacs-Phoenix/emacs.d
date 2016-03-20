@@ -34,7 +34,7 @@
 (require 'helm-swoop)
 (require 'names) 
 (require 'web-mode)
-(require 'aggressive-indent)
+;; (require 'aggressive-indent)
 
 (require 'ack)
 (require 'smart-forward)
