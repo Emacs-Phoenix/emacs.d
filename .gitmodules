@@ -409,9 +409,6 @@
 [submodule "emacs-org"]
 	path = emacs-org
 	url = git@git.coding.net:abychan/emacs-org.git
-[submodule "summarize"]
-	path = summarize
-	url = git@git.coding.net:abychan/summarize.git
 [submodule "site-lisp/emacs-livedown"]
 	path = site-lisp/emacs-livedown
 	url = git@github.com:shime/emacs-livedown.git
