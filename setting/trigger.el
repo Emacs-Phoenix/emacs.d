@@ -20,7 +20,6 @@
 ;;操
 ;;(indent-guide-global-mode)
 
-;;rainbow cat
 ;;貌似不支持linux
 ;;(eval (list (nyan-create)))
 

@@ -11,7 +11,6 @@
 ;;(require 'ggtags) ;;already delete
 (require 'flycheck)
 (require 'smartparens-config)
-(require 'rainbow-delimiters)
 (require 'imenu-anywhere)
 (require 'ace-jump-mode)
 (require 'expand-region)
@@ -41,7 +40,7 @@
 ;;(require 'browse-kill-ring)
 ;;(require 'line-num)
 (require 'tagedit)
-(require 'rainbow-mode)
+
 (require 'yaml-mode)
 (require 'simplezen)
 (require 'restclient)
