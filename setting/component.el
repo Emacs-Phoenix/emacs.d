@@ -153,6 +153,7 @@
 (require 'setup-misc)
 ;;(require 'setup-erc)
 ;;(require 'setup-rss)
+(require 'setup-feed)
 ;;(require 'setup-doubanfm)
 (require 'setup-org)
 (require 'setup-js2)
