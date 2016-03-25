@@ -108,8 +108,9 @@
   (define-key company-active-map (kbd "RET") nil))
 
 
-(add-hook 'after-init-hook 'global-company-mode)
+
 ;; Don't enable company-mode in below major modes
 (setq company-global-modes '(not eshell-mode comint-mode erc-mode rcirc-mode))
+(add-hook 'after-init-hook 'global-company-mode)
 
 (provide 'setup-company)
