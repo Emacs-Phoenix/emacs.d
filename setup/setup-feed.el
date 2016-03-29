@@ -8,5 +8,7 @@
 (define-key emacs-feed-key-map (kbd "r") 'restart-feedjs-process)
 (define-key emacs-feed-key-map (kbd "n") 'start-feedjs-notify)
 
+(run-feedjs)
+
 
 (provide 'setup-feed)
