@@ -598,3 +598,6 @@
 [submodule "NodeAtom"]
 	path = NodeAtom
 	url = git@github.com:A-Horse/NodeAtom.git
+[submodule "site-lisp/imenu-list"]
+	path = site-lisp/imenu-list
+	url = git@github.com:bmag/imenu-list.git
