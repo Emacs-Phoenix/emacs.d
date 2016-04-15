@@ -1,3 +1,6 @@
+(require 'imenu-list)
+(global-set-key (kbd "C-?") #'imenu-list-minor-mode)
+
 (defun ido-goto-symbol (&optional symbol-list)
   "Refresh imenu and jump to a place in the buffer using Ido."
   (interactive)
@@ -45,6 +48,7 @@
 		    (string= (car imenu--rescan-item) name))
 	  (add-to-list 'symbol-names name)
 	  (add-to-list 'name-and-pos (cons name position))))))))
-(global-set-key "\C-ci" 'ido-goto-symbol) ; or any key you see fit
+
+(global-set-key "\C-c g" 'ido-goto-symbol) ; or any key you see fit
 
 (provide 'setup-imenu)
