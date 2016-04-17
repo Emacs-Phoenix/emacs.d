@@ -8,6 +8,11 @@
 (require 'company-web-html)
 (require 'company-quickhelp)
 
+(add-to-list 'load-path (expand-file-name "site-lisp/know-your-http-well/emacs/" user-emacs-directory))
+(load
+ (expand-file-name "site-lisp/know-your-http-well/emacs/know-your-http-well.el" user-emacs-directory))
+(require 'company-restclient)
+
 (setq company-idle-delay 0)
 (setq company-minimum-prefix-length 1)
 (setq company-auto-complete t)
