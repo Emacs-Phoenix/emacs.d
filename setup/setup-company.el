@@ -115,7 +115,7 @@
 
 
 ;; Don't enable company-mode in below major modes
-(setq company-global-modes '(not eshell-mode comint-mode erc-mode rcirc-mode))
+(setq company-global-modes '(not eshell-mode comint-mode erc-mode rcirc-mode org-mode))
 (add-hook 'after-init-hook 'global-company-mode)
 
 (provide 'setup-company)
