@@ -178,9 +178,6 @@
 [submodule "site-lisp/web-beautify"]
 	path = site-lisp/web-beautify
 	url = git@github.com:yasuyk/web-beautify.git
-[submodule "site-lisp/auto-highlight-symbol"]
-	path = site-lisp/auto-highlight-symbol
-	url = git@github.com:emacsmirror/auto-highlight-symbol.git
 [submodule "site-lisp/simplezen.el"]
 	path = site-lisp/simplezen.el
 	url = git@github.com:magnars/simplezen.el.git
@@ -601,3 +598,12 @@
 [submodule "site-lisp/imenu-list"]
 	path = site-lisp/imenu-list
 	url = git@github.com:bmag/imenu-list.git
+[submodule "site-lisp/highlight-symbol.el"]
+	path = site-lisp/highlight-symbol.el
+	url = git@github.com:nschum/highlight-symbol.el.git
+[submodule "site-lisp/auto-highlight-symbol"]
+	path = site-lisp/auto-highlight-symbol
+	url = git@github.com:emacsmirror/auto-highlight-symbol.git
+[submodule "site-lisp/helm-migemo"]
+	path = site-lisp/helm-migemo
+	url = git@github.com:emacs-jp/helm-migemo.git

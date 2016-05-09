@@ -41,3 +41,5 @@
 ;;FIXME
 (auto-save-mode -1)
 ;;81826f1e4ac636c739c539aa138a6026d3df286f
+
+(defalias 'helm-buffer-match-major-mode 'helm-buffers-list--match-fn)

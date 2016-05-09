@@ -65,7 +65,7 @@
 (setq company-mode/enable-yas t)
 
 (defun company-mode/backend-with-yas (backend)
-  (if (or (not company-mode/enable-yas) (and (listp backend) (member 'company-yasnippet backend)))
+(if (or (not company-mode/enable-yas) (and (listp backend) (member 'company-yasnippet backend)))
       backend
     (append (if (consp backend) backend (list backend))
             '(:with company-yasnippet))))
@@ -115,7 +115,16 @@
 
 
 ;; Don't enable company-mode in below major modes
-(setq company-global-modes '(not eshell-mode comint-mode erc-mode rcirc-mode org-mode))
-(add-hook 'after-init-hook 'global-company-mode)
+(global-company-mode)
+(setq company-global-modes
+      '(not
+        term-mode
+        html-mode
+        eshell-mode
+        comint-mode
+        erc-mode
+        rcirc-mode
+        org-mode))
+;;(add-hook 'after-init-hook 'global-company-mode)
 
 (provide 'setup-company)
