@@ -119,6 +119,7 @@
 (setq company-global-modes
       '(not
         term-mode
+        markdown-mode
         html-mode
         eshell-mode
         comint-mode

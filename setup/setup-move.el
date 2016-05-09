@@ -32,8 +32,8 @@
 (define-key global-map (kbd "C-S-b")
   (λ (scroll-right 2)))
 
-(global-set-key (kbd "M-[") 'forward-sexp)
-(global-set-key (kbd "M-]") 'backward-sexp)
+(global-set-key (kbd "M-]") 'forward-sexp)
+(global-set-key (kbd "M-[") 'backward-sexp)
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
