@@ -53,13 +53,11 @@
 
 (set (make-local-variable 'company-backends) '(company-predictive))
 
-
 (define-key company-active-map (kbd "\C-n") 'company-select-next)
 (define-key company-active-map (kbd "\C-p") 'company-select-previous)
 (define-key company-active-map (kbd "\C-d") 'company-show-doc-buffer)
 (define-key company-active-map (kbd "<tab>") 'company-complete)
 (define-key company-active-map (kbd "<return>") nil)
-
 
 ;; --------------------- yas ---------------------
 (setq company-mode/enable-yas t)
@@ -105,8 +103,6 @@
     (add-to-list 'company-backends 'company-ispell)
     (message "company-ispell enabled!"))))
 
-
-
 (with-eval-after-load 'company
   (setq company-auto-complete nil)
   (define-key company-active-map (kbd "<return>") nil)
@@ -126,6 +122,6 @@
         erc-mode
         rcirc-mode
         org-mode))
-;;(add-hook 'after-init-hook 'global-company-mode)
+
 
 (provide 'setup-company)
