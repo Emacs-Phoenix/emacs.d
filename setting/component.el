@@ -118,6 +118,7 @@
 (require 'setup-project)
 (require 'setup-company)
 (require 'setup-tern)
+(require 'setup-json)
 ;; (require 'setup-smartparens)
 (require 'setup-pair)
 (require 'setup-flycheck)
