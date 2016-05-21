@@ -3,6 +3,6 @@
 
 (global-set-key (kbd "M-<RET>") 'ispell-complete-word)
 
-(setq ispell-dictionary "en")
+(setq ispell-dictionary "enq")
 
 (provide 'setup-spell)
