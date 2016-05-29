@@ -607,3 +607,6 @@
 [submodule "site-lisp/helm-migemo"]
 	path = site-lisp/helm-migemo
 	url = git@github.com:emacs-jp/helm-migemo.git
+[submodule "site-lisp/emacs-bash-completion"]
+	path = site-lisp/emacs-bash-completion
+	url = git@github.com:szermatt/emacs-bash-completion.git

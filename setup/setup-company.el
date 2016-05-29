@@ -17,6 +17,11 @@
 (setq company-minimum-prefix-length 1)
 (setq company-auto-complete t)
 (setq company-require-match nil)
+(setq company-transformers '(company-sort-by-occurrence))
+
+
+(setq company-quickhelp-delay 0.5)
+(company-quickhelp-mode 1)
 
 
 ;; --------------------- yas ---------------------
@@ -48,11 +53,10 @@
 ;; (add-hook 'js2-mode-hook (lambda ()
 ;;                            (add-to-list 'company-backends 'company-jquery)))
 
+
 ;; (require 'jquery-doc)
 ;; (add-hook 'js2-mode-hook 'jquery-doc-setup)
-
 (add-to-list 'company-backends 'company-tern)
-(add-to-list 'company-backends 'company-yasnippet)
 
 (setq company-tern-property-marker "")
 

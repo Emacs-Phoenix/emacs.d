@@ -1,4 +1,4 @@
-(setq system-uses-terminfo nil)
+;;(setq system-uses-terminfo nil)
 
 ;; (add-hook 'term-mode-hook
 ;;           (lambda ()
@@ -102,9 +102,9 @@ If you do not like default setup, modify it, with (KEY . COMMAND) format."
  '(shell-pop-window-position "bottom"))
 
 
-(define-key term-mode-map (kbd "<prior>") 'previous-buffer)
-(define-key term-mode-map (kbd "<home>") 'beginning-of-buffer)
-(define-key term-mode-map (kbd "<next>") 'next-buffer)
-(define-key term-mode-map (kbd "<end>") 'end-of-buffer)
-
+;; (define-key term-mode-map (kbd "<prior>") 'previous-buffer)
+;; (define-key term-mode-map (kbd "<home>") 'beginning-of-buffer)
+;; (define-key term-mode-map (kbd "<next>") 'next-buffer)
+;; (define-key term-mode-map (kbd "<end>") 'end-of-buffer)
+ 
 (provide 'setup-term)

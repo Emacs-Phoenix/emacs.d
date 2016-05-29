@@ -4,6 +4,8 @@
 (require 'default)
 
 
+
+
 ;;site-lisp
 ;;(require 'indent-guide)
 (require 'js2-mode)
@@ -122,7 +124,8 @@
 ;; (require 'setup-smartparens)
 (require 'setup-pair)
 (require 'setup-flycheck)
-(require 'setup-yas)
+;;(require 'setup-yas)
+(require 'setup-yas2)
 (require 'setup-emmet)
 ;; (require 'setup-imenu)
 (require 'setup-paredit)

@@ -43,3 +43,7 @@ cd plugin/pymacs && make check && sudo make install
 gem install evernote_oauth
 cd evernote-mode/ruby
 ruby setup.rb
+
+
+##### misc
+`brew install bash-completion`
