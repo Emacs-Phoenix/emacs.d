@@ -51,7 +51,7 @@ If you do not like default setup, modify it, with (KEY . COMMAND) format."
 
 
 
-;; 调整的配置 "error in process filter: Invalid face; unspecified" 
+;; 调整的配置 "error in process filter: Invalid face; unspecified"
 (defface term-color-black 
   '((t (:foreground "#3f3f3f" :background "#272822"))) 
   "Unhelpful docstring.")

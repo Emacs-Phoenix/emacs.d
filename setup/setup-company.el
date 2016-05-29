@@ -49,13 +49,14 @@
 
 
 ;; --------- js2
-(require 'jquery-doc)
+;; (require 'jquery-doc)
 ;; (add-hook 'js2-mode-hook (lambda ()
 ;;                            (add-to-list 'company-backends 'company-jquery)))
 
 
 ;; (require 'jquery-doc)
 ;; (add-hook 'js2-mode-hook 'jquery-doc-setup)
+
 (add-to-list 'company-backends 'company-tern)
 
 (setq company-tern-property-marker "")

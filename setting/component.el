@@ -45,7 +45,6 @@
 
 (require 'yaml-mode)
 (require 'simplezen)
-(require 'restclient)
 (require 'dockerfile-mode)
 (require 'auto-highlight-symbol)
 ;; (require 'highlight-escape-sequences)
@@ -183,6 +182,7 @@
 (require 'setup-markdown)
 (require 'setup-web)
 (require 'setup-css)
+(require 'setup-restclient)
 ;; (require 'setup-eye)
 ;; (require 'setup-backup) ;; 好卡
 ;;(require 'setup-tss)
