@@ -44,20 +44,20 @@
 
 ;; ----- predictive
 
-(defun company-predictive (command &optional arg &rest ignored)
-  (case command
-    (prefix (let* ((text (downcase (word-at-point))))
-              (set-text-properties 0 (length text) nil text)
-              text))
-    (candidates (predictive-complete arg))))
+;; (defun company-predictive (command &optional arg &rest ignored)
+;;   (case command
+;;     (prefix (let* ((text (downcase (word-at-point))))
+;;               (set-text-properties 0 (length text) nil text)
+;;               text))
+;;     (candidates (predictive-complete arg))))
 
-(set (make-local-variable 'company-backends) '(company-predictive))
+;; (set (make-local-variable 'company-backends) '(company-predictive))
 
 (define-key company-active-map (kbd "\C-n") 'company-select-next)
 (define-key company-active-map (kbd "\C-p") 'company-select-previous)
 (define-key company-active-map (kbd "\C-d") 'company-show-doc-buffer)
 (define-key company-active-map (kbd "<tab>") 'company-complete)
-(define-key company-active-map (kbd "<return>") nil)
+(define-key company-active-map (kbd "<return>") 'company-complete)
 
 ;; --------------------- yas ---------------------
 (setq company-mode/enable-yas t)
@@ -103,10 +103,10 @@
     (add-to-list 'company-backends 'company-ispell)
     (message "company-ispell enabled!"))))
 
-(with-eval-after-load 'company
-  (setq company-auto-complete nil)
-  (define-key company-active-map (kbd "<return>") nil)
-  (define-key company-active-map (kbd "RET") nil))
+;; (with-eval-after-load 'company
+;;   (setq company-auto-complete nil)
+;;   (define-key company-active-map (kbd "<return>") nil)
+;;   (define-key company-active-map (kbd "RET") nil))
 
 
 

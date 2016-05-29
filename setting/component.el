@@ -179,6 +179,7 @@
 (require 'setup-html)
 (require 'setup-markdown)
 (require 'setup-web)
+(require 'setup-css)
 ;; (require 'setup-eye)
 ;; (require 'setup-backup) ;; 好卡
 ;;(require 'setup-tss)
