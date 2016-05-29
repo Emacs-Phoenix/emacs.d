@@ -19,11 +19,24 @@
 (setq company-require-match nil)
 
 
+;; --------------------- yas ---------------------
+;; (setq company-mode/enable-yas t)
+
+;; (defun company-mode/backend-with-yas (backend)
+;;   (if (or (not company-mode/enable-yas) (and (listp backend) (member 'company-yasnippet backend)))
+;;       backend
+;;     (append (if (consp backend) backend (list backend))
+;;             '(:with company-yasnippet))))
+
+;; (setq company-backends (mapcar #'company-mode/backend-with-yas company-backends))
+
+(global-set-key (kbd "C-c y") 'company-yasnippet)
+
 
 ;; -------- css
 (add-hook 'css-mode-hook
           (lambda ()
-            (set (make-local-variable 'company-backends) '(company-css))))
+            (set (make-local-variable 'company-backends) '(company-css company-yasnippet))))
 
 
 ; ----- restclient
@@ -39,6 +52,7 @@
 ;; (add-hook 'js2-mode-hook 'jquery-doc-setup)
 
 (add-to-list 'company-backends 'company-tern)
+(add-to-list 'company-backends 'company-yasnippet)
 
 (setq company-tern-property-marker "")
 
@@ -59,16 +73,6 @@
 (define-key company-active-map (kbd "<tab>") 'company-complete)
 (define-key company-active-map (kbd "<return>") 'company-complete)
 
-;; --------------------- yas ---------------------
-(setq company-mode/enable-yas t)
-
-(defun company-mode/backend-with-yas (backend)
-(if (or (not company-mode/enable-yas) (and (listp backend) (member 'company-yasnippet backend)))
-      backend
-    (append (if (consp backend) backend (list backend))
-            '(:with company-yasnippet))))
-
-(setq company-backends (mapcar #'company-mode/backend-with-yas company-backends))
 
 
 ;;-----------python------------------------
@@ -103,12 +107,10 @@
     (add-to-list 'company-backends 'company-ispell)
     (message "company-ispell enabled!"))))
 
-;; (with-eval-after-load 'company
-;;   (setq company-auto-complete nil)
-;;   (define-key company-active-map (kbd "<return>") nil)
-;;   (define-key company-active-map (kbd "RET") nil))
-
-
+(with-eval-after-load 'company
+  (setq company-auto-complete nil)
+  (define-key company-active-map (kbd "<return>") nil)
+  (define-key company-active-map (kbd "RET") nil))
 
 ;; Don't enable company-mode in below major modes
 (global-company-mode)

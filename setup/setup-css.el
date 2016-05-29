@@ -14,7 +14,7 @@
                                                    (emmet-expand-line nil)))))
 
 
-(setq less-imenu-generic-expression
+(setq css-imenu-generic-expression
       '(
         (nil "\\(^@font-face\\)" 1)
         ;;(nil "\\(^body\\)" 1)
@@ -26,8 +26,13 @@
 
 (add-hook 'css-mode-hook 
           (lambda ()
-            (setq imenu-generic-expression less-imenu-generic-expression)))
+            (setq imenu-generic-expression css-imenu-generic-expression)))
 
+
+(require 'css-eldoc)
+(autoload 'turn-on-css-eldoc "css-eldoc")
+(add-hook 'css-mode-hook 'turn-on-css-eldoc)
+(turn-on-css-eldoc)
 
 
 ;; (defun maybe-flymake-css-load ()
