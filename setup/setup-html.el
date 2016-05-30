@@ -10,6 +10,10 @@
      (require 'tagedit)
      (add-hook 'html-mode-hook (lambda () (tagedit-mode 1)))))
 
+(add-hook 'html-mode-hook (lambda ()
+                           (flycheck-mode -1) ;; 没必要
+                           ))
+
 
 (tagedit-add-experimental-features)
 

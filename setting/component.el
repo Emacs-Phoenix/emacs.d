@@ -19,11 +19,12 @@
 (require 's)
 (require 'dash)
 (require 'goto-last-change)
-(require 'speed-type)
-;;(require 'sublimity)
-;;(require 'sublimity-scroll)
+;;(require 'speed-type)
+(require 'sublimity)
+(require 'sublimity-scroll)
 ;;(require 'sublimity-map)
 ;;(require 'sublimity-attractive)
+
 ;;(require 'neotree)
 (require 'undo-tree)
 (require 'redo+)
@@ -84,7 +85,7 @@
 ;; (require 'less-css-mode)
 ;; (require 'helm-backup)
 (require 'undohist) ;;记录session之外的undo
-(require 'etxt) ;; read ebook
+;; (require 'etxt) ;; read ebook
 (require 'ranger)
 (require 'helm-ag)
 (require 'helm-ack)
@@ -172,7 +173,7 @@
 ;; (require 'setup-wakatime)
 ;; (require 'setup-geolocation)
 ;; (require 'setup-perspective) ;; emacs buffer 分区
-;; (require 'setup-pretty)
+(require 'setup-pretty)
 (require 'setup-elisp)
 (require 'setup-dictionary)
 (require 'setup-move)

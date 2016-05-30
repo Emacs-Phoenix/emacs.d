@@ -1,6 +1,6 @@
 ;;(eyebrowse-mode t)
 
-;;(sublimity-mode 1)
+(sublimity-mode 1)
 ;; mac 下关掉 scroll 会更好
 ;;(smooth-scroll-mode t)
 
