@@ -13,7 +13,8 @@
 
 
 (add-to-list 'load-path site-lisp-dir)
-(add-to-list 'load-path setup-dir) 
+(add-to-list 'load-path setup-dir)
+
 (add-to-list 'load-path setting-dir)
 (add-to-list 'load-path lib-dir)
 

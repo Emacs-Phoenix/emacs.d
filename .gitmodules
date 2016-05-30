@@ -55,9 +55,6 @@
 [submodule "site-lisp/flycheck"]
 	path = site-lisp/flycheck
 	url = git@github.com:flycheck/flycheck.git
-[submodule "site-lisp/js2-mode"]
-	path = site-lisp/js2-mode
-	url = git@github.com:Emacs-Phoenix/js2-mode.git
 [submodule "site-lisp/tern"]
 	path = site-lisp/tern
 	url = git@github.com:marijnh/tern.git
@@ -610,3 +607,6 @@
 [submodule "site-lisp/emacs-bash-completion"]
 	path = site-lisp/emacs-bash-completion
 	url = git@github.com:szermatt/emacs-bash-completion.git
+[submodule "site-lisp/js2-mode"]
+	path = site-lisp/js2-mode
+	url = git@github.com:mooz/js2-mode.git
