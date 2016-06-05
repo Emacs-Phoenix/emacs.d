@@ -44,11 +44,11 @@
   (setq prettify-symbols-alist
         '(
           ("div" . 8709)
-
+          ("/div" . 8709)
           
           )))
 
-(add-hook 'html-mode-hook 'html-pretty-lambda)
+;;(add-hook 'html-mode-hook 'html-pretty-lambda)
 
 
 

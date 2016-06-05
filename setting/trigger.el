@@ -1,11 +1,13 @@
 ;;(eyebrowse-mode t)
 
-(sublimity-mode 1)
+;;(sublimity-mode 1)
+
+
 ;; mac 下关掉 scroll 会更好
-;;(smooth-scroll-mode t)
+(smooth-scroll-mode t)
 
 
-;;(setq sublimity-scroll-weight 6
+;; (setq sublimity-scroll-weight 6
 ;;     sublimity-scroll-drift-length 4)
 
 

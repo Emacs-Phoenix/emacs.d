@@ -1,4 +1,6 @@
 
+(setq js2-basic-offset 2)
+
 (defun node-js-eval-region-or-buffer ()
   "Evaluate the current buffer (or region if mark-active),
    and return the result into another buffer,

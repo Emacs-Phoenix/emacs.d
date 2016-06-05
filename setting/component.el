@@ -12,7 +12,7 @@
 (require 'markdown-mode)
 ;;(require 'ggtags) ;;already delete
 (require 'flycheck)
-(require 'smartparens-config)
+
 (require 'imenu-anywhere)
 (require 'ace-jump-mode)
 (require 'expand-region)
@@ -25,7 +25,7 @@
 ;;(require 'sublimity-map)
 ;;(require 'sublimity-attractive)
 
-;;(require 'neotree)
+(require 'neotree)
 (require 'undo-tree)
 (require 'redo+)
 (require 'helm)
@@ -106,7 +106,7 @@
 ;; (require 'setup-aggressive-indent) ;;进击的模式 auto indent
 ;; (require 'esup) ;;Emacs Start Up Profiler
 (require 'yaml-mode)
-;;(require 'smooth-scroll)
+(require 'smooth-scroll)
 ;;(require 'showkey) ;;Display what keys are being typed in emacs in real-time.
 (require 'ansi-color)
 ;;(require 'typo)
