@@ -610,3 +610,12 @@
 [submodule "site-lisp/js2-mode"]
 	path = site-lisp/js2-mode
 	url = git@github.com:mooz/js2-mode.git
+[submodule "site-lisp/project-explorer"]
+	path = site-lisp/project-explorer
+	url = git@github.com:sabof/project-explorer.git
+[submodule "site-lisp/es-lib"]
+	path = site-lisp/es-lib
+	url = git@github.com:sabof/es-lib.git
+[submodule "site-lisp/es-windows"]
+	path = site-lisp/es-windows
+	url = git@github.com:sabof/es-windows.git

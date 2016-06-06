@@ -124,6 +124,7 @@
         term-mode
         markdown-mode
         html-mode
+        magit-mode
         eshell-mode
         comint-mode
         erc-mode

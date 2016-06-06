@@ -116,30 +116,29 @@
     (company-abort)))
 
 ;;绑定这个在term下tab键会失效，容我想想办法
-(global-set-key [tab] 'tab-indent-or-complete)
-(global-set-key (kbd "TAB") 'tab-indent-or-complete)
+;; (global-set-key [tab] 'tab-indent-or-complete)
+;; (global-set-key (kbd "TAB") 'tab-indent-or-complete)
 
-;; (define-key js2-mode-map (kbd "TAB") 'tab-indent-or-complete)
+ (define-key js2-mode-map (kbd "TAB") 'tab-indent-or-complete)
 ;; html mode 不需要
 ;;(define-key html-mode-map (kbd "TAB") 'tab-indent-or-complete)
-;; (define-key emacs-lisp-mode-map (kbd "TAB") 'tab-indent-or-complete)
-;; (define-key emacs-lisp-mode-map ["tab"] 'tab-indent-or-complete)
-; (define-key inferior-python-mode-map ["tab"] 'tab-indent-or-complete)
-; (define-key python-mode-map ["tab"] 'tab-indent-or-complete)
-;; (define-key html-mode-map (kbd "TAB") 'tab-indent-or-complete)
-;; (define-key python-mode-map (kbd "TAB") 'tab-indent-or-complete)
-; (define-key python-mode-map (kbd "TAB") 'tab-indent-or-complete)
-;; (define-key python-mode-map ["tab"] 'tab-indent-or-complete)
+(define-key emacs-lisp-mode-map (kbd "TAB") 'tab-indent-or-complete)
+(define-key emacs-lisp-mode-map ["tab"] 'tab-indent-or-complete)
+(define-key inferior-python-mode-map ["tab"] 'tab-indent-or-complete)
+(define-key python-mode-map ["tab"] 'tab-indent-or-complete)
+(define-key html-mode-map (kbd "TAB") 'tab-indent-or-complete)
+(define-key python-mode-map (kbd "TAB") 'tab-indent-or-complete)
+(define-key python-mode-map (kbd "TAB") 'tab-indent-or-complete)
+(define-key python-mode-map ["tab"] 'tab-indent-or-complete)
 
 
 (global-set-key [(control return)] 'company-complete-common)
 
 ;; (define-key company-active-map [tab] 'expand-snippet-or-complete-selection)
 ;; (define-key company-active-map (kbd "TAB") 'expand-snippet-or-complete-selection)
+
 (define-key company-active-map [tab] 'complete-selection)
 (define-key company-active-map (kbd "TAB") 'complete-selection)
-
-
 
 (define-key yas-minor-mode-map [tab] nil)
 (define-key yas-minor-mode-map (kbd "TAB") nil)

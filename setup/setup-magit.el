@@ -36,4 +36,6 @@
 
      (define-key vc-annotate-mode-map (kbd "q") 'vc-annotate-quit)))
 
+;;(define-key 'make-sparse-keymap (kbd "<tab>") 'magit-section-toggle)
+
 (provide 'setup-magit)

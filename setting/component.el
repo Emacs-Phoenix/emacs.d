@@ -22,10 +22,11 @@
 ;;(require 'speed-type)
 (require 'sublimity)
 (require 'sublimity-scroll)
+(require 'project-explorer)
 ;;(require 'sublimity-map)
 ;;(require 'sublimity-attractive)
 
-(require 'neotree)
+
 (require 'undo-tree)
 (require 'redo+)
 (require 'helm)
@@ -124,7 +125,7 @@
 ;; (require 'setup-smartparens)
 (require 'setup-pair)
 (require 'setup-flycheck)
-;;(require 'setup-yas)
+(require 'setup-yas)
 (require 'setup-yas2)
 (require 'setup-emmet)
 ;; (require 'setup-imenu)
@@ -184,6 +185,8 @@
 (require 'setup-web)
 (require 'setup-css)
 (require 'setup-restclient)
+;;(require 'setup-neotree)
+(require 'setup-project-explorer)
 ;; (require 'setup-eye)
 ;; (require 'setup-backup) ;; 好卡
 ;;(require 'setup-tss)

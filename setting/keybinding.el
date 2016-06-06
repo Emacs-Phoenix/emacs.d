@@ -49,7 +49,7 @@
 (global-set-key (kbd "C-s-k") 'kill-and-retry-line)
 (global-set-key (kbd "C-w") 'kill-region-or-backward-word)
 
-(global-set-key [f8] 'neotree-toggle)
+
 (global-set-key [f7] 'tabbar-mode)
 
 
