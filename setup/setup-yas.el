@@ -119,17 +119,20 @@
 ;; (global-set-key [tab] 'tab-indent-or-complete)
 ;; (global-set-key (kbd "TAB") 'tab-indent-or-complete)
 
- (define-key js2-mode-map (kbd "TAB") 'tab-indent-or-complete)
+(define-key js2-mode-map (kbd "TAB") 'tab-indent-or-complete)
+(define-key js2-mode-map [tab] 'tab-indent-or-complete)
+;;(define-key css-mode-map (kbd "TAB") 'tab-indent-or-complete)
+
 ;; html mode 不需要
 ;;(define-key html-mode-map (kbd "TAB") 'tab-indent-or-complete)
 (define-key emacs-lisp-mode-map (kbd "TAB") 'tab-indent-or-complete)
 (define-key emacs-lisp-mode-map ["tab"] 'tab-indent-or-complete)
-(define-key inferior-python-mode-map ["tab"] 'tab-indent-or-complete)
-(define-key python-mode-map ["tab"] 'tab-indent-or-complete)
-(define-key html-mode-map (kbd "TAB") 'tab-indent-or-complete)
-(define-key python-mode-map (kbd "TAB") 'tab-indent-or-complete)
-(define-key python-mode-map (kbd "TAB") 'tab-indent-or-complete)
-(define-key python-mode-map ["tab"] 'tab-indent-or-complete)
+;;(define-key inferior-python-mode-map ["tab"] 'tab-indent-or-complete)
+;;(define-key python-mode-map ["tab"] 'tab-indent-or-complete)
+;;(define-key html-mode-map (kbd "TAB") 'tab-indent-or-complete)
+;;(define-key python-mode-map (kbd "TAB") 'tab-indent-or-complete)
+;;(define-key python-mode-map (kbd "TAB") 'tab-indent-or-complete)
+;;(define-key python-mode-map ["tab"] 'tab-indent-or-complete)
 
 
 (global-set-key [(control return)] 'company-complete-common)

@@ -126,7 +126,7 @@
 (require 'setup-pair)
 (require 'setup-flycheck)
 (require 'setup-yas)
-(require 'setup-yas2)
+;;(require 'setup-yas2)
 (require 'setup-emmet)
 ;; (require 'setup-imenu)
 (require 'setup-paredit)
@@ -185,7 +185,7 @@
 (require 'setup-web)
 (require 'setup-css)
 (require 'setup-restclient)
-;;(require 'setup-neotree)
+(require 'setup-neotree)
 (require 'setup-project-explorer)
 ;; (require 'setup-eye)
 ;; (require 'setup-backup) ;; 好卡
