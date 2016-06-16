@@ -6,12 +6,11 @@
 (add-hook 'css-mode-hook
           (lambda ()
             (advice-add 'company-complete :after (lambda ()
-                                                   (emmet-expand-line nil)))))
+                                                   (unless (string-match ":" (buffer-substring (line-beginning-position) (point)))
+                                                       (emmet-expand-line nil))
+                                                   ))
+            ))
 
-(add-hook 'css-mode-hook
-          (lambda ()
-            (advice-add 'company-complete-selection :after (lambda ()
-                                                   (emmet-expand-line nil)))))
 
 
 (setq css-imenu-generic-expression
