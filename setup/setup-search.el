@@ -11,6 +11,7 @@
 
 ;;;helm-ack
 (require 'helm-config)
+(require 'helm-multi-match)
 (require 'helm-ack)
 
 (custom-set-variables
@@ -23,6 +24,11 @@
 (require 'ag)
 (setq ag-highlight-search t)
 (setq ag-reuse-window 't)
+
+
+;; fzf
+(require 'fzf)
+(global-set-key (kbd "M-s z") 'fzf)
 
 
 (provide 'setup-search)

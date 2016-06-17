@@ -619,3 +619,6 @@
 [submodule "site-lisp/es-windows"]
 	path = site-lisp/es-windows
 	url = git@github.com:sabof/es-windows.git
+[submodule "site-lisp/fzf.el"]
+	path = site-lisp/fzf.el
+	url = git@github.com:bling/fzf.el.git

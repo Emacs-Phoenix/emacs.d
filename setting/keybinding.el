@@ -14,7 +14,6 @@
 
 
 
-
 ;;string
 ;; Toggle quotes
 (global-set-key (kbd "C-\"") 'toggle-quotes)

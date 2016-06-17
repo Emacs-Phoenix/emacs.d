@@ -36,6 +36,7 @@
 ;; (setq company-backends (mapcar #'company-mode/backend-with-yas company-backends))
 
 (global-set-key (kbd "C-c y") 'company-yasnippet)
+(global-set-key [(control return)] 'company-yasnippet)
 
 
 ;; -------- css
