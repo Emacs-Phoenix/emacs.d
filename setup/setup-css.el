@@ -2,15 +2,50 @@
 ;;(advice-add 'tab-indent-or-complete :before #'pair-jump-or-tab)
 
 
-
 (add-hook 'css-mode-hook
           (lambda ()
-            (advice-add 'company-complete :after (lambda ()
-                                                   (unless (string-match ":" (buffer-substring (line-beginning-position) (point)))
-                                                       (emmet-expand-line nil))
-                                                   ))
+            (advice-add 'company-complete-selection :after
+                        (lambda ()
+                          (message  (buffer-substring-no-properties (line-beginning-position) (point)))
+                          (unless
+                              (string-match ":" (buffer-substring-no-properties (line-beginning-position) (point)))
+                            (emmet-expand-line nil))
+                          ))
             ))
 
+;; (add-hook 'css-mode-hook
+;;           (lambda ()
+;;             (advice-add 'company-complete :after (lambda ()
+;;                                                    (emmet-expand-line nil)))))
+
+;; (add-hook 'css-mode-hook
+;;           (lambda ()
+;;             (if )
+            
+;;             (advice-add 'company-complete-selection :after (lambda ()
+;;                                                    (emmet-expand-line nil)))))
+
+(defun kill-text-with-property (start end property value &optional object)
+  "Delete the text with the PROPERTY in the part of OBJECT from START and END."
+  (interactive "r\nsProperty: \nsValue: ")
+  (let ((delenda ()) (here start))
+    ;; collect the list of regions to kill
+    ;; note that delenda contains the regions in the reverse order so that
+    ;; deleting the later ones do not affect the boundaries of the ealier ones
+    (while (< here end)
+      (let ((beg (text-property-any here end property value object))
+            (stop (and beg (text-property-not-all beg end property value object) end)))
+        (if (null beg)
+            (setq here end)     ; done
+          (push (cons beg stop) delenda)
+          (setq here stop))))
+    (if (stringp object)
+        ;; collect the complements of delenda into a new string
+        (....)
+      ;; buffer: kill the delenda regions
+      (with-current-buffer (or object (current-buffer))
+        (dolist (pair delenda)
+          (kill-region (car pair) (cdr pair)))))))
 
 
 (setq css-imenu-generic-expression
