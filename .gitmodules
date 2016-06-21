@@ -589,9 +589,6 @@
 [submodule "site-lisp/know-your-http-well"]
 	path = site-lisp/know-your-http-well
 	url = git@github.com:for-GET/know-your-http-well.git
-[submodule "NodeAtom"]
-	path = NodeAtom
-	url = git@github.com:A-Horse/NodeAtom.git
 [submodule "site-lisp/imenu-list"]
 	path = site-lisp/imenu-list
 	url = git@github.com:bmag/imenu-list.git
