@@ -32,6 +32,20 @@
 (define-key global-map (kbd "C-S-b")
   (λ (scroll-right 2)))
 
+(define-key global-map (kbd "<triple-wheel-right>")
+  (λ (scroll-left 2)))
+
+(define-key global-map (kbd "<double-wheel-right>")
+  (λ (scroll-left 2)))
+
+(define-key global-map (kbd "<triple-wheel-left>")
+  (λ (scroll-right 2)))
+
+(define-key global-map (kbd "<double-wheel-left>")
+  (λ (scroll-right 2)))
+
+
+
 (global-set-key (kbd "M-]") 'forward-sexp)
 (global-set-key (kbd "M-[") 'backward-sexp)
 
