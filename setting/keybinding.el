@@ -108,8 +108,7 @@
 
 (global-set-key (kbd "C-x C-r") 'rename-current-buffer-file)
 
-(global-set-key (kbd "C-x m") 'magit-status)
-(autoload 'magit-status "magit")
+
 
 (global-set-key (kbd "<C-s-down>") 'move-text-down)
 (global-set-key (kbd "<C-s-up>") 'move-text-up)
@@ -140,7 +139,7 @@
 (define-key global-map [(meta shift ?o)] 'vi-open-line-above)
 
 
-(global-set-key (kbd "C-x w") 'elfeed)
+;;(global-set-key (kbd "C-x w") 'elfeed)
 
 (global-set-key (kbd "C-x <up>") 'winner-undo)
 (global-set-key (kbd "C-x <down>") 'winner-redo)
