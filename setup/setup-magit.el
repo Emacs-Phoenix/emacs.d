@@ -36,13 +36,13 @@
 
      (define-key vc-annotate-mode-map (kbd "q") 'vc-annotate-quit)))
 
-(define-key 'make-sparse-keymap (kbd "<tab>") 'magit-section-toggle)
+;;(define-key 'make-sparse-keymap (kbd "<tab>") 'magit-section-toggle)
 
 (define-prefix-command 'my-magit-map)
-(global-set-key (kbd "M-x m") 'my-magit-map)
-(define-key translate-map (kbd "a") 'magit-status)
-(define-key translate-map (kbd "f") 'magit-log-buffer-file)
-(define-key translate-map (kbd "l") 'magit-log-all)
+(global-set-key (kbd "C-x m") 'my-magit-map)
+(define-key my-magit-map (kbd "a") 'magit-status)
+(define-key my-magit-map (kbd "f") 'magit-log-buffer-file)
+(define-key my-magit-map (kbd "l") 'magit-log-all)
 
 (autoload 'magit-status "magit")
 

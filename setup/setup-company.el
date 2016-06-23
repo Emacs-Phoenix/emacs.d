@@ -18,8 +18,6 @@
 (setq company-auto-complete t)
 (setq company-require-match nil)
 (setq company-transformers '(company-sort-by-occurrence))
-
-
 (setq company-quickhelp-delay 0.5)
 (company-quickhelp-mode 1)
 
@@ -35,14 +33,15 @@
 
 ;; (setq company-backends (mapcar #'company-mode/backend-with-yas company-backends))
 
-(global-set-key (kbd "C-c y") 'company-yasnippet)
+;; (global-set-key (kbd "C-c y") 'company-yasnippet)
 (global-set-key [(control return)] 'company-yasnippet)
 
 
+;; 非常严重的 bug 只要切换到 css 就坏了
 ;; -------- css
-(add-hook 'css-mode-hook
-          (lambda ()
-            (set (make-local-variable 'company-backends) '(company-css company-yasnippet))))
+;; (add-hook 'css-mode-hook
+;;           (lambda ()
+;;             (set (make-local-variable 'company-backends) '(company-css company-yasnippet))))
 
 
 ; ----- restclient

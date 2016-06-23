@@ -126,7 +126,7 @@
 (require 'setup-pair)
 (require 'setup-flycheck)
 (require 'setup-yas)
-;;(require 'setup-yas2)
+(require 'setup-yas2)
 (require 'setup-emmet)
 ;; (require 'setup-imenu)
 (require 'setup-paredit)
