@@ -5,7 +5,7 @@
 (require 'company-abbrev)
 ;;(require 'company-etags) ;; TODO 启动卡
 (require 'company-jedi)
-(require 'company-web-html)
+;;(require 'company-web-html)
 (require 'company-quickhelp)
 
 (add-to-list 'load-path (expand-file-name "site-lisp/know-your-http-well/emacs/" user-emacs-directory))
@@ -34,6 +34,7 @@
 ;; (setq company-backends (mapcar #'company-mode/backend-with-yas company-backends))
 
 ;; (global-set-key (kbd "C-c y") 'company-yasnippet)
+
 (global-set-key [(control return)] 'company-yasnippet)
 
 
