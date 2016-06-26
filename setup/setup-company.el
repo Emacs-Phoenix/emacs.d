@@ -5,7 +5,7 @@
 (require 'company-abbrev)
 ;;(require 'company-etags) ;; TODO 启动卡
 (require 'company-jedi)
-;;(require 'company-web-html)
+(require 'company-web-html)
 (require 'company-quickhelp)
 
 (add-to-list 'load-path (expand-file-name "site-lisp/know-your-http-well/emacs/" user-emacs-directory))
@@ -23,15 +23,15 @@
 
 
 ;; --------------------- yas ---------------------
-;; (setq company-mode/enable-yas t)
+(setq company-mode/enable-yas t)
 
-;; (defun company-mode/backend-with-yas (backend)
-;;   (if (or (not company-mode/enable-yas) (and (listp backend) (member 'company-yasnippet backend)))
-;;       backend
-;;     (append (if (consp backend) backend (list backend))
-;;             '(:with company-yasnippet))))
+(defun company-mode/backend-with-yas (backend)
+  (if (or (not company-mode/enable-yas) (and (listp backend) (member 'company-yasnippet backend)))
+      backend
+    (append (if (consp backend) backend (list backend))
+            '(:with company-yasnippet))))
 
-;; (setq company-backends (mapcar #'company-mode/backend-with-yas company-backends))
+(setq company-backends (mapcar #'company-mode/backend-with-yas company-backends))
 
 ;; (global-set-key (kbd "C-c y") 'company-yasnippet)
 
@@ -39,10 +39,10 @@
 
 
 ;; 非常严重的 bug 只要切换到 css 就坏了
-;; -------- css
-;; (add-hook 'css-mode-hook
-;;           (lambda ()
-;;             (set (make-local-variable 'company-backends) '(company-css company-yasnippet))))
+;;-------- css
+(add-hook 'css-mode-hook
+          (lambda ()
+            (set (make-local-variable 'company-backends) '(company-css company-yasnippet))))
 
 
 ; ----- restclient

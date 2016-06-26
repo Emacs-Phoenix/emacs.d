@@ -6,12 +6,10 @@
           (lambda ()
             (advice-add 'company-complete-selection :after
                         (lambda ()
-                          (message  (buffer-substring-no-properties (line-beginning-position) (point)))
-                          (unless
-                              (string-match ":" (buffer-substring-no-properties (line-beginning-position) (point)))
-                            (emmet-expand-line nil))
-                          ))
-            ))
+                          (if (when (derived-mode-p 'css-mode)
+                                (unless
+                                    (string-match ":" (buffer-substring-no-properties (line-beginning-position) (point)))
+                                  (emmet-expand-line nil))))))))
 
 ;; (add-hook 'css-mode-hook
 ;;           (lambda ()
