@@ -61,8 +61,8 @@
 ;; (require 'pangu-spacing) ;;小伙子，在英文旁边加空格
 ;;(require 'desktop-recover) 
 ;; (require 'company-quickhelp)
-;;(require 'typescript) 
-;;(require 'tss) ;;Provide a interface for auto-complete.el/flymake.el on typescript-mode.
+
+(require 'tss) ;;Provide a interface for auto-complete.el/flymake.el on typescript-mode.
 
 (require 'bm) ;;bookmark (conum mark)
 (global-set-key (kbd "<C-f2>") 'bm-toggle)
@@ -189,7 +189,7 @@
 (require 'setup-project-explorer)
 ;; (require 'setup-eye)
 ;; (require 'setup-backup) ;; 好卡
-;;(require 'setup-tss)
+(require 'setup-tss)
 
 (when is-mac (require 'setup-mac))
 
