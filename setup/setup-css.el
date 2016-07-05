@@ -88,4 +88,6 @@
 ;;               (setq imenu-create-index-function 'my-css-imenu-make-index)
 ;;               (flymake-sass-load))))
 
+(setq css-indent-offset 2)
+
 (provide 'setup-css)

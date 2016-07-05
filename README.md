@@ -48,3 +48,5 @@ ruby setup.rb
 
 ##### misc
 `brew install bash-completion`
+
+

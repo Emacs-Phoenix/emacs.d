@@ -225,6 +225,6 @@
 
 
 
-
+(smartparens-mode -1)
 
 (provide 'setup-js2)
