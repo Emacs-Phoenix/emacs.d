@@ -78,6 +78,7 @@
 
 
 (global-set-key (kbd "C-x C-b") 'ibuffer)
+(global-set-key (kbd "M-e") 'switch-to-buffer)
 
 
 ;; Revert without any fuss
