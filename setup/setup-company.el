@@ -1,8 +1,8 @@
 (require 'company)
-;; (require 'company-yasnippet)
-;; (require 'company-capf)
-;; (require 'company-keywords)
-;; (require 'company-abbrev)
+(require 'company-yasnippet)
+(require 'company-capf)
+(require 'company-keywords)
+(require 'company-abbrev)
 ;;(require 'company-etags) ;; TODO 启动卡
 (require 'company-jedi)
 ;; (require 'company-web-html)
@@ -79,7 +79,7 @@
 (define-key company-active-map (kbd "<tab>") 'company-complete)
 (define-key company-active-map (kbd "<return>") 'company-complete)
 
-
+(setq company-dabbrev-downcase nil)
 
 ;;-----------python------------------------
 (defun my/python-mode-hook ()
