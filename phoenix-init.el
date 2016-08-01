@@ -44,4 +44,9 @@
 (auto-save-mode -1)
 ;;81826f1e4ac636c739c539aa138a6026d3df286f
 
-(defalias 'helm-buffer-match-major-mode 'helm-buffers-list--match-fn)
+(require 'auto-compile)
+(auto-compile-on-load-mode)
+(auto-compile-on-save-mode)
+
+;; (defalias 'helm-buffer-match-major-mode 'helm-buffers-list--match-fn)
+

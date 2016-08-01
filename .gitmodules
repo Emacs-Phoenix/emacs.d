@@ -619,3 +619,9 @@
 [submodule "site-lisp/fzf.el"]
 	path = site-lisp/fzf.el
 	url = git@github.com:bling/fzf.el.git
+[submodule "site-lisp/jade-mode"]
+	path = site-lisp/jade-mode
+	url = git@github.com:brianc/jade-mode.git
+[submodule "site-lisp/packed"]
+	path = site-lisp/packed
+	url = git@github.com:tarsius/packed.git

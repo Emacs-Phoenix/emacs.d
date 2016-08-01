@@ -32,7 +32,7 @@
 (require 'helm)
 (require 'async)
 ;; (require 'dired-async) 
-(require 'dired+)
+;; (require 'dired+)
 (require 'helm-config)
 (require 'helm-swoop)
 (require 'names) 
@@ -58,9 +58,9 @@
 (require 'visual-regexp)
 ;;(require 'coffee-mode)
 ;;(require 'find-file-in-project)
-;; (require 'pangu-spacing) ;;小伙子，在英文旁边加空格
+;;(require 'pangu-spacing) ;;小伙子，在英文旁边加空格
 ;;(require 'desktop-recover) 
-;; (require 'company-quickhelp)
+
 
 (require 'tss) ;;Provide a interface for auto-complete.el/flymake.el on typescript-mode.
 
@@ -158,7 +158,7 @@
 ;; (require 'setup-emms)
 (require 'setup-misc)
 ;;(require 'setup-erc)
-;;(require 'setup-rss)
+(require 'setup-rss)
 (require 'setup-feed)
 ;;(require 'setup-doubanfm)
 (require 'setup-org)
