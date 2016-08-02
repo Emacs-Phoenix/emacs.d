@@ -625,3 +625,6 @@
 [submodule "site-lisp/packed"]
 	path = site-lisp/packed
 	url = git@github.com:tarsius/packed.git
+[submodule "site-lisp/raml-mode"]
+	path = site-lisp/raml-mode
+	url = git@github.com:victorquinn/raml-mode.git
