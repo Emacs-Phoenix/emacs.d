@@ -40,6 +40,9 @@ cd plugin/pymacs && make check && sudo make install
 - pip install rope ropemacs
 - pip install wakatime
 
+#####node
+- npm install jshint -g
+
 #####evernote
 gem install evernote_oauth
 cd evernote-mode/ruby

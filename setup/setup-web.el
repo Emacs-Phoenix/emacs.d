@@ -33,18 +33,14 @@
             (lambda () 'no-indent) nil 'local)
   (setq-default indent-tabs-mode nil)
   (electric-indent-local-mode -1)
+  (setq web-mode-code-indent-offset 2)
+  (setq web-mode-enable-auto-pairing nil)
   (add-hook 'local-write-file-hooks
             (lambda ()
               (delete-trailing-whitespace)
               nil)))
 
 (setq web-mode-code-indent-offset 2)
-
-(defun my-web-mode-hook ()
-  (setq web-mode-code-indent-offset 2)
-  (setq web-mode-enable-auto-pairing nil))
-
-(add-hook 'web-mode-hook  'my-web-mode-hook)
 
 (defun sp-web-mode-is-code-context (id action context)
   (and (eq action 'insert)
@@ -59,10 +55,10 @@
 ;; (setq web-mode-attr-indent-offset 2)
 ;; (setq web-mode-enable-current-element-highlight t)
 
-;; (setq web-mode-style-padding 2)
+(setq web-mode-style-padding 2)
 
 
-;; (setq web-mode-script-padding 2)
+(setq web-mode-script-padding 2)
 
 (defun my-turn-indentation-off ()
   (interactive)
