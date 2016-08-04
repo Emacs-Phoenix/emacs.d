@@ -628,3 +628,6 @@
 [submodule "site-lisp/raml-mode"]
 	path = site-lisp/raml-mode
 	url = git@github.com:victorquinn/raml-mode.git
+[submodule "site-lisp/jshint-mode"]
+	path = site-lisp/jshint-mode
+	url = git@github.com:daleharvey/jshint-mode.git

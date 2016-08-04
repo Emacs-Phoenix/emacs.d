@@ -12,7 +12,7 @@
 (require 'markdown-mode)
 ;;(require 'ggtags) ;;already delete
 (require 'flycheck)
-
+(require 'flymake-jshint)
 (require 'imenu-anywhere)
 (require 'ace-jump-mode)
 (require 'expand-region)
