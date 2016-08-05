@@ -23,7 +23,8 @@ cd plugin/pymacs && make check && sudo make install
 `cd lisp-site/slime`
 `make`
 
-#####npm 
+#####npm
+NOTICE: `nvm use system`
 - npm install -g js-beatutify jshint tern
 
 #####compile
