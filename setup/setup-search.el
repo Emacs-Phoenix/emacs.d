@@ -2,7 +2,6 @@
 (require 'anzu)
 (global-anzu-mode +1)
 
-
 ;;;ack
 (autoload 'ack-same "full-ack" nil t)
 (autoload 'ack "full-ack" nil t)
@@ -13,6 +12,7 @@
 (require 'helm-config)
 (require 'helm-multi-match)
 (require 'helm-ack)
+(require 'helm-migemo)
 
 (custom-set-variables
  ;; Does not insert '--type' option
@@ -24,7 +24,8 @@
 (require 'ag)
 (setq ag-highlight-search t)
 (setq ag-reuse-window 't)
-
+(global-set-key (kbd "M-s s") 'ag)
+(global-set-key (kbd "M-s h") 'helm-ag)
 
 ;; fzf
 (require 'fzf)

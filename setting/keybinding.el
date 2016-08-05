@@ -166,7 +166,7 @@
 ;;          (delete-region)
 ;;        (delete-backward-char))))
 
-(global-set-key (kbd "M-s s") 'ag)
+
 
 
 (define-key global-map (kbd "C-S-h")
