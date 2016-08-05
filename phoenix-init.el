@@ -48,5 +48,7 @@
 (auto-compile-on-load-mode)
 (auto-compile-on-save-mode)
 
+(byte-recompile-directory (expand-file-name "~/.emacs.d") 0)
+
 (defalias 'helm-buffer-match-major-mode 'helm-buffers-list--match-fn)
 

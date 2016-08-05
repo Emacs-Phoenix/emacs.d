@@ -1,4 +1,4 @@
-(setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one linew at a time
+(setq mouse-wheel-scroll-amount '(1 ((shift) . 2))) ;; one linew at a time
 
 (setq mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling
 
@@ -73,8 +73,6 @@
 
 (eval-after-load 'awk-mode
   '(diminish 'awk-mode))
-
-
 
 ;;hightlist TODO FIXME keyword
 (fixme-mode 1)

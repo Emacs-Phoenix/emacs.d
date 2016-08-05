@@ -631,3 +631,9 @@
 [submodule "site-lisp/jshint-mode"]
 	path = site-lisp/jshint-mode
 	url = git@github.com:daleharvey/jshint-mode.git
+[submodule "site-lisp/migemo"]
+	path = site-lisp/migemo
+	url = git@github.com:emacs-jp/migemo.git
+[submodule "site-lisp/whitespace-cleanup-mode"]
+	path = site-lisp/whitespace-cleanup-mode
+	url = git@github.com:purcell/whitespace-cleanup-mode.git

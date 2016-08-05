@@ -1,5 +1,3 @@
-
-
 (defun comment-line-or-comment-block ()
   (interactive)
   (if (use-region-p)

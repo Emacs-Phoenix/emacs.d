@@ -2,9 +2,6 @@
 (require 'appearance)
 (require 'default)
 
-
-
-
 ;;site-lisp
 ;;(require 'indent-guide)
 (require 'js2-mode)
@@ -33,7 +30,7 @@
 ;; (require 'dired-async) 
 ;; (require 'dired+)
 (require 'helm-config)
-(require 'helm-swoop)
+
 (require 'names) 
 (require 'web-mode)
 ;; (require 'aggressive-indent)
@@ -139,12 +136,14 @@
 (require 'setup-undo)
 ;;(require 'setup-auto-indent) ;;狗日的，打开这个在Mac下kill-ring有严重的问题！！！！！！！！！！！！排查死爹了！！！！！！！
 (require 'setup-highlight)
+(require 'setup-clean)
 (require 'setup-color)
 (require 'setup-jump)
 ;;(require 'setup-guide-key)
 (require 'setup-which-key)
 (require 'setup-python)
 (require 'setup-term)
+(require 'setup-swoop)
 (require 'setup-search)
 ;;(require 'setup-desktop)
 ;; (require 'setup-file)

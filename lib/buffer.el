@@ -48,6 +48,7 @@ Including indent-buffer, which should not be called automatically on save."
   (kill-this-buffer)
   (if (not (one-window-p))
       (delete-window)))
+
 (defun close-and-kill-next-pane ()
   "If there are multiple windows, then close the other pane and kill the buffer in it also."
   (interactive)

@@ -35,9 +35,6 @@
 (set-buffer-file-coding-system 'utf-8)
 
 
-
-
-
 ;; Show active region
 (transient-mark-mode 1)
 (make-variable-buffer-local 'transient-mark-mode)

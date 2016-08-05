@@ -14,10 +14,7 @@
 (setq web-mode-style-padding 2)
 (setq web-mode-script-padding 2)
 
-(add-hook 'local-write-file-hooks
-          (lambda ()
-            (delete-trailing-whitespace)
-            nil))
+
 
 (defun my-web-mode-hook ()
   "Hooks for Web mode."
@@ -30,11 +27,11 @@
   (electric-indent-mode -1)
   (add-hook 'electric-indent-functions
             (lambda () 'no-indent) nil 'local)
-  (setq-default indent-tabs-mode nil)
   (electric-indent-local-mode -1)
   (add-hook 'local-write-file-hooks
             (lambda ()
               (delete-trailing-whitespace)
+              (set-buffer-file-coding-system 'utf-8)
               nil)))
 
 (defun sp-web-mode-is-code-context (id action context)

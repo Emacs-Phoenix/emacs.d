@@ -1,9 +1,6 @@
 (global-prettify-symbols-mode 1)
 
-;; http://xahlee.info/comp/unicode_arrows.ht
-
-
-ml
+;; http://xahlee.info/comp/unicode_arrows.html
 (defun js-pretty-lambda ()
   "make some word or string show as pretty Unicode symbols"
   (setq prettify-symbols-alist
