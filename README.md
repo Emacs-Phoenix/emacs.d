@@ -25,7 +25,7 @@ cd plugin/pymacs && make check && sudo make install
 
 #####npm
 NOTICE: `nvm use system`
-- npm install -g js-beatutify jshint tern
+- npm install -g js-beatutify jshint jshinter tern
 
 #####compile
 - cd site-lisp/helm && make
