@@ -28,6 +28,9 @@
   (add-hook 'electric-indent-functions
             (lambda () 'no-indent) nil 'local)
   (electric-indent-local-mode -1)
+  
+  (define-key web-mode-map (kbd "C-<RET>") 'company-yasnippet)
+  
   (add-hook 'local-write-file-hooks
             (lambda ()
               (delete-trailing-whitespace)

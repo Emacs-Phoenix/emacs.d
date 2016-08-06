@@ -12,7 +12,7 @@
 (require 'helm-config)
 (require 'helm-multi-match)
 (require 'helm-ack)
-(require 'helm-migemo)
+;;(require 'helm-migemo)
 
 (custom-set-variables
  ;; Does not insert '--type' option
