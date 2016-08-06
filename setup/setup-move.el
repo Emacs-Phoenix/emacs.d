@@ -66,5 +66,17 @@
 (global-set-key (kbd "H-.") 'end-of-buffer)
 
 
+(global-set-key (kbd "M-<up>") 'smart-up)
+(global-set-key (kbd "M-<down>") 'smart-down)
+(global-set-key (kbd "M-<left>") 'smart-backward)
+(global-set-key (kbd "M-<right>") 'smart-forward)
+
+
+(global-set-key (kbd "<prior>") 'previous-buffer)
+(global-set-key (kbd "<home>") 'beginning-of-buffer)
+(global-set-key (kbd "<next>") 'next-buffer)
+(global-set-key (kbd "<end>") 'end-of-buffer)
+
+
 (provide 'setup-move)
 

@@ -26,7 +26,7 @@ cd plugin/pymacs && make check && sudo make install
 #####npm
 NOTICE: `nvm use system`
 - npm install -g js-beatutify jshint jshinter tern
-
+- npm install -g eslint babel-eslint eslint-plugin-react
 #####compile
 - cd site-lisp/helm && make
 

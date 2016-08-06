@@ -637,3 +637,6 @@
 [submodule "site-lisp/whitespace-cleanup-mode"]
 	path = site-lisp/whitespace-cleanup-mode
 	url = git@github.com:purcell/whitespace-cleanup-mode.git
+[submodule "site-lisp/dumb-jump"]
+	path = site-lisp/dumb-jump
+	url = git@github.com:jacktasia/dumb-jump.git
