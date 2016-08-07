@@ -46,4 +46,7 @@
 
 (autoload 'magit-status "magit")
 
+(require 'magit-filenotify)
+(add-hook 'after-save-hook 'magit-after-save-refresh-status)
+
 (provide 'setup-magit)

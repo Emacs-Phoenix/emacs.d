@@ -640,3 +640,12 @@
 [submodule "site-lisp/dumb-jump"]
 	path = site-lisp/dumb-jump
 	url = git@github.com:jacktasia/dumb-jump.git
+[submodule "site-lisp/with-editor"]
+	path = site-lisp/with-editor
+	url = git@github.com:magit/with-editor.git
+[submodule "site-lisp/magit-filenotify"]
+	path = site-lisp/magit-filenotify
+	url = git@github.com:magit/magit-filenotify.git
+[submodule "site-lisp/dash-at-point"]
+	path = site-lisp/dash-at-point
+	url = git@github.com:stanaka/dash-at-point.git
