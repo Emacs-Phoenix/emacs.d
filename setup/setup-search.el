@@ -31,5 +31,8 @@
 (require 'fzf)
 (global-set-key (kbd "M-s z") 'fzf)
 
+(require 'fiplr)
+(setq fiplr-root-markers '(".git" ".svn" "node_modules"))
+(global-set-key (kbd "M-s f") 'fiplr-find-file)
 
 (provide 'setup-search)

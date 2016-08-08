@@ -649,3 +649,21 @@
 [submodule "site-lisp/dash-at-point"]
 	path = site-lisp/dash-at-point
 	url = git@github.com:stanaka/dash-at-point.git
+[submodule "site-lisp/fiplr"]
+	path = site-lisp/fiplr
+	url = git@github.com:grizzl/fiplr.git
+[submodule "site-lisp/grizzl"]
+	path = site-lisp/grizzl
+	url = git@github.com:grizzl/grizzl.git
+[submodule "site-lisp/helm-dash"]
+	path = site-lisp/helm-dash
+	url = git@github.com:areina/helm-dash.git
+[submodule "site-lisp/fix-word"]
+	path = site-lisp/fix-word
+	url = git@github.com:mrkkrp/fix-word.git
+[submodule "site-lisp/zzz-to-char"]
+	path = site-lisp/zzz-to-char
+	url = git@github.com:mrkkrp/zzz-to-char.git
+[submodule "site-lisp/emacs-git-gutter"]
+	path = site-lisp/emacs-git-gutter
+	url = git@github.com:syohex/emacs-git-gutter.git

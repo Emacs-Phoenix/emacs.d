@@ -52,5 +52,6 @@ ruby setup.rb
 
 ##### misc
 `brew install bash-completion`
+`brew install aspell`
 
 
