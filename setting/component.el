@@ -214,5 +214,11 @@
 (require 'setup-mykeybinding)
 
 (require 'behavior)
+
+;; (require 'saveplace)
+;; (setq-default save-place t)
+;; save the place of the cursor of the buffers which where open at that moment
+;; 焦点变一下就自动保存，跑测试受不了
+
 (provide 'component)
 
