@@ -9,3 +9,8 @@ Emacs
 
 ** Tools
 - https://github.com/clausreinke/typescript-tools
+
+
+** Resource
+- awessome emacs
+  
