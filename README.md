@@ -23,9 +23,10 @@ cd plugin/pymacs && make check && sudo make install
 `cd lisp-site/slime`
 `make`
 
-#####npm 
-- npm install -g js-beatutify jshint tern
-
+#####npm
+NOTICE: `nvm use system`
+- npm install -g js-beatutify jshint jshinter tern
+- npm install -g eslint babel-eslint eslint-plugin-react
 #####compile
 - cd site-lisp/helm && make
 
@@ -40,6 +41,9 @@ cd plugin/pymacs && make check && sudo make install
 - pip install rope ropemacs
 - pip install wakatime
 
+#####node
+- npm install jshint -g
+
 #####evernote
 gem install evernote_oauth
 cd evernote-mode/ruby
@@ -48,5 +52,6 @@ ruby setup.rb
 
 ##### misc
 `brew install bash-completion`
+`brew install aspell`
 
 

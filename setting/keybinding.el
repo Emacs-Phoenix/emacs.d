@@ -7,12 +7,8 @@
 
 (define-key global-map (kbd "M-_") 'redo)
 
-(global-set-key (kbd "C-x C-y") 'browse-kill-ring)
-
 (global-set-key (kbd "C-r") 'isearch-backward-use-region)
 (global-set-key (kbd "C-s") 'isearch-forward-use-region)
-
-
 
 ;;string
 ;; Toggle quotes
@@ -71,8 +67,8 @@
 (global-set-key (kbd "M-z") 'zap-up-to-char)
 (global-set-key (kbd "s-z") (lambda (char) (interactive "cZap up to char backwards: ") (zap-up-to-char -1 char)))
 
-(global-set-key (kbd "C-x C-i") 'idomenu)
-(global-set-key (kbd "C-/") 'idomenu)
+;; (global-set-key (kbd "C-x C-i") 'idomenu)
+;; (global-set-key (kbd "C-/") 'idomenu)
 
 (global-set-key (kbd "C-x C-p") 'find-or-create-file-at-point)
 
@@ -87,7 +83,7 @@
 ;; Edit file with sudo
 (global-set-key (kbd "M-s e") 'sudo-edit)
 
-(global-set-key (kbd "C-x C-\\") 'rotate-windows)
+;;(global-set-key (kbd "C-x C-\\") 'rotate-windows)
 
 (global-set-key (kbd "M-j") (λ (join-line -1)))
 
@@ -97,20 +93,10 @@
 ;; Should be able to eval-and-replace anywhere.
 (global-set-key (kbd "C-c C-e") 'eval-and-replace)
 
-(global-set-key (kbd "<prior>") 'previous-buffer)
-(global-set-key (kbd "<home>") 'beginning-of-buffer)
-(global-set-key (kbd "<next>") 'next-buffer)
-(global-set-key (kbd "<end>") 'end-of-buffer)
-
-(global-set-key (kbd "M-<up>") 'smart-up)
-(global-set-key (kbd "M-<down>") 'smart-down)
-(global-set-key (kbd "M-<left>") 'smart-backward)
-(global-set-key (kbd "M-<right>") 'smart-forward)
 
 (global-set-key (kbd "C-x C-r") 'rename-current-buffer-file)
 
-
-
+(require 'move-text)
 (global-set-key (kbd "<C-s-down>") 'move-text-down)
 (global-set-key (kbd "<C-s-up>") 'move-text-up)
 
@@ -135,17 +121,12 @@
 (define-key global-map (kbd "C-M-i") 'indent-code-rigidly)
 
 (define-key global-map (kbd "C-o") 'vi-open-line-below)
-;;(define-key global-map (kbd "C-O") 'vi-open-line-above)
 (define-key global-map (kbd "C-S-O") 'vi-open-line-above)
 (define-key global-map [(meta shift ?o)] 'vi-open-line-above)
 
 
-;;(global-set-key (kbd "C-x w") 'elfeed)
-
 (global-set-key (kbd "C-x <up>") 'winner-undo)
 (global-set-key (kbd "C-x <down>") 'winner-redo)
-
-
 
 ;;vim like move
 ;; (define-key global-map (kbd "C-S-h")
@@ -166,16 +147,11 @@
 ;;          (delete-region)
 ;;        (delete-backward-char))))
 
-(global-set-key (kbd "M-s s") 'ag)
-
 
 (define-key global-map (kbd "C-S-h")
   'sp-splice-sexp)
 
-
 (global-set-key (kbd "M-;") 'comment-line-or-comment-block)
-
-
 
 
 (provide 'keybinding)

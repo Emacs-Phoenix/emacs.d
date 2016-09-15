@@ -1,10 +1,6 @@
 (require 'mode-mapping)
 (require 'appearance)
-
 (require 'default)
-
-
-
 
 ;;site-lisp
 ;;(require 'indent-guide)
@@ -12,7 +8,7 @@
 (require 'markdown-mode)
 ;;(require 'ggtags) ;;already delete
 (require 'flycheck)
-
+(require 'flymake-jshint)
 (require 'imenu-anywhere)
 (require 'ace-jump-mode)
 (require 'expand-region)
@@ -32,9 +28,9 @@
 (require 'helm)
 (require 'async)
 ;; (require 'dired-async) 
-(require 'dired+)
+;; (require 'dired+)
 (require 'helm-config)
-(require 'helm-swoop)
+
 (require 'names) 
 (require 'web-mode)
 ;; (require 'aggressive-indent)
@@ -58,9 +54,9 @@
 (require 'visual-regexp)
 ;;(require 'coffee-mode)
 ;;(require 'find-file-in-project)
-;; (require 'pangu-spacing) ;;小伙子，在英文旁边加空格
+;;(require 'pangu-spacing) ;;小伙子，在英文旁边加空格
 ;;(require 'desktop-recover) 
-;; (require 'company-quickhelp)
+
 
 (require 'tss) ;;Provide a interface for auto-complete.el/flymake.el on typescript-mode.
 
@@ -132,7 +128,7 @@
 (require 'setup-paredit)
 (require 'setup-shell)
 (require 'setup-hideshow)
-(require 'setup-magit)
+(require 'setup-git)
 (require 'setup-web-beautify)
 (require 'setup-syntax-table)
 (require 'setup-recently)
@@ -140,25 +136,27 @@
 (require 'setup-undo)
 ;;(require 'setup-auto-indent) ;;狗日的，打开这个在Mac下kill-ring有严重的问题！！！！！！！！！！！！排查死爹了！！！！！！！
 (require 'setup-highlight)
+(require 'setup-clean)
 (require 'setup-color)
 (require 'setup-jump)
 ;;(require 'setup-guide-key)
 (require 'setup-which-key)
 (require 'setup-python)
 (require 'setup-term)
+(require 'setup-swoop)
 (require 'setup-search)
 ;;(require 'setup-desktop)
-(require 'setup-file)
+;; (require 'setup-file)
 ;;(require 'setup-tabbar)
 (require 'setup-ibuffer)
 (require 'setup-backup)
 (require 'setup-tool)
 (require 'setup-spell)
-(require 'setup-paredit)
+(require 'setup-indent)
 ;; (require 'setup-emms)
 (require 'setup-misc)
 ;;(require 'setup-erc)
-;;(require 'setup-rss)
+(require 'setup-rss)
 (require 'setup-feed)
 ;;(require 'setup-doubanfm)
 (require 'setup-org)
@@ -184,6 +182,7 @@
 (require 'setup-markdown)
 (require 'setup-web)
 (require 'setup-css)
+(require 'setup-document)
 (require 'setup-restclient)
 (require 'setup-neotree)
 (require 'setup-project-explorer)
@@ -215,5 +214,11 @@
 (require 'setup-mykeybinding)
 
 (require 'behavior)
+
+;; (require 'saveplace)
+;; (setq-default save-place t)
+;; save the place of the cursor of the buffers which where open at that moment
+;; 焦点变一下就自动保存，跑测试受不了
+
 (provide 'component)
 

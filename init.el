@@ -21,5 +21,3 @@
 (setq warning-minimum-level :emergency)
 
 (load-theme 'monokai t)
-
-

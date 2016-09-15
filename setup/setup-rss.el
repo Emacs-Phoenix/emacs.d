@@ -9,7 +9,7 @@
         ("http://nedroid.com/feed/" webwomic)
         ("http://emacs-china.org/rss.xml" emacs emacs-china)
         ("http://emacsist.com/rss" emacs)
-        ("http://segmentfault.com/feeds" segmentfault)
+        ;; ("http://segmentfault.com/feeds" segmentfault)
         ("http://www.infoq.com/cn/feed" infoq)
         ("http://blog.zhaojie.me/rss" blog)
         ;;("https://github.com/AbyChan.private.atom?token=AGowAFs_OGXG7dKf8q7hqH__kLXXUkkvks60Kz-LwA==" github)

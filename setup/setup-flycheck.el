@@ -45,9 +45,11 @@ up before you execute another command."
 
 
 (with-eval-after-load 'flycheck
-  ;(flycheck-add-mode 'html-tidy 'web-mode)
-  ;(flycheck-add-mode 'html-tidy 'html-mode)
+  ;; (flycheck-add-mode 'html-tidy 'web-mode)
+  ;; (flycheck-add-mode 'html-tidy 'html-mode)
   (flycheck-add-mode 'css-csslint 'web-mode)
   (flycheck-add-mode 'css-csslint 'css-mode))
+
+;; (setq flycheck-eslintrc "~/.eslintrc")
 
 (provide 'setup-flycheck)

@@ -5,7 +5,7 @@
 (require 'company-abbrev)
 ;;(require 'company-etags) ;; TODO 启动卡
 (require 'company-jedi)
-(require 'company-web-html)
+;; (require 'company-web-html)
 (require 'company-quickhelp)
 
 (add-to-list 'load-path (expand-file-name "site-lisp/know-your-http-well/emacs/" user-emacs-directory))
@@ -79,7 +79,7 @@
 (define-key company-active-map (kbd "<tab>") 'company-complete)
 (define-key company-active-map (kbd "<return>") 'company-complete)
 
-
+(setq company-dabbrev-downcase nil)
 
 ;;-----------python------------------------
 (defun my/python-mode-hook ()

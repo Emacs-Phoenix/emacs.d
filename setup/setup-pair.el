@@ -18,8 +18,10 @@
 
 (require 'smartparens-config)
 (setq sp-navigate-reindent-after-up nil)
-(smartparens-global-mode 1)
-(show-smartparens-global-mode 1)
+;; (smartparens-global-mode 1)
+;; (show-smartparens-global-mode 1)
+(add-hook 'emacs-lisp-mode #'smartparens-mode)
+(add-hook 'css-mode #'smartparens-mode)
 
 ;; pair "`" with "'" in emacs-lisp-mode
 (sp-local-pair 'emacs-lisp-mode "`" "'")

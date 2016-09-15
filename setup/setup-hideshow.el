@@ -12,6 +12,7 @@
                     'c++-mode-hook
                     'js2-mode-hook
                     'html-mode-hook
+                    'web-mode-hook
                     'css-mode-hook
                     'python-mode-hook))
   (add-hook hook 'hideshowvis-enable))

@@ -619,3 +619,51 @@
 [submodule "site-lisp/fzf.el"]
 	path = site-lisp/fzf.el
 	url = git@github.com:bling/fzf.el.git
+[submodule "site-lisp/jade-mode"]
+	path = site-lisp/jade-mode
+	url = git@github.com:brianc/jade-mode.git
+[submodule "site-lisp/packed"]
+	path = site-lisp/packed
+	url = git@github.com:tarsius/packed.git
+[submodule "site-lisp/raml-mode"]
+	path = site-lisp/raml-mode
+	url = git@github.com:victorquinn/raml-mode.git
+[submodule "site-lisp/jshint-mode"]
+	path = site-lisp/jshint-mode
+	url = git@github.com:daleharvey/jshint-mode.git
+[submodule "site-lisp/migemo"]
+	path = site-lisp/migemo
+	url = git@github.com:emacs-jp/migemo.git
+[submodule "site-lisp/whitespace-cleanup-mode"]
+	path = site-lisp/whitespace-cleanup-mode
+	url = git@github.com:purcell/whitespace-cleanup-mode.git
+[submodule "site-lisp/dumb-jump"]
+	path = site-lisp/dumb-jump
+	url = git@github.com:jacktasia/dumb-jump.git
+[submodule "site-lisp/with-editor"]
+	path = site-lisp/with-editor
+	url = git@github.com:magit/with-editor.git
+[submodule "site-lisp/magit-filenotify"]
+	path = site-lisp/magit-filenotify
+	url = git@github.com:magit/magit-filenotify.git
+[submodule "site-lisp/dash-at-point"]
+	path = site-lisp/dash-at-point
+	url = git@github.com:stanaka/dash-at-point.git
+[submodule "site-lisp/fiplr"]
+	path = site-lisp/fiplr
+	url = git@github.com:grizzl/fiplr.git
+[submodule "site-lisp/grizzl"]
+	path = site-lisp/grizzl
+	url = git@github.com:grizzl/grizzl.git
+[submodule "site-lisp/helm-dash"]
+	path = site-lisp/helm-dash
+	url = git@github.com:areina/helm-dash.git
+[submodule "site-lisp/fix-word"]
+	path = site-lisp/fix-word
+	url = git@github.com:mrkkrp/fix-word.git
+[submodule "site-lisp/zzz-to-char"]
+	path = site-lisp/zzz-to-char
+	url = git@github.com:mrkkrp/zzz-to-char.git
+[submodule "site-lisp/emacs-git-gutter"]
+	path = site-lisp/emacs-git-gutter
+	url = git@github.com:syohex/emacs-git-gutter.git

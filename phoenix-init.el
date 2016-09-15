@@ -24,7 +24,7 @@
   (when (file-directory-p project)
     (add-to-list 'load-path project)))
 
-(autoload 'esup "esup" "Emacs Start Up Profiler." nil)
+;; (autoload 'esup "esup" "Emacs Start Up Profiler." nil)
 
 ;; Are we on a mac?
 (setq is-mac (equal system-type 'darwin))
@@ -44,4 +44,11 @@
 (auto-save-mode -1)
 ;;81826f1e4ac636c739c539aa138a6026d3df286f
 
+(require 'auto-compile)
+(auto-compile-on-load-mode)
+(auto-compile-on-save-mode)
+
+(byte-recompile-directory (expand-file-name "~/.emacs.d") 0)
+
 (defalias 'helm-buffer-match-major-mode 'helm-buffers-list--match-fn)
+

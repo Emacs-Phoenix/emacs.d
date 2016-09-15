@@ -46,7 +46,7 @@
           (kill-region (car pair) (cdr pair)))))))
 
 
-(setq css-imenu-generic-expression
+(setq css3-imenu-generic-expression
       '(
         (nil "\\(^@font-face\\)" 1)
         ;;(nil "\\(^body\\)" 1)
@@ -58,7 +58,7 @@
 
 (add-hook 'css-mode-hook 
           (lambda ()
-            (setq imenu-generic-expression css-imenu-generic-expression)))
+            (setq imenu-generic-expression css3-imenu-generic-expression)))
 
 
 (require 'css-eldoc)

@@ -1,4 +1,5 @@
-;; TODO make path better
+;; full screen magit-status
+
 (add-to-list 'load-path "~/.emacs.d/site-lisp/magit/lisp")
 (require 'magit)
 
@@ -13,7 +14,8 @@
   (unless prefix
     (delete-other-windows)))
 
-;; 去掉烦人的提示 don't prompt me
+;; don't prompt me
+
 (set-default 'magit-unstage-all-confirm nil)
 (set-default 'magit-stage-all-confirm nil)
 (set-default 'magit-revert-buffers 'silent)
@@ -46,7 +48,6 @@
 (require 'magit-filenotify)
 (add-hook 'after-save-hook 'magit-after-save-refresh-status)
 
-;; git-gutter 旁边显示 ＋ -
 (require 'git-gutter)
 (global-git-gutter-mode +1)
 
