@@ -186,6 +186,7 @@
 (require 'setup-restclient)
 (require 'setup-neotree)
 (require 'setup-project-explorer)
+(require 'setup-string)
 ;; (require 'setup-eye)
 ;; (require 'setup-backup) ;; 好卡
 (require 'setup-tss)
