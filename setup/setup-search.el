@@ -35,4 +35,7 @@
 (setq fiplr-root-markers '(".git" ".svn" "node_modules"))
 (global-set-key (kbd "M-s f") 'fiplr-find-file)
 
+(require 'projectile)
+(global-set-key (kbd "M-s p") 'projectile-ag)
+
 (provide 'setup-search)

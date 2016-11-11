@@ -7,6 +7,7 @@
         '(
           ;; ("function" . 10770)             ; ⨍
           ("return" . 10145)    ; ➡
+          ;;("()" . 8709)
           )))
 
 (add-hook 'js2-mode-hook 'js-pretty-lambda)

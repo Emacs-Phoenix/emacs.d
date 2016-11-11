@@ -5,7 +5,7 @@
 (add-to-list 'auto-mode-alist '("\\.json$" . json-mode))
 (add-to-list 'auto-mode-alist '("\\.jshintrc$" . javascript-mode))
 (add-to-list 'magic-mode-alist '("#!/usr/bin/env node" . js2-mode))
-
+(add-to-list 'auto-mode-alist '("\\rc$" . json-mode))
 
 ;; HTML
 (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
