@@ -667,3 +667,6 @@
 [submodule "site-lisp/emacs-git-gutter"]
 	path = site-lisp/emacs-git-gutter
 	url = git@github.com:syohex/emacs-git-gutter.git
+[submodule "site-lisp/sass-mode"]
+	path = site-lisp/sass-mode
+	url = git@github.com:nex3/sass-mode.git
