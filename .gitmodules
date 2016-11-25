@@ -667,3 +667,6 @@
 [submodule "site-lisp/sass-mode"]
 	path = site-lisp/sass-mode
 	url = git@github.com:nex3/sass-mode.git
+[submodule "site-lisp/git-auto-commit-mode"]
+	path = site-lisp/git-auto-commit-mode
+	url = git@github.com:ryuslash/git-auto-commit-mode.git
