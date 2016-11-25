@@ -484,9 +484,6 @@
 [submodule "site-lisp/unicode-convert"]
 	path = site-lisp/unicode-convert
 	url = git@github.com:Emacs-Phoenix/unicode-convert.git
-[submodule "site-lisp/emacs-feedjs"]
-	path = site-lisp/emacs-feedjs
-	url = git@github.com:Emacs-Phoenix/emacs-feedjs.git
 [submodule "site-lisp/js3-mode"]
 	path = site-lisp/js3-mode
 	url = git@github.com:thomblake/js3-mode.git
