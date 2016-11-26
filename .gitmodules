@@ -664,3 +664,6 @@
 [submodule "site-lisp/emacs-git-gutter"]
 	path = site-lisp/emacs-git-gutter
 	url = git@github.com:syohex/emacs-git-gutter.git
+[submodule "site-lisp/--force"]
+	path = site-lisp/--force
+	url = git@github.com:Emacs-Phoenix/emacs-feedjs.git
