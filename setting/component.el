@@ -52,6 +52,7 @@
 ;;(require 'symon)  ;;tiny graphical system monitor
 (require 'hungry-delete)
 (require 'visual-regexp)
+(require 'git-auto-commit-mode)
 ;;(require 'coffee-mode)
 ;;(require 'find-file-in-project)
 ;;(require 'pangu-spacing) ;;小伙子，在英文旁边加空格
@@ -108,6 +109,7 @@
 (require 'ansi-color)
 ;;(require 'typo)
 (require 'eproject)
+(require 'sass-mode)
 ;;(require 'xah-css-mode)
 
 
@@ -186,6 +188,7 @@
 (require 'setup-restclient)
 (require 'setup-neotree)
 (require 'setup-project-explorer)
+(require 'setup-string)
 ;; (require 'setup-eye)
 ;; (require 'setup-backup) ;; 好卡
 (require 'setup-tss)
@@ -214,6 +217,7 @@
 (require 'setup-mykeybinding)
 
 (require 'behavior)
+
 
 ;; (require 'saveplace)
 ;; (setq-default save-place t)

@@ -11,6 +11,7 @@
 (dolist (hook (list 'emacs-lisp-mode-hook
                     'c++-mode-hook
                     'js2-mode-hook
+                    'json-mode
                     'html-mode-hook
                     'web-mode-hook
                     'css-mode-hook
