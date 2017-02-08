@@ -1,7 +1,6 @@
 
 ;;(advice-add 'tab-indent-or-complete :before #'pair-jump-or-tab)
 
-
 (add-hook 'css-mode-hook
           (lambda ()
             (advice-add 'company-complete-selection :after
