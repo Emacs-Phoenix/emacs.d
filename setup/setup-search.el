@@ -12,7 +12,6 @@
 (require 'helm-config)
 (require 'helm-multi-match)
 (require 'helm-ack)
-;;(require 'helm-migemo)
 
 (custom-set-variables
  ;; Does not insert '--type' option
@@ -26,14 +25,6 @@
 (setq ag-reuse-window 't)
 (global-set-key (kbd "M-s s") 'ag)
 (global-set-key (kbd "M-s h") 'helm-ag)
-
-;; fzf
-(require 'fzf)
-(global-set-key (kbd "M-s z") 'fzf)
-
-(require 'fiplr)
-(setq fiplr-root-markers '(".git" ".svn" "node_modules"))
-(global-set-key (kbd "M-s f") 'fiplr-find-file)
 
 (require 'projectile)
 (global-set-key (kbd "M-s p") 'projectile-ag)

@@ -42,8 +42,6 @@
 (require 'tagedit)
 
 (require 'yaml-mode)
-(require 'simplezen)
-(require 'dockerfile-mode)
 (require 'auto-highlight-symbol)
 ;; (require 'highlight-escape-sequences)
 ;; (require 'idomenu)
@@ -52,7 +50,6 @@
 ;;(require 'symon)  ;;tiny graphical system monitor
 (require 'hungry-delete)
 (require 'visual-regexp)
-(require 'git-auto-commit-mode)
 ;;(require 'coffee-mode)
 ;;(require 'find-file-in-project)
 ;;(require 'pangu-spacing) ;;小伙子，在英文旁边加空格
@@ -84,7 +81,6 @@
 ;; (require 'helm-backup)
 (require 'undohist) ;;记录session之外的undo
 ;; (require 'etxt) ;; read ebook
-(require 'ranger)
 (require 'helm-ag)
 (require 'helm-ack)
 
@@ -107,10 +103,7 @@
 (require 'smooth-scroll)
 ;;(require 'showkey) ;;Display what keys are being typed in emacs in real-time.
 (require 'ansi-color)
-;;(require 'typo)
-(require 'eproject)
 (require 'sass-mode)
-;;(require 'xah-css-mode)
 
 
 
@@ -155,7 +148,6 @@
 (require 'setup-tool)
 (require 'setup-spell)
 (require 'setup-indent)
-;; (require 'setup-emms)
 (require 'setup-misc)
 ;;(require 'setup-erc)
 (require 'setup-rss)
@@ -165,7 +157,6 @@
 (require 'setup-js2)
 (require 'setup-clj)
 (require 'setup-jsx)
-(require 'setup-go)
 (require 'setup-scss)
 ;;(require 'setup-tramp)
 (require 'anzu)

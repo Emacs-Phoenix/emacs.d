@@ -1,4 +1,3 @@
-;;(eyebrowse-mode t)
 
 ;;(sublimity-mode 1)
 
@@ -30,12 +29,12 @@
 ;; (hes-mode)
 ;; (put 'font-lock-regexp-grouping-backslash 'face-alias 'font-lock-builtin-face)
 
+(global-hungry-delete-mode)
 
 
 ;;tiny graphical system monitor
 ;;(symon-mode);;影响minibuffer显示
 
-(hungry-keyboard global-map)
 
 ;;linum-mode
 ;;(global-linum-mode 1) ;;这他妈linum和sublime那个小窗不能共存

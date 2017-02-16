@@ -29,6 +29,7 @@
 (global-set-key (kbd "C-c C-.") 'mc/mark-all-like-this)
 (global-set-key (kbd "C-s-<mouse-1>") 'mc/add-cursor-on-click)
 
+(global-set-key [backspace] 'hungry-delete-backward)
 
 (global-unset-key (kbd "C-/"))
 (global-set-key (kbd "C-?") 'imenu-anywhere)
@@ -111,7 +112,7 @@
 
 (global-set-key (kbd "C-c z") 'goto-last-change)
 (global-set-key (kbd "C-z") 'goto-last-change)
-;;; 
+;;;
 
 ;;A regexp/replace command for Emacs with interactive visual feedback
 (define-key global-map (kbd "C-c r") 'vr/replace)
