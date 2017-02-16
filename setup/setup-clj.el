@@ -159,18 +159,7 @@ Invoke 'clojure.walk/macroexpand-all' on the expression at point.
 (define-key inf-clojure-mode-map (kbd "C-c C-e") 'cider-eval-last-sexp)
 (define-key inf-clojure-mode-map "\C-x\C-e" #'cider-eval-last-sexp)
 
-;;;flycheck
 
-(load (expand-file-name "site-lisp/squiggly-clojure/elisp/flycheck-clojure/flycheck-clojure.el" user-emacs-directory))
-
-(load (expand-file-name "site-lisp/squiggly-clojure/elisp/typed-clojure/clojure-typed-doc.el" user-emacs-directory))
-
-(eval-after-load 'flycheck '(flycheck-clojure-setup))
-
-;;(add-hook 'after-init-hook #'global-flycheck-mode)
-
-(eval-after-load 'flycheck
-  '(setq flycheck-display-errors-function #'flycheck-pos-tip-error-messages))
 
 ;;This package provides basic interaction with a Clojure subprocess (REPL).
 (add-hook 'clojure-mode-hook #'inf-clojure-minor-mode)

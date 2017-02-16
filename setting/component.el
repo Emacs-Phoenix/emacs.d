@@ -6,7 +6,6 @@
 ;;(require 'indent-guide)
 (require 'js2-mode)
 (require 'markdown-mode)
-;;(require 'ggtags) ;;already delete
 (require 'flycheck)
 (require 'flymake-jshint)
 (require 'imenu-anywhere)
@@ -18,7 +17,6 @@
 ;;(require 'speed-type)
 (require 'sublimity)
 (require 'sublimity-scroll)
-(require 'project-explorer)
 ;;(require 'sublimity-map)
 ;;(require 'sublimity-attractive)
 
@@ -37,7 +35,6 @@
 
 (require 'ack)
 (require 'smart-forward)
-;;(require 'browse-kill-ring)
 ;;(require 'line-num)
 (require 'tagedit)
 
@@ -46,17 +43,8 @@
 ;; (require 'highlight-escape-sequences)
 ;; (require 'idomenu)
 
-(require 'markdown-mode+)
-;;(require 'symon)  ;;tiny graphical system monitor
 (require 'hungry-delete)
 (require 'visual-regexp)
-;;(require 'coffee-mode)
-;;(require 'find-file-in-project)
-;;(require 'pangu-spacing) ;;小伙子，在英文旁边加空格
-;;(require 'desktop-recover) 
-
-
-(require 'tss) ;;Provide a interface for auto-complete.el/flymake.el on typescript-mode.
 
 (require 'bm) ;;bookmark (conum mark)
 (global-set-key (kbd "<C-f2>") 'bm-toggle)
@@ -98,7 +86,6 @@
 ;;(require 'ace-jump-buffer)
 (require 'avy)
 ;; (require 'setup-aggressive-indent) ;;进击的模式 auto indent
-;; (require 'esup) ;;Emacs Start Up Profiler
 (require 'yaml-mode)
 (require 'smooth-scroll)
 ;;(require 'showkey) ;;Display what keys are being typed in emacs in real-time.
@@ -160,11 +147,7 @@
 (require 'setup-scss)
 ;;(require 'setup-tramp)
 (require 'anzu)
-(require 'setup-haskell)
 ;; (require 'setup-tags)
-;; (require 'setup-wakatime)
-;; (require 'setup-geolocation)
-;; (require 'setup-perspective) ;; emacs buffer 分区
 (require 'setup-pretty)
 (require 'setup-elisp)
 (require 'setup-dictionary)
@@ -178,11 +161,9 @@
 (require 'setup-document)
 (require 'setup-restclient)
 (require 'setup-neotree)
-(require 'setup-project-explorer)
 (require 'setup-string)
 ;; (require 'setup-eye)
 ;; (require 'setup-backup) ;; 好卡
-(require 'setup-tss)
 
 (when is-mac (require 'setup-mac))
 

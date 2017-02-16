@@ -5,20 +5,24 @@
                  clojure-mode clj-refactor clojure-mode-extra-font-locking
                  tss
                  haskell-mode coffee-mode
-                 yaml-mode haml-mode
+                 yaml-mode haml-mode nginx-mode
                  swift-mode
-                 elpy pythonic
+                 elpy pythonic jedi
                  nyan-mode
                  ido-vertical-mode ido-ubiquitous smartparens tagedit ace-jump-mode avy
-                 hungry-delete expand-region
-                 helm-swoop helm helm-dash helm-ack helm-ag full-ack
+                 hungry-delete expand-region whitespace-cleanup-mode
+                 helm-swoop helm helm-dash helm-ack helm-ag full-ack helm-ag
                  dumb-jump ace-jump-mode
-                 company company-web
+                 company company-web company-jedi
                  projectile ibuffer-projectile
                  magit git-gutter
                  window-numbering aggressive-indent guide-key powerline tabbar neotree bm
-                 elfeed imenu-anywhere flycheck
-         ))
+                 elfeed imenu-anywhere flycheck ido-hacks idomenu windresize fixmee
+                 vimish-fold ido-vertical-mode restclient ido-at-point flx spaceline
+                 highlight-symbol reveal-in-osx-finder redo+ undo-tree anzu showkey bash-completion sublimity markdown-mode
+                 which-key rainbow-mode rainbow-delimiters visual-regexp
+                 smex slime paredit paredit-everywhere
+                 ))
 
 (add-to-list 'package-archives
              '("melpa" . "https://melpa.org/packages/") t)

@@ -146,8 +146,7 @@
 ;; (define-key global-map (kbd "backspace")
 ;;   (λ (if (region-active-p)
 ;;          (delete-region)
-;;        (delete-backward-char))))
-
+;;         (delete-backward-char))))
 
 (define-key global-map (kbd "C-S-h")
   'sp-splice-sexp)

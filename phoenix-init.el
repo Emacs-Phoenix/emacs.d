@@ -24,7 +24,6 @@
   (when (file-directory-p project)
     (add-to-list 'load-path project)))
 
-;; (autoload 'esup "esup" "Emacs Start Up Profiler." nil)
 
 ;; Are we on a mac?
 (setq is-mac (equal system-type 'darwin))
