@@ -29,7 +29,6 @@
 ;; (require 'dired+)
 (require 'helm-config)
 
-(require 'names) 
 (require 'web-mode)
 ;; (require 'aggressive-indent)
 
@@ -62,7 +61,6 @@
 
 (require 'multiple-cursors)
 (require 'reveal-in-osx-finder)
-(require 'lacarte)
 (require 'ibuffer-vc) ;;ibuffer 分组
 ;; (require 'ibuffer-projectile)
 ;; (require 'less-css-mode)

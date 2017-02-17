@@ -2,11 +2,11 @@
 (require 'package)
 (setq package-list
       '(js2-mode js2-refactor jquery-doc web-mode scss-mode sass-mode emmet-mode web less-css-mode css-eldoc tern tern-auto-complete
-                 clojure-mode clj-refactor clojure-mode-extra-font-locking
+                 clojure-mode clj-refactor clojure-mode-extra-font-locking clojure-cheatsheet
                  tss flycheck-pos-tip
-                 haskell-mode coffee-mode auto-compile
-                 yaml-mode haml-mode nginx-mode diminish
-                 swift-mode
+                 haskell-mode coffee-mode auto-compile 
+                 yaml-mode haml-mode nginx-mode diminish osx-dictionary move-text undohist auto-highlight-symbol
+                 swift-mode web-beautify
                  elpy pythonic jedi anaconda-mode
                  nyan-mode smooth-scroll shell-pop
                  ido-vertical-mode ido-ubiquitous smartparens tagedit ace-jump-mode avy
@@ -24,7 +24,7 @@
                  smex slime paredit paredit-everywhere
                  ac-html ac-html-csswatcher company-emoji company-flx json-mode json-reformat
                  jade-mode epc smart-forward perspective inf-clojure company-quickhelp ansi-color flymake-jshint flx-ido sws-mode
-                 zzz-to-char magit-filenotify ack goto-last-change hideshowvis
+                 zzz-to-char magit-filenotify ack goto-last-change hideshowvis change-inner ibuffer-vc ag
                  ))
 
 (add-to-list 'package-archives

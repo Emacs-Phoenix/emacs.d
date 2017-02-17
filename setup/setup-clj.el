@@ -47,10 +47,6 @@ Invoke 'clojure.walk/macroexpand-all' on the expression at point.
           (lambda ()
             (clj-refactor-mode 1)
             (core-async-mode 1)))
-
-(require 'symbol-focus)
-(define-key clojure-mode-map (kbd "M-s-f") 'sf/focus-at-point)
-
 (defun clj-duplicate-top-level-form ()
   (interactive)
   (save-excursion
