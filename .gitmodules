@@ -34,9 +34,6 @@
 [submodule "themes/aurora-theme"]
 	path = themes/aurora-theme
 	url = git@github.com:xzerocode/aurora-theme.git
-[submodule "site-lisp/web-beautify"]
-	path = site-lisp/web-beautify
-	url = git@github.com:yasuyk/web-beautify.git
 [submodule "popwin-el"]
 	path = popwin-el
 	url = git@github.com:m2ym/popwin-el.git
@@ -58,9 +55,6 @@
 [submodule "themes/grandshell-theme"]
 	path = themes/grandshell-theme
 	url = git@github.com:steckerhalter/grandshell-theme.git
-[submodule "site-lisp/undohist-el"]
-	path = site-lisp/undohist-el
-	url = git@github.com:m2ym/undohist-el.git
 [submodule "site-lisp/emacs-uglify"]
 	path = site-lisp/emacs-uglify
 	url = git@github.com:Emacs-Phoenix/emacs-uglify.git
@@ -91,9 +85,6 @@
 [submodule "site-lisp/osx-tools"]
 	path = site-lisp/osx-tools
 	url = git@github.com:Emacs-Phoenix/osx-tools.git
-[submodule "site-lisp/osx-location"]
-	path = site-lisp/osx-location
-	url = git@github.com:purcell/osx-location.git
 [submodule "snippets"]
 	path = snippets
 	url = git@github.com:Emacs-Phoenix/snippets.git
@@ -106,15 +97,9 @@
 [submodule "esup"]
 	path = esup
 	url = git@github.com:jschaf/esup.git
-[submodule "site-lisp/chinese-word-at-point.el"]
-	path = site-lisp/chinese-word-at-point.el
-	url = git@github.com:xuchunyang/chinese-word-at-point.el.git
 [submodule "site-lisp/know-your-http-well"]
 	path = site-lisp/know-your-http-well
 	url = git@github.com:for-GET/know-your-http-well.git
-[submodule "site-lisp/auto-highlight-symbol"]
-	path = site-lisp/auto-highlight-symbol
-	url = git@github.com:emacsmirror/auto-highlight-symbol.git
 [submodule "site-lisp/fix-word"]
 	path = site-lisp/fix-word
 	url = git@github.com:mrkkrp/fix-word.git

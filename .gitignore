@@ -18,3 +18,17 @@ elpa
 swank
 site-lisp/adventur-mode
 bookmarks
+*.elc
+\#*
+/.emacs.desktop
+/.mc-lists.el
+/.places
+.python-environments/
+/SessionDesktop.el
+ac-html-csswatcher/
+/ido.last
+/projectile-bookmarks.eld
+pyim/
+tags
+url/
+var/
