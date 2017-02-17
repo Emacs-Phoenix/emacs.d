@@ -3,17 +3,17 @@
 (setq package-list
       '(js2-mode js2-refactor jquery-doc web-mode scss-mode sass-mode emmet-mode web less-css-mode css-eldoc tern tern-auto-complete
                  clojure-mode clj-refactor clojure-mode-extra-font-locking
-                 tss
-                 haskell-mode coffee-mode
-                 yaml-mode haml-mode nginx-mode
+                 tss flycheck-pos-tip
+                 haskell-mode coffee-mode auto-compile
+                 yaml-mode haml-mode nginx-mode diminish
                  swift-mode
-                 elpy pythonic jedi
-                 nyan-mode
+                 elpy pythonic jedi anaconda-mode
+                 nyan-mode smooth-scroll shell-pop
                  ido-vertical-mode ido-ubiquitous smartparens tagedit ace-jump-mode avy
                  hungry-delete expand-region whitespace-cleanup-mode
                  helm-swoop helm helm-dash helm-ack helm-ag full-ack helm-ag
                  dumb-jump ace-jump-mode
-                 company company-web company-jedi
+                 company company-web company-jedi company-tern company-restclient
                  projectile ibuffer-projectile
                  magit git-gutter
                  window-numbering aggressive-indent guide-key powerline tabbar neotree bm
@@ -22,6 +22,9 @@
                  highlight-symbol reveal-in-osx-finder redo+ undo-tree anzu showkey bash-completion sublimity markdown-mode
                  which-key rainbow-mode rainbow-delimiters visual-regexp
                  smex slime paredit paredit-everywhere
+                 ac-html ac-html-csswatcher company-emoji company-flx json-mode json-reformat
+                 jade-mode epc smart-forward perspective inf-clojure company-quickhelp ansi-color flymake-jshint flx-ido sws-mode
+                 zzz-to-char magit-filenotify ack goto-last-change hideshowvis
                  ))
 
 (add-to-list 'package-archives

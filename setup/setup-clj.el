@@ -43,8 +43,6 @@ Invoke 'clojure.walk/macroexpand-all' on the expression at point.
 (cljr-add-keybindings-with-modifier "C-s-")
 (define-key clj-refactor-map (kbd "C-x C-r") 'cljr-rename-file)
 
-(require 'core-async-mode)
-
 (add-hook 'clojure-mode-hook
           (lambda ()
             (clj-refactor-mode 1)

@@ -9,8 +9,6 @@
 (bash-completion-setup)
 ;; tab-completion for shell-command
 
-(require 'shell-command)
-(shell-command-completion-mode)
 
 ;; C-d to kill buffer if process is dead.
 

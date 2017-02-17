@@ -1,5 +1,11 @@
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.jsx\\'" . web-mode))
 
-
-(load (expand-file-name "site-lisp/jsx-mode.el/src/jsx-mode.el" user-emacs-directory))
+;; TODO 判断是 jsx 后缀才 set content
+(add-hook 'web-mode-hook
+          (lambda ()
+            (if (equal web-mode-content-type "javascript")
+                (web-mode-set-content-type "jsx")
+              (message "now set to: %s" web-mode-content-type))))
 
 (provide 'setup-jsx)

@@ -3,6 +3,8 @@
 (require 'company-capf)
 (require 'company-keywords)
 (require 'company-abbrev)
+
+
 ;;(require 'company-etags) ;; TODO 启动卡
 (require 'company-jedi)
 ;; (require 'company-web-html)
@@ -21,6 +23,11 @@
 (setq company-quickhelp-delay 0.5)
 (company-quickhelp-mode 1)
 
+(require 'company-emoji)
+(add-to-list 'company-backends 'company-emoji)
+
+(with-eval-after-load 'company
+  (company-flx-mode +1))
 
 ;; --------------------- yas ---------------------
 (setq company-mode/enable-yas t)

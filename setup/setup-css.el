@@ -18,7 +18,7 @@
 ;; (add-hook 'css-mode-hook
 ;;           (lambda ()
 ;;             (if )
-            
+
 ;;             (advice-add 'company-complete-selection :after (lambda ()
 ;;                                                    (emmet-expand-line nil)))))
 
@@ -55,7 +55,7 @@
         ))
 
 
-(add-hook 'css-mode-hook 
+(add-hook 'css-mode-hook
           (lambda ()
             (setq imenu-generic-expression css3-imenu-generic-expression)))
 
@@ -88,5 +88,8 @@
 ;;               (flymake-sass-load))))
 
 (setq css-indent-offset 2)
+
+(require 'ac-html-csswatcher)
+(ac-html-csswatcher-setup)
 
 (provide 'setup-css)
