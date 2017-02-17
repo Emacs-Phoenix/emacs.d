@@ -1,6 +1,3 @@
-[submodule "site-lisp/flx"]
-	path = site-lisp/flx
-	url = git@github.com:lewang/flx.git
 [submodule "site-lisp/emacs-transparent"]
 	path = site-lisp/emacs-transparent
 	url = git@github.com:Emacs-Phoenix/emacs-transparent.git
@@ -10,48 +7,24 @@
 [submodule "plugins/global-pygments-plugin"]
 	path = plugins/global-pygments-plugin
 	url = git@github.com:yoshizow/global-pygments-plugin.git
-[submodule "site-lisp/json-mode"]
-	path = site-lisp/json-mode
-	url = git@github.com:joshwnj/json-mode.git
 [submodule "site-lisp/js2-extra"]
 	path = site-lisp/js2-extra
 	url = git@github.com:Emacs-Phoenix/js2-extra.git
-[submodule "site-lisp/company-tern"]
-	path = site-lisp/company-tern
-	url = git@github.com:proofit404/company-tern.git
 [submodule "yasnippet-snippets"]
 	path = yasnippet-snippets
 	url = git@github.com:Emacs-Phoenix/yasnippet-snippets.git
 [submodule "plugins/Pymacs"]
 	path = plugins/Pymacs
 	url = git@github.com:pinard/Pymacs.git
-[submodule "site-lisp/perspective-el"]
-	path = site-lisp/perspective-el
-	url = git@github.com:nex3/perspective-el.git
 [submodule "site-lisp/edit-sword"]
 	path = site-lisp/edit-sword
 	url = git@github.com:Emacs-Phoenix/edit-sword.git
-[submodule "site-lisp/shell-pop-el"]
-	path = site-lisp/shell-pop-el
-	url = git@github.com:kyagi/shell-pop-el.git
-[submodule "site-lisp/names"]
-	path = site-lisp/names
-	url = git@github.com:Malabarba/names.git
-[submodule "site-lisp/indent-guide"]
-	path = site-lisp/indent-guide
-	url = git@github.com:zk-phi/indent-guide.git
-[submodule "site-lisp/smart-forward.el"]
-	path = site-lisp/smart-forward.el
-	url = git@github.com:magnars/smart-forward.el.git
 [submodule "site-lisp/eye-care"]
 	path = site-lisp/eye-care
 	url = git@github.com:Emacs-Phoenix/eye-care.git
 [submodule "site-lisp/html-extra"]
 	path = site-lisp/html-extra
 	url = git@github.com:Emacs-Phoenix/html-extra.git
-[submodule "site-lisp/highlight-escape-sequences"]
-	path = site-lisp/highlight-escape-sequences
-	url = git@github.com:dgutov/highlight-escape-sequences.git
 [submodule "themes/emacs-color-theme-solarized"]
 	path = themes/emacs-color-theme-solarized
 	url = git@github.com:sellout/emacs-color-theme-solarized.git
@@ -64,23 +37,8 @@
 [submodule "site-lisp/web-beautify"]
 	path = site-lisp/web-beautify
 	url = git@github.com:yasuyk/web-beautify.git
-[submodule "site-lisp/flycheck-pos-tip"]
-	path = site-lisp/flycheck-pos-tip
-	url = git@github.com:flycheck/flycheck-pos-tip.git
-[submodule "site-lisp/ack-el"]
-	path = site-lisp/ack-el
-	url = git@github.com:leoliu/ack-el.git
-[submodule "site-lisp/anaconda-mode"]
-	path = site-lisp/anaconda-mode
-	url = git@github.com:proofit404/anaconda-mode.git
-[submodule "site-lisp/clj-refactor.el"]
-	path = site-lisp/clj-refactor.el
-	url = git@github.com:clojure-emacs/clj-refactor.el.git
 [submodule "popwin-el"]
 	path = popwin-el
-	url = git@github.com:m2ym/popwin-el.git
-[submodule "site-lisp/popwin-el"]
-	path = site-lisp/popwin-el
 	url = git@github.com:m2ym/popwin-el.git
 [submodule "site-lisp/pyenv"]
 	path = site-lisp/pyenv
@@ -100,42 +58,6 @@
 [submodule "themes/grandshell-theme"]
 	path = themes/grandshell-theme
 	url = git@github.com:steckerhalter/grandshell-theme.git
-[submodule "site-lisp/ag.el"]
-	path = site-lisp/ag.el
-	url = git@github.com:Wilfred/ag.el.git
-[submodule "site-lisp/gh.el"]
-	path = site-lisp/gh.el
-	url = git@github.com:sigma/gh.el.git
-[submodule "site-lisp/emacs-epc"]
-	path = site-lisp/emacs-epc
-	url = git@github.com:kiwanami/emacs-epc.git
-[submodule "site-lisp/emacs-deferred"]
-	path = site-lisp/emacs-deferred
-	url = git@github.com:kiwanami/emacs-deferred.git
-[submodule "site-lisp/emacs-ctable"]
-	path = site-lisp/emacs-ctable
-	url = git@github.com:kiwanami/emacs-ctable.git
-[submodule "site-lisp/company-quickhelp"]
-	path = site-lisp/company-quickhelp
-	url = git@github.com:expez/company-quickhelp.git
-[submodule "site-lisp/log4e"]
-	path = site-lisp/log4e
-	url = git@github.com:aki2o/log4e.git
-[submodule "site-lisp/json-snatcher"]
-	path = site-lisp/json-snatcher
-	url = git@github.com:Sterlingg/json-snatcher.git
-[submodule "site-lisp/json-reformat"]
-	path = site-lisp/json-reformat
-	url = git@github.com:gongo/json-reformat.git
-[submodule "site-lisp/change-inner"]
-	path = site-lisp/change-inner
-	url = git@github.com:emacsmirror/change-inner.git
-[submodule "site-lisp/ibuffer-projectile"]
-	path = site-lisp/ibuffer-projectile
-	url = git@github.com:purcell/ibuffer-projectile.git
-[submodule "site-lisp/ibuffer-vc"]
-	path = site-lisp/ibuffer-vc
-	url = git@github.com:purcell/ibuffer-vc.git
 [submodule "site-lisp/undohist-el"]
 	path = site-lisp/undohist-el
 	url = git@github.com:m2ym/undohist-el.git
@@ -148,69 +70,21 @@
 [submodule "boilerplate"]
 	path = boilerplate
 	url = git@github.com:Emacs-Phoenix/boilerplate.git
-[submodule "site-lisp/emms-mode-line-cycle"]
-	path = site-lisp/emms-mode-line-cycle
-	url = git@github.com:momomo5717/emms-mode-line-cycle.git
-[submodule "site-lisp/circe"]
-	path = site-lisp/circe
-	url = git@github.com:jorgenschaefer/circe.git
-[submodule "site-lisp/react-snippets.el"]
-	path = site-lisp/react-snippets.el
-	url = git@github.com:johnmastro/react-snippets.el.git
-[submodule "site-lisp/emacs-sos"]
-	path = site-lisp/emacs-sos
-	url = git@github.com:omouse/emacs-sos.git
-[submodule "site-lisp/chinese-fonts-setup"]
-	path = site-lisp/chinese-fonts-setup
-	url = git@github.com:tumashu/chinese-fonts-setup.git
-[submodule "site-lisp/chinese-pyim"]
-	path = site-lisp/chinese-pyim
-	url = git@github.com:tumashu/chinese-pyim.git
-[submodule "emacs-org"]
-	path = emacs-org
-	url = git@git.coding.net:abychan/emacs-org.git
 [submodule "site-lisp/reveal-dir"]
 	path = site-lisp/reveal-dir
 	url = git@github.com:Emacs-Phoenix/reveal-dir.git
-[submodule "site-lisp/uimage"]
-	path = site-lisp/uimage
-	url = git@github.com:lujun9972/uimage.git
-[submodule "site-lisp/nodejs-repl.el"]
-	path = site-lisp/nodejs-repl.el
-	url = git@github.com:abicky/nodejs-repl.el.git
 [submodule "site-lisp/todolist"]
 	path = site-lisp/todolist
 	url = git@github.com:Emacs-Phoenix/todolist.git
-[submodule "site-lisp/inf-clojure"]
-	path = site-lisp/inf-clojure
-	url = git@github.com:clojure-emacs/inf-clojure.git
-[submodule "site-lisp/cider-nrepl"]
-	path = site-lisp/cider-nrepl
-	url = git@github.com:clojure-emacs/cider-nrepl.git
-[submodule "site-lisp/jsx-mode.el"]
-	path = site-lisp/jsx-mode.el
-	url = git@github.com:Emacs-Phoenix/jsx-mode.el.git
-[submodule "site-lisp/pkg-info.el"]
-	path = site-lisp/pkg-info.el
-	url = git@github.com:lunaryorn/pkg-info.el.git
 [submodule "site-lisp/emacs-learn-word"]
 	path = site-lisp/emacs-learn-word
 	url = git@github.com:Emacs-Phoenix/emacs-learn-word.git
-[submodule "site-lisp/epl"]
-	path = site-lisp/epl
-	url = git@github.com:cask/epl.git
 [submodule "site-lisp/emacs-translate"]
 	path = site-lisp/emacs-translate
 	url = git@github.com:Emacs-Phoenix/emacs-translate.git
-[submodule "site-lisp/clojure-cheatsheet"]
-	path = site-lisp/clojure-cheatsheet
-	url = git@github.com:clojure-emacs/clojure-cheatsheet.git
 [submodule "site-lisp/NodeAtom.el"]
 	path = site-lisp/NodeAtom.el
 	url = git@github.com:Emacs-Phoenix/NodeAtom.el.git
-[submodule "site-lisp/unicode-convert"]
-	path = site-lisp/unicode-convert
-	url = git@github.com:Emacs-Phoenix/unicode-convert.git
 [submodule "site-lisp/pair-jump"]
 	path = site-lisp/pair-jump
 	url = git@github.com:Emacs-Phoenix/pair-jump.git
@@ -229,63 +103,18 @@
 [submodule "site-lisp/emacs-request"]
 	path = site-lisp/emacs-request
 	url = git@github.com:tkf/emacs-request.git
-[submodule "site-lisp/auto-complete"]
-	path = site-lisp/auto-complete
-	url = git@github.com:auto-complete/auto-complete.git
 [submodule "esup"]
 	path = esup
 	url = git@github.com:jschaf/esup.git
-[submodule "site-lisp/autopair"]
-	path = site-lisp/autopair
-	url = git@github.com:capitaomorte/autopair.git
-[submodule "site-lisp/osx-dictionary.el"]
-	path = site-lisp/osx-dictionary.el
-	url = git@github.com:xuchunyang/osx-dictionary.el.git
 [submodule "site-lisp/chinese-word-at-point.el"]
 	path = site-lisp/chinese-word-at-point.el
 	url = git@github.com:xuchunyang/chinese-word-at-point.el.git
-[submodule "site-lisp/auto-compile"]
-	path = site-lisp/auto-compile
-	url = git@github.com:tarsius/auto-compile.git
-[submodule "site-lisp/company-restclient"]
-	path = site-lisp/company-restclient
-	url = git@github.com:iquiw/company-restclient.git
 [submodule "site-lisp/know-your-http-well"]
 	path = site-lisp/know-your-http-well
 	url = git@github.com:for-GET/know-your-http-well.git
-[submodule "site-lisp/imenu-list"]
-	path = site-lisp/imenu-list
-	url = git@github.com:bmag/imenu-list.git
 [submodule "site-lisp/auto-highlight-symbol"]
 	path = site-lisp/auto-highlight-symbol
 	url = git@github.com:emacsmirror/auto-highlight-symbol.git
-[submodule "site-lisp/es-lib"]
-	path = site-lisp/es-lib
-	url = git@github.com:sabof/es-lib.git
-[submodule "site-lisp/es-windows"]
-	path = site-lisp/es-windows
-	url = git@github.com:sabof/es-windows.git
-[submodule "site-lisp/jade-mode"]
-	path = site-lisp/jade-mode
-	url = git@github.com:brianc/jade-mode.git
-[submodule "site-lisp/packed"]
-	path = site-lisp/packed
-	url = git@github.com:tarsius/packed.git
-[submodule "site-lisp/raml-mode"]
-	path = site-lisp/raml-mode
-	url = git@github.com:victorquinn/raml-mode.git
-[submodule "site-lisp/jshint-mode"]
-	path = site-lisp/jshint-mode
-	url = git@github.com:daleharvey/jshint-mode.git
-[submodule "site-lisp/magit-filenotify"]
-	path = site-lisp/magit-filenotify
-	url = git@github.com:magit/magit-filenotify.git
-[submodule "site-lisp/dash-at-point"]
-	path = site-lisp/dash-at-point
-	url = git@github.com:stanaka/dash-at-point.git
 [submodule "site-lisp/fix-word"]
 	path = site-lisp/fix-word
 	url = git@github.com:mrkkrp/fix-word.git
-[submodule "site-lisp/zzz-to-char"]
-	path = site-lisp/zzz-to-char
-	url = git@github.com:mrkkrp/zzz-to-char.git
