@@ -3,9 +3,9 @@
 (setq package-list
       '(js2-mode js2-refactor jquery-doc web-mode scss-mode sass-mode emmet-mode web less-css-mode css-eldoc tern tern-auto-complete
                  clojure-mode clj-refactor clojure-mode-extra-font-locking clojure-cheatsheet
-                 tss flycheck-pos-tip
-                 haskell-mode coffee-mode auto-compile 
-                 yaml-mode haml-mode nginx-mode diminish osx-dictionary move-text undohist auto-highlight-symbol
+                 tss flycheck-pos-tip chinese-word-at-point
+                 haskell-mode coffee-mode auto-compile
+                 yaml-mode haml-mode nginx-mode diminish osx-dictionary move-text undohist auto-highlight-symbol eproject
                  swift-mode web-beautify
                  elpy pythonic jedi anaconda-mode
                  nyan-mode smooth-scroll shell-pop
