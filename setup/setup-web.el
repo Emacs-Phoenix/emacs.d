@@ -13,8 +13,7 @@
 (setq web-mode-enable-current-element-highlight t)
 (setq web-mode-style-padding 2)
 (setq web-mode-script-padding 2)
-
-
+(setq web-mode-auto-quote-style 2) ;; attr value single quote
 
 (defun my-web-mode-hook ()
   "Hooks for Web mode."
