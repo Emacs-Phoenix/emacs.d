@@ -65,7 +65,6 @@
 (add-hook 'css-mode-hook 'turn-on-css-eldoc)
 (turn-on-css-eldoc)
 
-
 ;; (defun maybe-flymake-css-load ()
 ;;   "Activate flymake-css as necessary, but not in derived modes."
 ;;   (when (eq major-mode 'css-mode)
@@ -89,7 +88,7 @@
 
 (setq css-indent-offset 2)
 
-(require 'ac-html-csswatcher)
-(ac-html-csswatcher-setup)
+;; (require 'ac-html-csswatcher)
+;; (ac-html-csswatcher-setup)
 
 (provide 'setup-css)
