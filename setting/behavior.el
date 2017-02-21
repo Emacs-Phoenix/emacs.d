@@ -25,55 +25,6 @@
 ;;(defalias 'yes-or-no-p 'my-yes-or-mumble-p)
 
 
-(require 'diminish)
-
-(eval-after-load "smartparens"
-  '(diminish 'smartparens-mode))
-
-(eval-after-load "guide-key"
-  '(diminish 'guide-key-mode))
-
-(eval-after-load "undo-tree"
-  '(diminish 'undo-tree-mode))
-
-(eval-after-load "projectile"
-  '(diminish 'projectile-mode))
-
-(eval-after-load "yas-minor-mode"
-  '(diminish 'yas-minor-mode))
-
-(eval-after-load "auto-complete"
-  '(diminish 'auto-complete-mode))
-
-(eval-after-load "yasnippet"
-  '(diminish 'yas-minor-mode))
-
-(eval-after-load "flyspell"
-  '(diminish 'flyspell-mode))
-
-(eval-after-load "eldoc"
-  '(diminish 'eldoc-mode))
-
-(eval-after-load "git-gutter"
-  '(diminish 'git-gutter-mode))
-
-(eval-after-load "whitespace-cleanup-mode"
-  '(diminish 'whitespace-cleanup-mode))
-
-(eval-after-load 'flycheck
-  '(diminish 'flycheck-mode))
-
-(diminish 'abbrev-mode)
-(eval-after-load 'auto-revert-mode
-  '(diminish 'auto-revert-mode))
-
-(diminish 'my-keys-minor-mode)
-(diminish 'which-key-mode)
-(diminish 'subword-mode)
-
-(eval-after-load 'awk-mode
-  '(diminish 'awk-mode))
-
 ;;hightlist TODO FIXME keyword
 (fixme-mode 1)
 ;; (diminish 'fixme-mode)
@@ -106,7 +57,7 @@
 ;;(mouse-wheel-mode -1)
 
 ;;尼玛，全面禁止鼠标操作 2015-11-19
-;; (dolist (k '([mouse-1] [down-mouse-1] [drag-mouse-1] [double-mouse-1] [triple-mouse-1]  
+;; (dolist (k '([mouse-1] [down-mouse-1] [drag-mouse-1] [double-mouse-1] [triple-mouse-1]
 ;;              [mouse-2] [down-mouse-2] [drag-mouse-2] [double-mouse-2] [triple-mouse-2]
 ;;              [mouse-3] [down-mouse-3] [drag-mouse-3] [double-mouse-3] [triple-mouse-3]
 ;;              [mouse-4] [down-mouse-4] [drag-mouse-4] [double-mouse-4] [triple-mouse-4]
@@ -120,4 +71,3 @@
 
 
 (provide 'behavior)
-
