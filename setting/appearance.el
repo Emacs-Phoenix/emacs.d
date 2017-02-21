@@ -3,11 +3,22 @@
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 
 ;;去除初始化页面
-(setq inhibit-startup-message t)
+;; (setq inhibit-startup-message t)
+;; (setq initial-scratch-message (with-temp-buffer
+;;                                 (insert-file-contents "~/.emacs.d/misc/doge.ascii")
+;;                                 (buffer-string)))
 
-(setq initial-scratch-message (with-temp-buffer
-                                (insert-file-contents "~/.emacs.d/misc/doge.ascii")
-                                (buffer-string)))
+(require 'dashboard)
+(setq dashboard-banner-logo-title "Welcome to Phoenix Emacs")
+(setq dashboard-startup-banner "~/.emacs.d/icon/emacs.png")
+(setq dashboard-items '((recents  . 15)
+                        (bookmarks . 15)
+                        (projects . 15)))
+
+(dashboard-setup-startup-hook)
+
+
+
 
 ;;初始化透明度
 (set-frame-parameter (selected-frame) 'alpha '(92 92))
@@ -46,4 +57,3 @@
 ;;(setq powerline-arrow-shape 'curve)
 
 (provide 'appearance)
-
