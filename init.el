@@ -8,7 +8,7 @@
                  yaml-mode haml-mode nginx-mode diminish osx-dictionary move-text undohist auto-highlight-symbol eproject
                  swift-mode web-beautify
                  elpy pythonic jedi anaconda-mode
-                 nyan-mode smooth-scroll shell-pop
+                 nyan-mode smooth-scroll shell-pop dashboard
                  ido-vertical-mode ido-ubiquitous smartparens tagedit ace-jump-mode avy
                  hungry-delete expand-region whitespace-cleanup-mode
                  helm-swoop helm helm-dash helm-ack helm-ag full-ack helm-ag
