@@ -153,5 +153,7 @@
 
 (global-set-key (kbd "M-;") 'comment-line-or-comment-block)
 
+(global-set-key (kbd "M-n") 'new-frame)
+
 
 (provide 'keybinding)
