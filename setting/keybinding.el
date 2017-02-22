@@ -29,7 +29,7 @@
 (global-set-key (kbd "C-c C-.") 'mc/mark-all-like-this)
 (global-set-key (kbd "C-s-<mouse-1>") 'mc/add-cursor-on-click)
 
-(global-set-key [backspace] 'hungry-delete-backward)
+;; (global-set-key [backspace] 'hungry-delete-backward)
 
 (global-unset-key (kbd "C-/"))
 (global-set-key (kbd "C-?") 'imenu-anywhere)
