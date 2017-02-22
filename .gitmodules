@@ -7,9 +7,6 @@
 [submodule "plugins/global-pygments-plugin"]
 	path = plugins/global-pygments-plugin
 	url = git@github.com:yoshizow/global-pygments-plugin.git
-[submodule "site-lisp/js2-extra"]
-	path = site-lisp/js2-extra
-	url = git@github.com:Emacs-Phoenix/js2-extra.git
 [submodule "yasnippet-snippets"]
 	path = yasnippet-snippets
 	url = git@github.com:Emacs-Phoenix/yasnippet-snippets.git
