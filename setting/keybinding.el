@@ -46,6 +46,7 @@
 
 (global-set-key [f7] 'tabbar-mode)
 
+(global-set-key (kbd "C-<backspace>") 'hungry-delete-backward)
 
 (global-set-key (kbd "C-c C-<left>")  'windmove-left)
 (global-set-key (kbd "C-c C-<right>") 'windmove-right)
