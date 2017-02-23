@@ -29,9 +29,6 @@
 ;; (hes-mode)
 ;; (put 'font-lock-regexp-grouping-backslash 'face-alias 'font-lock-builtin-face)
 
-(global-hungry-delete-mode)
-
-
 ;;tiny graphical system monitor
 ;;(symon-mode);;影响minibuffer显示
 
