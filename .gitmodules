@@ -61,9 +61,6 @@
 [submodule "site-lisp/emacs-translate"]
 	path = site-lisp/emacs-translate
 	url = git@github.com:Emacs-Phoenix/emacs-translate.git
-[submodule "site-lisp/NodeAtom.el"]
-	path = site-lisp/NodeAtom.el
-	url = git@github.com:Emacs-Phoenix/NodeAtom.el.git
 [submodule "site-lisp/pair-jump"]
 	path = site-lisp/pair-jump
 	url = git@github.com:Emacs-Phoenix/pair-jump.git
