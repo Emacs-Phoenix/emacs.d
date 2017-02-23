@@ -25,6 +25,7 @@
                  ac-html ac-html-csswatcher company-emoji company-flx json-mode json-reformat
                  jade-mode epc smart-forward perspective inf-clojure company-quickhelp ansi-color flymake-jshint flx-ido sws-mode
                  zzz-to-char magit-filenotify ack goto-last-change hideshowvis change-inner ibuffer-vc ag
+                 atom-one-dark-theme
                  ))
 
 (add-to-list 'package-archives
