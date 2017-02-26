@@ -88,6 +88,7 @@
 
 (setq css-indent-offset 2)
 
+;; 动态观察 html 里面的类
 ;; (require 'ac-html-csswatcher)
 ;; (ac-html-csswatcher-setup)
 
