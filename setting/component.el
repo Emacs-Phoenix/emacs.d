@@ -25,7 +25,7 @@
 (require 'redo+)
 (require 'helm)
 (require 'async)
-;; (require 'dired-async) 
+;; (require 'dired-async)
 ;; (require 'dired+)
 (require 'helm-config)
 
@@ -49,11 +49,7 @@
 (global-set-key (kbd "<C-f2>") 'bm-toggle)
 (global-set-key (kbd "<f2>")   'bm-next)
 (global-set-key (kbd "<S-f2>") 'bm-previous)
-(global-set-key (kbd "<left-fringe> <mouse-5>") 'bm-next-mouse)
-(global-set-key (kbd "<left-fringe> <mouse-4>") 'bm-previous-mouse)
-(global-set-key (kbd "<left-fringe> <mouse-1>") 'bm-toggle-mouse)
 
-;;(require 'vlf-setup) ;;big file only read
 
 (require 'change-inner)
 (global-set-key (kbd "C-c i") 'change-inner)
@@ -62,31 +58,17 @@
 (require 'multiple-cursors)
 (require 'reveal-in-osx-finder)
 (require 'ibuffer-vc) ;;ibuffer 分组
-;; (require 'ibuffer-projectile)
-;; (require 'less-css-mode)
-;; (require 'helm-backup)
+
 (require 'undohist) ;;记录session之外的undo
-;; (require 'etxt) ;; read ebook
 (require 'helm-ag)
 (require 'helm-ack)
-
 (require 'nginx-mode)
-;; (require 'circe)
 (require 'fixme-mode)
-;;(require 'sos)
 
-;;(require 'chinese-fonts-setup)
-;;(require 'chinese-pyim)
-;;(require 'vimish-fold);;vim like fold code
-;;(require 'windresize)
-;;(require 'uimage) ;;显示图片
-;;(require 'nodejs-repl)
-;;(require 'ace-jump-buffer)
+
 (require 'avy)
-;; (require 'setup-aggressive-indent) ;;进击的模式 auto indent
 (require 'yaml-mode)
 (require 'smooth-scroll)
-;;(require 'showkey) ;;Display what keys are being typed in emacs in real-time.
 (require 'ansi-color)
 (require 'sass-mode)
 
@@ -134,16 +116,13 @@
 (require 'setup-spell)
 (require 'setup-indent)
 (require 'setup-misc)
-;;(require 'setup-erc)
-(require 'setup-rss)
+;; (require 'setup-rss)  不知道什么时候有错误 用不了了
 (require 'setup-feed)
-;;(require 'setup-doubanfm)
 (require 'setup-org)
 (require 'setup-js2)
 (require 'setup-clj)
 (require 'setup-jsx)
 (require 'setup-scss)
-;;(require 'setup-tramp)
 (require 'anzu)
 ;; (require 'setup-tags)
 (require 'setup-pretty)
@@ -160,7 +139,6 @@
 (require 'setup-restclient)
 (require 'setup-neotree)
 (require 'setup-string)
-;; (require 'setup-eye)
 ;; (require 'setup-backup) ;; 好卡
 
 (when is-mac (require 'setup-mac))
@@ -169,10 +147,7 @@
 ;;my site-lisp
 (require 'transparent)
 (require 'hippie)
-;;(require 'js2-extra)
-;;(require 'html-extra)
 (require 'edit-sword)
-
 (require 'emacs-uglify)
 (require 'reveal-dir)
 (require 'emacs-boilerplate)
@@ -195,4 +170,3 @@
 ;; 焦点变一下就自动保存，跑测试受不了
 
 (provide 'component)
-

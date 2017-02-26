@@ -17,9 +17,6 @@
 
 (dashboard-setup-startup-hook)
 
-
-
-
 ;;初始化透明度
 (set-frame-parameter (selected-frame) 'alpha '(92 92))
 
