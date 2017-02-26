@@ -1,4 +1,3 @@
-
 ;; JavaScript
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
 (add-to-list 'auto-mode-alist '("\\.jsx$" . web-mode))
@@ -26,11 +25,9 @@
 (add-to-list 'auto-mode-alist '("Carton$" . emacs-lisp-mode))
 (add-to-list 'auto-mode-alist '("Cask$" . emacs-lisp-mode))
 
-
 ;; Snippets
 (add-to-list 'auto-mode-alist '("yasnippet/snippets" . snippet-mode))
 (add-to-list 'auto-mode-alist '("\\.yasnippet$" . snippet-mode))
-
 
 ;;markdown
 (add-to-list 'auto-mode-alist '("\\.md$" . markdown-mode))
