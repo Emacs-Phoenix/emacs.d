@@ -122,7 +122,6 @@
 (require 'setup-js2)
 (require 'setup-clj)
 (require 'setup-jsx)
-(require 'setup-scss)
 (require 'anzu)
 ;; (require 'setup-tags)
 (require 'setup-pretty)
