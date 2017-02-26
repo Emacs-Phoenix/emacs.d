@@ -32,3 +32,4 @@ pyim/
 tags
 url/
 var/
+flycheck_*.el
