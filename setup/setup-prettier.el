@@ -1,7 +1,6 @@
 (require 'prettier-js)
 
 (setq prettier-js-args '(
-                         "--trailing-comma" "all"
                          "--single-quote"
                          ))
 ;; (add-hook 'js2-mode-hook 'prettier-js-mode)
