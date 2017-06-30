@@ -72,8 +72,6 @@
 (require 'ansi-color)
 (require 'sass-mode)
 
-
-
 ;;setup
 (require 'setup-ido)
 (require 'setup-project)
@@ -121,7 +119,6 @@
 (require 'setup-org)
 (require 'setup-js2)
 (require 'setup-clj)
-(require 'setup-jsx)
 (require 'anzu)
 ;; (require 'setup-tags)
 (require 'setup-pretty)
@@ -138,6 +135,7 @@
 (require 'setup-restclient)
 (require 'setup-neotree)
 (require 'setup-string)
+(require 'setup-prettier)
 ;; (require 'setup-backup) ;; 好卡
 
 (when is-mac (require 'setup-mac))

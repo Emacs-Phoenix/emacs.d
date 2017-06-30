@@ -46,4 +46,15 @@
   (interactive)
   (local-set-key (kbd "") 'tab-to-tab-stop))
 
+(add-hook 'web-mode-hook
+          (lambda ()
+            (when (and (stringp buffer-file-name)
+                       (string-match "\\.jsx\\'" buffer-file-name))
+              (progn
+                (message "hi")
+                (web-mode-set-content-type "jsx")
+                (web-mode-jshint))
+              (message "now set to: %s" web-mode-content-type)
+              )))
+
 (provide 'setup-web)
