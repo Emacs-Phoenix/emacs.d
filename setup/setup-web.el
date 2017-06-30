@@ -1,7 +1,6 @@
 (require 'sws-mode)
 (require 'jade-mode)
 
-
 (add-to-list 'auto-mode-alist '("\\.vue\\'" . web-mode))
 
 (setq web-mode-markup-indent-offset 2)
@@ -46,7 +45,5 @@
 (defun my-turn-indentation-off ()
   (interactive)
   (local-set-key (kbd "") 'tab-to-tab-stop))
-
-
 
 (provide 'setup-web)

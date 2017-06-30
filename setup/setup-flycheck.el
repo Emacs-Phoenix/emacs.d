@@ -50,6 +50,7 @@ up before you execute another command."
   (flycheck-add-mode 'css-csslint 'web-mode)
   (flycheck-add-mode 'css-csslint 'css-mode))
 
+(flycheck-add-mode 'javascript-eslint 'web-mode)
 ;; (setq flycheck-eslintrc "~/.eslintrc")
 
 (provide 'setup-flycheck)
