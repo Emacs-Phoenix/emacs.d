@@ -39,15 +39,9 @@ up before you execute another command."
 
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
-
 (with-eval-after-load 'flycheck
-  ;; (flycheck-add-mode 'html-tidy 'web-mode)
-  ;; (flycheck-add-mode 'html-tidy 'html-mode)
   (flycheck-add-mode 'css-csslint 'web-mode)
   (flycheck-add-mode 'css-csslint 'css-mode))
-
-(flycheck-add-mode 'javascript-eslint 'web-mode)
-;; (setq flycheck-eslintrc "~/.eslintrc")
 
 
 (provide 'setup-flycheck)

@@ -3,7 +3,7 @@
 (setq site-lisp-dir
       (expand-file-name "site-lisp" user-emacs-directory))
 
-(setq setup-dir 
+(setq setup-dir
       (expand-file-name "setup" user-emacs-directory))
 
 (setq setting-dir
@@ -49,5 +49,5 @@
 
 (byte-recompile-directory (expand-file-name "~/.emacs.d") 0)
 
-(defalias 'helm-buffer-match-major-mode 'helm-buffers-list--match-fn)
 
+(defalias 'helm-buffer-match-major-mode 'helm-buffers-list--match-fn)

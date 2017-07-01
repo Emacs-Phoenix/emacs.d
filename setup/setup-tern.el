@@ -1,4 +1,5 @@
 (add-hook 'js2-mode-hook (lambda () (tern-mode t)))
+(add-hook 'web-mode-hook (lambda () (tern-mode t)))
 
 (defun delete-tern-process ()
   (interactive)

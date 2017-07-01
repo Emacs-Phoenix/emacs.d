@@ -99,6 +99,9 @@
 (require 'nyan-mode)
 (nyan-mode)
 
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))
+
 (require 'setup-mac-keybinding)
 
 (provide 'setup-mac)

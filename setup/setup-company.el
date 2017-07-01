@@ -7,7 +7,7 @@
 
 ;;(require 'company-etags) ;; TODO 启动卡
 (require 'company-jedi)
-;; (require 'company-web-html)
+(require 'company-web-html)
 (require 'company-quickhelp)
 
 (add-to-list 'load-path (expand-file-name "site-lisp/know-your-http-well/emacs/" user-emacs-directory))
@@ -23,26 +23,29 @@
 (setq company-quickhelp-delay 0.5)
 (company-quickhelp-mode 1)
 
-(require 'company-emoji)
-(add-to-list 'company-backends 'company-emoji)
+;; (require 'company-emoji)
+;; (add-to-list 'company-backends 'company-emoji)
 
 (with-eval-after-load 'company
   (company-flx-mode +1))
 
 ;; --------------------- yas ---------------------
-(setq company-mode/enable-yas t)
+;; (setq company-mode/enable-yas t)
 
-(defun company-mode/backend-with-yas (backend)
-  (if (or (not company-mode/enable-yas) (and (listp backend) (member 'company-yasnippet backend)))
-      backend
-    (append (if (consp backend) backend (list backend))
-            '(:with company-yasnippet))))
+;; (defun company-mode/backend-with-yas (backend)
+;;   (if (or (not company-mode/enable-yas) (and (listp backend) (member 'company-yasnippet backend)))
+;;       backend
+;;     (append (if (consp backend) backend (list backend))
+;;             '(:with company-yasnippet))))
 
-(setq company-backends (mapcar #'company-mode/backend-with-yas company-backends))
+;;;
+;;;
+;(setq company-backends (mapcar #'company-mode/backend-with-yas company-backends))
 
 ;; (global-set-key (kbd "C-c y") 'company-yasnippet)
 
-(global-set-key [(control return)] 'company-yasnippet)
+;;;
+;(global-set-key [(control return)] 'company-yasnippet)
 
 
 ;; 非常严重的 bug 只要切换到 css 就坏了
@@ -67,7 +70,8 @@
 
 (add-to-list 'company-backends 'company-tern)
 
-(setq company-tern-property-marker "")
+;;;
+;(setq company-tern-property-marker "")
 
 ;; ----- predictive
 
@@ -89,10 +93,10 @@
 (setq company-dabbrev-downcase nil)
 
 ;;-----------python------------------------
-(defun my/python-mode-hook ()
-  (add-to-list 'company-backends 'company-jedi))
+;; (defun my/python-mode-hook ()
+;;   (add-to-list 'company-backends 'company-jedi))
 
-(add-hook 'python-mode-hook 'my/python-mode-hook)
+;; (add-hook 'python-mode-hook 'my/python-mode-hook)
 
 
 ;; --- text-mode
@@ -129,14 +133,14 @@
 (global-company-mode)
 (setq company-global-modes
       '(not
-        term-mode
+        ;term-mode
         markdown-mode
         html-mode
         magit-mode
-        eshell-mode
-        comint-mode
-        erc-mode
-        rcirc-mode
+        ;eshell-mode
+        ;comint-mode
+        ;erc-mode
+        ;rcirc-mode
         org-mode))
 
 
