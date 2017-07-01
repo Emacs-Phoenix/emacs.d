@@ -22,7 +22,7 @@
 
 ;; Enable syntax highlighting for older Emacsen that have it off
 (global-font-lock-mode t)
- 
+
 
 ;; UTF-8 please
 (setq locale-coding-system 'utf-8) ; pretty
@@ -73,7 +73,7 @@
 ;;!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ;; 是否断行显示
-(setq-default truncate-lines t)
+(setq-default truncate-lines nil)
 
 ;; Keep cursor away from edges when scrolling up/down
 ;;(require 'smooth-scrolling)

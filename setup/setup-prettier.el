@@ -4,7 +4,7 @@
                          "--single-quote"
                          ))
 ;; (add-hook 'js2-mode-hook 'prettier-js-mode)
-;; (add-hook 'web-mode-hook 'prettier-js-mode)
+(add-hook 'web-mode-hook 'prettier-js-mode)
 
 ;; (defun enable-minor-mode (my-pair)
 ;;   "Enable minor mode if filename match the regexp.  MY-PAIR is a cons cell (regexp . minor-mode)."

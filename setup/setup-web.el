@@ -46,15 +46,39 @@
   (interactive)
   (local-set-key (kbd "") 'tab-to-tab-stop))
 
+
+(flycheck-add-mode 'javascript-eslint 'web-mode)
+(setq-default flycheck-temp-prefix ".flycheck")
+
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))
+
 (add-hook 'web-mode-hook
           (lambda ()
             (when (and (stringp buffer-file-name)
                        (string-match "\\.jsx\\'" buffer-file-name))
               (progn
-                (message "hi")
+                (message "jsx for web-mode")
                 (web-mode-set-content-type "jsx")
-                (web-mode-jshint))
+                ;(web-mode-jshint)
+                )
               (message "now set to: %s" web-mode-content-type)
               )))
+
+(defun my/use-eslint-from-node-modules ()
+ (let* ((root (projectile-project-root))
+        (eslint (and root
+                     (expand-file-name "node_modules/.bin/eslint"
+                                       root))))
+   (when (and eslint (file-executable-p eslint))
+     (setq-local flycheck-javascript-eslint-executable eslint))))
+
+(add-hook 'web-mode-hook #'my/use-eslint-from-node-modules)
+
+(defadvice web-mode-highlight-part (around tweak-jsx activate)
+  (if (equal web-mode-content-type "jsx")
+      (let ((web-mode-enable-part-face nil))
+        ad-do-it)
+    ad-do-it))
 
 (provide 'setup-web)

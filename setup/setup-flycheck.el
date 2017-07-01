@@ -39,10 +39,6 @@ up before you execute another command."
 
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
-(eval-after-load 'flycheck
-  '(custom-set-variables
-    '(flycheck-display-errors-function #'flycheck-pos-tip-error-messages)))
-
 
 (with-eval-after-load 'flycheck
   ;; (flycheck-add-mode 'html-tidy 'web-mode)
@@ -52,5 +48,6 @@ up before you execute another command."
 
 (flycheck-add-mode 'javascript-eslint 'web-mode)
 ;; (setq flycheck-eslintrc "~/.eslintrc")
+
 
 (provide 'setup-flycheck)

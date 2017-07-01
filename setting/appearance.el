@@ -23,7 +23,6 @@
 ;;操作不阻塞显示
 (setq redisplay-dont-pause t)
 
-
 ;;高亮当前行
 (global-hl-line-mode 1)
 
