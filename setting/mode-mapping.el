@@ -1,7 +1,9 @@
 ;; JavaScript
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
+(add-to-list 'auto-mode-alist '("\\.ts$" . web-mode))
 (add-to-list 'auto-mode-alist '("/Users/chchen/MY-PROJECT/OctopusApp/.*\\.js[x]?$" . web-mode))
-(add-to-list 'auto-mode-alist '("/Users/chchen/MY-PROJECT/Octopus/.*\\.js[x]?$" . web-mode))
+(add-to-list 'auto-mode-alist '("/Users/chchen/MY-PROJECT/octopus/.*\\.js[x]?$" . web-mode))
+(add-to-list 'auto-mode-alist '("/Users/chchen/MY-PROJECT/octopus-backend/.*\\.js[x]?$" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.jsx$" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.json$" . json-mode))
 (add-to-list 'auto-mode-alist '("\\.jshintrc$" . javascript-mode))
