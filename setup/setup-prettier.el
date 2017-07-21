@@ -2,6 +2,7 @@
 
 (setq prettier-js-args '(
                          "--single-quote"
+                         "--print-width" "100"
                          ))
 
 (add-hook 'web-mode-hook 'prettier-js-mode)
@@ -15,6 +16,5 @@
 (add-hook 'web-mode-hook #'(lambda ()
                              (enable-minor-mode
                               '("\\.jsx?\\'" . prettier-js-mode))))
-
 
 (provide 'setup-prettier)
