@@ -20,6 +20,12 @@
 (setq web-mode-enable-auto-quoting nil)
 ;; (setq web-mode-auto-quote-style 2) ;; attr value single quote
 
+(add-to-list 'web-mode-indentation-params '("lineup-args" . nil))
+(add-to-list 'web-mode-indentation-params '("lineup-calls" . nil))
+(add-to-list 'web-mode-indentation-params '("lineup-concats" . nil))
+(add-to-list 'web-mode-indentation-params '("lineup-ternary" . nil))
+;; 防止js调用换行偏移
+
 (global-set-key [(control return)] 'yas-expand)
 (define-key web-mode-map (kbd "C-c C-s") 'yas/insert-snippet)
 (define-key web-mode-map (kbd "C-j") 'emmet-expand-line)
