@@ -26,7 +26,7 @@
 
 
 ;;hightlist TODO FIXME keyword
-(fixme-mode 1)
+;; (fixme-mode 1)
 ;; (diminish 'fixme-mode)
 ;; (diminish 'paredit-mode)
 ;; (diminish 'emmet-mode)

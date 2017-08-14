@@ -1,49 +1,48 @@
-
 (setq js2-basic-offset 2)
 
-(defun node-js-eval-region-or-buffer ()
-  "Evaluate the current buffer (or region if mark-active),
-   and return the result into another buffer,
-   which is to be shown in a window."
-  (interactive)
-  (let ((debug-on-error t) (start 1) (end 1))
-    (cond
-     (mark-active
-      (setq start (point))
-      (setq end (mark)))
-     (t
-      (setq start (point-min))
-      (setq end (point-max))))
-    (call-process-region
-     start end     ; seems the order does not matter
-     "node"        ; node.js
-     nil           ; don't delete region
-     "*node.js*"     ; output buffer
-     nil)          ; no redisply during output
-    (message "Region or buffer evaluated!")
-    (setq deactivate-mark t))) ; deactive the region, regardless
+;; (defun node-js-eval-region-or-buffer ()
+;;   "Evaluate the current buffer (or region if mark-active),
+;;    and return the result into another buffer,
+;;    which is to be shown in a window."
+;;   (interactive)
+;;   (let ((debug-on-error t) (start 1) (end 1))
+;;     (cond
+;;      (mark-active
+;;       (setq start (point))
+;;       (setq end (mark)))
+;;      (t
+;;       (setq start (point-min))
+;;       (setq end (point-max))))
+;;     (call-process-region
+;;      start end     ; seems the order does not matter
+;;      "node"        ; node.js
+;;      nil           ; don't delete region
+;;      "*node.js*"     ; output buffer
+;;      nil)          ; no redisply during output
+;;     (message "Region or buffer evaluated!")
+;;     (setq deactivate-mark t))) ; deactive the region, regardless
 
 ;;(define-key global-map (kbd "C-c v") 'node-js-eval-region-or-buffer)
 
 ;;; js2-extra.el --- tweak js2 settings -*- lexical-binding: t; -*-
-(setq-default js2-allow-rhino-new-expr-initializer nil)
-(setq-default js2-auto-indent-p nil)
-(setq-default js2-enter-indents-newline nil)
+;; (setq-default js2-allow-rhino-new-expr-initializer nil)
+;; (setq-default js2-auto-indent-p nil)
+;; (setq-default js2-enter-indents-newline nil)
 (setq-default js2-global-externs '("module" "require" "buster" "sinon" "assert" "refute" "setTimeout" "clearTimeout" "setInterval" "clearInterval" "location" "__dirname" "console" "JSON"))
-(setq-default js2-idle-timer-delay 0.1)
-(setq-default js2-indent-on-enter-key nil)
-(setq-default js2-mirror-mode nil)
-(setq-default js2-strict-inconsistent-return-warning nil)
-(setq-default js2-auto-indent-p t)
-(setq-default js2-include-rhino-externs nil)
-(setq-default js2-include-gears-externs nil)
-(setq-default js2-concat-multiline-strings 'eol)
-(setq-default js2-rebind-eol-bol-keys nil)
+;; (setq-default js2-idle-timer-delay 0.1)
+;; (setq-default js2-indent-on-enter-key nil)
+;; (setq-default js2-mirror-mode nil)
+;; (setq-default js2-strict-inconsistent-return-warning nil)
+;; (setq-default js2-auto-indent-p t)
+;; (setq-default js2-include-rhino-externs nil)
+;; (setq-default js2-include-gears-externs nil)
+;; (setq-default js2-concat-multiline-strings 'eol)
+;; (setq-default js2-rebind-eol-bol-keys nil)
 
 ;; Let flycheck handle parse errors
-(setq-default js2-show-parse-errors nil)
-(setq-default js2-strict-missing-semi-warning nil)
-(setq-default js2-strict-trailing-comma-warning t) ;; jshint does not warn about this now for some reason
+;; (setq-default js2-show-parse-errors nil)
+;; (setq-default js2-strict-missing-semi-warning nil)
+;; (setq-default js2-strict-trailing-comma-warning t) ;; jshint does not warn about this now for some reason
 
 (add-hook 'js2-mode-hook (lambda () (flycheck-mode 1)))
 
@@ -55,10 +54,10 @@
 
 ;; Set up wrapping of pairs, with the possiblity of semicolons thrown into the mix
 
-(define-key js2-mode-map (kbd ";")
-  (λ (if (looking-at ";")
-         (forward-char)
-       (funcall 'self-insert-command 1))))
+;; (define-key js2-mode-map (kbd ";")
+;;   (λ (if (looking-at ";")
+;;          (forward-char)
+;;        (funcall 'self-insert-command 1))))
 
 (defun js2r--self-insert-wrapping (open close)
   (cond
@@ -225,6 +224,6 @@
 
 
 
-(smartparens-mode -1)
+;; (smartparens-mode -1)
 
 (provide 'setup-js2)

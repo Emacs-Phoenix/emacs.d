@@ -7,6 +7,4 @@
       (end-of-line)
       (paredit-comment-dwim))))
 
-
-
 (provide 'operation)

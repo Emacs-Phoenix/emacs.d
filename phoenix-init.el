@@ -15,7 +15,6 @@
 
 (add-to-list 'load-path site-lisp-dir)
 (add-to-list 'load-path setup-dir)
-
 (add-to-list 'load-path setting-dir)
 (add-to-list 'load-path lib-dir)
 
@@ -50,4 +49,4 @@
 (byte-recompile-directory (expand-file-name "~/.emacs.d") 0)
 
 
-(defalias 'helm-buffer-match-major-mode 'helm-buffers-list--match-fn)
+;; (defalias 'helm-buffer-match-major-mode 'helm-buffers-list--match-fn)

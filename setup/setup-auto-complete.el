@@ -18,8 +18,8 @@
 
 ;; TODO: find solution for php, haskell and other modes where TAB always does something
 
-(setq c-tab-always-indent nil
-      c-insert-tab-function 'indent-for-tab-command)
+;; (setq c-tab-always-indent nil
+;;       c-insert-tab-function 'indent-for-tab-command)
 
 ;; hook AC into completion-at-point
 (defun sanityinc/auto-complete-at-point ()

@@ -1,6 +1,4 @@
-
-(require 'whitespace-cleanup-mode)
-
-(add-hook 'web-mode-hook 'whitespace-cleanup-mode)
+(add-hook 'before-save-hook
+          'delete-trailing-whitespace)
 
 (provide 'setup-clean)

@@ -63,5 +63,3 @@
 (load-theme 'monokai t)
 
 ;; TODO module it
-(add-hook 'before-save-hook
-          'delete-trailing-whitespace)

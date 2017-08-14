@@ -143,5 +143,8 @@
         ;rcirc-mode
         org-mode))
 
+(require 'company-sourcekit)
+(add-to-list 'company-backends 'company-sourcekit)
+
 
 (provide 'setup-company)
