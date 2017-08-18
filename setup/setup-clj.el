@@ -17,6 +17,9 @@
 (add-hook 'cider-mode-hook #'company-mode)
 (add-hook 'clojure-mode-hook
           (lambda ()
+            (focus-mode 1)
+            (focus-mode nil)
+            (focus-mode 1)
             (clj-refactor-mode 1)))
 
 (cljr-add-keybindings-with-modifier "C-s-")
