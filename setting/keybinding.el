@@ -3,7 +3,8 @@
 (global-unset-key "\C-z")
 
 (require 'misc)
-(global-set-key (kbd "s-.") 'find-tag-no-prompt)
+(global-set-key (kbd "C-<tab>") 'find-tag-no-prompt)
+(global-set-key (kbd "s-.") 'copy-from-above-command)
 
 (define-key global-map (kbd "M-_") 'redo)
 
