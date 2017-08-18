@@ -4,6 +4,7 @@
 
 (require 'misc)
 (global-set-key (kbd "C-<tab>") 'find-tag-no-prompt)
+(global-set-key (kbd "C-S-<tab>") 'pop-tag-mark)
 (global-set-key (kbd "s-.") 'copy-from-above-command)
 
 (define-key global-map (kbd "M-_") 'redo)
