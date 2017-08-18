@@ -58,7 +58,10 @@
 
 (which-function-mode 1)
 
+(require 'beacon)
+(beacon-mode 1)
 
+(global-whitespace-mode)
 
 
 (provide 'trigger)
