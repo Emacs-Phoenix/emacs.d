@@ -40,7 +40,6 @@ up before you execute another command."
 (add-hook 'after-init-hook #'global-flycheck-mode)
 
 (with-eval-after-load 'flycheck
-  (flycheck-add-mode 'css-csslint 'web-mode)
   (flycheck-add-mode 'css-csslint 'css-mode))
 
 
