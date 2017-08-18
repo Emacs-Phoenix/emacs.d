@@ -3,7 +3,7 @@
 (setq package-list
       '(js2-mode js2-refactor jquery-doc web-mode scss-mode sass-mode emmet-mode web less-css-mode css-eldoc tern tern-auto-complete
                  clojure-mode clj-refactor clojure-mode-extra-font-locking clojure-cheatsheet
-                 tss flycheck-pos-tip chinese-word-at-point
+                 flycheck-pos-tip chinese-word-at-point
                  haskell-mode coffee-mode auto-compile
                  yaml-mode haml-mode nginx-mode diminish osx-dictionary move-text undohist auto-highlight-symbol eproject
                  swift-mode web-beautify
@@ -22,11 +22,10 @@
                  vimish-fold ido-vertical-mode restclient ido-at-point flx spaceline
                  highlight-symbol reveal-in-osx-finder redo+ undo-tree anzu showkey bash-completion sublimity markdown-mode
                  which-key rainbow-mode rainbow-delimiters visual-regexp
-                 smex slime paredit paredit-everywhere
+                 smex paredit paredit-everywhere
                  ac-html ac-html-csswatcher json-mode json-reformat
                  jade-mode epc smart-forward perspective inf-clojure company-quickhelp ansi-color flymake-jshint flx-ido sws-mode
-                 zzz-to-char magit-filenotify ack goto-last-change hideshowvis change-inner ibuffer-vc ag
-                 atom-one-dark-theme
+                 zzz-to-char magit-filenotify goto-last-change hideshowvis change-inner ibuffer-vc ag
                  ))
 
 (setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
