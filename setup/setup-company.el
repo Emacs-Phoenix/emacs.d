@@ -40,7 +40,7 @@
     (message "company-ispell enabled!"))))
 
 (with-eval-after-load 'company
-  ;; (setq company-auto-complete nil)
+  (setq company-auto-complete nil)
   (define-key company-active-map (kbd "<return>") nil)
   (define-key company-active-map (kbd "RET") nil))
 
