@@ -1,181 +1,43 @@
-
 (require 'clojure-mode)
+(require 'cider)
 (require 'icomplete)
-(add-hook 'clojure-mode-hook #'subword-mode)
-
-
-(require 'clojure-mode-extra-font-locking)
-
-(defadvice clojure-test-run-tests (before save-first activate)
-  (save-buffer))
-
-(defadvice nrepl-load-current-buffer (before save-first activate)
-  (save-buffer))
-
-
-
 (require 'clj-refactor)
-
-
-(autoload 'cider-macroexpand-1 "cider-macroexpansion" "\
-Invoke 'macroexpand-1' on the expression at point.
-If invoked with a PREFIX argument, use 'macroexpand' instead of
-'macroexpand-1'.
-\(fn &optional PREFIX)" t nil)
-
-(autoload 'cider-macroexpand-all "cider-macroexpansion" "\
-Invoke 'clojure.walk/macroexpand-all' on the expression at point.
-\(fn)" t nil)
-
+(require 'clojure-mode-extra-font-locking)
 (require 'inf-clojure)
 (require 'inf-lisp)
-(defun my-clojure-mode-hook ()
-  (clj-refactor-mode 1)
-  (yas-minor-mode 1) ; for adding require/use/import
-  (cljr-add-keybindings-with-prefix "C-c C-m"))
-
-(add-hook 'clojure-mode-hook #'my-clojure-mode-hook)
+(require 'clojure-cheatsheet)
 
 
-(setq cljr-favor-prefix-notation nil)
-(setq cljr-favor-private-functions nil)
-
-(cljr-add-keybindings-with-modifier "C-s-")
-(define-key clj-refactor-map (kbd "C-x C-r") 'cljr-rename-file)
-
+(add-hook 'clojure-mode-hook #'subword-mode)
+(add-hook 'clojure-mode-hook #'inf-clojure-minor-mode)
+(add-hook 'clojure-mode-hook #'paredit-mode)
+(add-hook 'clojure-mode-hook #'smartparens-strict-mode)
+(add-hook 'clojure-mode-hook #'rainbow-delimiters-mode)
+(add-hook 'cider-repl-mode-hook #'company-mode)
+(add-hook 'cider-mode-hook #'company-mode)
 (add-hook 'clojure-mode-hook
           (lambda ()
-            (clj-refactor-mode 1)
-            (core-async-mode 1)))
-(defun clj-duplicate-top-level-form ()
-  (interactive)
-  (save-excursion
-    (cljr--goto-toplevel)
-    (insert (cljr--extract-sexp) "\n")
-    (cljr--just-one-blank-line)))
+            (clj-refactor-mode 1)))
 
-(define-key clojure-mode-map (kbd "M-s-d") 'clj-duplicate-top-level-form)
+(cljr-add-keybindings-with-modifier "C-s-")
 
-(add-to-list 'cljr-project-clean-functions 'cleanup-buffer)
-
+(define-key clj-refactor-map (kbd "C-x C-r") 'cljr-rename-file)
 (define-key clojure-mode-map (kbd "C->") 'cljr-thread)
 (define-key clojure-mode-map (kbd "C-<") 'cljr-unwind)
 
-(define-key clojure-mode-map (kbd "s-j") 'clj-jump-to-other-file)
-
-(define-key clojure-mode-map (kbd "C-.") 'clj-hippie-expand-no-case-fold)
-
-(defun clj-hippie-expand-no-case-fold ()
-  (interactive)
-  (let ((old-syntax (char-to-string (char-syntax ?/))))
-    (modify-syntax-entry ?/ " ")
-    (hippie-expand-no-case-fold)
-    (modify-syntax-entry ?/ old-syntax)))
-
-;;;;;;;;;;;;;;;;;;;;;
-;;Cider
-;;;;;;;;;;;;;;;;;;;;
-(require 'cider)
-
-(setq nrepl-log-messages nil)
-
+(eval-after-load 'clojure-mode
+  '(progn
+     (define-key clojure-mode-map (kbd "C-c h") #'clojure-cheatsheet)))
 
 (define-key cider-repl-mode-map (kbd "C-.") 'complete-symbol)
 (define-key cider-mode-map (kbd "C-.") 'complete-symbol)
 (define-key cider-mode-map (kbd "C-c C-q") 'nrepl-close)
 (define-key cider-mode-map (kbd "C-c C-Q") 'cider-quit)
 
-
-;; Indent and highlight more commands
-(put-clojure-indent 'match 'defun)
-
-;; Hide nrepl buffers when switching buffers (switch to by prefixing with space)
-(setq nrepl-hide-special-buffers t)
-
-;; Enable error buffer popping also in the REPL:
-(setq cider-repl-popup-stacktraces t)
-
-;; Specify history file
-(setq cider-history-file "~/.emacs.d/nrepl-history")
-
-;; auto-select the error buffer when it's displayed
-(setq cider-auto-select-error-buffer t)
-
-;; Prevent the auto-display of the REPL buffer in a separate window after connection is established
-(setq cider-repl-pop-to-buffer-on-connect nil)
-
-;; Pretty print results in repl
-(setq cider-repl-use-pretty-printing t)
-
-;; Don't prompt for symbols
-(setq cider-prompt-for-symbol nil)
-
-
-(setq cider-request-dispatch 'static)
-
-;; Enable eldoc in Clojure buffers
-(add-hook 'cider-mode-hook #'eldoc-mode)
-
-
-(defun live-delete-and-extract-sexp ()
-  "Delete the sexp and return it."
-  (interactive)
-  (let* ((begin (point)))
-    (forward-sexp)
-    (let* ((result (buffer-substring-no-properties begin (point))))
-      (delete-region begin (point))
-      result)))
-
-(defun live-cycle-clj-coll ()
-  "convert the coll at (point) from (x) -> {x} -> [x] -> (x) recur"
-  (interactive)
-  (let* ((original-point (point)))
-    (while (and (> (point) 1)
-                (not (equal "(" (buffer-substring-no-properties (point) (+ 1 (point)))))
-                (not (equal "{" (buffer-substring-no-properties (point) (+ 1 (point)))))
-                (not (equal "[" (buffer-substring-no-properties (point) (+ 1 (point))))))
-      (backward-char))
-    (cond
-     ((equal "(" (buffer-substring-no-properties (point) (+ 1 (point))))
-      (insert "{" (substring (live-delete-and-extract-sexp) 1 -1) "}"))
-     ((equal "{" (buffer-substring-no-properties (point) (+ 1 (point))))
-      (insert "[" (substring (live-delete-and-extract-sexp) 1 -1) "]"))
-     ((equal "[" (buffer-substring-no-properties (point) (+ 1 (point))))
-      (insert "(" (substring (live-delete-and-extract-sexp) 1 -1) ")"))
-     ((equal 1 (point))
-      (message "beginning of file reached, this was probably a mistake.")))
-    (goto-char original-point)))
-
-(define-key clojure-mode-map (kbd "C-`") 'live-cycle-clj-coll)
-
-(define-key clojure-mode-map (kbd "C-c C-e") 'cider-eval-last-sexp)
-(define-key clojure-mode-map "\C-x\C-e" #'cider-eval-last-sexp)
-(define-key inf-clojure-mode-map (kbd "C-c C-e") 'cider-eval-last-sexp)
-(define-key inf-clojure-mode-map "\C-x\C-e" #'cider-eval-last-sexp)
-
-
-
-;;This package provides basic interaction with a Clojure subprocess (REPL).
-(add-hook 'clojure-mode-hook #'inf-clojure-minor-mode)
-
-(add-hook 'clojure-mode-hook #'paredit-mode)
-
-(add-hook 'clojure-mode-hook #'smartparens-strict-mode)
-
-(add-hook 'clojure-mode-hook #'rainbow-delimiters-mode)
-
-(require 'clojure-cheatsheet)
-(eval-after-load 'clojure-mode
-  '(progn
-     (define-key clojure-mode-map (kbd "C-c h") #'clojure-cheatsheet)))
-
-(eval-after-load 'inf-clojure-mode-map
-  '(progn
-     (define-key inf-clojure-mode-map "\C-x\C-e" #'cider-eval-last-sexp)
-     (define-key inf-clojure-mode-map (kbd "C-c C-e") 'cider-eval-last-sexp)))
-
 (add-hook 'cider-repl-mode-hook #'company-mode)
 (add-hook 'cider-mode-hook #'company-mode)
+(add-hook 'cider-repl-mode-hook #'cider-company-enable-fuzzy-completion)
+(add-hook 'cider-mode-hook #'cider-company-enable-fuzzy-completion)
 
 
 (provide 'setup-clj)
