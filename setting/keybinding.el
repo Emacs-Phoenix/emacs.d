@@ -3,14 +3,14 @@
 (global-unset-key "\C-z")
 
 (require 'misc)
-(global-set-key (kbd "s-.") 'copy-from-above-command)
+(global-set-key (kbd "s-.") 'find-tag-no-prompt)
 
 (define-key global-map (kbd "M-_") 'redo)
 
 (global-set-key (kbd "C-r") 'isearch-backward-use-region)
 (global-set-key (kbd "C-s") 'isearch-forward-use-region)
 
-;;string
+;; string
 ;; Toggle quotes
 (global-set-key (kbd "C-\"") 'toggle-quotes)
 
@@ -26,12 +26,9 @@
 (global-set-key (kbd "C-c C->") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
-(global-set-key (kbd "C-c C-.") 'mc/mark-all-like-this)
-(global-set-key (kbd "C-s-<mouse-1>") 'mc/add-cursor-on-click)
 
 (global-unset-key (kbd "C-/"))
-(global-set-key (kbd "C-?") 'imenu-anywhere)
-(global-set-key (kbd "C-/") 'imenu)
+
 
 (global-set-key (kbd "C-<f10>") 'menu-bar-mode)
 
@@ -42,9 +39,6 @@
 
 (global-set-key (kbd "C-s-k") 'kill-and-retry-line)
 (global-set-key (kbd "C-w") 'kill-region-or-backward-word)
-
-
-(global-set-key [f7] 'tabbar-mode)
 
 (global-set-key (kbd "C-<backspace>") 'hungry-delete-backward)
 
@@ -67,13 +61,7 @@
 (global-set-key (kbd "M-z") 'zap-up-to-char)
 (global-set-key (kbd "s-z") (lambda (char) (interactive "cZap up to char backwards: ") (zap-up-to-char -1 char)))
 
-;; (global-set-key (kbd "C-x C-i") 'idomenu)
-;; (global-set-key (kbd "C-/") 'idomenu)
 
-(global-set-key (kbd "C-x C-p") 'find-or-create-file-at-point)
-
-
-(global-set-key (kbd "C-x C-b") 'ibuffer)
 (global-set-key (kbd "M-e") 'switch-to-buffer)
 
 
@@ -105,9 +93,6 @@
 
 (global-set-key (kbd "C-w") 'kill-region-or-backward-word)
 (global-set-key (kbd "C-c C-w") 'kill-to-beginning-of-line)
-
-;; Use M-w for copy-line if no active region
-;; (global-set-key (kbd "M-w") 'save-region-or-current-line)
 
 (global-set-key (kbd "C-c z") 'goto-last-change)
 (global-set-key (kbd "C-z") 'goto-last-change)
