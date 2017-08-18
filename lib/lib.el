@@ -5,5 +5,6 @@
 (require 'buffer)
 (require 'defuns)
 (require 'operation)
+(require 'tag)
 
 (provide 'lib)
