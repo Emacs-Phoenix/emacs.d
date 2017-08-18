@@ -5,7 +5,6 @@
 (require 'company-jedi)
 (require 'company-capf)
 
-
 (setq company-idle-delay 0)
 (setq company-minimum-prefix-length 1)
 (setq company-auto-complete t)
