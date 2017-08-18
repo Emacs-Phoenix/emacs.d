@@ -34,14 +34,14 @@
                      (org-pomodoro :when active)
                      (org-clock :when active)
                      nyan-cat)
-                   
-                   '(which-function
-                     (python-pyvenv :fallback python-pyenv)
-                     (battery :when active)
-                     selection-info input-method
-                     (buffer-encoding-abbrev)
-                     (global :when active)
-                     buffer-position hud))
+
+  '(which-function
+    (python-pyvenv :fallback python-pyenv)
+    (battery :when active)
+    selection-info input-method
+    (buffer-encoding-abbrev)
+    (global :when active)
+    buffer-position hud))
 
 (require 'nyan-mode)
 (nyan-mode t)
