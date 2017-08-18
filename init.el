@@ -17,12 +17,13 @@
                  projectile ibuffer-projectile
                  magit git-gutter
                  window-numbering aggressive-indent guide-key powerline tabbar neotree bm
-                 elfeed imenu-anywhere flycheck ido-hacks idomenu windresize fixmee
+                 ;; elfeed
+                 imenu-anywhere flycheck ido-hacks idomenu windresize fixmee
                  vimish-fold ido-vertical-mode restclient ido-at-point flx spaceline
                  highlight-symbol reveal-in-osx-finder redo+ undo-tree anzu showkey bash-completion sublimity markdown-mode
                  which-key rainbow-mode rainbow-delimiters visual-regexp
                  smex slime paredit paredit-everywhere
-                 ac-html ac-html-csswatcher company-emoji company-flx json-mode json-reformat
+                 ac-html ac-html-csswatcher json-mode json-reformat
                  jade-mode epc smart-forward perspective inf-clojure company-quickhelp ansi-color flymake-jshint flx-ido sws-mode
                  zzz-to-char magit-filenotify ack goto-last-change hideshowvis change-inner ibuffer-vc ag
                  atom-one-dark-theme
@@ -60,6 +61,4 @@
 ;; (set-face-attribute 'default nil :height 120)
 (setq warning-minimum-level :emergency)
 
-(load-theme 'monokai t)
-
-;; TODO module it
+(load-theme 'material t)
