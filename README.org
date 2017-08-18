@@ -13,4 +13,3 @@ Emacs
 
 ** Resource
 - awessome emacs
-  
