@@ -98,7 +98,7 @@
 (require 'setup-highlight)
 (require 'setup-clean)
 (require 'setup-color)
-;; (require 'setup-jump)
+(require 'setup-jump)
 ;;(require 'setup-guide-key)
 ;; (require 'setup-which-key)
 ;; (require 'setup-python)
