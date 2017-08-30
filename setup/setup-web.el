@@ -6,7 +6,8 @@
 (setq web-mode-content-types-alist
       '(("jsx"  . "/Users/chchen/MY-PROJECT/OctopusApp/.*\\.js[x]?\\'")
         ("jsx"  . "/Users/chchen/MY-PROJECT/Octopus/.*\\.js[x]?\\'")
-        ("jsx"  . "/Users/chchen/Haseo-WEB/.*\\.js[x]?\\'")))
+        ("jsx"  . "/Users/chchen/Haseo-WEB/.*\\.js[x]?\\'")
+        ("jsx"  . "/Users/chchen/Project/DataCenter/.*\\.js[x]?\\'")))
 
 (setq web-mode-markup-indent-offset 2)
 (setq web-mode-css-indent-offset 2)
@@ -36,12 +37,12 @@
 ;; (add-hook 'web-mode-hook (lambda () (web-mode-set-content-type "jsx")))
 
 (defun my/use-eslint-from-node-modules ()
- (let* ((root (projectile-project-root))
-        (eslint (and root
-                     (expand-file-name "node_modules/.bin/eslint"
-                                       root))))
-   (when (and eslint (file-executable-p eslint))
-     (setq-local flycheck-javascript-eslint-executable eslint))))
+  (let* ((root (projectile-project-root))
+         (eslint (and root
+                      (expand-file-name "node_modules/.bin/eslint"
+                                        root))))
+    (when (and eslint (file-executable-p eslint))
+      (setq-local flycheck-javascript-eslint-executable eslint))))
 
 (setq web-mode-extra-auto-pairs
       '(("'"  . (("'" "'")))

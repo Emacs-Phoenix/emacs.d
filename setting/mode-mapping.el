@@ -5,6 +5,7 @@
 (add-to-list 'auto-mode-alist '("/Users/chchen/MY-PROJECT/octopus/.*\\.js[x]?$" . web-mode))
 (add-to-list 'auto-mode-alist '("/Users/chchen/MY-PROJECT/octopus-backend/.*\\.js[x]?$" . web-mode))
 (add-to-list 'auto-mode-alist '("/Users/chchen/Haseo-WEB/.*\\.js[x]?$" . web-mode))
+(add-to-list 'auto-mode-alist '("/Users/chchen/Project/DataCenter/.*\\.js[x]?$" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.jsx$" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.json$" . json-mode))
 (add-to-list 'auto-mode-alist '("\\.jshintrc$" . javascript-mode))
