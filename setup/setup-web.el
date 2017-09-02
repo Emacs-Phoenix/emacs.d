@@ -5,7 +5,7 @@
 
 (setq web-mode-content-types-alist
       '(("jsx"  . "/Users/chchen/MY-PROJECT/OctopusApp/.*\\.js[x]?\\'")
-        ("jsx"  . "/Users/chchen/MY-PROJECT/Octopus/.*\\.js[x]?\\'")
+        ("jsx"  . "/Users/chchen/Octopus/web-octopus/.*\\.js[x]?\\'")
         ("jsx"  . "/Users/chchen/Haseo-WEB/.*\\.js[x]?\\'")
         ("jsx"  . "/Users/chchen/Project/DataCenter/.*\\.js[x]?\\'")))
 
