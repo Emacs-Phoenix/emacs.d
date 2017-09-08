@@ -19,8 +19,8 @@
 (ido-vertical-mode 1)
 
 ;;ido-ubiquitous
-(require 'ido-ubiquitous)
-(ido-ubiquitous-mode 1)
+;; (require 'ido-ubiquitous)
+;; (ido-ubiquitous-mode 1)
 
 (require 'smex) ; Not needed if you use package.el
 (smex-initialize) ; Can be omitted. This might cause a (minimal) delay
@@ -85,7 +85,7 @@
 
 (defun ido-sort-mtime ()
   (setq ido-temp-list
-        (sort ido-temp-list 
+        (sort ido-temp-list
               (lambda (a b)
                 (time-less-p
                  (sixth (file-attributes (concat ido-current-directory b)))
@@ -149,4 +149,3 @@
 
 
 (provide 'setup-ido)
-

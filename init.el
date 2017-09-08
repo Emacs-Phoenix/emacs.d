@@ -9,7 +9,7 @@
                  swift-mode web-beautify
                  elpy pythonic jedi anaconda-mode
                  nyan-mode smooth-scroll shell-pop dashboard
-                 ido-vertical-mode ido-ubiquitous smartparens tagedit ace-jump-mode avy
+                 ido-vertical-mode smartparens tagedit ace-jump-mode avy
                  hungry-delete expand-region whitespace-cleanup-mode
                  helm-swoop helm helm-dash helm-ack helm-ag full-ack helm-ag
                  dumb-jump ace-jump-mode
@@ -25,7 +25,8 @@
                  smex paredit paredit-everywhere
                  ac-html ac-html-csswatcher json-mode json-reformat
                  jade-mode epc smart-forward perspective inf-clojure company-quickhelp ansi-color flymake-jshint flx-ido sws-mode
-                 zzz-to-char magit-filenotify goto-last-change hideshowvis change-inner ibuffer-vc ag
+                 zzz-to-char magit-filenotify goto-last-change hideshowvis change-inner ibuffer-vc ag ack perspeen prettier-js
+                 exec-path-from-shell beacon
                  ))
 
 (setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
