@@ -4,15 +4,9 @@
 [submodule "site-lisp/hippie"]
 	path = site-lisp/hippie
 	url = git@github.com:Emacs-Phoenix/hippie.git
-[submodule "plugins/global-pygments-plugin"]
-	path = plugins/global-pygments-plugin
-	url = git@github.com:yoshizow/global-pygments-plugin.git
 [submodule "yasnippet-snippets"]
 	path = yasnippet-snippets
 	url = git@github.com:Emacs-Phoenix/yasnippet-snippets.git
-[submodule "plugins/Pymacs"]
-	path = plugins/Pymacs
-	url = git@github.com:pinard/Pymacs.git
 [submodule "site-lisp/edit-sword"]
 	path = site-lisp/edit-sword
 	url = git@github.com:Emacs-Phoenix/edit-sword.git
@@ -22,18 +16,6 @@
 [submodule "site-lisp/html-extra"]
 	path = site-lisp/html-extra
 	url = git@github.com:Emacs-Phoenix/html-extra.git
-[submodule "themes/emacs-color-theme-solarized"]
-	path = themes/emacs-color-theme-solarized
-	url = git@github.com:sellout/emacs-color-theme-solarized.git
-[submodule "themes/zenburn-emacs"]
-	path = themes/zenburn-emacs
-	url = git@github.com:bbatsov/zenburn-emacs.git
-[submodule "popwin-el"]
-	path = popwin-el
-	url = git@github.com:m2ym/popwin-el.git
-[submodule "site-lisp/pyenv"]
-	path = site-lisp/pyenv
-	url = git@github.com:yyuu/pyenv.git
 [submodule "site-lisp/Highlight-Indentation-for-Emacs"]
 	path = site-lisp/Highlight-Indentation-for-Emacs
 	url = git@github.com:antonj/Highlight-Indentation-for-Emacs.git
@@ -73,9 +55,6 @@
 [submodule "site-lisp/emacs-request"]
 	path = site-lisp/emacs-request
 	url = git@github.com:tkf/emacs-request.git
-[submodule "esup"]
-	path = esup
-	url = git@github.com:jschaf/esup.git
 [submodule "site-lisp/know-your-http-well"]
 	path = site-lisp/know-your-http-well
 	url = git@github.com:for-GET/know-your-http-well.git
