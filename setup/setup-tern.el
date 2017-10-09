@@ -5,5 +5,4 @@
   (interactive)
   (delete-process "Tern"))
 
-
 (provide 'setup-tern)

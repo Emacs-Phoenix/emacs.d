@@ -1,17 +1,16 @@
 (require 'company)
 (require 'company-yasnippet)
 (require 'company-keywords)
-(require 'company-abbrev)
-(require 'company-jedi)
-(require 'company-capf)
+(require 'company-css)
+;; (require 'company-abbrev)
 
 (setq company-idle-delay 0)
-(setq company-minimum-prefix-length 1)
+;; (setq company-minimum-prefix-length 1)
 (setq company-auto-complete t)
-(setq company-require-match nil)
-(setq company-transformers '(company-sort-by-occurrence))
+;; (setq company-require-match nil)
+;; (setq company-transformers '(company-sort-by-occurrence))
 (setq company-quickhelp-delay 0.5)
-
+(setq company-dabbrev-downcase nil)
 
 (define-key company-active-map (kbd "\C-n") 'company-select-next)
 (define-key company-active-map (kbd "\C-p") 'company-select-previous)
@@ -19,7 +18,7 @@
 (define-key company-active-map (kbd "<tab>") 'company-complete)
 (define-key company-active-map (kbd "<return>") 'company-complete)
 
-(setq company-dabbrev-downcase nil)
+;;(setq company-dabbrev-downcase nil)
 
 ;; --- text-mode
 (defun text-mode-hook-setup ()
@@ -52,5 +51,7 @@
         html-mode
         magit-mode
         org-mode))
+
+(add-to-list 'company-backends 'company-tern)
 
 (provide 'setup-company)

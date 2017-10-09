@@ -155,7 +155,7 @@
         "/usr/bin"
         "/usr/games/"
         "/bin"
-        "~/bin"))
+        "~/.bin"))
 
 (setenv "PATH" (concat (getenv "PATH") ":/bin"))
 (setq exec-path (append exec-path '("/bin")))
